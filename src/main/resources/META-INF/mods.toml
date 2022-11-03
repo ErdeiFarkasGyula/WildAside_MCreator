@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[43,)"
-license="Academic Free License v3.0"
+license="Custom license"
 
 [[mods]]
 modId="wildaside"
-version="1.0.0"
+version="0.0.11.19.2"
 displayName="WildAside"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="All textures by Gyula & Dylanvhs. Coded by Gyula. Biome generation by YeoXuHang. License and Datagen by Toma400. Special thanks to Aqu and Toma400 for helping in some coding."
 displayURL="https://mcreator.net"
-authors="CrashGyuluka, MCreator"
+authors="Gyula, Lyof, MCreator"
 
 [[dependencies.wildaside]]
     modId="minecraft"

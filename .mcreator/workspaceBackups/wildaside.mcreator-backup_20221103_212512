@@ -81,9 +81,10 @@
   "workspaceSettings": {
     "modid": "wildaside",
     "modName": "WildAside",
-    "version": "0.0.1-1.19.2",
-    "author": "Gyula, Lyof, MCreator",
-    "license": "Custom license",
+    "version": "1.0.0",
+    "author": "CrashGyuluka, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -91,8 +92,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
-    "credits": "All textures by Gyula \u0026 Dylanvhs. Coded by Gyula. Biome generation by YeoXuHang. License and Datagen by Toma400. Special thanks to Aqu and Toma400 for helping in some coding.",
-    "modElementsPackage": "net.gyulawildaside",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.wildaside",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202200344708
