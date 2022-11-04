@@ -2,7 +2,7 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "hanging_vibrion_vines_plant",
+    "texture": "hanging_vibrion_vines",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -38,11 +38,11 @@
     "hardness": 0.4,
     "resistance": 0.5,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:WildAsideTab"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "hoe",
     "customDrop": {
       "value": ""
     },

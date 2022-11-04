@@ -151,6 +151,33 @@
       "locked_code": false,
       "registry_name": "substilium_block",
       "path": "~/blocks"
+    },
+    {
+      "name": "SubstiliumShroom",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_shroom",
+      "path": "~/blocks"
+    },
+    {
+      "name": "HangingVibrionVinesPlant",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hanging_vibrion_vines_plant",
+      "path": "~/blocks"
+    },
+    {
+      "name": "HangingVibrionVines",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hanging_vibrion_vines",
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [],
@@ -163,6 +190,9 @@
       "block.wildaside.vibrion_block": "Vibrion Block",
       "item.wildaside.vibrion": "Vibrion",
       "itemGroup.tabwild_aside_tab": "WildAside",
+      "block.wildaside.hanging_vibrion_vines_plant": "Hanging Vibrion Vines Plant",
+      "block.wildaside.substilium_shroom": "Substilium Shroom",
+      "block.wildaside.hanging_vibrion_vines": "Hanging Vibrion Vines",
       "block.wildaside.substilium_block": "Substilium Block"
     }
   },
