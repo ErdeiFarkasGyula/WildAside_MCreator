@@ -1,0 +1,9 @@
+{
+  "parent": "wildaside:custom/vibrion_sporeholder",
+  "textures": {
+    "all": "wildaside:blocks/vibrion_sporeholder_outer",
+    "particle": "wildaside:blocks/vibrion_block",
+    "0": "wildaside:blocks/vibrion_sporeholder_outer",
+    "1": "wildaside:blocks/vibrion_sporeholder_inner"
+  }
+}

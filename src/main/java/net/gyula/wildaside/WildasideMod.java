@@ -27,8 +27,14 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.gyula.wildaside.init.WildasideModTabs;
+import net.gyula.wildaside.init.WildasideModPotions;
+import net.gyula.wildaside.init.WildasideModParticleTypes;
+import net.gyula.wildaside.init.WildasideModMobEffects;
 import net.gyula.wildaside.init.WildasideModItems;
+import net.gyula.wildaside.init.WildasideModFeatures;
+import net.gyula.wildaside.init.WildasideModEntities;
 import net.gyula.wildaside.init.WildasideModBlocks;
+import net.gyula.wildaside.init.WildasideModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -48,7 +54,14 @@ public class WildasideMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		WildasideModBlocks.REGISTRY.register(bus);
 		WildasideModItems.REGISTRY.register(bus);
+		WildasideModEntities.REGISTRY.register(bus);
 
+		WildasideModFeatures.REGISTRY.register(bus);
+
+		WildasideModMobEffects.REGISTRY.register(bus);
+		WildasideModPotions.REGISTRY.register(bus);
+		WildasideModBiomes.REGISTRY.register(bus);
+		WildasideModParticleTypes.REGISTRY.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

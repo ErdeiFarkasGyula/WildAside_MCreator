@@ -1,0 +1,52 @@
+{
+  "_fv": 34,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "entorium_sporebomb",
+    "customModelName": "Normal",
+    "name": "Entorium Sporebomb",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:WildAsideTab"
+    },
+    "stackSize": 8,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.experience_bottle.throw"
+    },
+    "hasGlow": false,
+    "animation": "block",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "Cooldown_60"
+    },
+    "bulletPower": 0.8,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 1,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:EntoriumSporebomb"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "EntoriumSporebombBlocked"
+    },
+    "onBulletHitsPlayer": {
+      "name": "EntoriumSporebombHits"
+    },
+    "onBulletHitsEntity": {
+      "name": "EntoriumSporebombHits"
+    },
+    "onBulletFlyingTick": {
+      "name": "EntoriumSporebombFly"
+    }
+  }
+}

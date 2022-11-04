@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "vibrion_sporeholder_outer",
+        "1": "vibrion_sporeholder_inner"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "vibrion",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wildaside:vibrion"
+    },
+    {
+      "item": "wildaside:vibrion"
+    },
+    {
+      "item": "wildaside:vibrion"
+    },
+    {
+      "item": "wildaside:vibrion"
+    }
+  ],
+  "result": {
+    "item": "wildaside:vibrion_block",
+    "count": 1
+  }
+}

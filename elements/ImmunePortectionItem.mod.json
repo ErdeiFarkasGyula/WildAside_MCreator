@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Immune Portection",
+    "splashName": "Splash Potion of Immune Portection",
+    "lingeringName": "Lingering Potion of Immune Portection",
+    "arrowName": "Arrow of Immune Portection",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:ImmuneProtection"
+        },
+        "duration": 240,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
