@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:WildAsideTab"
     },
     "destroyTool": "hoe",
     "customDrop": {
@@ -123,6 +123,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "DropXP2_10"
+    },
+    "onDestroyedByExplosion": {
+      "name": "DropXP2_10"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

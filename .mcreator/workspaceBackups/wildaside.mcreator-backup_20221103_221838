@@ -1,0 +1,258 @@
+{
+  "mod_elements": [
+    {
+      "name": "VibrionBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_block",
+      "path": "~/blocks"
+    },
+    {
+      "name": "WildAsideTab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_aside_tab"
+    },
+    {
+      "name": "Vibrion",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion",
+      "path": "~/items"
+    },
+    {
+      "name": "VibrionExt",
+      "type": "itemextension",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_ext",
+      "path": "~/items"
+    },
+    {
+      "name": "DropXP2_10",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_xp_2_10",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/XP"
+    },
+    {
+      "name": "VibrionPoisonEffect",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_poison_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/PotionEffect"
+    },
+    {
+      "name": "Entorium",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entorium",
+      "path": "~/items"
+    },
+    {
+      "name": "EntoriumExt",
+      "type": "itemextension",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entorium_ext",
+      "path": "~/items"
+    },
+    {
+      "name": "EntoriumPillEffects",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entorium_pill_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/PotionEffect"
+    },
+    {
+      "name": "EntoriumPill",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entorium_pill",
+      "path": "~/items"
+    },
+    {
+      "name": "EntoriumPillExt",
+      "type": "itemextension",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entorium_pill_ext",
+      "path": "~/items"
+    },
+    {
+      "name": "SubstiliumStem",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_stem",
+      "path": "~/blocks"
+    },
+    {
+      "name": "SubstiliumBlock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_block",
+      "path": "~/blocks"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.wildaside.entorium": "Entorium",
+      "item.wildaside.entorium_pill": "Entorium Pill",
+      "block.wildaside.substilium_stem": "Substilium Stem",
+      "block.wildaside.vibrion_block": "Vibrion Block",
+      "item.wildaside.vibrion": "Vibrion",
+      "itemGroup.tabwild_aside_tab": "WildAside",
+      "block.wildaside.substilium_block": "Substilium Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "procedures",
+        "children": [
+          {
+            "name": "XP",
+            "children": []
+          },
+          {
+            "name": "PotionEffect",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "biomes",
+        "children": []
+      },
+      {
+        "name": "structures",
+        "children": []
+      },
+      {
+        "name": "features",
+        "children": []
+      },
+      {
+        "name": "particles",
+        "children": []
+      },
+      {
+        "name": "effects",
+        "children": []
+      },
+      {
+        "name": "loottables",
+        "children": []
+      },
+      {
+        "name": "advancements",
+        "children": []
+      },
+      {
+        "name": "entities",
+        "children": []
+      },
+      {
+        "name": "enchantements",
+        "children": []
+      },
+      {
+        "name": "recipes",
+        "children": []
+      },
+      {
+        "name": "gamerules",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "wildaside",
+    "modName": "WildAside",
+    "version": "0.0.1-1.18.2",
+    "author": "Gyula, Lyof, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Custom license",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "All textures by Gyula \u0026 Dylanvhs. Coded by Gyula. Biome generation by YeoXuHang. License and Datagen by Toma400. Special thanks to Aqu and Toma400 for helping in some coding.",
+    "modElementsPackage": "net.gyula.wildaside",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200344708
+}

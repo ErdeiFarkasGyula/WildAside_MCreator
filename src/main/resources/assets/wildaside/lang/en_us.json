@@ -1,3 +1,12 @@
 {
-  "block.wildaside.vibrion_block": "Vibrion Block"
+  "item.wildaside.entorium": "Entorium",
+  "item.wildaside.entorium_pill": "Entorium Pill",
+  "block.wildaside.substilium_stem": "Substilium Stem",
+  "block.wildaside.vibrion_block": "Vibrion Block",
+  "item.wildaside.vibrion": "Vibrion",
+  "itemGroup.tabwild_aside_tab": "WildAside",
+  "block.wildaside.hanging_vibrion_vines_plant": "Hanging Vibrion Vines Plant",
+  "block.wildaside.substilium_shroom": "Substilium Shroom",
+  "block.wildaside.hanging_vibrion_vines": "Hanging Vibrion Vines",
+  "block.wildaside.substilium_block": "Substilium Block"
 }

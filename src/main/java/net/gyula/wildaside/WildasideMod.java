@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.gyula.wildaside.init.WildasideModTabs;
 import net.gyula.wildaside.init.WildasideModItems;
 import net.gyula.wildaside.init.WildasideModBlocks;
 
@@ -43,7 +44,7 @@ public class WildasideMod {
 	private static int messageID = 0;
 
 	public WildasideMod() {
-
+		WildasideModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		WildasideModBlocks.REGISTRY.register(bus);
 		WildasideModItems.REGISTRY.register(bus);
