@@ -39,6 +39,7 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> SUBSTILIUM_SOIL = block(WildasideModBlocks.SUBSTILIUM_SOIL, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> LOWER_SUBSTILIUM_SOIL = block(WildasideModBlocks.LOWER_SUBSTILIUM_SOIL, null);
 	public static final RegistryObject<Item> ENTORIUM_SPOREBOMB = REGISTRY.register("entorium_sporebomb", () -> new EntoriumSporebombItem());
+	public static final RegistryObject<Item> VIBRION_GROWTH = block(WildasideModBlocks.VIBRION_GROWTH, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

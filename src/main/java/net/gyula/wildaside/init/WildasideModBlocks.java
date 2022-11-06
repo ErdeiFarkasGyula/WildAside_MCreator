@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.gyula.wildaside.block.VibrionSporeholderBlock;
 import net.gyula.wildaside.block.VibrionRootsBlock;
+import net.gyula.wildaside.block.VibrionGrowthBlock;
 import net.gyula.wildaside.block.VibrionGelBlock;
 import net.gyula.wildaside.block.VibrionBlockBlock;
 import net.gyula.wildaside.block.SubstiliumStemBlock;
@@ -47,6 +48,7 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SUBSTILIUM_SOIL = REGISTRY.register("substilium_soil", () -> new SubstiliumSoilBlock());
 	public static final RegistryObject<Block> LOWER_SUBSTILIUM_SOIL = REGISTRY.register("lower_substilium_soil",
 			() -> new LowerSubstiliumSoilBlock());
+	public static final RegistryObject<Block> VIBRION_GROWTH = REGISTRY.register("vibrion_growth", () -> new VibrionGrowthBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -59,6 +61,7 @@ public class WildasideModBlocks {
 			LitVibrionGelBlock.registerRenderLayer();
 			VibrionRootsBlock.registerRenderLayer();
 			SubstiliumSproutsBlock.registerRenderLayer();
+			VibrionGrowthBlock.registerRenderLayer();
 		}
 	}
 }

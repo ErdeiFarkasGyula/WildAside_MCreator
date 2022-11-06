@@ -18,11 +18,13 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.Explosion;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
+import net.gyula.wildaside.procedures.VibrionGrowthGrowerProcedure;
 import net.gyula.wildaside.procedures.DropXP2_10Procedure;
 import net.gyula.wildaside.init.WildasideModParticleTypes;
 
@@ -31,7 +33,7 @@ import java.util.Random;
 public class VibrionBlockBlock extends Block {
 	public VibrionBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_YELLOW).sound(SoundType.SHROOMLIGHT).strength(2.3f, 1f)
-				.lightLevel(s -> 7));
+				.lightLevel(s -> 7).randomTicks());
 	}
 
 	@Override
@@ -42,6 +44,16 @@ public class VibrionBlockBlock extends Block {
 	@Override
 	public boolean canSustainPlant(BlockState state, BlockGetter world, BlockPos pos, Direction direction, IPlantable plantable) {
 		return true;
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, Random random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+
+		VibrionGrowthGrowerProcedure.execute(world, x, y, z);
 	}
 
 	@OnlyIn(Dist.CLIENT)

@@ -1,7 +1,8 @@
 {
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:desert": "2022-11-04 17:26:54 +0100"
+      "minecraft:forest": "2022-11-06 14:30:15 +0100",
+      "minecraft:old_growth_birch_forest": "2022-11-06 14:29:33 +0100"
     },
     "done": false
   },

@@ -33,6 +33,7 @@ import net.gyula.wildaside.init.WildasideModMobEffects;
 import net.gyula.wildaside.init.WildasideModItems;
 import net.gyula.wildaside.init.WildasideModFeatures;
 import net.gyula.wildaside.init.WildasideModEntities;
+import net.gyula.wildaside.init.WildasideModEnchantments;
 import net.gyula.wildaside.init.WildasideModBlocks;
 import net.gyula.wildaside.init.WildasideModBiomes;
 
@@ -58,6 +59,7 @@ public class WildasideMod {
 
 		WildasideModFeatures.REGISTRY.register(bus);
 
+		WildasideModEnchantments.REGISTRY.register(bus);
 		WildasideModMobEffects.REGISTRY.register(bus);
 		WildasideModPotions.REGISTRY.register(bus);
 		WildasideModBiomes.REGISTRY.register(bus);

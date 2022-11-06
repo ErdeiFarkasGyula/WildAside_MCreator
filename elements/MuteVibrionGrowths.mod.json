@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "MuteVibrionGrowths",
+    "description": "Mute the sound of Vibrion Growths growing",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}
