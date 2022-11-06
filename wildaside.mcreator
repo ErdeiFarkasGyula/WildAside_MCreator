@@ -1014,7 +1014,6 @@
     "modName": "WildAside",
     "version": "0.0.1-1.18.2",
     "author": "Gyula, Lyof, MCreator",
-    "websiteURL": "https://mcreator.net",
     "license": "Custom license",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

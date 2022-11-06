@@ -833,6 +833,36 @@
       "locked_code": false,
       "registry_name": "vibrion_growth_loot",
       "path": "~/loottables"
+    },
+    {
+      "name": "CheckTopBlockCondition",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_top_block_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/CheckBlock"
     }
   ],
   "variable_elements": [],
@@ -858,7 +888,7 @@
       "block.wildaside.vibrion_sporeholder": "Vibrion Sporeholder",
       "item.minecraft.splash_potion.effect.immune_portection_item": "Splash Potion of Immune Portection",
       "item.minecraft.tipped_arrow.effect.contamination_item": "Arrow of Contamination",
-      "block.wildaside.lit_vibrion_gel": "Vibrion Gel",
+      "block.wildaside.lit_vibrion_gel": "Lit Vibrion Gel",
       "itemGroup.tabwild_aside_tab": "WildAside",
       "item.minecraft.lingering_potion.effect.contamination_item": "Lingering Potion of Contamination",
       "block.wildaside.lower_substilium_soil": "Substilium Soil",
@@ -988,12 +1018,13 @@
     "license": "Custom license",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "placholder_logo_2",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
-    "credits": "All textures by Gyula \u0026 Dylanvhs. Coded by Gyula. Biome generation by YeoXuHang. License and Datagen by Toma400. Special thanks to Aqu and Toma400 for helping in some coding.",
+    "credits": "All textures by Gyula \u0026 Dylanvhs. Developed by Gyula. License and Datagen by Toma400. Special thanks to Aqu and Toma400 for helping in some coding.",
     "modElementsPackage": "net.gyula.wildaside",
     "lockBaseModFiles": false
   },
