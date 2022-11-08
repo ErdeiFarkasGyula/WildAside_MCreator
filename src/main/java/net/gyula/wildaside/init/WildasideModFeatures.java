@@ -33,6 +33,15 @@ import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr1Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr12Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr11Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr10Feature;
+import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr9Feature;
+import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr8Feature;
+import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr7Feature;
+import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr6Feature;
+import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr5Feature;
+import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr4Feature;
+import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr3Feature;
+import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr2Feature;
+import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr1Feature;
 import net.gyula.wildaside.WildasideMod;
 
 import java.util.function.Supplier;
@@ -91,6 +100,33 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> HANGING_VIBRION_VINES_GROWER_STR_12 = register("hanging_vibrion_vines_grower_str_12",
 			HangingVibrionVinesGrowerStr12Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
 					HangingVibrionVinesGrowerStr12Feature.GENERATE_BIOMES, HangingVibrionVinesGrowerStr12Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_1 = register("hanging_vibrion_gel_grower_str_1",
+			HangingVibrionGelGrowerStr1Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionGelGrowerStr1Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr1Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_2 = register("hanging_vibrion_gel_grower_str_2",
+			HangingVibrionGelGrowerStr2Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionGelGrowerStr2Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr2Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_3 = register("hanging_vibrion_gel_grower_str_3",
+			HangingVibrionGelGrowerStr3Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionGelGrowerStr3Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr3Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_4 = register("hanging_vibrion_gel_grower_str_4",
+			HangingVibrionGelGrowerStr4Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionGelGrowerStr4Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr4Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_5 = register("hanging_vibrion_gel_grower_str_5",
+			HangingVibrionGelGrowerStr5Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionGelGrowerStr5Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr5Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_6 = register("hanging_vibrion_gel_grower_str_6",
+			HangingVibrionGelGrowerStr6Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionGelGrowerStr6Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr6Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_7 = register("hanging_vibrion_gel_grower_str_7",
+			HangingVibrionGelGrowerStr7Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionGelGrowerStr7Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr7Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_8 = register("hanging_vibrion_gel_grower_str_8",
+			HangingVibrionGelGrowerStr8Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionGelGrowerStr8Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr8Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_9 = register("hanging_vibrion_gel_grower_str_9",
+			HangingVibrionGelGrowerStr9Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionGelGrowerStr9Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr9Feature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

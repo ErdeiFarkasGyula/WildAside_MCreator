@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "wildaside:blocks/vibrion_gel",
+    "particle": "wildaside:blocks/vibrion_gel"
+  }
+}

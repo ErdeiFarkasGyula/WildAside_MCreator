@@ -1100,7 +1100,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower",
-      "path": "~/blocks"
+      "path": "~/blocks/Technical"
     },
     {
       "name": "HangingVibrionVinesGrowerStrCondition",
@@ -1130,7 +1130,7 @@
           }
         ]
       },
-      "path": "~/procedures/VegetationGrower/HangingVibrionVines"
+      "path": "~/procedures/VegetationGrower"
     },
     {
       "name": "HangingVibrionVinesGrowerStrOnGenerated",
@@ -1159,7 +1159,7 @@
           }
         ]
       },
-      "path": "~/procedures/VegetationGrower/HangingVibrionVines"
+      "path": "~/procedures/VegetationGrower"
     },
     {
       "name": "HangingVibrionVinesGrowerStr1",
@@ -1168,7 +1168,153 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_1",
-      "path": "~/structures"
+      "path": "~/structures/HangingVibrionVines"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr2",
+      "type": "structure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_2",
+      "path": "~/structures/HangingVibrionVines"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr3",
+      "type": "structure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_3",
+      "path": "~/structures/HangingVibrionVines"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr4",
+      "type": "structure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_4",
+      "path": "~/structures/HangingVibrionVines"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr5",
+      "type": "structure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_5",
+      "path": "~/structures/HangingVibrionVines"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr6",
+      "type": "structure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_6",
+      "path": "~/structures/HangingVibrionVines"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr7",
+      "type": "structure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_7",
+      "path": "~/structures/HangingVibrionVines"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr8",
+      "type": "structure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_8",
+      "path": "~/structures/HangingVibrionVines"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr9",
+      "type": "structure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_9",
+      "path": "~/structures/HangingVibrionVines"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr10",
+      "type": "structure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_10",
+      "path": "~/structures/HangingVibrionVines"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr11",
+      "type": "structure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_11",
+      "path": "~/structures/HangingVibrionVines"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr12",
+      "type": "structure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_12",
+      "path": "~/structures/HangingVibrionVines"
+    },
+    {
+      "name": "HangingVibrionGelGrowerProc",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_gel_grower_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/VegetationGrower/HangingVibrionGel"
+    },
+    {
+      "name": "HangingVibrionGelGrower",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_gel_grower",
+      "path": "~/blocks/Technical"
+    },
+    {
+      "name": "HangingVibrionGelGrowerStr1",
+      "type": "structure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_gel_grower_str_1",
+      "path": "~/structures/HangingVibrionVines"
     }
   ],
   "variable_elements": [],
@@ -1178,13 +1324,14 @@
       "item.wildaside.entorium": "Entorium",
       "item.minecraft.tipped_arrow.effect.immune_portection_item": "Arrow of Immune Portection",
       "block.wildaside.vibrion_block": "Vibrion Block",
-      "block.wildaside.vibrion_gel": "Vibrion Gel",
       "item.wildaside.vibrion": "Vibrion",
+      "block.wildaside.vibrion_gel": "Vibrion Gel",
       "item.minecraft.splash_potion.effect.contamination_item": "Splash Potion of Contamination",
       "block.wildaside.substilium_soil": "Substilium Soil",
       "block.wildaside.substilium_shroom": "Substilium Shroom",
       "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
       "item.wildaside.entorium_sporebomb": "Entorium Sporebomb",
+      "block.wildaside.hanging_vibrion_gel_grower": "Hanging Vibrion Gel Grower",
       "block.wildaside.vibrion_sporeholder": "Vibrion Sporeholder",
       "item.minecraft.tipped_arrow.effect.contamination_item": "Arrow of Contamination",
       "gamerule.wildAsideDebugMode": "WildAside DebugMode",
@@ -1308,6 +1455,10 @@
               {
                 "name": "HangingVibrionVines",
                 "children": []
+              },
+              {
+                "name": "HangingVibrionGel",
+                "children": []
               }
             ]
           }
@@ -1319,7 +1470,12 @@
       },
       {
         "name": "structures",
-        "children": []
+        "children": [
+          {
+            "name": "HangingVibrionVines",
+            "children": []
+          }
+        ]
       },
       {
         "name": "features",

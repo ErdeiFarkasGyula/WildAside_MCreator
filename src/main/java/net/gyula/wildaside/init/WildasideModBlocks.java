@@ -30,6 +30,7 @@ import net.gyula.wildaside.block.LitVibrionGelBlock;
 import net.gyula.wildaside.block.HangingVibrionVinesPlantBlock;
 import net.gyula.wildaside.block.HangingVibrionVinesGrowerBlock;
 import net.gyula.wildaside.block.HangingVibrionVinesBlock;
+import net.gyula.wildaside.block.HangingVibrionGelGrowerBlock;
 import net.gyula.wildaside.block.EntoriumOreBlock;
 import net.gyula.wildaside.WildasideMod;
 
@@ -57,6 +58,8 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> ENTORIUM_ORE = REGISTRY.register("entorium_ore", () -> new EntoriumOreBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VINES_GROWER = REGISTRY.register("hanging_vibrion_vines_grower",
 			() -> new HangingVibrionVinesGrowerBlock());
+	public static final RegistryObject<Block> HANGING_VIBRION_GEL_GROWER = REGISTRY.register("hanging_vibrion_gel_grower",
+			() -> new HangingVibrionGelGrowerBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -70,6 +73,7 @@ public class WildasideModBlocks {
 			VibrionGrowthBlock.registerRenderLayer();
 			SubstiliumSproutsBlock.registerRenderLayer();
 			HangingVibrionVinesPlantBlock.registerRenderLayer();
+			HangingVibrionGelGrowerBlock.registerRenderLayer();
 		}
 	}
 }
