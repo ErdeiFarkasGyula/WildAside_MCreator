@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wildaside:blocks/hanging_vibrion_vines_plant",
+    "particle": "wildaside:blocks/hanging_vibrion_vines_plant"
+  }
+}

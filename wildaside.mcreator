@@ -3,7 +3,7 @@
     {
       "name": "VibrionBlock",
       "type": "block",
-      "sortid": 1,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_block",
@@ -12,7 +12,7 @@
     {
       "name": "WildAsideTab",
       "type": "tab",
-      "sortid": 2,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wild_aside_tab"
@@ -20,7 +20,7 @@
     {
       "name": "Vibrion",
       "type": "item",
-      "sortid": 3,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion",
@@ -29,7 +29,7 @@
     {
       "name": "VibrionExt",
       "type": "itemextension",
-      "sortid": 4,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_ext",
@@ -38,7 +38,7 @@
     {
       "name": "DropXP2_10",
       "type": "procedure",
-      "sortid": 5,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drop_xp_2_10",
@@ -67,7 +67,7 @@
     {
       "name": "VibrionPoisonEffect",
       "type": "procedure",
-      "sortid": 6,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_poison_effect",
@@ -84,7 +84,7 @@
     {
       "name": "Entorium",
       "type": "item",
-      "sortid": 7,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium",
@@ -93,7 +93,7 @@
     {
       "name": "EntoriumExt",
       "type": "itemextension",
-      "sortid": 8,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_ext",
@@ -102,7 +102,7 @@
     {
       "name": "EntoriumPillEffects",
       "type": "procedure",
-      "sortid": 9,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_pill_effects",
@@ -119,7 +119,7 @@
     {
       "name": "EntoriumPill",
       "type": "item",
-      "sortid": 9,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_pill",
@@ -128,7 +128,7 @@
     {
       "name": "EntoriumPillExt",
       "type": "itemextension",
-      "sortid": 10,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_pill_ext",
@@ -137,7 +137,7 @@
     {
       "name": "SubstiliumStem",
       "type": "block",
-      "sortid": 11,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_stem",
@@ -146,7 +146,7 @@
     {
       "name": "SubstiliumBlock",
       "type": "block",
-      "sortid": 12,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_block",
@@ -155,7 +155,7 @@
     {
       "name": "SubstiliumShroom",
       "type": "block",
-      "sortid": 13,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_shroom",
@@ -164,7 +164,7 @@
     {
       "name": "HangingVibrionVinesPlant",
       "type": "block",
-      "sortid": 14,
+      "sortid": 25,
       "compiles": true,
       "locked_code": true,
       "registry_name": "hanging_vibrion_vines_plant",
@@ -173,7 +173,7 @@
     {
       "name": "HangingVibrionVines",
       "type": "block",
-      "sortid": 14,
+      "sortid": 6,
       "compiles": true,
       "locked_code": true,
       "registry_name": "hanging_vibrion_vines",
@@ -182,7 +182,7 @@
     {
       "name": "VibrionSporeholder",
       "type": "plant",
-      "sortid": 15,
+      "sortid": 7,
       "compiles": true,
       "locked_code": true,
       "registry_name": "vibrion_sporeholder",
@@ -191,7 +191,7 @@
     {
       "name": "VibrionSporeholderLoot",
       "type": "loottable",
-      "sortid": 17,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_sporeholder_loot",
@@ -200,7 +200,7 @@
     {
       "name": "VibrionGel",
       "type": "block",
-      "sortid": 18,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_gel",
@@ -209,7 +209,7 @@
     {
       "name": "LitVibrionGel",
       "type": "block",
-      "sortid": 19,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_vibrion_gel",
@@ -218,7 +218,7 @@
     {
       "name": "VibrionRoots",
       "type": "plant",
-      "sortid": 20,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_roots",
@@ -227,7 +227,7 @@
     {
       "name": "SubstiliumSprouts",
       "type": "plant",
-      "sortid": 21,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_sprouts",
@@ -236,7 +236,7 @@
     {
       "name": "SubstiliumSoil",
       "type": "block",
-      "sortid": 22,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_soil",
@@ -245,7 +245,7 @@
     {
       "name": "LowerSubstiliumSoil",
       "type": "block",
-      "sortid": 23,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lower_substilium_soil",
@@ -254,7 +254,7 @@
     {
       "name": "DropXP0_3",
       "type": "procedure",
-      "sortid": 24,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drop_xp_0_3",
@@ -283,7 +283,7 @@
     {
       "name": "SubstiliumSoilCheckTopBlock",
       "type": "procedure",
-      "sortid": 25,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_soil_check_top_block",
@@ -312,7 +312,7 @@
     {
       "name": "LowerSubstiliumSoilCheckTopBlock",
       "type": "procedure",
-      "sortid": 26,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lower_substilium_soil_check_top_block",
@@ -341,7 +341,7 @@
     {
       "name": "VibrionHive",
       "type": "biome",
-      "sortid": 27,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_hive",
@@ -350,7 +350,7 @@
     {
       "name": "EntoriumSporebomb",
       "type": "rangeditem",
-      "sortid": 28,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_sporebomb",
@@ -359,7 +359,7 @@
     {
       "name": "Cooldown_60",
       "type": "procedure",
-      "sortid": 29,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooldown_60",
@@ -380,7 +380,7 @@
     {
       "name": "EntoriumSporebombExt",
       "type": "itemextension",
-      "sortid": 30,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_sporebomb_ext",
@@ -389,7 +389,7 @@
     {
       "name": "Contamination",
       "type": "potioneffect",
-      "sortid": 31,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "contamination",
@@ -398,7 +398,7 @@
     {
       "name": "ContaminationItem",
       "type": "potion",
-      "sortid": 32,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "contamination_item",
@@ -407,7 +407,7 @@
     {
       "name": "ImmuneProtection",
       "type": "potioneffect",
-      "sortid": 33,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "immune_protection",
@@ -416,7 +416,7 @@
     {
       "name": "ImmunePortectionItem",
       "type": "potion",
-      "sortid": 34,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "immune_portection_item",
@@ -425,7 +425,7 @@
     {
       "name": "VibrionParticle",
       "type": "particle",
-      "sortid": 35,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_particle",
@@ -434,7 +434,7 @@
     {
       "name": "EntoriumParticle",
       "type": "particle",
-      "sortid": 36,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_particle",
@@ -443,7 +443,7 @@
     {
       "name": "SubstiliumParticle",
       "type": "particle",
-      "sortid": 37,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_particle",
@@ -452,7 +452,7 @@
     {
       "name": "StillSubstiliumParticle",
       "type": "particle",
-      "sortid": 38,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "still_substilium_particle",
@@ -461,7 +461,7 @@
     {
       "name": "EntoriumSporebombHits",
       "type": "procedure",
-      "sortid": 39,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_sporebomb_hits",
@@ -498,7 +498,7 @@
     {
       "name": "EntoriumSporebombFly",
       "type": "procedure",
-      "sortid": 40,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_sporebomb_fly",
@@ -527,7 +527,7 @@
     {
       "name": "EntoriumSporebombBlocked",
       "type": "procedure",
-      "sortid": 41,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_sporebomb_blocked",
@@ -556,7 +556,7 @@
     {
       "name": "VibrionBlockCraft",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_block_craft",
@@ -565,7 +565,7 @@
     {
       "name": "EntoriumPillCraft",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_pill_craft",
@@ -574,7 +574,7 @@
     {
       "name": "VibrionToDye",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_to_dye",
@@ -583,16 +583,16 @@
     {
       "name": "Revealing",
       "type": "enchantment",
-      "sortid": 45,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revealing",
-      "path": "~/advancements"
+      "path": "~/enchantements"
     },
     {
       "name": "ContaminationDamage1",
       "type": "procedure",
-      "sortid": 46,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "contamination_damage_1",
@@ -609,7 +609,7 @@
     {
       "name": "ContaminationDamage2",
       "type": "procedure",
-      "sortid": 47,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "contamination_damage_2",
@@ -626,7 +626,7 @@
     {
       "name": "ContaminationDamage3",
       "type": "procedure",
-      "sortid": 48,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "contamination_damage_3",
@@ -643,7 +643,7 @@
     {
       "name": "ContaminationDamage4",
       "type": "procedure",
-      "sortid": 49,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "contamination_damage_4",
@@ -660,7 +660,7 @@
     {
       "name": "VibrionSporeholderEffectGiver",
       "type": "procedure",
-      "sortid": 50,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_sporeholder_effect_giver",
@@ -677,7 +677,7 @@
     {
       "name": "VibrionBlockExt",
       "type": "itemextension",
-      "sortid": 51,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_block_ext",
@@ -686,7 +686,7 @@
     {
       "name": "SubstiliumShroomExt",
       "type": "itemextension",
-      "sortid": 52,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_shroom_ext",
@@ -695,7 +695,7 @@
     {
       "name": "HangingVibrionVinesExt",
       "type": "itemextension",
-      "sortid": 53,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_ext",
@@ -704,7 +704,7 @@
     {
       "name": "VibrionSporeholderExt",
       "type": "itemextension",
-      "sortid": 54,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_sporeholder_ext",
@@ -713,7 +713,7 @@
     {
       "name": "VibrionGelExt",
       "type": "itemextension",
-      "sortid": 55,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_gel_ext",
@@ -722,7 +722,7 @@
     {
       "name": "LitVibrionGelExt",
       "type": "itemextension",
-      "sortid": 56,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_vibrion_gel_ext",
@@ -731,7 +731,7 @@
     {
       "name": "VibrionRootsExt",
       "type": "itemextension",
-      "sortid": 57,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_roots_ext",
@@ -740,7 +740,7 @@
     {
       "name": "SubstiliumSproutsExt",
       "type": "itemextension",
-      "sortid": 58,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_sprouts_ext",
@@ -749,7 +749,7 @@
     {
       "name": "CheckSolidTopBlock",
       "type": "procedure",
-      "sortid": 59,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "check_solid_top_block",
@@ -778,7 +778,7 @@
     {
       "name": "VibrionGrowth",
       "type": "block",
-      "sortid": 59,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_growth",
@@ -787,7 +787,7 @@
     {
       "name": "MuteVibrionGrowths",
       "type": "gamerule",
-      "sortid": 60,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muteVibrionGrowths",
@@ -799,7 +799,7 @@
     {
       "name": "VibrionGrowthGrower",
       "type": "procedure",
-      "sortid": 60,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_growth_grower",
@@ -828,7 +828,7 @@
     {
       "name": "VibrionGrowthLoot",
       "type": "loottable",
-      "sortid": 61,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_growth_loot",
@@ -837,7 +837,7 @@
     {
       "name": "CheckTopBlockCondition",
       "type": "procedure",
-      "sortid": 62,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "check_top_block_condition",
@@ -863,45 +863,473 @@
         ]
       },
       "path": "~/procedures/CheckBlock"
+    },
+    {
+      "name": "CheckLivingEntity27Condition",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_living_entity_27_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/CheckEntity"
+    },
+    {
+      "name": "OvergrownEntoriumOre",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overgrown_entorium_ore",
+      "path": "~/blocks"
+    },
+    {
+      "name": "EntoriumOre",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entorium_ore",
+      "path": "~/blocks"
+    },
+    {
+      "name": "LitEntoriumParticle",
+      "type": "particle",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lit_entorium_particle",
+      "path": "~/particles"
+    },
+    {
+      "name": "WildWilderWildest",
+      "type": "achievement",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_wilder_wildest",
+      "path": "~/advancements"
+    },
+    {
+      "name": "WildWilderWildestProc",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_wilder_wildest_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/Advancements"
+    },
+    {
+      "name": "UnsafeHaven",
+      "type": "achievement",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unsafe_haven",
+      "path": "~/advancements"
+    },
+    {
+      "name": "ThroughHundredsOfMutations",
+      "type": "achievement",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "through_hundreds_of_mutations",
+      "path": "~/advancements"
+    },
+    {
+      "name": "UsefulFinding",
+      "type": "achievement",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "useful_finding",
+      "path": "~/advancements"
+    },
+    {
+      "name": "Spread100",
+      "type": "achievement",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spread_100",
+      "path": "~/advancements"
+    },
+    {
+      "name": "PetrifiedAntibiotic",
+      "type": "achievement",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrified_antibiotic",
+      "path": "~/advancements"
+    },
+    {
+      "name": "ExtensiveResearch",
+      "type": "achievement",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extensive_research",
+      "path": "~/advancements"
+    },
+    {
+      "name": "TemporarySolution",
+      "type": "achievement",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temporary_solution",
+      "path": "~/advancements"
+    },
+    {
+      "name": "DangerousWarfare",
+      "type": "achievement",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dangerous_warfare",
+      "path": "~/advancements"
+    },
+    {
+      "name": "EntoriumRevealProc",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entorium_reveal_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EntoriumReveal"
+    },
+    {
+      "name": "WildAsideDebugMode",
+      "type": "gamerule",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildAsideDebugMode",
+      "metadata": {
+        "type": "logic"
+      },
+      "path": "~/gamerules"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerProc",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/VegetationGrower/HangingVibrionVines"
+    },
+    {
+      "name": "HangingVibrionVinesGrower",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower",
+      "path": "~/blocks/Technical"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStrCondition",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/VegetationGrower/HangingVibrionVines"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStrOnGenerated",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_on_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/VegetationGrower/HangingVibrionVines"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr1",
+      "type": "structure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_1",
+      "path": "~/structures"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr2",
+      "type": "structure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_2",
+      "path": "~/structures"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr3",
+      "type": "structure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_3",
+      "path": "~/structures"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr4",
+      "type": "structure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_4",
+      "path": "~/structures"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr5",
+      "type": "structure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_5",
+      "path": "~/structures"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr6",
+      "type": "structure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_6",
+      "path": "~/structures"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr7",
+      "type": "structure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_7",
+      "path": "~/structures"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr8",
+      "type": "structure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_8",
+      "path": "~/structures"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr9",
+      "type": "structure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_9",
+      "path": "~/structures"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr10",
+      "type": "structure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_10",
+      "path": "~/structures"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr11",
+      "type": "structure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_11",
+      "path": "~/structures"
+    },
+    {
+      "name": "HangingVibrionVinesGrowerStr12",
+      "type": "structure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_grower_str_12",
+      "path": "~/structures"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "enchantment.wildaside.revealing": "Revealing",
       "item.wildaside.entorium": "Entorium",
-      "block.wildaside.substilium_stem": "Substilium Stem",
       "item.minecraft.tipped_arrow.effect.immune_portection_item": "Arrow of Immune Portection",
       "block.wildaside.vibrion_block": "Vibrion Block",
       "item.wildaside.vibrion": "Vibrion",
       "block.wildaside.vibrion_gel": "Vibrion Gel",
-      "item.minecraft.potion.effect.immune_portection_item": "Potion of Immune Portection",
       "item.minecraft.splash_potion.effect.contamination_item": "Splash Potion of Contamination",
       "block.wildaside.substilium_soil": "Substilium Soil",
-      "effect.wildaside.contamination": "Contamination",
-      "gamerule.muteVibrionGrowths.description": "Mute the sound of Vibrion Growths growing",
-      "biome.wildaside.vibrion_hive": "Vibrion Hive",
       "block.wildaside.substilium_shroom": "Substilium Shroom",
+      "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
       "item.wildaside.entorium_sporebomb": "Entorium Sporebomb",
-      "block.wildaside.hanging_vibrion_vines_plant": "Hanging Vibrion Vines Plant",
       "block.wildaside.vibrion_sporeholder": "Vibrion Sporeholder",
-      "item.minecraft.splash_potion.effect.immune_portection_item": "Splash Potion of Immune Portection",
       "item.minecraft.tipped_arrow.effect.contamination_item": "Arrow of Contamination",
+      "gamerule.wildAsideDebugMode": "WildAside DebugMode",
       "block.wildaside.lit_vibrion_gel": "Lit Vibrion Gel",
       "itemGroup.tabwild_aside_tab": "WildAside",
       "item.minecraft.lingering_potion.effect.contamination_item": "Lingering Potion of Contamination",
-      "block.wildaside.lower_substilium_soil": "Substilium Soil",
-      "item.minecraft.potion.effect.contamination_item": "Potion of Contamination",
+      "advancements.dangerous_warfare.title": "Dangerous Warfare",
       "block.wildaside.vibrion_roots": "Vibrion Roots",
+      "advancements.wild_wilder_wildest.descr": "Open a world with WildAside",
       "item.minecraft.lingering_potion.effect.immune_portection_item": "Lingering Potion of Immune Portection",
       "item.wildaside.entorium_pill": "Entorium Pill",
+      "block.wildaside.overgrown_entorium_ore": "Overgrown Entorium Ore",
+      "block.wildaside.entorium_ore": "Entorium Ore",
+      "advancements.extensive_research.title": "Extensive Research",
+      "block.wildaside.hanging_vibrion_vines": "Hanging Vibrion Vines",
+      "block.wildaside.hanging_vibrion_vines_grower": "Hanging Vibrion Vines Grower",
+      "advancements.temporary_solution.descr": "Consume an Entorium Pill while having Contamination",
+      "enchantment.wildaside.revealing": "Revealing",
+      "advancements.spread_100.descr": "Have the Contamination effect for the first time",
+      "block.wildaside.substilium_stem": "Substilium Stem",
+      "advancements.unsafe_haven.descr": "Enter a Vibrion Hive for the first time",
+      "advancements.petrified_antibiotic.descr": "Obtain an Entorium",
+      "item.minecraft.potion.effect.immune_portection_item": "Potion of Immune Portection",
+      "advancements.petrified_antibiotic.title": "Petrified Antibiotic",
+      "effect.wildaside.contamination": "Contamination",
+      "advancements.wild_wilder_wildest.title": "Wild, Wilder, Wildest",
+      "gamerule.muteVibrionGrowths.description": "Mute the sound of Vibrion Growths growing",
+      "biome.wildaside.vibrion_hive": "Vibrion Hive",
+      "advancements.unsafe_haven.title": "Unsafe Haven",
+      "advancements.useful_finding.title": "Useful Finding",
+      "advancements.through_hundreds_of_mutations.title": "Through Hundreds Of Mutations",
+      "block.wildaside.hanging_vibrion_vines_plant": "Hanging Vibrion Vines Plant",
+      "advancements.useful_finding.descr": "Shear an Overgrown Substilium Soil block",
+      "advancements.spread_100.title": "Spread 100",
+      "advancements.through_hundreds_of_mutations.descr": "Obtain a Vibrion",
+      "item.minecraft.splash_potion.effect.immune_portection_item": "Splash Potion of Immune Portection",
+      "advancements.temporary_solution.title": "Temporary Solution",
+      "block.wildaside.lower_substilium_soil": "Substilium Soil",
+      "item.minecraft.potion.effect.contamination_item": "Potion of Contamination",
+      "advancements.dangerous_warfare.descr": "Use an Entorium Sporebomb",
       "effect.wildaside.immune_protection": "Immune-protection",
       "block.wildaside.vibrion_growth": "Vibrion Growth",
       "block.wildaside.substilium_sprouts": "Vibrion Roots",
       "gamerule.muteVibrionGrowths": "MuteVibrionGrowths",
-      "block.wildaside.hanging_vibrion_vines": "Hanging Vibrion Vines",
-      "block.wildaside.substilium_block": "Substilium Block"
+      "block.wildaside.substilium_block": "Substilium Block",
+      "advancements.extensive_research.descr": "Shear an Overgrown Substilium Soil Block with Revealing"
     }
   },
   "foldersRoot": {
@@ -909,7 +1337,12 @@
     "children": [
       {
         "name": "blocks",
-        "children": []
+        "children": [
+          {
+            "name": "Technical",
+            "children": []
+          }
+        ]
       },
       {
         "name": "items",
@@ -955,6 +1388,27 @@
           {
             "name": "VibrionGrowth",
             "children": []
+          },
+          {
+            "name": "CheckEntity",
+            "children": []
+          },
+          {
+            "name": "EntoriumReveal",
+            "children": []
+          },
+          {
+            "name": "Advancements",
+            "children": []
+          },
+          {
+            "name": "VegetationGrower",
+            "children": [
+              {
+                "name": "HangingVibrionVines",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -1014,6 +1468,7 @@
     "modName": "WildAside",
     "version": "0.0.1-1.18.2",
     "author": "Gyula, Lyof, MCreator",
+    "websiteURL": "https://mcreator.net",
     "license": "Custom license",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

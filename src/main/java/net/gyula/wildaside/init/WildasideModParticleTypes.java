@@ -22,4 +22,6 @@ public class WildasideModParticleTypes {
 			() -> new SimpleParticleType(false));
 	public static final RegistryObject<ParticleType<?>> STILL_SUBSTILIUM_PARTICLE = REGISTRY.register("still_substilium_particle",
 			() -> new SimpleParticleType(false));
+	public static final RegistryObject<ParticleType<?>> LIT_ENTORIUM_PARTICLE = REGISTRY.register("lit_entorium_particle",
+			() -> new SimpleParticleType(true));
 }

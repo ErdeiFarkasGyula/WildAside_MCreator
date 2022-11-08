@@ -11,7 +11,7 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
-    "staticPlantGenerationType": "Flower",
+    "staticPlantGenerationType": "Grass",
     "suspiciousStewEffect": "INVISIBILITY",
     "suspiciousStewDuration": 100,
     "growapableSpawnType": "Cave",
@@ -33,16 +33,16 @@
     "name": "Vibrion Roots",
     "specialInfo": [],
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:WildAsideTab"
     },
     "hardness": 0.1,
     "resistance": 0.0,
-    "luminance": 4,
+    "luminance": 3,
     "unbreakable": false,
     "isSolid": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SHROOMLIGHT"
+      "value": "ROOT"
     },
     "breakSound": {
       "value": ""
@@ -88,7 +88,7 @@
         "value": "CUSTOM:VibrionHive"
       }
     ],
-    "patchSize": 128,
+    "patchSize": 256,
     "generateAtAnyHeight": true
   }
 }

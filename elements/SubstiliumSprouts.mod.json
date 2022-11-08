@@ -33,7 +33,7 @@
     "name": "Vibrion Roots",
     "specialInfo": [],
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:WildAsideTab"
     },
     "hardness": 0.1,
     "resistance": 0.0,
@@ -88,7 +88,7 @@
         "value": "CUSTOM:VibrionHive"
       }
     ],
-    "patchSize": 256,
+    "patchSize": 420,
     "generateAtAnyHeight": true
   }
 }

@@ -35,7 +35,7 @@ public class SubstiliumSproutsFeature extends RandomPatchFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("wildaside:substilium_sprouts", FEATURE,
 				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
 						new SimpleBlockConfiguration(BlockStateProvider.simple(WildasideModBlocks.SUBSTILIUM_SPROUTS.get().defaultBlockState())),
-						List.of(), 256));
+						List.of(), 420));
 		PLACED_FEATURE = PlacementUtils.register("wildaside:substilium_sprouts", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(40), InSquarePlacement.spread(), PlacementUtils.FULL_RANGE, BiomeFilter.biome()));
 		return FEATURE;

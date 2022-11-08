@@ -15,6 +15,7 @@ import net.minecraft.client.Minecraft;
 import net.gyula.wildaside.client.particle.VibrionParticleParticle;
 import net.gyula.wildaside.client.particle.SubstiliumParticleParticle;
 import net.gyula.wildaside.client.particle.StillSubstiliumParticleParticle;
+import net.gyula.wildaside.client.particle.LitEntoriumParticleParticle;
 import net.gyula.wildaside.client.particle.EntoriumParticleParticle;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -29,5 +30,7 @@ public class WildasideModParticles {
 				SubstiliumParticleParticle::provider);
 		Minecraft.getInstance().particleEngine.register((SimpleParticleType) WildasideModParticleTypes.STILL_SUBSTILIUM_PARTICLE.get(),
 				StillSubstiliumParticleParticle::provider);
+		Minecraft.getInstance().particleEngine.register((SimpleParticleType) WildasideModParticleTypes.LIT_ENTORIUM_PARTICLE.get(),
+				LitEntoriumParticleParticle::provider);
 	}
 }

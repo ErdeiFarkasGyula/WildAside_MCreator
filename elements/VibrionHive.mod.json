@@ -45,11 +45,11 @@
       "value": "ambient.soul_sand_valley.mood"
     },
     "moodSoundDelay": 2000,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:StillSubstiliumParticle"
     },
-    "particlesProbability": 0.5,
+    "particlesProbability": 0.6,
     "rainingPossibility": 0.0,
     "temperature": 0.2,
     "baseHeight": -0.8,
