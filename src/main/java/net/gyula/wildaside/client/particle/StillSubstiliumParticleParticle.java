@@ -61,7 +61,7 @@ public class StillSubstiliumParticleParticle extends TextureSheetParticle {
 	public void tick() {
 		super.tick();
 		if (!this.removed) {
-			this.setSprite(this.spriteSet.get((this.age / 1) % 4 + 1, 4));
+			this.setSprite(this.spriteSet.get((this.age / 20) % 4 + 1, 4));
 		}
 	}
 }
