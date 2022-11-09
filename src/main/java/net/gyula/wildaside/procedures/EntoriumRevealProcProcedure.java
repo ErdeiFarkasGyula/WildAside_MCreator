@@ -17,17 +17,15 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.util.Mth;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
-import net.gyula.wildaside.init.WildasideModParticleTypes;
 import net.gyula.wildaside.init.WildasideModEnchantments;
 import net.gyula.wildaside.init.WildasideModBlocks;
 
@@ -121,9 +119,6 @@ public class EntoriumRevealProcProcedure {
 									_player.getAdvancements().award(_adv, (String) _iterator.next());
 							}
 						}
-						for (int index3 = 0; index3 < (int) (Mth.nextInt(new Random(), 2, 4)); index3++) {
-							world.addParticle((SimpleParticleType) (WildasideModParticleTypes.LIT_ENTORIUM_PARTICLE.get()), x, y, z, 0, 1, 0);
-						}
 						if (!(new Object() {
 							public boolean checkGamemode(Entity _ent) {
 								if (_ent instanceof ServerPlayer _serverPlayer) {
@@ -178,9 +173,6 @@ public class EntoriumRevealProcProcedure {
 								_player.getAdvancements().award(_adv, (String) _iterator.next());
 						}
 					}
-					for (int index4 = 0; index4 < (int) (Mth.nextInt(new Random(), 2, 4)); index4++) {
-						world.addParticle((SimpleParticleType) (WildasideModParticleTypes.LIT_ENTORIUM_PARTICLE.get()), x, y, z, 0, 1, 0);
-					}
 					if (!(new Object() {
 						public boolean checkGamemode(Entity _ent) {
 							if (_ent instanceof ServerPlayer _serverPlayer) {
@@ -202,17 +194,19 @@ public class EntoriumRevealProcProcedure {
 						}
 					}
 				}
+				if (entity instanceof LivingEntity _entity)
+					_entity.swing(InteractionHand.MAIN_HAND, true);
 			} else {
 				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == Items.SHEARS) {
 					if (EnchantmentHelper.getItemEnchantmentLevel(WildasideModEnchantments.REVEALING.get(),
 							(entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)) != 0) {
 						sx = -1;
 						found = false;
-						for (int index5 = 0; index5 < (int) (3); index5++) {
+						for (int index3 = 0; index3 < (int) (3); index3++) {
 							sy = -1;
-							for (int index6 = 0; index6 < (int) (3); index6++) {
+							for (int index4 = 0; index4 < (int) (3); index4++) {
 								sz = -1;
-								for (int index7 = 0; index7 < (int) (3); index7++) {
+								for (int index5 = 0; index5 < (int) (3); index5++) {
 									if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz)))
 											.getBlock() == WildasideModBlocks.OVERGROWN_ENTORIUM_ORE.get()) {
 										{
@@ -267,9 +261,6 @@ public class EntoriumRevealProcProcedure {
 									while (_iterator.hasNext())
 										_player.getAdvancements().award(_adv, (String) _iterator.next());
 								}
-							}
-							for (int index8 = 0; index8 < (int) (Mth.nextInt(new Random(), 2, 4)); index8++) {
-								world.addParticle((SimpleParticleType) (WildasideModParticleTypes.LIT_ENTORIUM_PARTICLE.get()), x, y, z, 0, 1, 0);
 							}
 							if (!(new Object() {
 								public boolean checkGamemode(Entity _ent) {
@@ -326,9 +317,6 @@ public class EntoriumRevealProcProcedure {
 									_player.getAdvancements().award(_adv, (String) _iterator.next());
 							}
 						}
-						for (int index9 = 0; index9 < (int) (Mth.nextInt(new Random(), 2, 4)); index9++) {
-							world.addParticle((SimpleParticleType) (WildasideModParticleTypes.LIT_ENTORIUM_PARTICLE.get()), x, y, z, 0, 1, 0);
-						}
 						if (!(new Object() {
 							public boolean checkGamemode(Entity _ent) {
 								if (_ent instanceof ServerPlayer _serverPlayer) {
@@ -350,6 +338,8 @@ public class EntoriumRevealProcProcedure {
 							}
 						}
 					}
+					if (entity instanceof LivingEntity _entity)
+						_entity.swing(InteractionHand.OFF_HAND, true);
 				}
 			}
 		}

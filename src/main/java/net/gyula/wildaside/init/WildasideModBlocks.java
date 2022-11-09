@@ -19,10 +19,20 @@ import net.gyula.wildaside.block.VibrionRootsBlock;
 import net.gyula.wildaside.block.VibrionGrowthBlock;
 import net.gyula.wildaside.block.VibrionGelBlock;
 import net.gyula.wildaside.block.VibrionBlockBlock;
+import net.gyula.wildaside.block.SubstiliumTreeGrowerBlock;
+import net.gyula.wildaside.block.SubstiliumTrapdoorBlock;
 import net.gyula.wildaside.block.SubstiliumStemBlock;
+import net.gyula.wildaside.block.SubstiliumStairsBlock;
 import net.gyula.wildaside.block.SubstiliumSproutsBlock;
 import net.gyula.wildaside.block.SubstiliumSoilBlock;
+import net.gyula.wildaside.block.SubstiliumSlabBlock;
 import net.gyula.wildaside.block.SubstiliumShroomBlock;
+import net.gyula.wildaside.block.SubstiliumPressurePlateBlock;
+import net.gyula.wildaside.block.SubstiliumPlanksBlock;
+import net.gyula.wildaside.block.SubstiliumFenceGateBlock;
+import net.gyula.wildaside.block.SubstiliumFenceBlock;
+import net.gyula.wildaside.block.SubstiliumDoorBlock;
+import net.gyula.wildaside.block.SubstiliumButtonBlock;
 import net.gyula.wildaside.block.SubstiliumBlockBlock;
 import net.gyula.wildaside.block.OvergrownEntoriumOreBlock;
 import net.gyula.wildaside.block.LowerSubstiliumSoilBlock;
@@ -52,6 +62,17 @@ public class WildasideModBlocks {
 			() -> new OvergrownEntoriumOreBlock());
 	public static final RegistryObject<Block> ENTORIUM_ORE = REGISTRY.register("entorium_ore", () -> new EntoriumOreBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_SPROUTS = REGISTRY.register("substilium_sprouts", () -> new SubstiliumSproutsBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_PLANKS = REGISTRY.register("substilium_planks", () -> new SubstiliumPlanksBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_STAIRS = REGISTRY.register("substilium_stairs", () -> new SubstiliumStairsBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_SLAB = REGISTRY.register("substilium_slab", () -> new SubstiliumSlabBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_FENCE = REGISTRY.register("substilium_fence", () -> new SubstiliumFenceBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_FENCE_GATE = REGISTRY.register("substilium_fence_gate",
+			() -> new SubstiliumFenceGateBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_DOOR = REGISTRY.register("substilium_door", () -> new SubstiliumDoorBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TRAPDOOR = REGISTRY.register("substilium_trapdoor", () -> new SubstiliumTrapdoorBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_PRESSURE_PLATE = REGISTRY.register("substilium_pressure_plate",
+			() -> new SubstiliumPressurePlateBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_BUTTON = REGISTRY.register("substilium_button", () -> new SubstiliumButtonBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VINES_PLANT = REGISTRY.register("hanging_vibrion_vines_plant",
 			() -> new HangingVibrionVinesPlantBlock());
 	public static final RegistryObject<Block> LOWER_SUBSTILIUM_SOIL = REGISTRY.register("lower_substilium_soil",
@@ -60,6 +81,8 @@ public class WildasideModBlocks {
 			() -> new HangingVibrionVinesGrowerBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_GEL_GROWER = REGISTRY.register("hanging_vibrion_gel_grower",
 			() -> new HangingVibrionGelGrowerBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower",
+			() -> new SubstiliumTreeGrowerBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -72,6 +95,14 @@ public class WildasideModBlocks {
 			VibrionSporeholderBlock.registerRenderLayer();
 			VibrionGrowthBlock.registerRenderLayer();
 			SubstiliumSproutsBlock.registerRenderLayer();
+			SubstiliumStairsBlock.registerRenderLayer();
+			SubstiliumSlabBlock.registerRenderLayer();
+			SubstiliumFenceBlock.registerRenderLayer();
+			SubstiliumFenceGateBlock.registerRenderLayer();
+			SubstiliumDoorBlock.registerRenderLayer();
+			SubstiliumTrapdoorBlock.registerRenderLayer();
+			SubstiliumPressurePlateBlock.registerRenderLayer();
+			SubstiliumButtonBlock.registerRenderLayer();
 			HangingVibrionVinesPlantBlock.registerRenderLayer();
 			HangingVibrionGelGrowerBlock.registerRenderLayer();
 		}

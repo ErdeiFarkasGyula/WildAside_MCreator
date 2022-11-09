@@ -99,16 +99,13 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
       "value": "CUSTOM:LitEntoriumParticle"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.1,
     "particleAmount": 1,
-    "particleCondition": {
-      "name": "CheckLivingEntity27Condition"
-    },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wildaside:blocks/substilium_stem_side",
+    "up": "wildaside:blocks/substilium_stem_side",
+    "north": "wildaside:blocks/substilium_stem_side",
+    "east": "wildaside:blocks/substilium_stem_side",
+    "south": "wildaside:blocks/substilium_stem_side",
+    "west": "wildaside:blocks/substilium_stem_side",
+    "particle": "wildaside:blocks/substilium_stem_side"
+  }
+}

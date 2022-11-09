@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "wildaside:blocks/substilium_planks",
+    "particle": "wildaside:blocks/substilium_planks"
+  }
+}
