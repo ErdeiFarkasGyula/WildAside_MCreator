@@ -33,7 +33,7 @@ maxFps:260
 difficulty:2
 graphicsMode:1
 ao:2
-prioritizeChunkUpdates:0
+prioritizeChunkUpdates:1
 biomeBlendRadius:2
 renderClouds:false
 resourcePacks:[]

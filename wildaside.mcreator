@@ -1497,6 +1497,195 @@
         ]
       },
       "path": "~/procedures/VegetationGrower/VibrionTree"
+    },
+    {
+      "name": "SubstiliumPlanksCraft",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_planks_craft",
+      "path": "~/recipes/substilium_wood"
+    },
+    {
+      "name": "SubstiliumPlanksCraft2",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_planks_craft_2",
+      "path": "~/recipes/substilium_wood"
+    },
+    {
+      "name": "SubstiliumBlockCraft",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_block_craft",
+      "path": "~/recipes/substilium_wood"
+    },
+    {
+      "name": "SubstiliumStairsCraft",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_stairs_craft",
+      "path": "~/recipes/substilium_wood"
+    },
+    {
+      "name": "SubstiliumSlabCraft",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_slab_craft",
+      "path": "~/recipes/substilium_wood"
+    },
+    {
+      "name": "SubstiliumFenceCraft",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_fence_craft",
+      "path": "~/recipes/substilium_wood"
+    },
+    {
+      "name": "SubstiliumFenceGateCraft",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_fence_gate_craft",
+      "path": "~/recipes/substilium_wood"
+    },
+    {
+      "name": "SubstiliumDoorCraft",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_door_craft",
+      "path": "~/recipes/substilium_wood"
+    },
+    {
+      "name": "SubstiliumTrapdoorCraft",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_trapdoor_craft",
+      "path": "~/recipes/substilium_wood"
+    },
+    {
+      "name": "SubstiliumPressurePlateCraft",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_pressure_plate_craft",
+      "path": "~/recipes/substilium_wood"
+    },
+    {
+      "name": "SubstiliumButtonCraft",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_button_craft",
+      "path": "~/recipes/substilium_wood"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "WoodenFenceBlocks",
+      "type": "tag",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_fence_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "WallBlocks",
+      "type": "tag",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "SmallFlowerBlocks",
+      "type": "tag",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_blocks",
+      "path": "~/tags"
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_items",
+      "path": "~/tags"
+    },
+    {
+      "name": "FlowerItems",
+      "type": "tag",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_items",
+      "path": "~/tags"
+    },
+    {
+      "name": "SmallFlowerItems",
+      "type": "tag",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_items",
+      "path": "~/tags"
+    },
+    {
+      "name": "ImpactProjectileEntities",
+      "type": "tag",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impact_projectile_entities",
+      "path": "~/tags"
     }
   ],
   "variable_elements": [],
@@ -1711,11 +1900,19 @@
           {
             "name": "vibrion",
             "children": []
+          },
+          {
+            "name": "substilium_wood",
+            "children": []
           }
         ]
       },
       {
         "name": "gamerules",
+        "children": []
+      },
+      {
+        "name": "tags",
         "children": []
       }
     ]

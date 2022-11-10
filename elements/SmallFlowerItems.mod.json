@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:VibrionRoots"
+      },
+      {
+        "value": "CUSTOM:SubstiliumSprouts"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "small_flowers",
+    "namespace": "minecraft"
+  }
+}
