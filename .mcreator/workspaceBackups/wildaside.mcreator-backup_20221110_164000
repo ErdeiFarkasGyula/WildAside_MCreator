@@ -913,15 +913,6 @@
       "path": "~/blocks"
     },
     {
-      "name": "LitEntoriumParticle",
-      "type": "particle",
-      "sortid": 78,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lit_entorium_particle",
-      "path": "~/particles"
-    },
-    {
       "name": "WildWilderWildest",
       "type": "achievement",
       "sortid": 79,
