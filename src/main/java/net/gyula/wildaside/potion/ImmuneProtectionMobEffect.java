@@ -3,11 +3,14 @@ package net.gyula.wildaside.potion;
 
 import net.minecraftforge.client.EffectRenderer;
 
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen;
 import net.minecraft.client.gui.GuiComponent;
+
+import net.gyula.wildaside.procedures.ImmuneProtectionProcProcedure;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 
@@ -19,6 +22,11 @@ public class ImmuneProtectionMobEffect extends MobEffect {
 	@Override
 	public String getDescriptionId() {
 		return "effect.wildaside.immune_protection";
+	}
+
+	@Override
+	public void applyEffectTick(LivingEntity entity, int amplifier) {
+		ImmuneProtectionProcProcedure.execute(entity);
 	}
 
 	@Override

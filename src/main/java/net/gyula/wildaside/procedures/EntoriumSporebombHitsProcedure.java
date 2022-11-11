@@ -25,32 +25,31 @@ public class EntoriumSporebombHitsProcedure {
 		for (int index0 = 0; index0 < (int) (Mth.nextInt(new Random(), 3, 8)); index0++) {
 			world.addParticle((SimpleParticleType) (WildasideModParticleTypes.VIBRION_PARTICLE.get()), x, y, z, 0, 0, 0);
 		}
-		class EntoriumSporebombHitsWait4 {
+		new Object() {
 			private int ticks = 0;
 			private float waitTicks;
 			private LevelAccessor world;
 
 			public void start(LevelAccessor world, int waitTicks) {
 				this.waitTicks = waitTicks;
+				MinecraftForge.EVENT_BUS.register(this);
 				this.world = world;
-				MinecraftForge.EVENT_BUS.register(EntoriumSporebombHitsWait4.this);
 			}
 
 			@SubscribeEvent
 			public void tick(TickEvent.ServerTickEvent event) {
 				if (event.phase == TickEvent.Phase.END) {
-					EntoriumSporebombHitsWait4.this.ticks += 1;
-					if (EntoriumSporebombHitsWait4.this.ticks >= EntoriumSporebombHitsWait4.this.waitTicks)
+					this.ticks += 1;
+					if (this.ticks >= this.waitTicks)
 						run();
 				}
 			}
 
 			private void run() {
-				MinecraftForge.EVENT_BUS.unregister(EntoriumSporebombHitsWait4.this);
 				if (entity instanceof LivingEntity _entity)
 					_entity.addEffect(new MobEffectInstance(WildasideModMobEffects.CONTAMINATION.get(), 600, 2, (false), (true)));
+				MinecraftForge.EVENT_BUS.unregister(this);
 			}
-		}
-		new EntoriumSporebombHitsWait4().start(world, 5);
+		}.start(world, 5);
 	}
 }

@@ -13,7 +13,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 
-import net.gyula.wildaside.procedures.Cooldown_60Procedure;
+import net.gyula.wildaside.procedures.EntoriumSporebombUsedProcedure;
 import net.gyula.wildaside.init.WildasideModTabs;
 import net.gyula.wildaside.entity.EntoriumSporebombEntity;
 
@@ -49,7 +49,7 @@ public class EntoriumSporebombItem extends Item {
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 
-				Cooldown_60Procedure.execute(entity, itemstack);
+				EntoriumSporebombUsedProcedure.execute(entity, itemstack);
 			}
 		}
 	}
