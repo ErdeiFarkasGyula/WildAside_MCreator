@@ -14,6 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.gyula.wildaside.block.YellowHickoryPlanksBlock;
 import net.gyula.wildaside.block.VibrionSporeholderBlock;
 import net.gyula.wildaside.block.VibrionRootsBlock;
 import net.gyula.wildaside.block.VibrionGrowthBlock;
@@ -37,6 +38,9 @@ import net.gyula.wildaside.block.SubstiliumBlockBlock;
 import net.gyula.wildaside.block.OvergrownEntoriumOreBlock;
 import net.gyula.wildaside.block.LowerSubstiliumSoilBlock;
 import net.gyula.wildaside.block.LitVibrionGelBlock;
+import net.gyula.wildaside.block.HickoryPlanksBlock;
+import net.gyula.wildaside.block.HickoryLogBlock;
+import net.gyula.wildaside.block.HickoryBlockBlock;
 import net.gyula.wildaside.block.HangingVibrionVinesPlantBlock;
 import net.gyula.wildaside.block.HangingVibrionVinesGrowerBlock;
 import net.gyula.wildaside.block.HangingVibrionVinesBlock;
@@ -83,6 +87,11 @@ public class WildasideModBlocks {
 			() -> new HangingVibrionGelGrowerBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower",
 			() -> new SubstiliumTreeGrowerBlock());
+	public static final RegistryObject<Block> HICKORY_LOG = REGISTRY.register("hickory_log", () -> new HickoryLogBlock());
+	public static final RegistryObject<Block> HICKORY_PLANKS = REGISTRY.register("hickory_planks", () -> new HickoryPlanksBlock());
+	public static final RegistryObject<Block> YELLOW_HICKORY_PLANKS = REGISTRY.register("yellow_hickory_planks",
+			() -> new YellowHickoryPlanksBlock());
+	public static final RegistryObject<Block> HICKORY_BLOCK = REGISTRY.register("hickory_block", () -> new HickoryBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

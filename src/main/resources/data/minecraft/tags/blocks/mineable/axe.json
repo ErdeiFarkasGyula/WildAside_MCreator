@@ -12,6 +12,10 @@
     "wildaside:substilium_door",
     "wildaside:substilium_trapdoor",
     "wildaside:substilium_pressure_plate",
-    "wildaside:substilium_button"
+    "wildaside:substilium_button",
+    "wildaside:hickory_log",
+    "wildaside:hickory_planks",
+    "wildaside:yellow_hickory_planks",
+    "wildaside:hickory_block"
   ]
 }

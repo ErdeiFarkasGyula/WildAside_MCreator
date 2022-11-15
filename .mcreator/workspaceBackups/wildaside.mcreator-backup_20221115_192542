@@ -1686,6 +1686,126 @@
       "locked_code": false,
       "registry_name": "impact_projectile_entities",
       "path": "~/tags"
+    },
+    {
+      "name": "ImmuneProtectionProc",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immune_protection_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/PotionEffect"
+    },
+    {
+      "name": "ContaminationEffectStarted",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "contamination_effect_started",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/PotionEffect"
+    },
+    {
+      "name": "EntoriumSporebombUsed",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entorium_sporebomb_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/procedures/Sporebomb"
+    },
+    {
+      "name": "HickoryLog",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_log",
+      "path": "~/blocks"
+    },
+    {
+      "name": "HickoryPlanks",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hickory_planks",
+      "path": "~/blocks"
+    },
+    {
+      "name": "YellowHickoryPlanks",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_hickory_planks",
+      "path": "~/blocks"
+    },
+    {
+      "name": "HickoryPlanksPlaced",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_planks_placed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/Hickory"
+    },
+    {
+      "name": "HickoryBlock",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_block",
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [],
@@ -1708,12 +1828,14 @@
       "block.wildaside.substilium_planks": "Substilium Planks",
       "block.wildaside.hanging_vibrion_gel_grower": "Hanging Vibrion Gel Grower",
       "block.wildaside.vibrion_sporeholder": "Vibrion Sporeholder",
+      "block.wildaside.hickory_log": "Hickory Log",
       "item.minecraft.tipped_arrow.effect.contamination_item": "Arrow of Contamination",
       "gamerule.wildAsideDebugMode": "WildAside DebugMode",
       "block.wildaside.lit_vibrion_gel": "Lit Vibrion Gel",
       "itemGroup.tabwild_aside_tab": "WildAside",
       "item.minecraft.lingering_potion.effect.contamination_item": "Lingering Potion of Contamination",
       "advancements.dangerous_warfare.title": "Dangerous Warfare",
+      "block.wildaside.hickory_block": "Hickory Block",
       "block.wildaside.vibrion_roots": "Vibrion Roots",
       "advancements.wild_wilder_wildest.descr": "Open a world with WildAside",
       "item.minecraft.lingering_potion.effect.immune_portection_item": "Lingering Potion of Immune Portection",
@@ -1721,6 +1843,7 @@
       "block.wildaside.overgrown_entorium_ore": "Overgrown Entorium Ore",
       "block.wildaside.entorium_ore": "Entorium Ore",
       "advancements.extensive_research.title": "Extensive Research",
+      "block.wildaside.hickory_planks": "Hickory Planks",
       "block.wildaside.hanging_vibrion_vines": "Hanging Vibrion Vines",
       "block.wildaside.hanging_vibrion_vines_grower": "Hanging Vibrion Vines Grower",
       "advancements.temporary_solution.descr": "Consume an Entorium Pill while having Contamination",
@@ -1746,6 +1869,7 @@
       "advancements.through_hundreds_of_mutations.descr": "Obtain a Vibrion",
       "item.minecraft.splash_potion.effect.immune_portection_item": "Splash Potion of Immune Portection",
       "advancements.temporary_solution.title": "Temporary Solution",
+      "block.wildaside.yellow_hickory_planks": "Yellow Hickory Planks",
       "block.wildaside.lower_substilium_soil": "Substilium Soil",
       "item.minecraft.potion.effect.contamination_item": "Potion of Contamination",
       "advancements.dangerous_warfare.descr": "Use an Entorium Sporebomb",
@@ -1846,6 +1970,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Hickory",
+            "children": []
           }
         ]
       },
@@ -1936,5 +2064,5 @@
     "modElementsPackage": "net.gyula.wildaside",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200345616
+  "mcreatorVersion": 202200346416
 }

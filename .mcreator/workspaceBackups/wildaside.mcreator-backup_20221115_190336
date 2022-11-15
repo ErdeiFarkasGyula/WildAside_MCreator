@@ -1720,6 +1720,45 @@
         ]
       },
       "path": "~/procedures/PotionEffect"
+    },
+    {
+      "name": "EntoriumSporebombUsed",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entorium_sporebomb_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/procedures/Sporebomb"
+    },
+    {
+      "name": "HickoryLog",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_log",
+      "path": "~/blocks"
+    },
+    {
+      "name": "HickoryPlanks",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_planks",
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [],
@@ -1742,6 +1781,7 @@
       "block.wildaside.substilium_planks": "Substilium Planks",
       "block.wildaside.hanging_vibrion_gel_grower": "Hanging Vibrion Gel Grower",
       "block.wildaside.vibrion_sporeholder": "Vibrion Sporeholder",
+      "block.wildaside.hickory_log": "Hickory Log",
       "item.minecraft.tipped_arrow.effect.contamination_item": "Arrow of Contamination",
       "gamerule.wildAsideDebugMode": "WildAside DebugMode",
       "block.wildaside.lit_vibrion_gel": "Lit Vibrion Gel",
@@ -1755,6 +1795,7 @@
       "block.wildaside.overgrown_entorium_ore": "Overgrown Entorium Ore",
       "block.wildaside.entorium_ore": "Entorium Ore",
       "advancements.extensive_research.title": "Extensive Research",
+      "block.wildaside.hickory_planks": "Hickory Planks",
       "block.wildaside.hanging_vibrion_vines": "Hanging Vibrion Vines",
       "block.wildaside.hanging_vibrion_vines_grower": "Hanging Vibrion Vines Grower",
       "advancements.temporary_solution.descr": "Consume an Entorium Pill while having Contamination",

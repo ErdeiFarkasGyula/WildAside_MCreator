@@ -1686,6 +1686,61 @@
       "locked_code": false,
       "registry_name": "impact_projectile_entities",
       "path": "~/tags"
+    },
+    {
+      "name": "ImmuneProtectionProc",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immune_protection_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/PotionEffect"
+    },
+    {
+      "name": "ContaminationEffectStarted",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "contamination_effect_started",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/PotionEffect"
+    },
+    {
+      "name": "EntoriumSporebombUsed",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entorium_sporebomb_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/procedures/Sporebomb"
     }
   ],
   "variable_elements": [],
@@ -1694,8 +1749,8 @@
     "en_us": {
       "item.wildaside.entorium": "Entorium",
       "item.minecraft.tipped_arrow.effect.immune_portection_item": "Arrow of Immune Portection",
-      "block.wildaside.substilium_fence_gate": "Substilium Fence Gate",
       "block.wildaside.vibrion_block": "Vibrion Block",
+      "block.wildaside.substilium_fence_gate": "Substilium Fence Gate",
       "item.wildaside.vibrion": "Vibrion",
       "block.wildaside.vibrion_gel": "Vibrion Gel",
       "item.minecraft.splash_potion.effect.contamination_item": "Splash Potion of Contamination",
@@ -1936,5 +1991,5 @@
     "modElementsPackage": "net.gyula.wildaside",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200345616
+  "mcreatorVersion": 202200346416
 }

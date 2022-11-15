@@ -1,4 +1,8 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "wildaside:substilium_stem",
+    "wildaside:substilium_block",
+    "wildaside:hickory_log"
+  ]
 }

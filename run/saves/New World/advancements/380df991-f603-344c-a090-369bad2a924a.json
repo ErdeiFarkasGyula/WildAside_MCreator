@@ -1,14 +1,27 @@
 {
   "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "wild_wilder_wildest": "2022-11-11 19:15:42 +0100"
+      "wild_wilder_wildest": "2022-11-13 13:49:17 +0100"
+    },
+    "done": true
+  },
+  "wildaside:dangerous_warfare": {
+    "criteria": {
+      "dangerous_warfare": "2022-11-13 13:52:46 +0100"
+    },
+    "done": true
+  },
+  "wildaside:spread_100": {
+    "criteria": {
+      "spread_100": "2022-11-13 13:52:46 +0100"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:snowy_plains": "2022-11-11 19:31:47 +0100",
-      "minecraft:snowy_beach": "2022-11-11 19:15:42 +0100"
+      "minecraft:sparse_jungle": "2022-11-13 13:53:04 +0100",
+      "minecraft:river": "2022-11-13 13:53:25 +0100",
+      "minecraft:forest": "2022-11-13 13:49:17 +0100"
     },
     "done": false
   },

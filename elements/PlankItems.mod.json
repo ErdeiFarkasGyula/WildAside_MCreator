@@ -6,6 +6,12 @@
     "items": [
       {
         "value": "CUSTOM:SubstiliumPlanks"
+      },
+      {
+        "value": "CUSTOM:HickoryPlanks"
+      },
+      {
+        "value": "CUSTOM:YellowHickoryPlanks"
       }
     ],
     "blocks": [],
