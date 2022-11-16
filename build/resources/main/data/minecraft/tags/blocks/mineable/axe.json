@@ -14,8 +14,13 @@
     "wildaside:substilium_pressure_plate",
     "wildaside:substilium_button",
     "wildaside:hickory_log",
+    "wildaside:hickory_block",
     "wildaside:hickory_planks",
-    "wildaside:yellow_hickory_planks",
-    "wildaside:hickory_block"
+    "wildaside:hickory_stairs",
+    "wildaside:hickory_slab",
+    "wildaside:hickory_fence",
+    "wildaside:hickory_fence_gate",
+    "wildaside:hickory_pressure_plate",
+    "wildaside:hickory_button"
   ]
 }

@@ -14,7 +14,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
-import net.gyula.wildaside.block.YellowHickoryPlanksBlock;
 import net.gyula.wildaside.block.VibrionSporeholderBlock;
 import net.gyula.wildaside.block.VibrionRootsBlock;
 import net.gyula.wildaside.block.VibrionGrowthBlock;
@@ -38,8 +37,14 @@ import net.gyula.wildaside.block.SubstiliumBlockBlock;
 import net.gyula.wildaside.block.OvergrownEntoriumOreBlock;
 import net.gyula.wildaside.block.LowerSubstiliumSoilBlock;
 import net.gyula.wildaside.block.LitVibrionGelBlock;
+import net.gyula.wildaside.block.HickoryStairsBlock;
+import net.gyula.wildaside.block.HickorySlabBlock;
+import net.gyula.wildaside.block.HickoryPressurePlateBlock;
 import net.gyula.wildaside.block.HickoryPlanksBlock;
 import net.gyula.wildaside.block.HickoryLogBlock;
+import net.gyula.wildaside.block.HickoryFenceGateBlock;
+import net.gyula.wildaside.block.HickoryFenceBlock;
+import net.gyula.wildaside.block.HickoryButtonBlock;
 import net.gyula.wildaside.block.HickoryBlockBlock;
 import net.gyula.wildaside.block.HangingVibrionVinesPlantBlock;
 import net.gyula.wildaside.block.HangingVibrionVinesGrowerBlock;
@@ -77,6 +82,9 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SUBSTILIUM_PRESSURE_PLATE = REGISTRY.register("substilium_pressure_plate",
 			() -> new SubstiliumPressurePlateBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_BUTTON = REGISTRY.register("substilium_button", () -> new SubstiliumButtonBlock());
+	public static final RegistryObject<Block> HICKORY_LOG = REGISTRY.register("hickory_log", () -> new HickoryLogBlock());
+	public static final RegistryObject<Block> HICKORY_BLOCK = REGISTRY.register("hickory_block", () -> new HickoryBlockBlock());
+	public static final RegistryObject<Block> HICKORY_PLANKS = REGISTRY.register("hickory_planks", () -> new HickoryPlanksBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VINES_PLANT = REGISTRY.register("hanging_vibrion_vines_plant",
 			() -> new HangingVibrionVinesPlantBlock());
 	public static final RegistryObject<Block> LOWER_SUBSTILIUM_SOIL = REGISTRY.register("lower_substilium_soil",
@@ -87,11 +95,13 @@ public class WildasideModBlocks {
 			() -> new HangingVibrionGelGrowerBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower",
 			() -> new SubstiliumTreeGrowerBlock());
-	public static final RegistryObject<Block> HICKORY_LOG = REGISTRY.register("hickory_log", () -> new HickoryLogBlock());
-	public static final RegistryObject<Block> HICKORY_PLANKS = REGISTRY.register("hickory_planks", () -> new HickoryPlanksBlock());
-	public static final RegistryObject<Block> YELLOW_HICKORY_PLANKS = REGISTRY.register("yellow_hickory_planks",
-			() -> new YellowHickoryPlanksBlock());
-	public static final RegistryObject<Block> HICKORY_BLOCK = REGISTRY.register("hickory_block", () -> new HickoryBlockBlock());
+	public static final RegistryObject<Block> HICKORY_STAIRS = REGISTRY.register("hickory_stairs", () -> new HickoryStairsBlock());
+	public static final RegistryObject<Block> HICKORY_SLAB = REGISTRY.register("hickory_slab", () -> new HickorySlabBlock());
+	public static final RegistryObject<Block> HICKORY_FENCE = REGISTRY.register("hickory_fence", () -> new HickoryFenceBlock());
+	public static final RegistryObject<Block> HICKORY_FENCE_GATE = REGISTRY.register("hickory_fence_gate", () -> new HickoryFenceGateBlock());
+	public static final RegistryObject<Block> HICKORY_PRESSURE_PLATE = REGISTRY.register("hickory_pressure_plate",
+			() -> new HickoryPressurePlateBlock());
+	public static final RegistryObject<Block> HICKORY_BUTTON = REGISTRY.register("hickory_button", () -> new HickoryButtonBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -114,6 +124,10 @@ public class WildasideModBlocks {
 			SubstiliumButtonBlock.registerRenderLayer();
 			HangingVibrionVinesPlantBlock.registerRenderLayer();
 			HangingVibrionGelGrowerBlock.registerRenderLayer();
+			HickoryFenceBlock.registerRenderLayer();
+			HickoryFenceGateBlock.registerRenderLayer();
+			HickoryPressurePlateBlock.registerRenderLayer();
+			HickoryButtonBlock.registerRenderLayer();
 		}
 	}
 }

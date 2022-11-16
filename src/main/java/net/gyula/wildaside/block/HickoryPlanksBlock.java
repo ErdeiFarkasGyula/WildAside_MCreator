@@ -3,6 +3,7 @@ package net.gyula.wildaside.block;
 
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -17,24 +18,26 @@ import net.gyula.wildaside.procedures.HickoryPlanksPlacedProcedure;
 
 import java.util.List;
 import java.util.Collections;
+import net.minecraft.world.level.block.state.StateDefinition;
 
 public class HickoryPlanksBlock extends Block {
 
 	public static final BooleanProperty IS_YELLOW = BooleanProperty.create("is_yellow");
 	
 	public HickoryPlanksBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.5f, 4f));
-		this.registerDefaultState(this.defaultBlockState().setValue(IS_YELLOW, Boolean.valueOf(false)));
+		super(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.TERRACOTTA_ORANGE).sound(SoundType.WOOD).strength(2.5f, 4f));
+		this.registerDefaultState(this.defaultBlockState().setValue(IS_YELLOW, false));
 	}
-	
-	@Nullable
-   	public BlockState getStateForPlacement(BlockPlaceContext pContext) {
-      return this.defaultBlockState().setValue(IS_YELLOW, Boolean.valueOf(0.37 > Math.random()));
-   	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		HickoryPlanksPlacedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override
@@ -46,12 +49,7 @@ public class HickoryPlanksBlock extends Block {
 	}
 
 	@Override
-	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
-		super.onPlace(blockstate, world, pos, oldState, moving);
-		HickoryPlanksPlacedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-	}
-
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
-      pBuilder.add(IS_YELLOW);
-   }
+      	pBuilder.add(IS_YELLOW);
+   	}
 }
