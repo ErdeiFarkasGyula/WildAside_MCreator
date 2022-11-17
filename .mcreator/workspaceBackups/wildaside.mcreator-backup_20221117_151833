@@ -1851,6 +1851,24 @@
       "locked_code": true,
       "registry_name": "hickory_button",
       "path": "~/blocks"
+    },
+    {
+      "name": "HickoryLeaves",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_leaves",
+      "path": "~/blocks"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks",
+      "path": "~/tags"
     }
   ],
   "variable_elements": [],
@@ -1864,6 +1882,7 @@
       "item.wildaside.vibrion": "Vibrion",
       "block.wildaside.vibrion_gel": "Vibrion Gel",
       "item.minecraft.splash_potion.effect.contamination_item": "Splash Potion of Contamination",
+      "block.wildaside.hickory_leaves": "Hickory Leaves",
       "block.wildaside.substilium_soil": "Substilium Soil",
       "block.wildaside.substilium_shroom": "Substilium Shroom",
       "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",

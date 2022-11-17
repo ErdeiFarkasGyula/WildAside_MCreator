@@ -1842,6 +1842,33 @@
       "locked_code": true,
       "registry_name": "hickory_pressure_plate",
       "path": "~/blocks"
+    },
+    {
+      "name": "HickoryButton",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hickory_button",
+      "path": "~/blocks"
+    },
+    {
+      "name": "HickoryLeaves",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_leaves",
+      "path": "~/blocks"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks",
+      "path": "~/tags"
     }
   ],
   "variable_elements": [],
@@ -1855,6 +1882,7 @@
       "item.wildaside.vibrion": "Vibrion",
       "block.wildaside.vibrion_gel": "Vibrion Gel",
       "item.minecraft.splash_potion.effect.contamination_item": "Splash Potion of Contamination",
+      "block.wildaside.hickory_leaves": "Hickory Leaves",
       "block.wildaside.substilium_soil": "Substilium Soil",
       "block.wildaside.substilium_shroom": "Substilium Shroom",
       "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
@@ -1894,6 +1922,7 @@
       "advancements.petrified_antibiotic.descr": "Obtain an Entorium",
       "block.wildaside.substilium_tree_grower": "Substilium Tree Grower",
       "item.minecraft.potion.effect.immune_portection_item": "Potion of Immune Portection",
+      "block.wildaside.hickory_button": "Hickory Button",
       "advancements.petrified_antibiotic.title": "Petrified Antibiotic",
       "effect.wildaside.contamination": "Contamination",
       "advancements.wild_wilder_wildest.title": "Wild, Wilder, Wildest",

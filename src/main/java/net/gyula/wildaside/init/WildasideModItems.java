@@ -68,6 +68,7 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> HICKORY_PRESSURE_PLATE = block(WildasideModBlocks.HICKORY_PRESSURE_PLATE,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_BUTTON = block(WildasideModBlocks.HICKORY_BUTTON, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> HICKORY_LEAVES = block(WildasideModBlocks.HICKORY_LEAVES, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

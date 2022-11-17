@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
@@ -42,6 +43,7 @@ import net.gyula.wildaside.block.HickorySlabBlock;
 import net.gyula.wildaside.block.HickoryPressurePlateBlock;
 import net.gyula.wildaside.block.HickoryPlanksBlock;
 import net.gyula.wildaside.block.HickoryLogBlock;
+import net.gyula.wildaside.block.HickoryLeavesBlock;
 import net.gyula.wildaside.block.HickoryFenceGateBlock;
 import net.gyula.wildaside.block.HickoryFenceBlock;
 import net.gyula.wildaside.block.HickoryButtonBlock;
@@ -102,6 +104,7 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> HICKORY_PRESSURE_PLATE = REGISTRY.register("hickory_pressure_plate",
 			() -> new HickoryPressurePlateBlock());
 	public static final RegistryObject<Block> HICKORY_BUTTON = REGISTRY.register("hickory_button", () -> new HickoryButtonBlock());
+	public static final RegistryObject<Block> HICKORY_LEAVES = REGISTRY.register("hickory_leaves", () -> new HickoryLeavesBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -128,6 +131,16 @@ public class WildasideModBlocks {
 			HickoryFenceGateBlock.registerRenderLayer();
 			HickoryPressurePlateBlock.registerRenderLayer();
 			HickoryButtonBlock.registerRenderLayer();
+		}
+
+		@SubscribeEvent
+		public static void blockColorLoad(ColorHandlerEvent.Block event) {
+			HickoryLeavesBlock.blockColorLoad(event);
+		}
+
+		@SubscribeEvent
+		public static void itemColorLoad(ColorHandlerEvent.Item event) {
+			HickoryLeavesBlock.itemColorLoad(event);
 		}
 	}
 }

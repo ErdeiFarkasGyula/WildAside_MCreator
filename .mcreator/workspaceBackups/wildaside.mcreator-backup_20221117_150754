@@ -1824,6 +1824,51 @@
       "locked_code": true,
       "registry_name": "hickory_fence",
       "path": "~/blocks"
+    },
+    {
+      "name": "HickoryFenceGate",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hickory_fence_gate",
+      "path": "~/blocks"
+    },
+    {
+      "name": "HickoryPressurePlate",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hickory_pressure_plate",
+      "path": "~/blocks"
+    },
+    {
+      "name": "HickoryButton",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hickory_button",
+      "path": "~/blocks"
+    },
+    {
+      "name": "HickoryLeaves",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_leaves",
+      "path": "~/blocks"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks",
+      "path": "~/tags"
     }
   ],
   "variable_elements": [],
@@ -1832,14 +1877,16 @@
     "en_us": {
       "item.wildaside.entorium": "Entorium",
       "item.minecraft.tipped_arrow.effect.immune_portection_item": "Arrow of Immune Portection",
-      "block.wildaside.vibrion_block": "Vibrion Block",
       "block.wildaside.substilium_fence_gate": "Substilium Fence Gate",
-      "item.wildaside.vibrion": "Vibrion",
+      "block.wildaside.vibrion_block": "Vibrion Block",
       "block.wildaside.vibrion_gel": "Vibrion Gel",
+      "item.wildaside.vibrion": "Vibrion",
+      "block.wildaside.hickory_leaves": "Hickory Leaves",
       "item.minecraft.splash_potion.effect.contamination_item": "Splash Potion of Contamination",
       "block.wildaside.substilium_soil": "Substilium Soil",
       "block.wildaside.substilium_shroom": "Substilium Shroom",
       "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
+      "block.wildaside.hickory_pressure_plate": "Hickory Pressure Plate",
       "block.wildaside.substilium_stairs": "Substilium Stairs",
       "block.wildaside.substilium_fence": "Substilium Fence",
       "item.wildaside.entorium_sporebomb": "Entorium Sporebomb",
@@ -1856,6 +1903,7 @@
       "block.wildaside.hickory_block": "Hickory Block",
       "block.wildaside.vibrion_roots": "Vibrion Roots",
       "advancements.wild_wilder_wildest.descr": "Open a world with WildAside",
+      "block.wildaside.hickory_fence_gate": "Hickory Fence Gate",
       "item.minecraft.lingering_potion.effect.immune_portection_item": "Lingering Potion of Immune Portection",
       "item.wildaside.entorium_pill": "Entorium Pill",
       "block.wildaside.overgrown_entorium_ore": "Overgrown Entorium Ore",
@@ -1874,6 +1922,7 @@
       "advancements.petrified_antibiotic.descr": "Obtain an Entorium",
       "block.wildaside.substilium_tree_grower": "Substilium Tree Grower",
       "item.minecraft.potion.effect.immune_portection_item": "Potion of Immune Portection",
+      "block.wildaside.hickory_button": "Hickory Button",
       "advancements.petrified_antibiotic.title": "Petrified Antibiotic",
       "effect.wildaside.contamination": "Contamination",
       "advancements.wild_wilder_wildest.title": "Wild, Wilder, Wildest",

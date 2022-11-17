@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.WoodButtonBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
@@ -20,6 +21,7 @@ import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 
 import net.gyula.wildaside.init.WildasideModBlocks;
+import net.gyula.wildaside.procedures.HickoryPlanksPlacedProcedure;
 
 import java.util.List;
 import java.util.Collections;
@@ -33,6 +35,7 @@ public class HickoryButtonBlock extends WoodButtonBlock {
 		super(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.TERRACOTTA_ORANGE).sound(SoundType.WOOD).strength(25f, 4f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(IS_YELLOW, false));	
+		this.registerDefaultState(this.stateDefinition.any().setValue(POWERED, false));
 	}
 
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {

@@ -35,6 +35,7 @@ public class HickoryPressurePlateBlock extends PressurePlateBlock {
 		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.TERRACOTTA_ORANGE).sound(SoundType.WOOD)
 				.strength(25f, 4f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(IS_YELLOW, false));
+		this.registerDefaultState(this.stateDefinition.any().setValue(POWERED, false));
 	}
 
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
