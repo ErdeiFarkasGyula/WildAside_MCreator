@@ -1,0 +1,19 @@
+{
+  "wildaside:wild_wilder_wildest": {
+    "criteria": {
+      "wild_wilder_wildest": "2022-11-17 19:06:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:eroded_badlands": "2022-11-17 19:07:41 +0100",
+      "minecraft:badlands": "2022-11-17 19:07:34 +0100",
+      "minecraft:river": "2022-11-17 19:07:40 +0100",
+      "minecraft:stony_shore": "2022-11-17 19:06:57 +0100",
+      "minecraft:desert": "2022-11-17 19:07:30 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}
