@@ -1,0 +1,11 @@
+{
+  "parent": "wildaside:custom/spore_blaster",
+  "textures": {
+    "all": "wildaside:blocks/spore_blaster_base",
+    "particle": "wildaside:blocks/spore_blaster_base",
+    "1": "wildaside:blocks/spore_blaster_top",
+    "2": "wildaside:blocks/spore_blaster_base",
+    "3": "wildaside:blocks/substilium_soil",
+    "4": "wildaside:blocks/spore_blaster_middle"
+  }
+}

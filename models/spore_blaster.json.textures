@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "spore_blaster_top",
+        "2": "spore_blaster_base",
+        "3": "substilium_soil",
+        "4": "spore_blaster_middle"
+      },
+      "name": "default"
+    }
+  }
+}

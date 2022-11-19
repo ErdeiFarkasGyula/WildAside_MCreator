@@ -35,7 +35,10 @@ import net.gyula.wildaside.block.SubstiliumFenceBlock;
 import net.gyula.wildaside.block.SubstiliumDoorBlock;
 import net.gyula.wildaside.block.SubstiliumButtonBlock;
 import net.gyula.wildaside.block.SubstiliumBlockBlock;
+import net.gyula.wildaside.block.SporeBlasterBlock;
+import net.gyula.wildaside.block.SporeAirBlock;
 import net.gyula.wildaside.block.OvergrownEntoriumOreBlock;
+import net.gyula.wildaside.block.NaturalSporeBlasterBlock;
 import net.gyula.wildaside.block.LowerSubstiliumSoilBlock;
 import net.gyula.wildaside.block.LitVibrionGelBlock;
 import net.gyula.wildaside.block.HickoryStairsBlock;
@@ -105,6 +108,10 @@ public class WildasideModBlocks {
 			() -> new HickoryPressurePlateBlock());
 	public static final RegistryObject<Block> HICKORY_BUTTON = REGISTRY.register("hickory_button", () -> new HickoryButtonBlock());
 	public static final RegistryObject<Block> HICKORY_LEAVES = REGISTRY.register("hickory_leaves", () -> new HickoryLeavesBlock());
+	public static final RegistryObject<Block> SPORE_BLASTER = REGISTRY.register("spore_blaster", () -> new SporeBlasterBlock());
+	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
+	public static final RegistryObject<Block> NATURAL_SPORE_BLASTER = REGISTRY.register("natural_spore_blaster",
+			() -> new NaturalSporeBlasterBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -131,6 +138,8 @@ public class WildasideModBlocks {
 			HickoryFenceGateBlock.registerRenderLayer();
 			HickoryPressurePlateBlock.registerRenderLayer();
 			HickoryButtonBlock.registerRenderLayer();
+			SporeBlasterBlock.registerRenderLayer();
+			SporeAirBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent

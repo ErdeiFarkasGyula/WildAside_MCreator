@@ -15,9 +15,11 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.gyula.wildaside.item.VibrionItem;
+import net.gyula.wildaside.item.HickoryNutItem;
 import net.gyula.wildaside.item.EntoriumSporebombItem;
 import net.gyula.wildaside.item.EntoriumPillItem;
 import net.gyula.wildaside.item.EntoriumItem;
+import net.gyula.wildaside.item.CrackedHickoryNutItem;
 import net.gyula.wildaside.WildasideMod;
 
 public class WildasideModItems {
@@ -69,6 +71,12 @@ public class WildasideModItems {
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_BUTTON = block(WildasideModBlocks.HICKORY_BUTTON, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_LEAVES = block(WildasideModBlocks.HICKORY_LEAVES, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> HICKORY_NUT = REGISTRY.register("hickory_nut", () -> new HickoryNutItem());
+	public static final RegistryObject<Item> CRACKED_HICKORY_NUT = REGISTRY.register("cracked_hickory_nut", () -> new CrackedHickoryNutItem());
+	public static final RegistryObject<Item> SPORE_BLASTER = block(WildasideModBlocks.SPORE_BLASTER, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SPORE_AIR = block(WildasideModBlocks.SPORE_AIR, null);
+	public static final RegistryObject<Item> NATURAL_SPORE_BLASTER = block(WildasideModBlocks.NATURAL_SPORE_BLASTER,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

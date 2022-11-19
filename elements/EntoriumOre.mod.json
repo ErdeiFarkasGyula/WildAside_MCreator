@@ -101,7 +101,7 @@
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "CUSTOM:LitEntoriumParticle"
+      "value": "CUSTOM:VibrionParticle"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.1,
@@ -130,10 +130,10 @@
         "value": "Blocks.STONE"
       }
     ],
-    "generationShape": "UNIFORM",
+    "generationShape": "TRIANGLE",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
+    "minGenerateHeight": -80,
     "maxGenerateHeight": 64
   }
 }
