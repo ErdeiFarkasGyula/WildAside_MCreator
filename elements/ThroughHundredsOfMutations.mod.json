@@ -13,7 +13,10 @@
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [],
+    "rewardRecipes": [
+      "VibrionBlockCraft",
+      "VibrionToDye"
+    ],
     "rewardFunction": "No function",
     "rewardXP": 3,
     "achievementType": "task",

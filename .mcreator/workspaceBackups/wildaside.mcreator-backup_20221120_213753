@@ -2491,18 +2491,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           }
         ]
       },
@@ -2545,6 +2533,23 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "previous_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/Gui/BioengineerWorkspace"
+    },
+    {
+      "name": "SetSlotRecipes",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_slot_recipes",
       "metadata": {
         "dependencies": [
           {

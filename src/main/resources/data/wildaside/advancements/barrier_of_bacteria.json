@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "wildaside:spore_blaster"
+    },
+    "title": {
+      "translate": "advancements.barrier_of_bacteria.title"
+    },
+    "description": {
+      "translate": "advancements.barrier_of_bacteria.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "barrier_of_bacteria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wildaside:spore_blaster"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "wildaside:dangerous_warfare"
+}

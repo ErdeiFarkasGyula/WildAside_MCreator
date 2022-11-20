@@ -33,7 +33,11 @@
     }
   },
   "rewards": {
-    "experience": 3
+    "experience": 3,
+    "recipes": [
+      "wildaside:vibrion_block",
+      "wildaside:vibrion_to_dye"
+    ]
   },
   "parent": "wildaside:unsafe_haven"
 }

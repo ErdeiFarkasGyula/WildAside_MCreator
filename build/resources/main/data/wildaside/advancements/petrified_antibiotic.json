@@ -33,7 +33,10 @@
     }
   },
   "rewards": {
-    "experience": 5
+    "experience": 5,
+    "recipes": [
+      "wildaside:entorium_pill"
+    ]
   },
   "parent": "wildaside:useful_finding"
 }

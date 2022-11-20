@@ -2491,18 +2491,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           }
         ]
       },
@@ -2554,6 +2542,41 @@
         ]
       },
       "path": "~/procedures/Gui/BioengineerWorkspace"
+    },
+    {
+      "name": "SetSlotRecipes",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_slot_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/Gui/BioengineerWorkspace"
+    },
+    {
+      "name": "SporeBlasterCraft",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spore_blaster_craft",
+      "path": "~/recipes/vibrion"
+    },
+    {
+      "name": "BarrierOfBacteria",
+      "type": "achievement",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrier_of_bacteria",
+      "path": "~/advancements"
     }
   ],
   "variable_elements": [
@@ -2588,8 +2611,10 @@
       "block.wildaside.hickory_pressure_plate": "Hickory Pressure Plate",
       "block.wildaside.substilium_stairs": "Substilium Stairs",
       "item.wildaside.cracked_hickory_nut": "Cracked Hickory Nut",
+      "advancements.barrier_of_bacteria.descr": "Obtain a Spore Blaster",
       "block.wildaside.substilium_fence": "Substilium Fence",
       "item.wildaside.entorium_sporebomb": "Entorium Sporebomb",
+      "advancements.barrier_of_bacteria.title": "Barrier Of Bacteria",
       "block.wildaside.substilium_planks": "Substilium Planks",
       "block.wildaside.hanging_vibrion_gel_grower": "Hanging Vibrion Gel Grower",
       "block.wildaside.vibrion_sporeholder": "Vibrion Sporeholder",

@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "hickory_log_hidden_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wildaside:hickory_log"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "wildaside:hickory_planks",
+      "wildaside:hickory_planks",
+      "wildaside:hickory_block",
+      "wildaside:hickory_stairs",
+      "wildaside:hickory_slab",
+      "wildaside:hickory_fence",
+      "wildaside:hickory_fence_gate",
+      "wildaside:hickory_pressure_plate",
+      "wildaside:hickory_button"
+    ]
+  },
+  "parent": "wildaside:wild_wilder_wildest"
+}
