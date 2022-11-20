@@ -56,6 +56,7 @@ import net.gyula.wildaside.block.HangingVibrionVinesGrowerBlock;
 import net.gyula.wildaside.block.HangingVibrionVinesBlock;
 import net.gyula.wildaside.block.HangingVibrionGelGrowerBlock;
 import net.gyula.wildaside.block.EntoriumOreBlock;
+import net.gyula.wildaside.block.BioengineerWorkspaceBlock;
 import net.gyula.wildaside.WildasideMod;
 
 public class WildasideModBlocks {
@@ -87,9 +88,22 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SUBSTILIUM_PRESSURE_PLATE = REGISTRY.register("substilium_pressure_plate",
 			() -> new SubstiliumPressurePlateBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_BUTTON = REGISTRY.register("substilium_button", () -> new SubstiliumButtonBlock());
+	public static final RegistryObject<Block> NATURAL_SPORE_BLASTER = REGISTRY.register("natural_spore_blaster",
+			() -> new NaturalSporeBlasterBlock());
+	public static final RegistryObject<Block> SPORE_BLASTER = REGISTRY.register("spore_blaster", () -> new SporeBlasterBlock());
+	public static final RegistryObject<Block> BIOENGINEER_WORKSPACE = REGISTRY.register("bioengineer_workspace",
+			() -> new BioengineerWorkspaceBlock());
 	public static final RegistryObject<Block> HICKORY_LOG = REGISTRY.register("hickory_log", () -> new HickoryLogBlock());
 	public static final RegistryObject<Block> HICKORY_BLOCK = REGISTRY.register("hickory_block", () -> new HickoryBlockBlock());
 	public static final RegistryObject<Block> HICKORY_PLANKS = REGISTRY.register("hickory_planks", () -> new HickoryPlanksBlock());
+	public static final RegistryObject<Block> HICKORY_STAIRS = REGISTRY.register("hickory_stairs", () -> new HickoryStairsBlock());
+	public static final RegistryObject<Block> HICKORY_SLAB = REGISTRY.register("hickory_slab", () -> new HickorySlabBlock());
+	public static final RegistryObject<Block> HICKORY_FENCE = REGISTRY.register("hickory_fence", () -> new HickoryFenceBlock());
+	public static final RegistryObject<Block> HICKORY_FENCE_GATE = REGISTRY.register("hickory_fence_gate", () -> new HickoryFenceGateBlock());
+	public static final RegistryObject<Block> HICKORY_PRESSURE_PLATE = REGISTRY.register("hickory_pressure_plate",
+			() -> new HickoryPressurePlateBlock());
+	public static final RegistryObject<Block> HICKORY_BUTTON = REGISTRY.register("hickory_button", () -> new HickoryButtonBlock());
+	public static final RegistryObject<Block> HICKORY_LEAVES = REGISTRY.register("hickory_leaves", () -> new HickoryLeavesBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VINES_PLANT = REGISTRY.register("hanging_vibrion_vines_plant",
 			() -> new HangingVibrionVinesPlantBlock());
 	public static final RegistryObject<Block> LOWER_SUBSTILIUM_SOIL = REGISTRY.register("lower_substilium_soil",
@@ -100,18 +114,7 @@ public class WildasideModBlocks {
 			() -> new HangingVibrionGelGrowerBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower",
 			() -> new SubstiliumTreeGrowerBlock());
-	public static final RegistryObject<Block> HICKORY_STAIRS = REGISTRY.register("hickory_stairs", () -> new HickoryStairsBlock());
-	public static final RegistryObject<Block> HICKORY_SLAB = REGISTRY.register("hickory_slab", () -> new HickorySlabBlock());
-	public static final RegistryObject<Block> HICKORY_FENCE = REGISTRY.register("hickory_fence", () -> new HickoryFenceBlock());
-	public static final RegistryObject<Block> HICKORY_FENCE_GATE = REGISTRY.register("hickory_fence_gate", () -> new HickoryFenceGateBlock());
-	public static final RegistryObject<Block> HICKORY_PRESSURE_PLATE = REGISTRY.register("hickory_pressure_plate",
-			() -> new HickoryPressurePlateBlock());
-	public static final RegistryObject<Block> HICKORY_BUTTON = REGISTRY.register("hickory_button", () -> new HickoryButtonBlock());
-	public static final RegistryObject<Block> HICKORY_LEAVES = REGISTRY.register("hickory_leaves", () -> new HickoryLeavesBlock());
-	public static final RegistryObject<Block> SPORE_BLASTER = REGISTRY.register("spore_blaster", () -> new SporeBlasterBlock());
 	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
-	public static final RegistryObject<Block> NATURAL_SPORE_BLASTER = REGISTRY.register("natural_spore_blaster",
-			() -> new NaturalSporeBlasterBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -132,13 +135,13 @@ public class WildasideModBlocks {
 			SubstiliumTrapdoorBlock.registerRenderLayer();
 			SubstiliumPressurePlateBlock.registerRenderLayer();
 			SubstiliumButtonBlock.registerRenderLayer();
-			HangingVibrionVinesPlantBlock.registerRenderLayer();
-			HangingVibrionGelGrowerBlock.registerRenderLayer();
+			SporeBlasterBlock.registerRenderLayer();
 			HickoryFenceBlock.registerRenderLayer();
 			HickoryFenceGateBlock.registerRenderLayer();
 			HickoryPressurePlateBlock.registerRenderLayer();
 			HickoryButtonBlock.registerRenderLayer();
-			SporeBlasterBlock.registerRenderLayer();
+			HangingVibrionVinesPlantBlock.registerRenderLayer();
+			HangingVibrionGelGrowerBlock.registerRenderLayer();
 			SporeAirBlock.registerRenderLayer();
 		}
 

@@ -55,14 +55,14 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> SUBSTILIUM_PRESSURE_PLATE = block(WildasideModBlocks.SUBSTILIUM_PRESSURE_PLATE,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SUBSTILIUM_BUTTON = block(WildasideModBlocks.SUBSTILIUM_BUTTON, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> NATURAL_SPORE_BLASTER = block(WildasideModBlocks.NATURAL_SPORE_BLASTER,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SPORE_BLASTER = block(WildasideModBlocks.SPORE_BLASTER, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> BIOENGINEER_WORKSPACE = block(WildasideModBlocks.BIOENGINEER_WORKSPACE,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_LOG = block(WildasideModBlocks.HICKORY_LOG, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_BLOCK = block(WildasideModBlocks.HICKORY_BLOCK, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_PLANKS = block(WildasideModBlocks.HICKORY_PLANKS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> HANGING_VIBRION_VINES_PLANT = block(WildasideModBlocks.HANGING_VIBRION_VINES_PLANT, null);
-	public static final RegistryObject<Item> LOWER_SUBSTILIUM_SOIL = block(WildasideModBlocks.LOWER_SUBSTILIUM_SOIL, null);
-	public static final RegistryObject<Item> HANGING_VIBRION_VINES_GROWER = block(WildasideModBlocks.HANGING_VIBRION_VINES_GROWER, null);
-	public static final RegistryObject<Item> HANGING_VIBRION_GEL_GROWER = block(WildasideModBlocks.HANGING_VIBRION_GEL_GROWER, null);
-	public static final RegistryObject<Item> SUBSTILIUM_TREE_GROWER = block(WildasideModBlocks.SUBSTILIUM_TREE_GROWER, null);
 	public static final RegistryObject<Item> HICKORY_STAIRS = block(WildasideModBlocks.HICKORY_STAIRS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_SLAB = block(WildasideModBlocks.HICKORY_SLAB, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_FENCE = block(WildasideModBlocks.HICKORY_FENCE, WildasideModTabs.TAB_WILD_ASIDE_TAB);
@@ -73,10 +73,12 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> HICKORY_LEAVES = block(WildasideModBlocks.HICKORY_LEAVES, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_NUT = REGISTRY.register("hickory_nut", () -> new HickoryNutItem());
 	public static final RegistryObject<Item> CRACKED_HICKORY_NUT = REGISTRY.register("cracked_hickory_nut", () -> new CrackedHickoryNutItem());
-	public static final RegistryObject<Item> SPORE_BLASTER = block(WildasideModBlocks.SPORE_BLASTER, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> HANGING_VIBRION_VINES_PLANT = block(WildasideModBlocks.HANGING_VIBRION_VINES_PLANT, null);
+	public static final RegistryObject<Item> LOWER_SUBSTILIUM_SOIL = block(WildasideModBlocks.LOWER_SUBSTILIUM_SOIL, null);
+	public static final RegistryObject<Item> HANGING_VIBRION_VINES_GROWER = block(WildasideModBlocks.HANGING_VIBRION_VINES_GROWER, null);
+	public static final RegistryObject<Item> HANGING_VIBRION_GEL_GROWER = block(WildasideModBlocks.HANGING_VIBRION_GEL_GROWER, null);
+	public static final RegistryObject<Item> SUBSTILIUM_TREE_GROWER = block(WildasideModBlocks.SUBSTILIUM_TREE_GROWER, null);
 	public static final RegistryObject<Item> SPORE_AIR = block(WildasideModBlocks.SPORE_AIR, null);
-	public static final RegistryObject<Item> NATURAL_SPORE_BLASTER = block(WildasideModBlocks.NATURAL_SPORE_BLASTER,
-			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
