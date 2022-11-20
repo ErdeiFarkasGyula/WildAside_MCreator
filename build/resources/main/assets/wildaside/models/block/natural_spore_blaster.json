@@ -5,7 +5,7 @@
     "up": "wildaside:blocks/substilium_soil",
     "north": "wildaside:blocks/spore_blaster_face",
     "east": "wildaside:blocks/substilium_soil",
-    "south": "wildaside:blocks/substilium_soil",
+    "south": "wildaside:blocks/spore_blaster_face",
     "west": "wildaside:blocks/substilium_soil",
     "particle": "wildaside:blocks/substilium_soil"
   }

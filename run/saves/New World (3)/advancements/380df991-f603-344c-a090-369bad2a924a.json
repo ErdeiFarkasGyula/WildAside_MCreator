@@ -1,23 +1,61 @@
 {
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-11-20 14:08:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-11-20 14:08:42 +0100"
+    },
+    "done": true
+  },
   "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "wild_wilder_wildest": "2022-11-19 23:14:05 +0100"
+      "wild_wilder_wildest": "2022-11-20 14:07:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-11-20 14:08:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-11-20 14:08:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-11-20 14:08:42 +0100"
+    },
+    "done": true
+  },
+  "wildaside:spread_100": {
+    "criteria": {
+      "spread_100": "2022-11-20 14:08:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-11-20 14:08:42 +0100"
     },
     "done": true
   },
   "wildaside:unsafe_haven": {
     "criteria": {
-      "unsafe_haven": "2022-11-19 23:14:23 +0100"
+      "unsafe_haven": "2022-11-20 14:08:01 +0100"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:sparse_jungle": "2022-11-19 23:14:05 +0100",
-      "minecraft:dripstone_caves": "2022-11-19 23:17:17 +0100",
-      "minecraft:forest": "2022-11-19 23:14:58 +0100",
-      "minecraft:jungle": "2022-11-19 23:14:48 +0100",
-      "minecraft:plains": "2022-11-19 23:15:16 +0100"
+      "minecraft:snowy_taiga": "2022-11-20 14:07:49 +0100"
     },
     "done": false
   },

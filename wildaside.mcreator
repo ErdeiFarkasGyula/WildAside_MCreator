@@ -2108,258 +2108,6 @@
       "path": "~/structures/NaturalSporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr2",
-      "type": "structure",
-      "sortid": 170,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_2",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr3",
-      "type": "structure",
-      "sortid": 171,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_3",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr4",
-      "type": "structure",
-      "sortid": 172,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_4",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr5",
-      "type": "structure",
-      "sortid": 173,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_5",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr6",
-      "type": "structure",
-      "sortid": 174,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_6",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr7",
-      "type": "structure",
-      "sortid": 175,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_7",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr8",
-      "type": "structure",
-      "sortid": 176,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_8",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr9",
-      "type": "structure",
-      "sortid": 177,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_9",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr10",
-      "type": "structure",
-      "sortid": 178,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_10",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr11",
-      "type": "structure",
-      "sortid": 179,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_11",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr12",
-      "type": "structure",
-      "sortid": 180,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_12",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr13",
-      "type": "structure",
-      "sortid": 181,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_13",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr14",
-      "type": "structure",
-      "sortid": 182,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_14",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr15",
-      "type": "structure",
-      "sortid": 183,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_15",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr16",
-      "type": "structure",
-      "sortid": 184,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_16",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr17",
-      "type": "structure",
-      "sortid": 185,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_17",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr18",
-      "type": "structure",
-      "sortid": 186,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_18",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr19",
-      "type": "structure",
-      "sortid": 187,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_19",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr20",
-      "type": "structure",
-      "sortid": 188,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_20",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr21",
-      "type": "structure",
-      "sortid": 189,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_21",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr22",
-      "type": "structure",
-      "sortid": 190,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_22",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr23",
-      "type": "structure",
-      "sortid": 191,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_23",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr24",
-      "type": "structure",
-      "sortid": 192,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_24",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr25",
-      "type": "structure",
-      "sortid": 193,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_25",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr26",
-      "type": "structure",
-      "sortid": 194,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_26",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr27",
-      "type": "structure",
-      "sortid": 195,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_27",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr28",
-      "type": "structure",
-      "sortid": 196,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_28",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr29",
-      "type": "structure",
-      "sortid": 197,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_29",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
       "name": "NaturalSporeBlasterBlockIsPlacedBy",
       "type": "procedure",
       "sortid": 198,
@@ -2387,114 +2135,6 @@
         ]
       },
       "path": "~/procedures/SporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr30",
-      "type": "structure",
-      "sortid": 199,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_30",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr31",
-      "type": "structure",
-      "sortid": 200,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_31",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr32",
-      "type": "structure",
-      "sortid": 201,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_32",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr33",
-      "type": "structure",
-      "sortid": 202,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_33",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr34",
-      "type": "structure",
-      "sortid": 203,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_34",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr35",
-      "type": "structure",
-      "sortid": 204,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_35",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr36",
-      "type": "structure",
-      "sortid": 205,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_36",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr37",
-      "type": "structure",
-      "sortid": 206,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_37",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr38",
-      "type": "structure",
-      "sortid": 207,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_38",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr39",
-      "type": "structure",
-      "sortid": 208,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_39",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr40",
-      "type": "structure",
-      "sortid": 209,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_40",
-      "path": "~/structures/NaturalSporeBlaster"
-    },
-    {
-      "name": "NaturalSporeBlasterStr41",
-      "type": "structure",
-      "sortid": 210,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_41",
-      "path": "~/structures/NaturalSporeBlaster"
     },
     {
       "name": "NaturalSporeBlasterStr42AdditionalGenerationCondition",
@@ -2527,138 +2167,248 @@
       "path": "~/procedures/SporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr42",
-      "type": "structure",
-      "sortid": 213,
+      "name": "NaturalSporeBlasterBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_42",
+      "registry_name": "natural_spore_blaster_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/SporeBlaster"
+    },
+    {
+      "name": "NaturalSporeBlasterStr2",
+      "type": "structure",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_spore_blaster_str_2",
       "path": "~/structures/NaturalSporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr43",
+      "name": "NaturalSporeBlasterStr3",
       "type": "structure",
-      "sortid": 214,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_43",
+      "registry_name": "natural_spore_blaster_str_3",
       "path": "~/structures/NaturalSporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr44",
+      "name": "NaturalSporeBlasterStr4",
       "type": "structure",
-      "sortid": 215,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_44",
+      "registry_name": "natural_spore_blaster_str_4",
       "path": "~/structures/NaturalSporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr45",
+      "name": "NaturalSporeBlasterStr5",
       "type": "structure",
-      "sortid": 216,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_45",
+      "registry_name": "natural_spore_blaster_str_5",
       "path": "~/structures/NaturalSporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr46",
+      "name": "NaturalSporeBlasterStr6",
       "type": "structure",
-      "sortid": 217,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_46",
+      "registry_name": "natural_spore_blaster_str_6",
       "path": "~/structures/NaturalSporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr47",
+      "name": "NaturalSporeBlasterStr7",
       "type": "structure",
-      "sortid": 218,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_47",
+      "registry_name": "natural_spore_blaster_str_7",
       "path": "~/structures/NaturalSporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr48",
+      "name": "NaturalSporeBlasterStr8",
       "type": "structure",
-      "sortid": 219,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_48",
+      "registry_name": "natural_spore_blaster_str_8",
       "path": "~/structures/NaturalSporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr49",
+      "name": "NaturalSporeBlasterStr9",
       "type": "structure",
-      "sortid": 220,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_49",
+      "registry_name": "natural_spore_blaster_str_9",
       "path": "~/structures/NaturalSporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr50",
+      "name": "NaturalSporeBlasterStr10",
       "type": "structure",
-      "sortid": 221,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_50",
+      "registry_name": "natural_spore_blaster_str_10",
       "path": "~/structures/NaturalSporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr52",
+      "name": "NaturalSporeBlasterStr11",
       "type": "structure",
-      "sortid": 222,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_52",
+      "registry_name": "natural_spore_blaster_str_11",
       "path": "~/structures/NaturalSporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr51",
+      "name": "NaturalSporeBlasterStr12",
       "type": "structure",
-      "sortid": 223,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_51",
+      "registry_name": "natural_spore_blaster_str_12",
       "path": "~/structures/NaturalSporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr53",
+      "name": "NaturalSporeBlasterStr13",
       "type": "structure",
-      "sortid": 224,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_53",
+      "registry_name": "natural_spore_blaster_str_13",
       "path": "~/structures/NaturalSporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr54",
+      "name": "NaturalSporeBlasterStr14",
       "type": "structure",
-      "sortid": 225,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_54",
+      "registry_name": "natural_spore_blaster_str_14",
       "path": "~/structures/NaturalSporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr55",
+      "name": "NaturalSporeBlasterStr15",
       "type": "structure",
-      "sortid": 226,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_55",
+      "registry_name": "natural_spore_blaster_str_15",
       "path": "~/structures/NaturalSporeBlaster"
     },
     {
-      "name": "NaturalSporeBlasterStr56",
+      "name": "NaturalSporeBlasterStr16",
       "type": "structure",
-      "sortid": 227,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "natural_spore_blaster_str_56",
+      "registry_name": "natural_spore_blaster_str_16",
+      "path": "~/structures/NaturalSporeBlaster"
+    },
+    {
+      "name": "NaturalSporeBlasterStr17",
+      "type": "structure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_spore_blaster_str_17",
+      "path": "~/structures/NaturalSporeBlaster"
+    },
+    {
+      "name": "NaturalSporeBlasterStr18",
+      "type": "structure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_spore_blaster_str_18",
+      "path": "~/structures/NaturalSporeBlaster"
+    },
+    {
+      "name": "NaturalSporeBlasterStr19",
+      "type": "structure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_spore_blaster_str_19",
+      "path": "~/structures/NaturalSporeBlaster"
+    },
+    {
+      "name": "NaturalSporeBlasterStr20",
+      "type": "structure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_spore_blaster_str_20",
+      "path": "~/structures/NaturalSporeBlaster"
+    },
+    {
+      "name": "NaturalSporeBlasterStr21",
+      "type": "structure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_spore_blaster_str_21",
+      "path": "~/structures/NaturalSporeBlaster"
+    },
+    {
+      "name": "NaturalSporeBlasterStr22",
+      "type": "structure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_spore_blaster_str_22",
+      "path": "~/structures/NaturalSporeBlaster"
+    },
+    {
+      "name": "NaturalSporeBlasterStr23",
+      "type": "structure",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_spore_blaster_str_23",
+      "path": "~/structures/NaturalSporeBlaster"
+    },
+    {
+      "name": "NaturalSporeBlasterStr24",
+      "type": "structure",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_spore_blaster_str_24",
+      "path": "~/structures/NaturalSporeBlaster"
+    },
+    {
+      "name": "NaturalSporeBlasterStr25",
+      "type": "structure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_spore_blaster_str_25",
       "path": "~/structures/NaturalSporeBlaster"
     }
   ],
@@ -2668,8 +2418,8 @@
     "en_us": {
       "item.wildaside.entorium": "Entorium",
       "item.minecraft.tipped_arrow.effect.immune_portection_item": "Arrow of Immune Portection",
-      "block.wildaside.vibrion_block": "Vibrion Block",
       "block.wildaside.substilium_fence_gate": "Substilium Fence Gate",
+      "block.wildaside.vibrion_block": "Vibrion Block",
       "item.wildaside.vibrion": "Vibrion",
       "block.wildaside.vibrion_gel": "Vibrion Gel",
       "item.minecraft.splash_potion.effect.contamination_item": "Splash Potion of Contamination",

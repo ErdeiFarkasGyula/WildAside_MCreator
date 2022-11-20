@@ -75,7 +75,7 @@ public class NaturalSporeBlasterStr9Feature extends Feature<NoneFeatureConfigura
 				j = Mth.nextInt(context.random(), 8 + context.level().getMinBuildHeight(), Math.max(j, 9 + context.level().getMinBuildHeight()));
 				if (!base_blocks.contains(context.level().getBlockState(new BlockPos(i, j, k)).getBlock()))
 					continue;
-				BlockPos spawnTo = new BlockPos(i + 0, j + -1, k + 0);
+				BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
 				WorldGenLevel world = context.level();
 				int x = spawnTo.getX();
 				int y = spawnTo.getY();

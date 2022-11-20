@@ -7,7 +7,7 @@
     "textureLeft": "substilium_soil",
     "textureFront": "spore_blaster_face",
     "textureRight": "substilium_soil",
-    "textureBack": "substilium_soil",
+    "textureBack": "spore_blaster_face",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 2,
@@ -127,10 +127,10 @@
       "name": "NaturalSporeBlasterBlockIsPlacedBy"
     },
     "onDestroyedByPlayer": {
-      "name": "SporeBlasterRedstoneOff"
+      "name": "NaturalSporeBlasterBlockDestroyedByExplosion"
     },
     "onDestroyedByExplosion": {
-      "name": "SporeBlasterRedstoneOff"
+      "name": "NaturalSporeBlasterBlockDestroyedByExplosion"
     },
     "onBlockPlayedBy": {
       "name": "NaturalSporeBlasterBlockIsPlacedBy"

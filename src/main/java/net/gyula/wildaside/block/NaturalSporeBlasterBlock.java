@@ -29,8 +29,8 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
-import net.gyula.wildaside.procedures.SporeBlasterRedstoneOffProcedure;
 import net.gyula.wildaside.procedures.NaturalSporeBlasterBlockIsPlacedByProcedure;
+import net.gyula.wildaside.procedures.NaturalSporeBlasterBlockDestroyedByExplosionProcedure;
 import net.gyula.wildaside.init.WildasideModParticleTypes;
 
 import java.util.Random;
@@ -108,14 +108,14 @@ public class NaturalSporeBlasterBlock extends Block {
 	@Override
 	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
 		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
-		SporeBlasterRedstoneOffProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		NaturalSporeBlasterBlockDestroyedByExplosionProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return retval;
 	}
 
 	@Override
 	public void wasExploded(Level world, BlockPos pos, Explosion e) {
 		super.wasExploded(world, pos, e);
-		SporeBlasterRedstoneOffProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		NaturalSporeBlasterBlockDestroyedByExplosionProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override
