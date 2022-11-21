@@ -1,13 +1,13 @@
 {
   "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "wild_wilder_wildest": "2022-11-20 20:43:59 +0100"
+      "wild_wilder_wildest": "2022-11-21 16:46:45 +0100"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:plains": "2022-11-20 20:43:59 +0100"
+      "minecraft:forest": "2022-11-21 16:46:45 +0100"
     },
     "done": false
   },

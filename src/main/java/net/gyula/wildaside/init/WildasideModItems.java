@@ -19,7 +19,6 @@ import net.gyula.wildaside.item.HickoryNutItem;
 import net.gyula.wildaside.item.EntoriumSporebombItem;
 import net.gyula.wildaside.item.EntoriumPillItem;
 import net.gyula.wildaside.item.EntoriumItem;
-import net.gyula.wildaside.item.CrackedHickoryNutItem;
 import net.gyula.wildaside.WildasideMod;
 
 public class WildasideModItems {
@@ -72,7 +71,6 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> HICKORY_BUTTON = block(WildasideModBlocks.HICKORY_BUTTON, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_LEAVES = block(WildasideModBlocks.HICKORY_LEAVES, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_NUT = REGISTRY.register("hickory_nut", () -> new HickoryNutItem());
-	public static final RegistryObject<Item> CRACKED_HICKORY_NUT = REGISTRY.register("cracked_hickory_nut", () -> new CrackedHickoryNutItem());
 	public static final RegistryObject<Item> HANGING_VIBRION_VINES_PLANT = block(WildasideModBlocks.HANGING_VIBRION_VINES_PLANT, null);
 	public static final RegistryObject<Item> LOWER_SUBSTILIUM_SOIL = block(WildasideModBlocks.LOWER_SUBSTILIUM_SOIL, null);
 	public static final RegistryObject<Item> HANGING_VIBRION_VINES_GROWER = block(WildasideModBlocks.HANGING_VIBRION_VINES_GROWER, null);

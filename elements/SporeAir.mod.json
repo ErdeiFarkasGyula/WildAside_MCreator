@@ -28,7 +28,7 @@
     "hardness": 0.0,
     "resistance": 0.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "No creative tab entry"
     },
@@ -95,7 +95,7 @@
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.01,
-    "particleAmount": 5,
+    "particleAmount": 6,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

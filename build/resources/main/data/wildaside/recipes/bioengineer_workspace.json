@@ -1,0 +1,24 @@
+{
+  "group": "vibrion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EQE",
+    "VQV",
+    "VQV"
+  ],
+  "key": {
+    "E": {
+      "item": "wildaside:entorium"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "V": {
+      "item": "wildaside:vibrion"
+    }
+  },
+  "result": {
+    "item": "wildaside:bioengineer_workspace",
+    "count": 1
+  }
+}

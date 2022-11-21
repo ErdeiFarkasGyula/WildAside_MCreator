@@ -1889,24 +1889,6 @@
       "path": "~/items"
     },
     {
-      "name": "CrackedHickoryNut",
-      "type": "item",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cracked_hickory_nut",
-      "path": "~/items"
-    },
-    {
-      "name": "CrackedHickoryNutExt",
-      "type": "itemextension",
-      "sortid": 161,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cracked_hickory_nut_ext",
-      "path": "~/items"
-    },
-    {
       "name": "SporeBlaster",
       "type": "block",
       "sortid": 29,
@@ -2736,6 +2718,15 @@
         ]
       },
       "path": "~/procedures/Advancements"
+    },
+    {
+      "name": "BioengineerWorkspaceCraft",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bioengineer_workspace_craft",
+      "path": "~/recipes/vibrion"
     }
   ],
   "variable_elements": [
@@ -2770,7 +2761,6 @@
       "block.wildaside.spore_blaster": "Spore Blaster",
       "block.wildaside.hickory_pressure_plate": "Hickory Pressure Plate",
       "block.wildaside.substilium_stairs": "Substilium Stairs",
-      "item.wildaside.cracked_hickory_nut": "Cracked Hickory Nut",
       "advancements.barrier_of_bacteria.descr": "Obtain a Spore Blaster",
       "block.wildaside.substilium_fence": "Substilium Fence",
       "advancements.substilium_log_hidden_1.descr": "SubstiliumPlanksHidden1",
@@ -3033,6 +3023,10 @@
       },
       {
         "name": "gui",
+        "children": []
+      },
+      {
+        "name": "villager",
         "children": []
       }
     ]

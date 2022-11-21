@@ -24,6 +24,5 @@ public class WildasideModCompostableItems {
 		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.VIBRION_ROOTS.get().asItem(), 0.65f);
 		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.SUBSTILIUM_SPROUTS.get().asItem(), 0.5f);
 		ComposterBlock.COMPOSTABLES.put(WildasideModItems.HICKORY_NUT.get(), 0.1f);
-		ComposterBlock.COMPOSTABLES.put(WildasideModItems.CRACKED_HICKORY_NUT.get(), 0.1f);
 	}
 }
