@@ -20,22 +20,24 @@ public class ContaminationDamage1Procedure {
 	@SubscribeEvent
 	public static void onEntityAttacked(LivingAttackEvent event) {
 		if (event != null && event.getEntity() != null) {
-			execute(event, event.getSource().getEntity());
+			execute(event, event.getEntity(), event.getSource().getEntity());
 		}
 	}
 
-	public static void execute(Entity sourceentity) {
-		execute(null, sourceentity);
+	public static void execute(Entity entity, Entity sourceentity) {
+		execute(null, entity, sourceentity);
 	}
 
-	private static void execute(@Nullable Event event, Entity sourceentity) {
-		if (sourceentity == null)
+	private static void execute(@Nullable Event event, Entity entity, Entity sourceentity) {
+		if (entity == null || sourceentity == null)
 			return;
 		if (sourceentity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(WildasideModMobEffects.CONTAMINATION.get()) : false) {
 			if (((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)).getCount() > 0) {
 				{
 					ItemStack _ist = (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-					if (_ist.hurt(1, new Random(), null)) {
+					if (_ist.hurt(entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(WildasideModMobEffects.CONTAMINATION.get())
+							? _livEnt.getEffect(WildasideModMobEffects.CONTAMINATION.get()).getAmplifier()
+							: 0, new Random(), null)) {
 						_ist.shrink(1);
 						_ist.setDamageValue(0);
 					}
@@ -43,7 +45,9 @@ public class ContaminationDamage1Procedure {
 			} else {
 				{
 					ItemStack _ist = (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY);
-					if (_ist.hurt(1, new Random(), null)) {
+					if (_ist.hurt(entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(WildasideModMobEffects.CONTAMINATION.get())
+							? _livEnt.getEffect(WildasideModMobEffects.CONTAMINATION.get()).getAmplifier()
+							: 0, new Random(), null)) {
 						_ist.shrink(1);
 						_ist.setDamageValue(0);
 					}

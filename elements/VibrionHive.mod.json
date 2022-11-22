@@ -57,7 +57,7 @@
     "spawnBiome": false,
     "spawnBiomeNether": false,
     "spawnInCaves": true,
-    "biomeWeight": 10,
+    "biomeWeight": 5,
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 0,
@@ -84,7 +84,7 @@
       "value": ""
     },
     "spawnStronghold": true,
-    "spawnMineshaft": false,
+    "spawnMineshaft": true,
     "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
     "villageType": "none",

@@ -18,8 +18,8 @@ import net.gyula.wildaside.init.WildasideModParticleTypes;
 
 public class VibrionHiveBiome {
 	public static final Climate.ParameterPoint PARAMETER_POINT_UNDERGROUND = new Climate.ParameterPoint(Climate.Parameter.span(-1, 1),
-			Climate.Parameter.span(-1, 1), Climate.Parameter.span(-0.58f, 1.42f), Climate.Parameter.span(-0.1f, 1.9f),
-			Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1.945315797528f, 0.054684202472f), 0);
+			Climate.Parameter.span(-1, 1), Climate.Parameter.span(-0.08f, 0.92f), Climate.Parameter.span(0.4f, 1.4f),
+			Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1.445315797528f, -0.445315797528f), 0);
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-6184663).waterColor(-6184663).waterFogColor(-6184663)

@@ -26,8 +26,8 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.Minecraft;
 
-import net.gyula.wildaside.procedures.VibrionSporeholderEffectGiverProcedure;
 import net.gyula.wildaside.procedures.SporeAirNeighbourBlockChangesProcedure;
+import net.gyula.wildaside.procedures.SporeAirEntityCollidesInTheBlockProcedure;
 import net.gyula.wildaside.init.WildasideModParticleTypes;
 import net.gyula.wildaside.init.WildasideModBlocks;
 
@@ -92,7 +92,7 @@ public class SporeAirBlock extends Block {
 	@Override
 	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
 		super.entityInside(blockstate, world, pos, entity);
-		VibrionSporeholderEffectGiverProcedure.execute(entity);
+		SporeAirEntityCollidesInTheBlockProcedure.execute(entity);
 	}
 
 	@OnlyIn(Dist.CLIENT)

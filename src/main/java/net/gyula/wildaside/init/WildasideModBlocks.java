@@ -35,6 +35,10 @@ import net.gyula.wildaside.block.SubstiliumFenceBlock;
 import net.gyula.wildaside.block.SubstiliumDoorBlock;
 import net.gyula.wildaside.block.SubstiliumButtonBlock;
 import net.gyula.wildaside.block.SubstiliumBlockBlock;
+import net.gyula.wildaside.block.StrippedSubstiliumStemBlock;
+import net.gyula.wildaside.block.StrippedSubstiliumBlockBlock;
+import net.gyula.wildaside.block.StrippedHickoryLogBlock;
+import net.gyula.wildaside.block.StrippedHickoryBlockBlock;
 import net.gyula.wildaside.block.SporeBlasterBlock;
 import net.gyula.wildaside.block.SporeAirBlock;
 import net.gyula.wildaside.block.OvergrownEntoriumOreBlock;
@@ -115,6 +119,13 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower",
 			() -> new SubstiliumTreeGrowerBlock());
 	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
+	public static final RegistryObject<Block> STRIPPED_HICKORY_LOG = REGISTRY.register("stripped_hickory_log", () -> new StrippedHickoryLogBlock());
+	public static final RegistryObject<Block> STRIPPED_HICKORY_BLOCK = REGISTRY.register("stripped_hickory_block",
+			() -> new StrippedHickoryBlockBlock());
+	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_STEM = REGISTRY.register("stripped_substilium_stem",
+			() -> new StrippedSubstiliumStemBlock());
+	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_BLOCK = REGISTRY.register("stripped_substilium_block",
+			() -> new StrippedSubstiliumBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

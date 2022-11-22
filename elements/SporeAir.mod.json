@@ -117,7 +117,7 @@
       "name": "SporeAirNeighbourBlockChanges"
     },
     "onEntityCollides": {
-      "name": "VibrionSporeholderEffectGiver"
+      "name": "SporeAirEntityCollidesInTheBlock"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
