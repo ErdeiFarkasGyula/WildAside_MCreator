@@ -91,11 +91,11 @@
     "breakHarvestLevel": -1,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "CUSTOM:VibrionParticle"
+      "value": "CUSTOM:StillVibrionParticle"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.01,
-    "particleAmount": 6,
+    "particleAmount": 7,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

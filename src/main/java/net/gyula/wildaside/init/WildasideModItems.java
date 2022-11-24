@@ -19,6 +19,7 @@ import net.gyula.wildaside.item.HickoryNutItem;
 import net.gyula.wildaside.item.EntoriumSporebombItem;
 import net.gyula.wildaside.item.EntoriumPillItem;
 import net.gyula.wildaside.item.EntoriumItem;
+import net.gyula.wildaside.item.EntoriumGauntletItem;
 import net.gyula.wildaside.WildasideMod;
 
 public class WildasideModItems {
@@ -85,6 +86,8 @@ public class WildasideModItems {
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> STRIPPED_SUBSTILIUM_BLOCK = block(WildasideModBlocks.STRIPPED_SUBSTILIUM_BLOCK,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> ENTORIUM_GAUNTLET_CHESTPLATE = REGISTRY.register("entorium_gauntlet_chestplate",
+			() -> new EntoriumGauntletItem.Chestplate());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

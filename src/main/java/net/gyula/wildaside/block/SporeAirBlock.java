@@ -78,14 +78,14 @@ public class SporeAirBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		for (int l = 0; l < 6; ++l) {
+		for (int l = 0; l < 7; ++l) {
 			double x0 = x + random.nextFloat();
 			double y0 = y + random.nextFloat();
 			double z0 = z + random.nextFloat();
 			double dx = (random.nextFloat() - 0.5D) * 0.01D;
 			double dy = (random.nextFloat() - 0.5D) * 0.01D;
 			double dz = (random.nextFloat() - 0.5D) * 0.01D;
-			world.addParticle((SimpleParticleType) (WildasideModParticleTypes.VIBRION_PARTICLE.get()), x0, y0, z0, dx, dy, dz);
+			world.addParticle((SimpleParticleType) (WildasideModParticleTypes.STILL_VIBRION_PARTICLE.get()), x0, y0, z0, dx, dy, dz);
 		}
 	}
 

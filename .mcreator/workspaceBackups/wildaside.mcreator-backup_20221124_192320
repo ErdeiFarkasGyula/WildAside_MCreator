@@ -2826,6 +2826,30 @@
       "locked_code": false,
       "registry_name": "stripped_substilium_block",
       "path": "~/blocks"
+    },
+    {
+      "name": "StillVibrionParticle",
+      "type": "particle",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "still_vibrion_particle",
+      "path": "~/particles"
+    },
+    {
+      "name": "EntoriumGauntlet",
+      "type": "armor",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entorium_gauntlet",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      },
+      "path": "~/items"
     }
   ],
   "variable_elements": [
@@ -2846,28 +2870,31 @@
   "language_map": {
     "en_us": {
       "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
-      "item.wildaside.entorium": "Entorium",
       "advancements.substilium_log_hidden_1.title": "SubstiliumPlanksHidden1",
+      "item.wildaside.entorium": "Entorium",
       "item.minecraft.tipped_arrow.effect.immune_portection_item": "Arrow of Immune Portection",
       "block.wildaside.vibrion_block": "Vibrion Block",
+      "item.wildaside.entorium_gauntlet_leggings": "Entorium Gauntlet Leggings",
       "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
       "block.wildaside.spore_blaster": "Spore Blaster",
       "advancements.barrier_of_bacteria.descr": "Obtain a Spore Blaster",
       "block.wildaside.substilium_fence": "Substilium Fence",
       "item.wildaside.entorium_sporebomb": "Entorium Sporebomb",
-      "block.wildaside.substilium_planks": "Substilium Planks",
       "block.wildaside.hanging_vibrion_gel_grower": "Hanging Vibrion Gel Grower",
-      "block.wildaside.vibrion_sporeholder": "Vibrion Sporeholder",
+      "block.wildaside.substilium_planks": "Substilium Planks",
       "block.wildaside.hickory_log": "Hickory Log",
+      "block.wildaside.vibrion_sporeholder": "Vibrion Sporeholder",
       "item.minecraft.tipped_arrow.effect.contamination_item": "Arrow of Contamination",
+      "item.wildaside.entorium_gauntlet_chestplate": "Entorium Gauntlet",
       "itemGroup.tabwild_aside_tab": "WildAside",
       "item.wildaside.entorium_pill": "Entorium Pill",
       "advancements.substilium_planks_hidden_1.title": "SubstiliumPlanksHidden1",
-      "block.wildaside.entorium_ore": "Entorium Ore",
+      "item.wildaside.entorium_gauntlet_helmet": "Entorium Gauntlet Helmet",
       "block.wildaside.hickory_planks": "Hickory Planks",
+      "block.wildaside.entorium_ore": "Entorium Ore",
       "advancements.temporary_solution.descr": "Consume an Entorium Pill while having Contamination",
       "block.wildaside.bioengineer_workspace": "Bioengineer Workspace",
-      "block.wildaside.stripped_substilium_block": "Substilium Block",
+      "block.wildaside.stripped_substilium_block": "Stripped Substilium Block",
       "enchantment.wildaside.revealing": "Revealing",
       "block.wildaside.substilium_button": "Substilium Button",
       "block.wildaside.substilium_stem": "Substilium Stem",
@@ -2884,8 +2911,8 @@
       "block.wildaside.hanging_vibrion_vines_plant": "Hanging Vibrion Vines Plant",
       "advancements.useful_finding.descr": "Shear an Overgrown Substilium Soil block",
       "advancements.spread_100.title": "Spread 100",
-      "advancements.hickory_log_hidden_1.title": "HickoryLogHidden1",
       "advancements.danger_eliminated.title": "Danger Eliminated",
+      "advancements.hickory_log_hidden_1.title": "HickoryLogHidden1",
       "block.wildaside.stripped_hickory_log": "Stripped Hickory Log",
       "block.wildaside.hickory_slab": "Hickory Slab",
       "block.wildaside.lower_substilium_soil": "Substilium Soil",
@@ -2915,6 +2942,7 @@
       "advancements.wild_wilder_wildest.descr": "Open a world with WildAside",
       "block.wildaside.hickory_fence_gate": "Hickory Fence Gate",
       "item.minecraft.lingering_potion.effect.immune_portection_item": "Lingering Potion of Immune Portection",
+      "item.wildaside.entorium_gauntlet_boots": "Entorium Gauntlet Boots",
       "item.wildaside.hickory_nut": "Hickory Nut",
       "block.wildaside.overgrown_entorium_ore": "Overgrown Entorium Ore",
       "block.wildaside.hickory_stairs": "Hickory Stairs",
@@ -3157,5 +3185,5 @@
     "modElementsPackage": "net.gyula.wildaside",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200347418
+  "mcreatorVersion": 202200348217
 }
