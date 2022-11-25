@@ -12,11 +12,9 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 public class SporeBlasterRedstoneOnProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		double power = 0;
-		double loopNumber = 0;
 		double generator_distance = 0;
-		boolean ticked = false;
-		boolean canAdvance = false;
 		power = world instanceof Level _lvl_getIndPow ? _lvl_getIndPow.getBestNeighborSignal(new BlockPos(x, y, z)) : 0;
+		SporeBlasterRedstoneOffProcedure.execute(world, x, y, z);
 		for (int index0 = 0; index0 < (int) (power); index0++) {
 			generator_distance = generator_distance + 1;
 			if (world.isEmptyBlock(new BlockPos(x + (new Object() {

@@ -8,8 +8,8 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -25,8 +25,8 @@
     "boundingBoxes": [],
     "name": "Spore Air",
     "specialInfo": [],
-    "hardness": 0.0,
-    "resistance": 0.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -36,15 +36,15 @@
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
-      "value": "AIR"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -53,20 +53,20 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "AIR",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "DANGER_OTHER",
+    "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "DESTROY",
-    "isNotColidable": true,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "GROUND"
@@ -88,14 +88,14 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": -1,
+    "breakHarvestLevel": 1,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "CUSTOM:StillVibrionParticle"
+      "value": "CUSTOM:VibrionParticle"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.01,
-    "particleAmount": 7,
+    "particleSpawningRadious": 0.1,
+    "particleAmount": 12,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -113,11 +113,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onNeighbourBlockChanges": {
-      "name": "SporeAirNeighbourBlockChanges"
-    },
     "onEntityCollides": {
-      "name": "SporeAirEntityCollidesInTheBlock"
+      "name": "SporeAirNeighbourBlockChanges"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

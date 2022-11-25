@@ -12,11 +12,8 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 public class SporeBlasterRedstoneOffProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		double loopNumber = 0;
-		double generator_distance = 0;
-		double power = 0;
-		boolean canAdvance = false;
 		for (int index0 = 0; index0 < (int) (15); index0++) {
-			generator_distance = generator_distance + 1;
+			loopNumber = loopNumber + 1;
 			if ((world.getBlockState(new BlockPos(x + (new Object() {
 				public Direction getDirection(BlockPos pos) {
 					BlockState _bs = world.getBlockState(pos);
@@ -28,7 +25,7 @@ public class SporeBlasterRedstoneOffProcedure {
 						return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 					return Direction.NORTH;
 				}
-			}.getDirection(new BlockPos(x, y, z))).getStepX() * generator_distance, y + (new Object() {
+			}.getDirection(new BlockPos(x, y, z))).getStepX() * loopNumber, y + (new Object() {
 				public Direction getDirection(BlockPos pos) {
 					BlockState _bs = world.getBlockState(pos);
 					Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
@@ -39,7 +36,7 @@ public class SporeBlasterRedstoneOffProcedure {
 						return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 					return Direction.NORTH;
 				}
-			}.getDirection(new BlockPos(x, y, z))).getStepY() * generator_distance, z + (new Object() {
+			}.getDirection(new BlockPos(x, y, z))).getStepY() * loopNumber, z + (new Object() {
 				public Direction getDirection(BlockPos pos) {
 					BlockState _bs = world.getBlockState(pos);
 					Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
@@ -50,7 +47,7 @@ public class SporeBlasterRedstoneOffProcedure {
 						return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 					return Direction.NORTH;
 				}
-			}.getDirection(new BlockPos(x, y, z))).getStepZ() * generator_distance))).getBlock() == WildasideModBlocks.SPORE_AIR.get()) {
+			}.getDirection(new BlockPos(x, y, z))).getStepZ() * loopNumber))).getBlock() == WildasideModBlocks.SPORE_AIR.get()) {
 				world.setBlock(new BlockPos(x + (new Object() {
 					public Direction getDirection(BlockPos pos) {
 						BlockState _bs = world.getBlockState(pos);
@@ -62,7 +59,7 @@ public class SporeBlasterRedstoneOffProcedure {
 							return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 						return Direction.NORTH;
 					}
-				}.getDirection(new BlockPos(x, y, z))).getStepX() * generator_distance, y + (new Object() {
+				}.getDirection(new BlockPos(x, y, z))).getStepX() * loopNumber, y + (new Object() {
 					public Direction getDirection(BlockPos pos) {
 						BlockState _bs = world.getBlockState(pos);
 						Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
@@ -73,7 +70,7 @@ public class SporeBlasterRedstoneOffProcedure {
 							return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 						return Direction.NORTH;
 					}
-				}.getDirection(new BlockPos(x, y, z))).getStepY() * generator_distance, z + (new Object() {
+				}.getDirection(new BlockPos(x, y, z))).getStepY() * loopNumber, z + (new Object() {
 					public Direction getDirection(BlockPos pos) {
 						BlockState _bs = world.getBlockState(pos);
 						Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
@@ -84,7 +81,7 @@ public class SporeBlasterRedstoneOffProcedure {
 							return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 						return Direction.NORTH;
 					}
-				}.getDirection(new BlockPos(x, y, z))).getStepZ() * generator_distance), Blocks.AIR.defaultBlockState(), 3);
+				}.getDirection(new BlockPos(x, y, z))).getStepZ() * loopNumber), Blocks.AIR.defaultBlockState(), 3);
 			}
 		}
 	}

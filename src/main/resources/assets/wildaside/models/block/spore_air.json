@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "wildaside:blocks/blank",
+    "down": "wildaside:blocks/blank",
+    "up": "wildaside:blocks/blank",
+    "north": "wildaside:blocks/blank",
+    "east": "wildaside:blocks/blank",
+    "south": "wildaside:blocks/blank",
+    "west": "wildaside:blocks/blank",
     "particle": "wildaside:blocks/blank"
   }
 }
