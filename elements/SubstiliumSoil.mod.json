@@ -104,7 +104,7 @@
       "value": "CUSTOM:SubstiliumParticle"
     },
     "particleSpawningShape": "Top",
-    "particleSpawningRadious": 0.4,
+    "particleSpawningRadious": 0.30000000000000004,
     "particleAmount": 2,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

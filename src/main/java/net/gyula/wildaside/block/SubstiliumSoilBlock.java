@@ -57,9 +57,9 @@ public class SubstiliumSoilBlock extends Block {
 		int y = pos.getY();
 		int z = pos.getZ();
 		for (int l = 0; l < 2; ++l) {
-			double x0 = x + 0.5 + (random.nextFloat() - 0.5) * 0.4D;
-			double y0 = y + 1.2 + (random.nextFloat() - 0.5) * 0.4D;
-			double z0 = z + 0.5 + (random.nextFloat() - 0.5) * 0.4D;
+			double x0 = x + 0.5 + (random.nextFloat() - 0.5) * 0.3D;
+			double y0 = y + 1.2 + (random.nextFloat() - 0.5) * 0.3D;
+			double z0 = z + 0.5 + (random.nextFloat() - 0.5) * 0.3D;
 			world.addParticle((SimpleParticleType) (WildasideModParticleTypes.SUBSTILIUM_PARTICLE.get()), x0, y0, z0, 0, 0, 0);
 		}
 	}
