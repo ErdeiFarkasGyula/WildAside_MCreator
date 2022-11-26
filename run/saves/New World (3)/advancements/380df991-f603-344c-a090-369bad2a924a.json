@@ -1,13 +1,55 @@
 {
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2022-11-26 17:26:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_axe": "2022-11-26 17:28:12 +0100"
+    },
+    "done": true
+  },
+  "wildaside:hickory_planks_hidden_1": {
+    "criteria": {
+      "hickory_planks_hidden_1": "2022-11-26 17:26:47 +0100"
+    },
+    "done": true
+  },
+  "wildaside:substilium_log_hidden_1": {
+    "criteria": {
+      "substilium_log_hidden_1": "2022-11-26 17:27:45 +0100"
+    },
+    "done": true
+  },
   "wildaside:wild_wilder_wildest": {
     "criteria": {
       "wild_wilder_wildest": "2022-11-26 14:50:53 +0100"
     },
     "done": true
   },
-  "wildaside:unsafe_haven": {
+  "wildaside:hickory_log_hidden_1": {
     "criteria": {
-      "unsafe_haven": "2022-11-26 15:18:50 +0100"
+      "hickory_log_hidden_1": "2022-11-26 17:26:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2022-11-26 17:26:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_axe": "2022-11-26 17:28:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2022-11-26 17:26:47 +0100"
     },
     "done": true
   },
@@ -18,6 +60,12 @@
       "minecraft:forest": "2022-11-26 15:19:13 +0100"
     },
     "done": false
+  },
+  "wildaside:unsafe_haven": {
+    "criteria": {
+      "unsafe_haven": "2022-11-26 15:18:50 +0100"
+    },
+    "done": true
   },
   "DataVersion": 2975
 }
