@@ -22,7 +22,6 @@ import net.minecraft.world.level.block.DirectionalBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.Explosion;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.entity.player.Player;
@@ -35,7 +34,6 @@ import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.Minecraft;
 
 import net.gyula.wildaside.procedures.SporeBlasterRedstoneOnProcedure;
-import net.gyula.wildaside.procedures.SporeBlasterRedstoneOffProcedure;
 import net.gyula.wildaside.init.WildasideModParticleTypes;
 import net.gyula.wildaside.init.WildasideModBlocks;
 
@@ -104,16 +102,7 @@ public class SporeBlasterBlock extends Block implements SimpleWaterloggedBlock
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 20);
-	}
-
-	@Override
-	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
-		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
-		if (world.getBestNeighborSignal(pos) > 0) {
-		} else {
-			SporeBlasterRedstoneOffProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-		}
+		world.scheduleTick(pos, this, 5);
 	}
 
 	@Override
@@ -124,7 +113,7 @@ public class SporeBlasterBlock extends Block implements SimpleWaterloggedBlock
 		int z = pos.getZ();
 
 		SporeBlasterRedstoneOnProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 20);
+		world.scheduleTick(pos, this, 5);
 	}
 
 	@OnlyIn(Dist.CLIENT)
@@ -144,19 +133,6 @@ public class SporeBlasterBlock extends Block implements SimpleWaterloggedBlock
 			double dz = (random.nextFloat() - 0.5D) * 0.1D;
 			world.addParticle((SimpleParticleType) (WildasideModParticleTypes.VIBRION_PARTICLE.get()), x0, y0, z0, dx, dy, dz);
 		}
-	}
-
-	@Override
-	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
-		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
-		SporeBlasterRedstoneOffProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-		return retval;
-	}
-
-	@Override
-	public void wasExploded(Level world, BlockPos pos, Explosion e) {
-		super.wasExploded(world, pos, e);
-		SporeBlasterRedstoneOffProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@OnlyIn(Dist.CLIENT)

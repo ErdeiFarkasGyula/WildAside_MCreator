@@ -75,6 +75,10 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> VIBRION_GROWTH = REGISTRY.register("vibrion_growth", () -> new VibrionGrowthBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_STEM = REGISTRY.register("substilium_stem", () -> new SubstiliumStemBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_BLOCK = REGISTRY.register("substilium_block", () -> new SubstiliumBlockBlock());
+	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_STEM = REGISTRY.register("stripped_substilium_stem",
+			() -> new StrippedSubstiliumStemBlock());
+	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_BLOCK = REGISTRY.register("stripped_substilium_block",
+			() -> new StrippedSubstiliumBlockBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_SHROOM = REGISTRY.register("substilium_shroom", () -> new SubstiliumShroomBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_SOIL = REGISTRY.register("substilium_soil", () -> new SubstiliumSoilBlock());
 	public static final RegistryObject<Block> OVERGROWN_ENTORIUM_ORE = REGISTRY.register("overgrown_entorium_ore",
@@ -92,13 +96,16 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SUBSTILIUM_PRESSURE_PLATE = REGISTRY.register("substilium_pressure_plate",
 			() -> new SubstiliumPressurePlateBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_BUTTON = REGISTRY.register("substilium_button", () -> new SubstiliumButtonBlock());
+	public static final RegistryObject<Block> SPORE_BLASTER = REGISTRY.register("spore_blaster", () -> new SporeBlasterBlock());
 	public static final RegistryObject<Block> NATURAL_SPORE_BLASTER = REGISTRY.register("natural_spore_blaster",
 			() -> new NaturalSporeBlasterBlock());
-	public static final RegistryObject<Block> SPORE_BLASTER = REGISTRY.register("spore_blaster", () -> new SporeBlasterBlock());
 	public static final RegistryObject<Block> BIOENGINEER_WORKSPACE = REGISTRY.register("bioengineer_workspace",
 			() -> new BioengineerWorkspaceBlock());
 	public static final RegistryObject<Block> HICKORY_LOG = REGISTRY.register("hickory_log", () -> new HickoryLogBlock());
 	public static final RegistryObject<Block> HICKORY_BLOCK = REGISTRY.register("hickory_block", () -> new HickoryBlockBlock());
+	public static final RegistryObject<Block> STRIPPED_HICKORY_LOG = REGISTRY.register("stripped_hickory_log", () -> new StrippedHickoryLogBlock());
+	public static final RegistryObject<Block> STRIPPED_HICKORY_BLOCK = REGISTRY.register("stripped_hickory_block",
+			() -> new StrippedHickoryBlockBlock());
 	public static final RegistryObject<Block> HICKORY_PLANKS = REGISTRY.register("hickory_planks", () -> new HickoryPlanksBlock());
 	public static final RegistryObject<Block> HICKORY_STAIRS = REGISTRY.register("hickory_stairs", () -> new HickoryStairsBlock());
 	public static final RegistryObject<Block> HICKORY_SLAB = REGISTRY.register("hickory_slab", () -> new HickorySlabBlock());
@@ -118,13 +125,6 @@ public class WildasideModBlocks {
 			() -> new HangingVibrionGelGrowerBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower",
 			() -> new SubstiliumTreeGrowerBlock());
-	public static final RegistryObject<Block> STRIPPED_HICKORY_LOG = REGISTRY.register("stripped_hickory_log", () -> new StrippedHickoryLogBlock());
-	public static final RegistryObject<Block> STRIPPED_HICKORY_BLOCK = REGISTRY.register("stripped_hickory_block",
-			() -> new StrippedHickoryBlockBlock());
-	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_STEM = REGISTRY.register("stripped_substilium_stem",
-			() -> new StrippedSubstiliumStemBlock());
-	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_BLOCK = REGISTRY.register("stripped_substilium_block",
-			() -> new StrippedSubstiliumBlockBlock());
 	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)

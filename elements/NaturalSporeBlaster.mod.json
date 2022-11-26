@@ -51,12 +51,12 @@
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canRedstoneConnect": true,
+    "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 20,
+    "tickRate": 5,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -124,15 +124,6 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "NaturalSporeBlasterBlockIsPlacedBy"
-    },
-    "onDestroyedByPlayer": {
-      "name": "NaturalSporeBlasterBlockDestroyedByExplosion"
-    },
-    "onDestroyedByExplosion": {
-      "name": "NaturalSporeBlasterBlockDestroyedByExplosion"
-    },
-    "onBlockPlayedBy": {
       "name": "NaturalSporeBlasterBlockIsPlacedBy"
     },
     "spawnWorldTypes": [],

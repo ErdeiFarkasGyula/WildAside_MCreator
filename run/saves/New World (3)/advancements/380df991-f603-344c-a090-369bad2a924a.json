@@ -1,121 +1,31 @@
 {
-  "minecraft:recipes/misc/charcoal": {
+  "wildaside:danger_eliminated": {
     "criteria": {
-      "has_log": "2022-11-25 15:54:45 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_planks": {
-    "criteria": {
-      "has_logs": "2022-11-25 15:54:45 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/clock": {
-    "criteria": {
-      "has_redstone": "2022-11-25 15:54:00 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_torch": {
-    "criteria": {
-      "has_redstone": "2022-11-25 15:54:00 +0100"
+      "danger_eliminated": "2022-11-26 14:10:52 +0100"
     },
     "done": true
   },
   "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "wild_wilder_wildest": "2022-11-25 15:53:49 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2022-11-25 15:54:47 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2022-11-25 15:54:47 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/compass": {
-    "criteria": {
-      "has_redstone": "2022-11-25 15:54:00 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/note_block": {
-    "criteria": {
-      "has_redstone": "2022-11-25 15:54:00 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_wood": {
-    "criteria": {
-      "has_log": "2022-11-25 15:54:45 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2022-11-25 15:54:47 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dropper": {
-    "criteria": {
-      "has_redstone": "2022-11-25 15:54:00 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2022-11-25 15:54:47 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_block": {
-    "criteria": {
-      "has_redstone": "2022-11-25 15:54:00 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/piston": {
-    "criteria": {
-      "has_redstone": "2022-11-25 15:54:00 +0100"
+      "wild_wilder_wildest": "2022-11-26 14:10:17 +0100"
     },
     "done": true
   },
   "wildaside:barrier_of_bacteria": {
     "criteria": {
-      "barrier_of_bacteria": "2022-11-25 15:53:56 +0100"
+      "barrier_of_bacteria": "2022-11-26 14:11:11 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/target": {
+  "wildaside:spread_100": {
     "criteria": {
-      "has_redstone": "2022-11-25 15:54:00 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2022-11-25 15:54:47 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2022-11-25 15:54:47 +0100"
+      "spread_100": "2022-11-26 14:10:55 +0100"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2022-11-25 15:53:49 +0100"
+      "minecraft:taiga": "2022-11-26 14:10:17 +0100"
     },
     "done": false
   },

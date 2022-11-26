@@ -3,6 +3,8 @@
   "values": [
     "wildaside:substilium_stem",
     "wildaside:substilium_block",
+    "wildaside:stripped_substilium_stem",
+    "wildaside:stripped_substilium_block",
     "wildaside:substilium_shroom",
     "wildaside:substilium_planks",
     "wildaside:substilium_stairs",
@@ -15,16 +17,14 @@
     "wildaside:substilium_button",
     "wildaside:hickory_log",
     "wildaside:hickory_block",
+    "wildaside:stripped_hickory_log",
+    "wildaside:stripped_hickory_block",
     "wildaside:hickory_planks",
     "wildaside:hickory_stairs",
     "wildaside:hickory_slab",
     "wildaside:hickory_fence",
     "wildaside:hickory_fence_gate",
     "wildaside:hickory_pressure_plate",
-    "wildaside:hickory_button",
-    "wildaside:stripped_hickory_log",
-    "wildaside:stripped_hickory_block",
-    "wildaside:stripped_substilium_stem",
-    "wildaside:stripped_substilium_block"
+    "wildaside:hickory_button"
   ]
 }

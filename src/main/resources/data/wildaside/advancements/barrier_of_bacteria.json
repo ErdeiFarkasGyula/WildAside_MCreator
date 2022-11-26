@@ -16,19 +16,13 @@
   },
   "criteria": {
     "barrier_of_bacteria": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:placed_block",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "wildaside:spore_blaster"
-            ],
-            "count": {
-              "min": 1,
-              "max": 64
-            }
-          }
-        ]
+        "item": {
+          "items": [
+            "wildaside:spore_blaster"
+          ]
+        }
       }
     }
   },

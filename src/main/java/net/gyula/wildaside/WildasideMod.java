@@ -35,6 +35,7 @@ import net.gyula.wildaside.init.WildasideModFeatures;
 import net.gyula.wildaside.init.WildasideModEntities;
 import net.gyula.wildaside.init.WildasideModEnchantments;
 import net.gyula.wildaside.init.WildasideModBlocks;
+import net.gyula.wildaside.init.WildasideModBlockEntities;
 import net.gyula.wildaside.init.WildasideModBiomes;
 
 import java.util.function.Supplier;
@@ -56,7 +57,7 @@ public class WildasideMod {
 		WildasideModBlocks.REGISTRY.register(bus);
 		WildasideModItems.REGISTRY.register(bus);
 		WildasideModEntities.REGISTRY.register(bus);
-
+		WildasideModBlockEntities.REGISTRY.register(bus);
 		WildasideModFeatures.REGISTRY.register(bus);
 
 		WildasideModEnchantments.REGISTRY.register(bus);

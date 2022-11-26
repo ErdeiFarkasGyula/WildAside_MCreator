@@ -6,7 +6,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -17,12 +16,9 @@ import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.DirectionalBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.Explosion;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.Direction;
@@ -30,7 +26,6 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
 import net.gyula.wildaside.procedures.NaturalSporeBlasterBlockIsPlacedByProcedure;
-import net.gyula.wildaside.procedures.NaturalSporeBlasterBlockDestroyedByExplosionProcedure;
 import net.gyula.wildaside.init.WildasideModParticleTypes;
 
 import java.util.Random;
@@ -72,14 +67,9 @@ public class NaturalSporeBlasterBlock extends Block {
 	}
 
 	@Override
-	public boolean canConnectRedstone(BlockState state, BlockGetter world, BlockPos pos, Direction side) {
-		return true;
-	}
-
-	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 20);
+		world.scheduleTick(pos, this, 5);
 	}
 
 	@Override
@@ -90,7 +80,7 @@ public class NaturalSporeBlasterBlock extends Block {
 		int z = pos.getZ();
 
 		NaturalSporeBlasterBlockIsPlacedByProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 20);
+		world.scheduleTick(pos, this, 5);
 	}
 
 	@OnlyIn(Dist.CLIENT)
@@ -110,24 +100,5 @@ public class NaturalSporeBlasterBlock extends Block {
 			double dz = (random.nextFloat() - 0.5D) * 0.1D;
 			world.addParticle((SimpleParticleType) (WildasideModParticleTypes.VIBRION_PARTICLE.get()), x0, y0, z0, dx, dy, dz);
 		}
-	}
-
-	@Override
-	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
-		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
-		NaturalSporeBlasterBlockDestroyedByExplosionProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-		return retval;
-	}
-
-	@Override
-	public void wasExploded(Level world, BlockPos pos, Explosion e) {
-		super.wasExploded(world, pos, e);
-		NaturalSporeBlasterBlockDestroyedByExplosionProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-	}
-
-	@Override
-	public void setPlacedBy(Level world, BlockPos pos, BlockState blockstate, LivingEntity entity, ItemStack itemstack) {
-		super.setPlacedBy(world, pos, blockstate, entity, itemstack);
-		NaturalSporeBlasterBlockIsPlacedByProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }
