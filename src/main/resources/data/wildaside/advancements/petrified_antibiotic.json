@@ -35,7 +35,8 @@
   "rewards": {
     "experience": 5,
     "recipes": [
-      "wildaside:entorium_pill"
+      "wildaside:entorium_pill",
+      "wildaside:spore_blaster"
     ]
   },
   "parent": "wildaside:useful_finding"

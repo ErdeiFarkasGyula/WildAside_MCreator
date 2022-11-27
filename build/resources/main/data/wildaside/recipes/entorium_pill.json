@@ -1,26 +1,22 @@
 {
-  "group": "entorium",
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "group": "entorium_pill",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " IF",
+    "IEI",
+    " I "
+  ],
+  "key": {
+    "I": {
       "item": "minecraft:iron_nugget"
     },
-    {
+    "F": {
       "item": "minecraft:fermented_spider_eye"
     },
-    {
-      "item": "minecraft:iron_nugget"
-    },
-    {
+    "E": {
       "item": "wildaside:entorium"
-    },
-    {
-      "item": "minecraft:iron_nugget"
-    },
-    {
-      "item": "minecraft:iron_nugget"
     }
-  ],
+  },
   "result": {
     "item": "wildaside:entorium_pill",
     "count": 1

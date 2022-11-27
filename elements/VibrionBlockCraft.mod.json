@@ -6,13 +6,25 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "vibrion",
+    "group": "vibrion_block",
     "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
       },
       {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Vibrion"
+      },
+      {
         "value": "CUSTOM:Vibrion"
       },
       {
@@ -22,19 +34,7 @@
         "value": "CUSTOM:Vibrion"
       },
       {
-        "value": ""
-      },
-      {
         "value": "CUSTOM:Vibrion"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Vibrion"
-      },
-      {
-        "value": ""
       }
     ],
     "recipeReturnStack": {

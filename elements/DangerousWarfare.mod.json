@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Dangerous Warfare",
-    "achievementDescription": "Use an Entorium Sporebomb",
+    "achievementDescription": "Infect somebody with an Entorium Sporebomb",
     "achievementIcon": {
       "value": "CUSTOM:EntoriumSporebomb"
     },
@@ -13,7 +13,9 @@
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [],
+    "rewardRecipes": [
+      "SporeBlasterCraft"
+    ],
     "rewardFunction": "No function",
     "rewardXP": 5,
     "achievementType": "task",

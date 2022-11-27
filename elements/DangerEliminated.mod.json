@@ -16,7 +16,7 @@
     "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 5,
-    "achievementType": "challenge",
+    "achievementType": "task",
     "parent": {
       "value": "CUSTOM:UnsafeHaven"
     },
