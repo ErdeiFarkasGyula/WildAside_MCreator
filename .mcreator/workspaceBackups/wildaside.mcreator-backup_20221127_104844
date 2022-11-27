@@ -2592,7 +2592,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "spore_air",
-      "path": "~/blocks"
+      "path": "~/blocks/Technical"
     },
     {
       "name": "SporeAirUpdateTick",
@@ -2622,6 +2622,15 @@
         ]
       },
       "path": "~/procedures/SporeBlaster"
+    },
+    {
+      "name": "StrippableWildasideLogs",
+      "type": "tag",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strippable_wildaside_logs",
+      "path": "~/tags"
     }
   ],
   "variable_elements": [
