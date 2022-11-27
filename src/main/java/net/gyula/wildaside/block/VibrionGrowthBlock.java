@@ -62,7 +62,7 @@ public class VibrionGrowthBlock extends Block implements SimpleWaterloggedBlock
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
-		return box(6, 0, 6, 10, 16, 10);
+		return box(4, 0, 4, 12, 16, 12);
 	}
 
 	@Override

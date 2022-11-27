@@ -24,12 +24,12 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 10.0,
+        "mx": 4.0,
         "my": 0.0,
-        "mz": 10.0,
-        "Mx": 6.0,
+        "mz": 4.0,
+        "Mx": 12.0,
         "My": 16.0,
-        "Mz": 6.0,
+        "Mz": 12.0,
         "subtract": false
       }
     ],

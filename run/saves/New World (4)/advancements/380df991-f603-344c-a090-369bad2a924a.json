@@ -1,4 +1,36 @@
 {
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2022-11-27 11:00:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2022-11-27 11:00:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-11-27 17:39:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2022-11-27 11:00:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2022-11-27 17:37:58 +0100",
+      "minecraft:forest": "2022-11-27 10:59:55 +0100",
+      "minecraft:plains": "2022-11-27 17:40:08 +0100"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2022-11-27 11:00:18 +0100"
@@ -11,19 +43,7 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/wooden_sword": {
-    "criteria": {
-      "has_stick": "2022-11-27 11:00:53 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/wooden_pickaxe": {
-    "criteria": {
-      "has_stick": "2022-11-27 11:00:53 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2022-11-27 11:00:53 +0100"
     },
@@ -44,6 +64,12 @@
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2022-11-27 11:00:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-11-27 17:39:29 +0100"
     },
     "done": true
   },
@@ -71,6 +97,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-11-27 17:39:29 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_stick": "2022-11-27 11:00:53 +0100"
@@ -83,15 +115,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-11-27 17:39:29 +0100"
+    },
+    "done": true
+  },
   "wildaside:hickory_planks_hidden_1": {
     "criteria": {
       "hickory_planks_hidden_1": "2022-11-27 11:00:18 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_hoe": {
+  "wildaside:substilium_log_hidden_1": {
     "criteria": {
-      "has_stick": "2022-11-27 11:00:53 +0100"
+      "substilium_log_hidden_1": "2022-11-27 17:36:53 +0100"
     },
     "done": true
   },
@@ -113,11 +151,17 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "minecraft:forest": "2022-11-27 10:59:55 +0100"
+      "in_water": "2022-11-27 17:39:29 +0100"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-11-27 17:39:29 +0100"
+    },
+    "done": true
   },
   "DataVersion": 2975
 }
