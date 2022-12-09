@@ -2581,15 +2581,6 @@
       "path": "~/procedures/UpdateBlock"
     },
     {
-      "name": "SubstiliumTreeGrowerStr1",
-      "type": "structure",
-      "sortid": 224,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_1",
-      "path": "~/structures/SubstiliumTree"
-    },
-    {
       "name": "HangingVibrionVinesGrowerStr2",
       "type": "structure",
       "sortid": 233,
@@ -2737,220 +2728,1444 @@
       "path": "~/procedures/CheckBlock"
     },
     {
-      "name": "SubstiliumTreeGrowerStr2",
-      "type": "structure",
-      "sortid": 266,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_2",
-      "path": "~/structures/SubstiliumTree"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr3",
+      "name": "SubstiliumMushroomStr11",
       "type": "structure",
       "sortid": 267,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_3",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_11",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr4",
+      "name": "SubstiliumMushroomStr12",
       "type": "structure",
       "sortid": 268,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_4",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_12",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr5",
+      "name": "SubstiliumMushroomStr13",
       "type": "structure",
       "sortid": 269,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_5",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_13",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr6",
+      "name": "SubstiliumMushroomStr14",
       "type": "structure",
       "sortid": 270,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_6",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_14",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr7",
+      "name": "SubstiliumMushroomStr15",
       "type": "structure",
       "sortid": 271,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_7",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_15",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr8",
+      "name": "SubstiliumMushroomStr16",
       "type": "structure",
       "sortid": 272,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_8",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_16",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr9",
+      "name": "SubstiliumMushroomStr17",
       "type": "structure",
       "sortid": 273,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_9",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_17",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr10",
+      "name": "SubstiliumMushroomStr18",
       "type": "structure",
       "sortid": 274,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_10",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_18",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr11",
+      "name": "SubstiliumMushroomStr19",
       "type": "structure",
       "sortid": 275,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_11",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_19",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr12",
+      "name": "SubstiliumMushroomStr110",
       "type": "structure",
       "sortid": 276,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_12",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_110",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr13",
+      "name": "SubstiliumMushroomStr111",
       "type": "structure",
       "sortid": 277,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_13",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_111",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr14",
+      "name": "SubstiliumMushroomStr112",
       "type": "structure",
       "sortid": 278,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_14",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_112",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr15",
+      "name": "SubstiliumMushroomStr113",
       "type": "structure",
       "sortid": 279,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_15",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_113",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr16",
+      "name": "SubstiliumMushroomStr114",
       "type": "structure",
       "sortid": 280,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_16",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_114",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr17",
+      "name": "SubstiliumMushroomStr115",
       "type": "structure",
       "sortid": 281,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_17",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_115",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr18",
+      "name": "SubstiliumMushroomStr116",
       "type": "structure",
       "sortid": 282,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_18",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_116",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr19",
+      "name": "SubstiliumMushroomStr117",
       "type": "structure",
       "sortid": 283,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_19",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_117",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr20",
+      "name": "SubstiliumMushroomStr118",
       "type": "structure",
       "sortid": 284,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_20",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_118",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr21",
+      "name": "SubstiliumMushroomStr119",
       "type": "structure",
       "sortid": 285,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_21",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_119",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr22",
+      "name": "SubstiliumMushroomStr120",
       "type": "structure",
       "sortid": 286,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_22",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_120",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr23",
+      "name": "SubstiliumMushroomStr121",
       "type": "structure",
       "sortid": 287,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_23",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_121",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr24",
+      "name": "SubstiliumMushroomStr122",
       "type": "structure",
       "sortid": 288,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_24",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_122",
+      "path": "~/structures/SubstiliumTree/1"
     },
     {
-      "name": "SubstiliumTreeGrowerStr25",
+      "name": "SubstiliumMushroomStr123",
       "type": "structure",
       "sortid": 289,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_25",
-      "path": "~/structures/SubstiliumTree"
+      "registry_name": "substilium_mushroom_str_123",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr124",
+      "type": "structure",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_124",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr125",
+      "type": "structure",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_125",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr126",
+      "type": "structure",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_126",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr127",
+      "type": "structure",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_127",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr128",
+      "type": "structure",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_128",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr129",
+      "type": "structure",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_129",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr130",
+      "type": "structure",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_130",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr131",
+      "type": "structure",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_131",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr132",
+      "type": "structure",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_132",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr133",
+      "type": "structure",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_133",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr134",
+      "type": "structure",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_134",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr135",
+      "type": "structure",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_135",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr136",
+      "type": "structure",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_136",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr137",
+      "type": "structure",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_137",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr138",
+      "type": "structure",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_138",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr139",
+      "type": "structure",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_139",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr140",
+      "type": "structure",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_140",
+      "path": "~/structures/SubstiliumTree/1"
+    },
+    {
+      "name": "SubstiliumMushroomStr21",
+      "type": "structure",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_21",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr22",
+      "type": "structure",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_22",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr23",
+      "type": "structure",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_23",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr24",
+      "type": "structure",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_24",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr25",
+      "type": "structure",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_25",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr26",
+      "type": "structure",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_26",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr27",
+      "type": "structure",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_27",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr28",
+      "type": "structure",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_28",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr29",
+      "type": "structure",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_29",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr210",
+      "type": "structure",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_210",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr211",
+      "type": "structure",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_211",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr212",
+      "type": "structure",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_212",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr213",
+      "type": "structure",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_213",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr214",
+      "type": "structure",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_214",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr215",
+      "type": "structure",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_215",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr216",
+      "type": "structure",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_216",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr217",
+      "type": "structure",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_217",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr218",
+      "type": "structure",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_218",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr219",
+      "type": "structure",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_219",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr220",
+      "type": "structure",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_220",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr221",
+      "type": "structure",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_221",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr222",
+      "type": "structure",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_222",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr223",
+      "type": "structure",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_223",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr224",
+      "type": "structure",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_224",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr225",
+      "type": "structure",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_225",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr226",
+      "type": "structure",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_226",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr227",
+      "type": "structure",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_227",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr228",
+      "type": "structure",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_228",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr229",
+      "type": "structure",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_229",
+      "path": "~/structures/SubstiliumTree/2"
+    },
+    {
+      "name": "SubstiliumMushroomStr31",
+      "type": "structure",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_31",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr32",
+      "type": "structure",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_32",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr33",
+      "type": "structure",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_33",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr34",
+      "type": "structure",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_34",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr35",
+      "type": "structure",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_35",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr36",
+      "type": "structure",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_36",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr37",
+      "type": "structure",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_37",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr38",
+      "type": "structure",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_38",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr39",
+      "type": "structure",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_39",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr310",
+      "type": "structure",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_310",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr311",
+      "type": "structure",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_311",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr312",
+      "type": "structure",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_312",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr313",
+      "type": "structure",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_313",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr314",
+      "type": "structure",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_314",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr315",
+      "type": "structure",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_315",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr316",
+      "type": "structure",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_316",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr317",
+      "type": "structure",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_317",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr318",
+      "type": "structure",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_318",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr319",
+      "type": "structure",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_319",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr320",
+      "type": "structure",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_320",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr321",
+      "type": "structure",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_321",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr322",
+      "type": "structure",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_322",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr323",
+      "type": "structure",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_323",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr325",
+      "type": "structure",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_325",
+      "path": "~/structures/SubstiliumTree/3"
+    },
+    {
+      "name": "SubstiliumMushroomStr41",
+      "type": "structure",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_41",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr42",
+      "type": "structure",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_42",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr43",
+      "type": "structure",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_43",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr44",
+      "type": "structure",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_44",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr45",
+      "type": "structure",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_45",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr46",
+      "type": "structure",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_46",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr47",
+      "type": "structure",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_47",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr48",
+      "type": "structure",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_48",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr49",
+      "type": "structure",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_49",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr410",
+      "type": "structure",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_410",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr411",
+      "type": "structure",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_411",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr412",
+      "type": "structure",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_412",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr413",
+      "type": "structure",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_413",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr414",
+      "type": "structure",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_414",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr415",
+      "type": "structure",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_415",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr416",
+      "type": "structure",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_416",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr417",
+      "type": "structure",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_417",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr418",
+      "type": "structure",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_418",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr419",
+      "type": "structure",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_419",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr420",
+      "type": "structure",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_420",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr421",
+      "type": "structure",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_421",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr422",
+      "type": "structure",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_422",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr423",
+      "type": "structure",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_423",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr424",
+      "type": "structure",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_424",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr425",
+      "type": "structure",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_425",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr426",
+      "type": "structure",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_426",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr427",
+      "type": "structure",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_427",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr428",
+      "type": "structure",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_428",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr429",
+      "type": "structure",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_429",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr430",
+      "type": "structure",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_430",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr431",
+      "type": "structure",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_431",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr432",
+      "type": "structure",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_432",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr433",
+      "type": "structure",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_433",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr434",
+      "type": "structure",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_434",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr435",
+      "type": "structure",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_435",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr436",
+      "type": "structure",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_436",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr437",
+      "type": "structure",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_437",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr438",
+      "type": "structure",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_438",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr439",
+      "type": "structure",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_439",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr440",
+      "type": "structure",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_440",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr441",
+      "type": "structure",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_441",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr442",
+      "type": "structure",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_442",
+      "path": "~/structures/SubstiliumTree/4"
+    },
+    {
+      "name": "SubstiliumMushroomStr51",
+      "type": "structure",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_51",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr52",
+      "type": "structure",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_52",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr53",
+      "type": "structure",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_53",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr54",
+      "type": "structure",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_54",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr55",
+      "type": "structure",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_55",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr56",
+      "type": "structure",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_56",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr57",
+      "type": "structure",
+      "sortid": 408,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_57",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr58",
+      "type": "structure",
+      "sortid": 409,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_58",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr59",
+      "type": "structure",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_59",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr510",
+      "type": "structure",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_510",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr511",
+      "type": "structure",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_511",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr512",
+      "type": "structure",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_512",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr513",
+      "type": "structure",
+      "sortid": 414,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_513",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr514",
+      "type": "structure",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_514",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr515",
+      "type": "structure",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_515",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr516",
+      "type": "structure",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_516",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr517",
+      "type": "structure",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_517",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr518",
+      "type": "structure",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_518",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr519",
+      "type": "structure",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_519",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr520",
+      "type": "structure",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_520",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr521",
+      "type": "structure",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_521",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr522",
+      "type": "structure",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_522",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr523",
+      "type": "structure",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_523",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr524",
+      "type": "structure",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_524",
+      "path": "~/structures/SubstiliumTree/5"
+    },
+    {
+      "name": "SubstiliumMushroomStr525",
+      "type": "structure",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_mushroom_str_525",
+      "path": "~/structures/SubstiliumTree/5"
     }
   ],
   "variable_elements": [
@@ -3193,7 +4408,28 @@
           },
           {
             "name": "SubstiliumTree",
-            "children": []
+            "children": [
+              {
+                "name": "1",
+                "children": []
+              },
+              {
+                "name": "2",
+                "children": []
+              },
+              {
+                "name": "3",
+                "children": []
+              },
+              {
+                "name": "4",
+                "children": []
+              },
+              {
+                "name": "5",
+                "children": []
+              }
+            ]
           }
         ]
       },
