@@ -3,7 +3,7 @@
   "_type": "gamerule",
   "definition": {
     "type": "Logic",
-    "displayName": "MuteVibrionGrowths",
+    "displayName": "Mute vibrion growths",
     "description": "Mute the sound of Vibrion Growths growing",
     "category": "PLAYER",
     "defaultValueLogic": false,

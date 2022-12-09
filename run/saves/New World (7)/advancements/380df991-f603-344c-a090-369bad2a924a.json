@@ -1,0 +1,27 @@
+{
+  "wildaside:wild_wilder_wildest": {
+    "criteria": {
+      "wild_wilder_wildest": "2022-12-09 21:04:41 +0100"
+    },
+    "done": true
+  },
+  "wildaside:spread_100": {
+    "criteria": {
+      "spread_100": "2022-12-09 21:05:22 +0100"
+    },
+    "done": true
+  },
+  "wildaside:unsafe_haven": {
+    "criteria": {
+      "unsafe_haven": "2022-12-09 21:05:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_birch_forest": "2022-12-09 21:04:41 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

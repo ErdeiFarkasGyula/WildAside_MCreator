@@ -1,0 +1,36 @@
+{
+  "_fv": 34,
+  "_type": "structure",
+  "definition": {
+    "structure": "substilium_stick_2",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1000000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Underground",
+    "spawnHeightOffset": 1,
+    "spawnXOffset": -2,
+    "spawnZOffset": -2,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:SubstiliumSoil"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:VibrionHive"
+      }
+    ],
+    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "SubstiliumTreeGrowerStr1AdditionalGenerationCondition"
+    },
+    "onStructureGenerated": {
+      "name": "HangingVibrionVinesGrowerStrOnGenerated"
+    }
+  }
+}
