@@ -1,11 +1,14 @@
 {
   "group": "substilium_planks",
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
       "item": "wildaside:substilium_block"
     }
-  ],
+  },
   "result": {
     "item": "wildaside:substilium_planks",
     "count": 4

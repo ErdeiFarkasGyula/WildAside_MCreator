@@ -23,7 +23,7 @@ mouseSensitivity:0.5
 fov:0.5
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:0.5066076144366196
+gamma:0.6921985035211269
 renderDistance:12
 simulationDistance:8
 entityDistanceScaling:1.0
@@ -40,7 +40,7 @@ resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:localhost:25463
 lang:en_us
-soundDevice:
+soundDevice:OpenAL Soft on Hangszórók (Realtek High Definition Audio)
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
@@ -109,7 +109,7 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
@@ -125,4 +125,3 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
-fullscreenResolution:2560x1440@144:24
