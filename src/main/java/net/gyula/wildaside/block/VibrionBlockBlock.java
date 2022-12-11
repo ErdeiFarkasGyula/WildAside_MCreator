@@ -32,7 +32,7 @@ import java.util.Random;
 
 public class VibrionBlockBlock extends Block {
 	public VibrionBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_YELLOW).sound(SoundType.SHROOMLIGHT).strength(2.3f, 1f)
+		super(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.SHROOMLIGHT).strength(2.3f, 1f)
 				.lightLevel(s -> 7).randomTicks());
 	}
 

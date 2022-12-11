@@ -1,21 +1,19 @@
 {
   "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "wild_wilder_wildest": "2022-12-11 17:43:37 +0100"
+      "wild_wilder_wildest": "2022-12-11 18:28:32 +0100"
     },
     "done": true
   },
   "wildaside:unsafe_haven": {
     "criteria": {
-      "unsafe_haven": "2022-12-11 17:44:37 +0100"
+      "unsafe_haven": "2022-12-11 18:28:40 +0100"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:birch_forest": "2022-12-11 17:44:49 +0100",
-      "minecraft:river": "2022-12-11 17:43:37 +0100",
-      "minecraft:windswept_forest": "2022-12-11 17:44:33 +0100"
+      "minecraft:old_growth_birch_forest": "2022-12-11 18:28:32 +0100"
     },
     "done": false
   },

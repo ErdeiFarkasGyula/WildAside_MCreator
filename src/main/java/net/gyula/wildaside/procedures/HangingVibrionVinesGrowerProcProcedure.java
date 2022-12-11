@@ -3,6 +3,8 @@ package net.gyula.wildaside.procedures;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.util.Mth;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
 import net.gyula.wildaside.init.WildasideModGameRules;
@@ -36,7 +38,7 @@ public class HangingVibrionVinesGrowerProcProcedure {
 					baseBuilder = baseBuilder - 1;
 				}
 				AdvanceNumber = 0;
-				for (int index2 = 0; index2 < (int) (Mth.nextInt(new Random(), 3, 30)); index2++) {
+				for (int index2 = 0; index2 < (int) (Mth.nextInt(new Random(), 3, 40)); index2++) {
 					canAdvance = (world.getBlockState(new BlockPos(x, (y - AdvanceNumber) - 4, z)))
 							.getMaterial() == net.minecraft.world.level.material.Material.AIR;
 					if (canAdvance == true) {
@@ -53,8 +55,8 @@ public class HangingVibrionVinesGrowerProcProcedure {
 						sz = -4;
 						for (int index5 = 0; index5 < (int) (9); index5++) {
 							if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz)))
-									.getMaterial() == net.minecraft.world.level.material.Material.STONE) {
-								if (Math.random() >= 0.4) {
+									.is(BlockTags.create(new ResourceLocation("minecraft:base_stone_overworld")))) {
+								if (Math.random() <= 0.25) {
 									world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState(),
 											3);
 								}

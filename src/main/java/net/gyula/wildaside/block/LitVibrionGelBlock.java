@@ -43,7 +43,7 @@ public class LitVibrionGelBlock extends Block implements SimpleWaterloggedBlock
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public LitVibrionGelBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_YELLOW).sound(SoundType.HONEY_BLOCK).strength(0.1f, 0f)
+		super(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.HONEY_BLOCK).strength(0.1f, 0f)
 				.lightLevel(s -> 7).noCollission().speedFactor(0.2f).jumpFactor(0.6f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
