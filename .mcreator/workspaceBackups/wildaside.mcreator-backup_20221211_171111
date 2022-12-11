@@ -5257,15 +5257,6 @@
       "path": "~/biomes"
     },
     {
-      "name": "HickoryTreeStr11",
-      "type": "structure",
-      "sortid": 552,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hickory_tree_str_11",
-      "path": "~/structures/HickoryForest/1"
-    },
-    {
       "name": "HickoryTreeStrAdditionalGenerationCondition",
       "type": "procedure",
       "sortid": 553,
@@ -5294,6 +5285,60 @@
         ]
       },
       "path": "~/procedures/CheckBlock"
+    },
+    {
+      "name": "HickoryTreeStr11",
+      "type": "structure",
+      "sortid": 555,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_tree_str_11",
+      "path": "~/structures/HickoryForest"
+    },
+    {
+      "name": "HickoryTreeStr12",
+      "type": "structure",
+      "sortid": 556,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_tree_str_12",
+      "path": "~/structures/HickoryForest"
+    },
+    {
+      "name": "HickoryTreeStr21",
+      "type": "structure",
+      "sortid": 557,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_tree_str_21",
+      "path": "~/structures/HickoryForest"
+    },
+    {
+      "name": "HickoryTreeStr22",
+      "type": "structure",
+      "sortid": 558,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_tree_str_22",
+      "path": "~/structures/HickoryForest"
+    },
+    {
+      "name": "HickoryTreeStr31",
+      "type": "structure",
+      "sortid": 559,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_tree_str_31",
+      "path": "~/structures/HickoryForest"
+    },
+    {
+      "name": "HickoryTreeStr32",
+      "type": "structure",
+      "sortid": 560,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_tree_str_32",
+      "path": "~/structures/HickoryForest"
     }
   ],
   "variable_elements": [
@@ -5308,8 +5353,8 @@
   "language_map": {
     "en_us": {
       "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
-      "advancements.substilium_log_hidden_1.title": "SubstiliumPlanksHidden1",
       "item.wildaside.entorium": "Entorium",
+      "advancements.substilium_log_hidden_1.title": "SubstiliumPlanksHidden1",
       "item.minecraft.tipped_arrow.effect.immune_portection_item": "Arrow of Immune Portection",
       "block.wildaside.vibrion_block": "Vibrion Block",
       "item.wildaside.entorium_gauntlet_leggings": "Entorium Gauntlet Leggings",
@@ -5318,8 +5363,8 @@
       "advancements.barrier_of_bacteria.descr": "Place down a Spore Blaster",
       "block.wildaside.substilium_fence": "Substilium Fence",
       "item.wildaside.entorium_sporebomb": "Entorium Sporebomb",
-      "block.wildaside.hanging_vibrion_gel_grower": "Hanging Vibrion Gel Grower",
       "block.wildaside.substilium_planks": "Substilium Planks",
+      "block.wildaside.hanging_vibrion_gel_grower": "Hanging Vibrion Gel Grower",
       "block.wildaside.hickory_log": "Hickory Log",
       "block.wildaside.vibrion_sporeholder": "Vibrion Sporeholder",
       "item.minecraft.tipped_arrow.effect.contamination_item": "Arrow of Contamination",
@@ -5328,8 +5373,8 @@
       "item.wildaside.entorium_pill": "Entorium Pill",
       "advancements.substilium_planks_hidden_1.title": "SubstiliumPlanksHidden1",
       "item.wildaside.entorium_gauntlet_helmet": "Entorium Gauntlet Helmet",
-      "block.wildaside.hickory_planks": "Hickory Planks",
       "block.wildaside.entorium_ore": "Entorium Ore",
+      "block.wildaside.hickory_planks": "Hickory Planks",
       "advancements.temporary_solution.descr": "Consume an Entorium Pill while having Contamination",
       "block.wildaside.bioengineer_workspace": "Bioengineer Workspace",
       "block.wildaside.stripped_substilium_block": "Stripped Substilium Block",
@@ -5350,8 +5395,8 @@
       "advancements.useful_finding.descr": "Shear an Overgrown Substilium Soil block",
       "advancements.spread_100.title": "Spread 100",
       "biome.wildaside.hickory_forest": "Hickory Forest",
-      "advancements.hickory_log_hidden_1.title": "HickoryLogHidden1",
       "advancements.danger_eliminated.title": "Danger Eliminated",
+      "advancements.hickory_log_hidden_1.title": "HickoryLogHidden1",
       "block.wildaside.stripped_hickory_log": "Stripped Hickory Log",
       "block.wildaside.hickory_slab": "Hickory Slab",
       "block.wildaside.lower_substilium_soil": "Substilium Soil",
@@ -5562,20 +5607,7 @@
           },
           {
             "name": "HickoryForest",
-            "children": [
-              {
-                "name": "1",
-                "children": []
-              },
-              {
-                "name": "2",
-                "children": []
-              },
-              {
-                "name": "3",
-                "children": []
-              }
-            ]
+            "children": []
           }
         ]
       },
@@ -5645,7 +5677,7 @@
   "workspaceSettings": {
     "modid": "wildaside",
     "modName": "WildAside",
-    "version": "0.0.1-1.18.2",
+    "version": "0.0.2-1.18.2",
     "author": "Gyula, Lyof, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "MIT License",

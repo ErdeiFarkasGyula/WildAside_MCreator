@@ -14,9 +14,13 @@ public class HangingVibrionVinesGrowerProcProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		boolean canGrow = false;
 		boolean canAdvance = false;
+		boolean found = false;
 		double canGrowNumber = 0;
 		double baseBuilder = 0;
 		double AdvanceNumber = 0;
+		double sx = 0;
+		double sy = 0;
+		double sz = 0;
 		if (world.getLevelData().getGameRules().getBoolean(WildasideModGameRules.WILDASIDEDEBUGMODE) == false) {
 			world.setBlock(new BlockPos(x, y, z), Blocks.CAVE_AIR.defaultBlockState(), 3);
 			canGrowNumber = 0;
@@ -40,6 +44,26 @@ public class HangingVibrionVinesGrowerProcProcedure {
 								WildasideModBlocks.HANGING_VIBRION_VINES.get().defaultBlockState(), 3);
 					}
 					AdvanceNumber = AdvanceNumber + 1;
+				}
+				sx = -4;
+				found = false;
+				for (int index3 = 0; index3 < (int) (9); index3++) {
+					sy = -1;
+					for (int index4 = 0; index4 < (int) (6); index4++) {
+						sz = -4;
+						for (int index5 = 0; index5 < (int) (9); index5++) {
+							if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz)))
+									.getMaterial() == net.minecraft.world.level.material.Material.STONE) {
+								if (Math.random() >= 0.4) {
+									world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState(),
+											3);
+								}
+							}
+							sz = sz + 1;
+						}
+						sy = sy + 1;
+					}
+					sx = sx + 1;
 				}
 			}
 		}

@@ -16,11 +16,15 @@ import java.util.Random;
 public class HangingVibrionGelGrowerProcProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		BlockState randomBlock = Blocks.AIR.defaultBlockState();
+		boolean canGrow = false;
+		boolean canAdvance = false;
+		boolean found = false;
 		double canGrowNumber = 0;
 		double baseBuilder = 0;
 		double AdvanceNumber = 0;
-		boolean canGrow = false;
-		boolean canAdvance = false;
+		double sx = 0;
+		double sy = 0;
+		double sz = 0;
 		if (world.getLevelData().getGameRules().getBoolean(WildasideModGameRules.WILDASIDEDEBUGMODE) == false) {
 			world.setBlock(new BlockPos(x, y, z), Blocks.CAVE_AIR.defaultBlockState(), 3);
 			if (Math.random() > 0.5) {

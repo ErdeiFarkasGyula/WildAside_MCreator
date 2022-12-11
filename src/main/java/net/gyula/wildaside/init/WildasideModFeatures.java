@@ -21,6 +21,10 @@ import net.gyula.wildaside.world.features.plants.VibrionSporeholderFeature;
 import net.gyula.wildaside.world.features.plants.VibrionRootsFeature;
 import net.gyula.wildaside.world.features.plants.SubstiliumSproutsFeature;
 import net.gyula.wildaside.world.features.ores.OvergrownEntoriumOreFeature;
+import net.gyula.wildaside.world.features.TallOakTreeStr2Feature;
+import net.gyula.wildaside.world.features.TallOakTreeStr1Feature;
+import net.gyula.wildaside.world.features.TallBirchTreeStr2Feature;
+import net.gyula.wildaside.world.features.TallBirchTreeStr1Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr59Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr58Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr57Feature;
@@ -1355,6 +1359,18 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> HICKORY_TREE_STR_32 = register("hickory_tree_str_32", HickoryTreeStr32Feature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, HickoryTreeStr32Feature.GENERATE_BIOMES,
 					HickoryTreeStr32Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> TALL_BIRCH_TREE_STR_1 = register("tall_birch_tree_str_1", TallBirchTreeStr1Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, TallBirchTreeStr1Feature.GENERATE_BIOMES,
+					TallBirchTreeStr1Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> TALL_BIRCH_TREE_STR_2 = register("tall_birch_tree_str_2", TallBirchTreeStr2Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, TallBirchTreeStr2Feature.GENERATE_BIOMES,
+					TallBirchTreeStr2Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> TALL_OAK_TREE_STR_1 = register("tall_oak_tree_str_1", TallOakTreeStr1Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, TallOakTreeStr1Feature.GENERATE_BIOMES,
+					TallOakTreeStr1Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> TALL_OAK_TREE_STR_2 = register("tall_oak_tree_str_2", TallOakTreeStr2Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, TallOakTreeStr2Feature.GENERATE_BIOMES,
+					TallOakTreeStr2Feature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
