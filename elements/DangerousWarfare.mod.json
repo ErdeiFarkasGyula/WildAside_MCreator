@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Dangerous Warfare",
-    "achievementDescription": "Infect somebody with an Entorium Sporebomb",
+    "achievementDescription": "Infect a mob or a player with an Entorium Sporebomb",
     "achievementIcon": {
       "value": "CUSTOM:EntoriumSporebomb"
     },

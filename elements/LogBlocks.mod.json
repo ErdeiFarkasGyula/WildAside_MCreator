@@ -18,13 +18,16 @@
         "value": "CUSTOM:HickoryBlock"
       },
       {
-        "value": "CUSTOM:StrippedHickoryLog"
-      },
-      {
         "value": "CUSTOM:StrippedSubstiliumStem"
       },
       {
         "value": "CUSTOM:StrippedSubstiliumBlock"
+      },
+      {
+        "value": "CUSTOM:StrippedHickoryBlock"
+      },
+      {
+        "value": "CUSTOM:StrippedHickoryLog"
       }
     ],
     "functions": [],

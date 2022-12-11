@@ -20,6 +20,7 @@ import net.minecraft.world.level.dimension.LevelStem;
 import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.world.level.chunk.ChunkGenerator;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.biome.MultiNoiseBiomeSource;
 import net.minecraft.world.level.biome.Climate;
 import net.minecraft.world.level.biome.Biome;
@@ -29,6 +30,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
 import net.gyula.wildaside.world.biome.VibrionHiveBiome;
+import net.gyula.wildaside.world.biome.HickoryForestBiome;
 import net.gyula.wildaside.WildasideMod;
 
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.mojang.datafixers.util.Pair;
 public class WildasideModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, WildasideMod.MODID);
 	public static final RegistryObject<Biome> VIBRION_HIVE = REGISTRY.register("vibrion_hive", () -> VibrionHiveBiome.createBiome());
+	public static final RegistryObject<Biome> HICKORY_FOREST = REGISTRY.register("hickory_forest", () -> HickoryForestBiome.createBiome());
 
 	@SubscribeEvent
 	public static void onServerAboutToStart(ServerAboutToStartEvent event) {
@@ -55,6 +58,8 @@ public class WildasideModBiomes {
 				// Inject biomes to biome source
 				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
 					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters.values());
+					parameters.add(new Pair<>(HickoryForestBiome.PARAMETER_POINT,
+							biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, HICKORY_FOREST.getId()))));
 					parameters.add(new Pair<>(VibrionHiveBiome.PARAMETER_POINT_UNDERGROUND,
 							biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, VIBRION_HIVE.getId()))));
 
@@ -73,6 +78,8 @@ public class WildasideModBiomes {
 										WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState(),
 										WildasideModBlocks.LOWER_SUBSTILIUM_SOIL.get().defaultBlockState(),
 										WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState()));
+						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, HICKORY_FOREST.getId()),
+								Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.COARSE_DIRT.defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 								noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(), noiseGeneratorSettings.noiseRouter(),
 								SurfaceRules.sequence(surfaceRules.toArray(i -> new SurfaceRules.RuleSource[i])), noiseGeneratorSettings.seaLevel(),
@@ -84,6 +91,20 @@ public class WildasideModBiomes {
 			}
 
 		}
+	}
+
+	private static SurfaceRules.RuleSource preliminarySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock,
+			BlockState underwaterBlock) {
+		return SurfaceRules
+				.ifTrue(SurfaceRules.isBiome(biomeKey),
+						SurfaceRules
+								.ifTrue(SurfaceRules.abovePreliminarySurface(),
+										SurfaceRules.sequence(
+												SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
+														SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0),
+																SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
+												SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR),
+														SurfaceRules.state(undergroundBlock)))));
 	}
 
 	private static SurfaceRules.RuleSource anySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock,

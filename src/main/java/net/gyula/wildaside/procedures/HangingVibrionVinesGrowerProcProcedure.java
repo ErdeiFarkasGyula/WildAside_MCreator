@@ -32,7 +32,7 @@ public class HangingVibrionVinesGrowerProcProcedure {
 					baseBuilder = baseBuilder - 1;
 				}
 				AdvanceNumber = 0;
-				for (int index2 = 0; index2 < (int) (Mth.nextInt(new Random(), 3, 18)); index2++) {
+				for (int index2 = 0; index2 < (int) (Mth.nextInt(new Random(), 3, 30)); index2++) {
 					canAdvance = (world.getBlockState(new BlockPos(x, (y - AdvanceNumber) - 4, z)))
 							.getMaterial() == net.minecraft.world.level.material.Material.AIR;
 					if (canAdvance == true) {

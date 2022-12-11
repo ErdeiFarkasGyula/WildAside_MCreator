@@ -22,7 +22,8 @@ public class EntoriumSporebombHitsProcedure {
 		if (entity == null || sourceentity == null)
 			return;
 		for (int index0 = 0; index0 < (int) (Mth.nextInt(new Random(), 3, 8)); index0++) {
-			world.addParticle((SimpleParticleType) (WildasideModParticleTypes.VIBRION_PARTICLE.get()), x, y, z, 0, 0, 0);
+			world.addParticle((SimpleParticleType) (WildasideModParticleTypes.VIBRION_PARTICLE.get()), (x + Math.random()), (y + Math.random()),
+					(z + Math.random()), 0, 0, 0);
 		}
 		if (sourceentity instanceof ServerPlayer _player) {
 			Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:dangerous_warfare"));

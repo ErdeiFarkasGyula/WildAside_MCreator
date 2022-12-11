@@ -320,6 +320,12 @@ import net.gyula.wildaside.world.features.NaturalSporeBlasterStr13Feature;
 import net.gyula.wildaside.world.features.NaturalSporeBlasterStr12Feature;
 import net.gyula.wildaside.world.features.NaturalSporeBlasterStr11Feature;
 import net.gyula.wildaside.world.features.NaturalSporeBlasterStr10Feature;
+import net.gyula.wildaside.world.features.HickoryTreeStr32Feature;
+import net.gyula.wildaside.world.features.HickoryTreeStr31Feature;
+import net.gyula.wildaside.world.features.HickoryTreeStr22Feature;
+import net.gyula.wildaside.world.features.HickoryTreeStr21Feature;
+import net.gyula.wildaside.world.features.HickoryTreeStr12Feature;
+import net.gyula.wildaside.world.features.HickoryTreeStr11Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr9Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr8Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr7Feature;
@@ -1331,6 +1337,24 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_245 = register("substilium_mushroom_str_245",
 			SubstiliumMushroomStr245Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
 					SubstiliumMushroomStr245Feature.GENERATE_BIOMES, SubstiliumMushroomStr245Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HICKORY_TREE_STR_11 = register("hickory_tree_str_11", HickoryTreeStr11Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, HickoryTreeStr11Feature.GENERATE_BIOMES,
+					HickoryTreeStr11Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HICKORY_TREE_STR_12 = register("hickory_tree_str_12", HickoryTreeStr12Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, HickoryTreeStr12Feature.GENERATE_BIOMES,
+					HickoryTreeStr12Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HICKORY_TREE_STR_21 = register("hickory_tree_str_21", HickoryTreeStr21Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, HickoryTreeStr21Feature.GENERATE_BIOMES,
+					HickoryTreeStr21Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HICKORY_TREE_STR_22 = register("hickory_tree_str_22", HickoryTreeStr22Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, HickoryTreeStr22Feature.GENERATE_BIOMES,
+					HickoryTreeStr22Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HICKORY_TREE_STR_31 = register("hickory_tree_str_31", HickoryTreeStr31Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, HickoryTreeStr31Feature.GENERATE_BIOMES,
+					HickoryTreeStr31Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HICKORY_TREE_STR_32 = register("hickory_tree_str_32", HickoryTreeStr32Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, HickoryTreeStr32Feature.GENERATE_BIOMES,
+					HickoryTreeStr32Feature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

@@ -9,6 +9,7 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraft.world.level.material.PushReaction;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -43,7 +44,7 @@ public class SporeAirBlock extends Block
 
 			EntityBlock {
 	public SporeAirBlock() {
-		super(BlockBehaviour.Properties.of(Material.AIR).sound(SoundType.GRAVEL).instabreak().noCollission().noOcclusion()
+		super(BlockBehaviour.Properties.of(Material.AIR, MaterialColor.COLOR_YELLOW).sound(SoundType.GRAVEL).instabreak().noCollission().noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false).noDrops());
 	}
 
