@@ -5257,57 +5257,87 @@
       "path": "~/biomes"
     },
     {
-      "name": "HickoryTreeStr1",
-      "type": "structure",
-      "sortid": 549,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hickory_tree_str_1",
-      "path": "~/structures/HickoryForest"
-    },
-    {
-      "name": "HickoryTreeStr2",
-      "type": "structure",
-      "sortid": 550,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hickory_tree_str_2",
-      "path": "~/structures/HickoryForest"
-    },
-    {
-      "name": "HickoryTreeStr3",
-      "type": "structure",
-      "sortid": 551,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hickory_tree_str_3",
-      "path": "~/structures/HickoryForest"
-    },
-    {
-      "name": "HickoryTreeStr4",
-      "type": "structure",
-      "sortid": 552,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hickory_tree_str_4",
-      "path": "~/structures/HickoryForest"
-    },
-    {
-      "name": "HickoryTreeStr5",
-      "type": "structure",
+      "name": "HickoryTreeStrAdditionalGenerationCondition",
+      "type": "procedure",
       "sortid": 553,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hickory_tree_str_5",
+      "registry_name": "hickory_tree_str_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/CheckBlock"
+    },
+    {
+      "name": "HickoryTreeStr11",
+      "type": "structure",
+      "sortid": 555,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_tree_str_11",
       "path": "~/structures/HickoryForest"
     },
     {
-      "name": "HickoryTreeStr6",
+      "name": "HickoryTreeStr12",
       "type": "structure",
-      "sortid": 554,
+      "sortid": 556,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hickory_tree_str_6",
+      "registry_name": "hickory_tree_str_12",
+      "path": "~/structures/HickoryForest"
+    },
+    {
+      "name": "HickoryTreeStr21",
+      "type": "structure",
+      "sortid": 557,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_tree_str_21",
+      "path": "~/structures/HickoryForest"
+    },
+    {
+      "name": "HickoryTreeStr22",
+      "type": "structure",
+      "sortid": 558,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_tree_str_22",
+      "path": "~/structures/HickoryForest"
+    },
+    {
+      "name": "HickoryTreeStr31",
+      "type": "structure",
+      "sortid": 559,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_tree_str_31",
+      "path": "~/structures/HickoryForest"
+    },
+    {
+      "name": "HickoryTreeStr32",
+      "type": "structure",
+      "sortid": 560,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_tree_str_32",
       "path": "~/structures/HickoryForest"
     }
   ],
