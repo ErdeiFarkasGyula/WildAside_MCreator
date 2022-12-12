@@ -60,7 +60,7 @@ public class TallOakTreeStr1Feature extends Feature<NoneFeatureConfiguration> {
 		if (!generate_dimensions.contains(context.level().getLevel().dimension()))
 			return false;
 		if (template == null)
-			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("wildaside", "tall_oak_tree_str_1"));
+			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("wildaside", "tall_hickory_oak_tree"));
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;

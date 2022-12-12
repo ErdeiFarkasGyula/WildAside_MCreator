@@ -2,7 +2,7 @@
   "_fv": 34,
   "_type": "structure",
   "definition": {
-    "structure": "tall_oak_tree_str_1",
+    "structure": "tall_hickory_oak_tree",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 300000,

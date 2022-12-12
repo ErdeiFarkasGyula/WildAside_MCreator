@@ -24,6 +24,7 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 import javax.annotation.Nullable;
 
+import java.util.Random;
 import java.util.Map;
 
 @Mod.EventBusSubscriber
@@ -44,6 +45,13 @@ public class WoodStrippingProcProcedure {
 			return;
 		if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("forge:strippable_wildaside_logs")))) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() instanceof AxeItem) {
+				{
+					ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
+					if (_ist.hurt(1, new Random(), null)) {
+						_ist.shrink(1);
+						_ist.setDamageValue(0);
+					}
+				}
 				if (entity instanceof LivingEntity _entity)
 					_entity.swing(InteractionHand.MAIN_HAND, true);
 				if (world instanceof Level _level) {
@@ -120,6 +128,13 @@ public class WoodStrippingProcProcedure {
 					}
 				}
 			} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() instanceof AxeItem) {
+				{
+					ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY);
+					if (_ist.hurt(1, new Random(), null)) {
+						_ist.shrink(1);
+						_ist.setDamageValue(0);
+					}
+				}
 				if (entity instanceof LivingEntity _entity)
 					_entity.swing(InteractionHand.OFF_HAND, true);
 				if (world instanceof Level _level) {

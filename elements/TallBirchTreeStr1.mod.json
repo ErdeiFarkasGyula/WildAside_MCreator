@@ -2,7 +2,7 @@
   "_fv": 34,
   "_type": "structure",
   "definition": {
-    "structure": "tall_birch_tree_str_1",
+    "structure": "tall_hickory_birch_tree",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 300000,
