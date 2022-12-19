@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "block",
   "definition": {
     "texture": "overgrown_entorium_ore",
@@ -99,16 +99,6 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 0,
-    "spawnParticles": true,
-    "particleToSpawn": {
-      "value": "CUSTOM:EntoriumParticle"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.19999999999999998,
-    "particleAmount": 3,
-    "particleCondition": {
-      "name": "CheckLivingEntity27Condition"
-    },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

@@ -16,10 +16,13 @@ import net.minecraft.core.particles.SimpleParticleType;
 
 import net.gyula.wildaside.init.WildasideModParticleTypes;
 
+import java.util.List;
+
 public class VibrionHiveBiome {
-	public static final Climate.ParameterPoint PARAMETER_POINT_UNDERGROUND = new Climate.ParameterPoint(Climate.Parameter.span(-1, 1),
-			Climate.Parameter.span(-1, 1), Climate.Parameter.span(-0.08f, 0.92f), Climate.Parameter.span(0.4f, 1.4f),
-			Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1.445315797528f, -0.445315797528f), 0);
+	public static final List<Climate.ParameterPoint> UNDERGROUND_PARAMETER_POINTS = List
+			.of(new Climate.ParameterPoint(Climate.Parameter.span(-0.3f, -0.1000000000000001f), Climate.Parameter.span(-1.1f, -0.9f),
+					Climate.Parameter.span(0.3200000000000001f, 0.52f), Climate.Parameter.span(0.7999999999999999f, 0.9999999999999999f),
+					Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1.0453157975281948f, -0.8453157975281947f), 0));
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-6184663).waterColor(-6184663).waterFogColor(-6184663)

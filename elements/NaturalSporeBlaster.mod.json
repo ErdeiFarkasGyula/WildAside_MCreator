@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "block",
   "definition": {
     "texture": "substilium_soil",
@@ -99,13 +99,6 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": -1,
-    "spawnParticles": true,
-    "particleToSpawn": {
-      "value": "CUSTOM:VibrionParticle"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.1,
-    "particleAmount": 2,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

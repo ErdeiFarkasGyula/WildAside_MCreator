@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "biome",
   "definition": {
     "name": "Vibrion Hive",
@@ -52,12 +52,29 @@
     "particlesProbability": 0.6,
     "rainingPossibility": 0.0,
     "temperature": 0.2,
-    "baseHeight": -0.8,
-    "heightVariation": 0.1,
     "spawnBiome": false,
-    "spawnBiomeNether": false,
     "spawnInCaves": true,
-    "biomeWeight": 5,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.30000000000000004,
+      "max": -0.10000000000000006
+    },
+    "genHumidity": {
+      "min": -1.1,
+      "max": -0.9
+    },
+    "genContinentalness": {
+      "min": 0.32000000000000006,
+      "max": 0.52
+    },
+    "genErosion": {
+      "min": 0.7999999999999999,
+      "max": 0.9999999999999999
+    },
+    "genWeirdness": {
+      "min": -1.0453157975281948,
+      "max": -0.8453157975281947
+    },
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 0,

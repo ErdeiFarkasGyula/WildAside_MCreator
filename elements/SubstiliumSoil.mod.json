@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "block",
   "definition": {
     "texture": "substilium_soil",
@@ -99,13 +99,6 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 0,
-    "spawnParticles": true,
-    "particleToSpawn": {
-      "value": "CUSTOM:SubstiliumParticle"
-    },
-    "particleSpawningShape": "Top",
-    "particleSpawningRadious": 0.30000000000000004,
-    "particleAmount": 2,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

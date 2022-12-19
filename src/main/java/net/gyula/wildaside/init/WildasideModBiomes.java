@@ -58,10 +58,14 @@ public class WildasideModBiomes {
 				// Inject biomes to biome source
 				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
 					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters.values());
-					parameters.add(new Pair<>(HickoryForestBiome.PARAMETER_POINT,
-							biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, HICKORY_FOREST.getId()))));
-					parameters.add(new Pair<>(VibrionHiveBiome.PARAMETER_POINT_UNDERGROUND,
-							biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, VIBRION_HIVE.getId()))));
+					for (Climate.ParameterPoint parameterPoint : HickoryForestBiome.PARAMETER_POINTS) {
+						parameters.add(new Pair<>(parameterPoint,
+								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, HICKORY_FOREST.getId()))));
+					}
+					for (Climate.ParameterPoint parameterPoint : VibrionHiveBiome.UNDERGROUND_PARAMETER_POINTS) {
+						parameters.add(new Pair<>(parameterPoint,
+								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, VIBRION_HIVE.getId()))));
+					}
 
 					MultiNoiseBiomeSource moddedNoiseSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters), noiseSource.preset);
 					chunkGenerator.biomeSource = moddedNoiseSource;

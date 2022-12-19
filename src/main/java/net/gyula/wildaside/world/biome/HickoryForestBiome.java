@@ -19,10 +19,13 @@ import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import java.util.List;
 
 public class HickoryForestBiome {
-	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.285714285714f, 0.285714285714f),
-			Climate.Parameter.span(-0.285714285714f, 0.285714285714f), Climate.Parameter.span(0.234285714286f, 0.805714285714f),
-			Climate.Parameter.span(0.414285714286f, 0.985714285714f), Climate.Parameter.point(0),
-			Climate.Parameter.span(-0.779179632425f, -0.207751060997f), 0);
+	public static final List<Climate.ParameterPoint> PARAMETER_POINTS = List.of(
+			new Climate.ParameterPoint(Climate.Parameter.span(-0.4f, 0.4f), Climate.Parameter.span(-0.4f, 0.4f), Climate.Parameter.span(0.12f, 0.92f),
+					Climate.Parameter.span(0.2999999999999999f, 1.1f), Climate.Parameter.point(0.0f),
+					Climate.Parameter.span(-0.8934653467110515f, -0.0934653467110514f), 0),
+			new Climate.ParameterPoint(Climate.Parameter.span(-0.4f, 0.4f), Climate.Parameter.span(-0.4f, 0.4f), Climate.Parameter.span(0.12f, 0.92f),
+					Climate.Parameter.span(0.2999999999999999f, 1.1f), Climate.Parameter.point(1.0f),
+					Climate.Parameter.span(-0.8934653467110515f, -0.0934653467110514f), 0));
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(4159204).waterFogColor(329011).skyColor(7972607)

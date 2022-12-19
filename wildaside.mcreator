@@ -5479,8 +5479,8 @@
   "language_map": {
     "en_us": {
       "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
-      "item.wildaside.entorium": "Entorium",
       "advancements.substilium_log_hidden_1.title": "SubstiliumPlanksHidden1",
+      "item.wildaside.entorium": "Entorium",
       "item.minecraft.tipped_arrow.effect.immune_portection_item": "Arrow of Immune Portection",
       "block.wildaside.vibrion_block": "Vibrion Block",
       "item.wildaside.entorium_gauntlet_leggings": "Entorium Gauntlet Leggings",
@@ -5489,8 +5489,8 @@
       "advancements.barrier_of_bacteria.descr": "Place down a Spore Blaster",
       "block.wildaside.substilium_fence": "Substilium Fence",
       "item.wildaside.entorium_sporebomb": "Entorium Sporebomb",
-      "block.wildaside.substilium_planks": "Substilium Planks",
       "block.wildaside.hanging_vibrion_gel_grower": "Hanging Vibrion Gel Grower",
+      "block.wildaside.substilium_planks": "Substilium Planks",
       "block.wildaside.hickory_log": "Hickory Log",
       "block.wildaside.vibrion_sporeholder": "Vibrion Sporeholder",
       "item.minecraft.tipped_arrow.effect.contamination_item": "Arrow of Contamination",
@@ -5499,8 +5499,8 @@
       "item.wildaside.entorium_pill": "Entorium Pill",
       "advancements.substilium_planks_hidden_1.title": "SubstiliumPlanksHidden1",
       "item.wildaside.entorium_gauntlet_helmet": "Entorium Gauntlet Helmet",
-      "block.wildaside.entorium_ore": "Entorium Ore",
       "block.wildaside.hickory_planks": "Hickory Planks",
+      "block.wildaside.entorium_ore": "Entorium Ore",
       "advancements.temporary_solution.descr": "Consume an Entorium Pill while having Contamination",
       "block.wildaside.bioengineer_workspace": "Bioengineer Workspace",
       "block.wildaside.stripped_substilium_block": "Stripped Substilium Block",
@@ -5521,8 +5521,8 @@
       "advancements.useful_finding.descr": "Shear an Overgrown Substilium Soil block",
       "advancements.spread_100.title": "Spread 100",
       "biome.wildaside.hickory_forest": "Hickory Forest",
-      "advancements.danger_eliminated.title": "Danger Eliminated",
       "advancements.hickory_log_hidden_1.title": "HickoryLogHidden1",
+      "advancements.danger_eliminated.title": "Danger Eliminated",
       "block.wildaside.stripped_hickory_log": "Stripped Hickory Log",
       "block.wildaside.hickory_slab": "Hickory Slab",
       "block.wildaside.lower_substilium_soil": "Substilium Soil",
@@ -5819,5 +5819,5 @@
     "modElementsPackage": "net.gyula.wildaside",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200348217
+  "mcreatorVersion": 202200452117
 }

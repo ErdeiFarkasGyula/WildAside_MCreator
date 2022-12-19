@@ -20,20 +20,16 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
-import net.minecraft.client.Minecraft;
 
 import net.gyula.wildaside.procedures.SporeAirUpdateTickProcedure;
 import net.gyula.wildaside.procedures.SporeAirEntityCollidesInTheBlockProcedure;
-import net.gyula.wildaside.init.WildasideModParticleTypes;
 import net.gyula.wildaside.init.WildasideModBlocks;
 import net.gyula.wildaside.block.entity.SporeAirBlockEntity;
 
@@ -56,6 +52,11 @@ public class SporeAirBlock extends Block
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 0;
+	}
+
+	@Override
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
 	}
 
 	@Override
@@ -93,25 +94,6 @@ public class SporeAirBlock extends Block
 
 		SporeAirUpdateTickProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 20);
-	}
-
-	@OnlyIn(Dist.CLIENT)
-	@Override
-	public void animateTick(BlockState blockstate, Level world, BlockPos pos, Random random) {
-		super.animateTick(blockstate, world, pos, random);
-		Player entity = Minecraft.getInstance().player;
-		int x = pos.getX();
-		int y = pos.getY();
-		int z = pos.getZ();
-		for (int l = 0; l < 7; ++l) {
-			double x0 = x + random.nextFloat();
-			double y0 = y + random.nextFloat();
-			double z0 = z + random.nextFloat();
-			double dx = (random.nextFloat() - 0.5D) * 0.01D;
-			double dy = (random.nextFloat() - 0.5D) * 0.01D;
-			double dz = (random.nextFloat() - 0.5D) * 0.01D;
-			world.addParticle((SimpleParticleType) (WildasideModParticleTypes.STILL_VIBRION_PARTICLE.get()), x0, y0, z0, dx, dy, dz);
-		}
 	}
 
 	@Override
