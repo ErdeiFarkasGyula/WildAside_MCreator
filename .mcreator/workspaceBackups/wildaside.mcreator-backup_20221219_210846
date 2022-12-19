@@ -5465,6 +5465,119 @@
       "locked_code": false,
       "registry_name": "still_vibrion_particle",
       "path": "~/particles"
+    },
+    {
+      "name": "HickoryLeavesBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 577,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_leaves_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/Hickory"
+    },
+    {
+      "name": "HickoryLeavesLoot",
+      "type": "loottable",
+      "sortid": 578,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_leaves_loot",
+      "path": "~/loottables"
+    },
+    {
+      "name": "HickorySaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 579,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_sapling_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/Hickory"
+    },
+    {
+      "name": "HickorySaplingPlantRightClicked",
+      "type": "procedure",
+      "sortid": 580,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_sapling_plant_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/Hickory"
+    },
+    {
+      "name": "HickorySapling",
+      "type": "plant",
+      "sortid": 579,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_sapling",
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [
@@ -5488,6 +5601,7 @@
       "block.wildaside.spore_blaster": "Spore Blaster",
       "advancements.barrier_of_bacteria.descr": "Place down a Spore Blaster",
       "block.wildaside.substilium_fence": "Substilium Fence",
+      "block.wildaside.hickory_sapling": "Hickory Sapling",
       "item.wildaside.entorium_sporebomb": "Entorium Sporebomb",
       "block.wildaside.hanging_vibrion_gel_grower": "Hanging Vibrion Gel Grower",
       "block.wildaside.substilium_planks": "Substilium Planks",

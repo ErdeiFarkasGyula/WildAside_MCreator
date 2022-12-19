@@ -12,11 +12,14 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import net.gyula.wildaside.block.entity.SporeAirBlockEntity;
+import net.gyula.wildaside.block.entity.HickorySaplingBlockEntity;
 import net.gyula.wildaside.WildasideMod;
 
 public class WildasideModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, WildasideMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> SPORE_AIR = register("spore_air", WildasideModBlocks.SPORE_AIR, SporeAirBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> HICKORY_SAPLING = register("hickory_sapling", WildasideModBlocks.HICKORY_SAPLING,
+			HickorySaplingBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {

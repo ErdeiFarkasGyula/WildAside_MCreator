@@ -20,6 +20,7 @@ import net.minecraft.core.Holder;
 import net.gyula.wildaside.world.features.plants.VibrionSporeholderFeature;
 import net.gyula.wildaside.world.features.plants.VibrionRootsFeature;
 import net.gyula.wildaside.world.features.plants.SubstiliumSproutsFeature;
+import net.gyula.wildaside.world.features.plants.HickorySaplingFeature;
 import net.gyula.wildaside.world.features.ores.OvergrownEntoriumOreFeature;
 import net.gyula.wildaside.world.features.TallOakTreeStr1Feature;
 import net.gyula.wildaside.world.features.TallBirchTreeStr1Feature;
@@ -1411,6 +1412,9 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_15 = register("hanging_vibrion_gel_grower_str_15",
 			HangingVibrionGelGrowerStr15Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
 					HangingVibrionGelGrowerStr15Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr15Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HICKORY_SAPLING = register("hickory_sapling", HickorySaplingFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, HickorySaplingFeature.GENERATE_BIOMES,
+					HickorySaplingFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

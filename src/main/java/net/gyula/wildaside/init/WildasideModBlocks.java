@@ -47,6 +47,7 @@ import net.gyula.wildaside.block.LowerSubstiliumSoilBlock;
 import net.gyula.wildaside.block.LitVibrionGelBlock;
 import net.gyula.wildaside.block.HickoryStairsBlock;
 import net.gyula.wildaside.block.HickorySlabBlock;
+import net.gyula.wildaside.block.HickorySaplingBlock;
 import net.gyula.wildaside.block.HickoryPressurePlateBlock;
 import net.gyula.wildaside.block.HickoryPlanksBlock;
 import net.gyula.wildaside.block.HickoryLogBlock;
@@ -126,6 +127,7 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower",
 			() -> new SubstiliumTreeGrowerBlock());
 	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
+	public static final RegistryObject<Block> HICKORY_SAPLING = REGISTRY.register("hickory_sapling", () -> new HickorySaplingBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -154,6 +156,7 @@ public class WildasideModBlocks {
 			HangingVibrionVinesPlantBlock.registerRenderLayer();
 			HangingVibrionGelGrowerBlock.registerRenderLayer();
 			SporeAirBlock.registerRenderLayer();
+			HickorySaplingBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent
