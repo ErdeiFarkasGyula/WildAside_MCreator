@@ -20,10 +20,10 @@ import java.util.List;
 
 public class HickoryForestBiome {
 	public static final List<Climate.ParameterPoint> PARAMETER_POINTS = List.of(
-			new Climate.ParameterPoint(Climate.Parameter.span(-0.4f, 0.4f), Climate.Parameter.span(-0.4f, 0.4f), Climate.Parameter.span(0.12f, 0.92f),
+			new Climate.ParameterPoint(Climate.Parameter.span(-0.4f, 0.4f), Climate.Parameter.span(-0.4f, 0.4f), Climate.Parameter.span(-1f, 0.3f),
 					Climate.Parameter.span(0.2999999999999999f, 1.1f), Climate.Parameter.point(0.0f),
 					Climate.Parameter.span(-0.8934653467110515f, -0.0934653467110514f), 0),
-			new Climate.ParameterPoint(Climate.Parameter.span(-0.4f, 0.4f), Climate.Parameter.span(-0.4f, 0.4f), Climate.Parameter.span(0.12f, 0.92f),
+			new Climate.ParameterPoint(Climate.Parameter.span(-0.4f, 0.4f), Climate.Parameter.span(-0.4f, 0.4f), Climate.Parameter.span(-1f, 0.3f),
 					Climate.Parameter.span(0.2999999999999999f, 1.1f), Climate.Parameter.point(1.0f),
 					Climate.Parameter.span(-0.8934653467110515f, -0.0934653467110514f), 0));
 
