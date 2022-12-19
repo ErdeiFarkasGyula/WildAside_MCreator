@@ -2454,15 +2454,6 @@
       "path": "~/blocks"
     },
     {
-      "name": "StillVibrionParticle",
-      "type": "particle",
-      "sortid": 217,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "still_vibrion_particle",
-      "path": "~/particles"
-    },
-    {
       "name": "EntoriumGauntlet",
       "type": "armor",
       "sortid": 12,
@@ -5465,6 +5456,15 @@
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_15",
       "path": "~/structures/HangingVibrionGel"
+    },
+    {
+      "name": "StillVibrionParticle",
+      "type": "particle",
+      "sortid": 576,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "still_vibrion_particle",
+      "path": "~/particles"
     }
   ],
   "variable_elements": [
