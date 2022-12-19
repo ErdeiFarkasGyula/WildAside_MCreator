@@ -5465,6 +5465,48 @@
       "locked_code": false,
       "registry_name": "still_vibrion_particle",
       "path": "~/particles"
+    },
+    {
+      "name": "HickoryLeavesBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 577,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_leaves_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/Hickory"
+    },
+    {
+      "name": "HickoryLeavesLoot",
+      "type": "loottable",
+      "sortid": 578,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_leaves_loot",
+      "path": "~/loottables"
     }
   ],
   "variable_elements": [

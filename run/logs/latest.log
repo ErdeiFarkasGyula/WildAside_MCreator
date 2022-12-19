@@ -1,159 +1,165 @@
-[19Dec2022 19:53:44.820] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.1.0, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
-[19Dec2022 19:53:44.825] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.5 by Eclipse Adoptium
-[19Dec2022 19:53:44.971] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2322!/ Service=ModLauncher Env=CLIENT
-[19Dec2022 19:53:47.181] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.18]
-[19Dec2022 19:53:54.416] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/MCreatorWorkspaces/WildAsideNew/build/fg_cache/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2.jar%2376!/assets/.mcassetsroot' uses unexpected schema
-[19Dec2022 19:53:54.417] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/MCreatorWorkspaces/WildAsideNew/build/fg_cache/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2.jar%2376!/data/.mcassetsroot' uses unexpected schema
-[19Dec2022 19:53:54.433] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19Dec2022 19:53:54.453] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[19Dec2022 19:53:54.659] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
-[19Dec2022 19:53:57.154] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.0, for MC 1.18.2 with MCP 20220404.173914
-[19Dec2022 19:53:57.157] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.0 Initialized
-[19Dec2022 19:54:00.632] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[19Dec2022 19:54:00.725] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[19Dec2022 19:54:01.554] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[19Dec2022 19:54:03.138] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[19Dec2022 19:54:05.284] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 40.1.0 Target: null
-[19Dec2022 19:54:25.955] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Hangszórók (Realtek High Definition Audio)
-[19Dec2022 19:54:25.956] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[19Dec2022 19:54:26.230] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
-[19Dec2022 19:54:26.245] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
-[19Dec2022 19:54:26.246] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[19Dec2022 19:54:26.249] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[19Dec2022 19:54:26.251] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[19Dec2022 19:54:26.252] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[19Dec2022 19:54:26.253] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19Dec2022 19:54:28.478] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[19Dec2022 19:54:28.481] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[19Dec2022 19:54:28.482] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[19Dec2022 19:54:30.385] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[19Dec2022 19:54:49.774] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Deleting level New World (13)
-[19Dec2022 19:54:49.774] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Attempt 1...
-[19Dec2022 19:54:53.442] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19Dec2022 19:54:53.443] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19Dec2022 19:54:53.451] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19Dec2022 19:54:53.452] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19Dec2022 19:54:53.453] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19Dec2022 19:54:57.055] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[19Dec2022 19:54:59.406] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1156 advancements
-[19Dec2022 19:54:59.911] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19Dec2022 19:54:59.937] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.18.2
-[19Dec2022 19:54:59.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[19Dec2022 19:55:00.053] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World (13)\serverconfig\forge-server.toml is not correct. Correcting
-[19Dec2022 19:55:00.054] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[19Dec2022 19:55:00.055] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[19Dec2022 19:55:00.055] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[19Dec2022 19:55:00.055] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[19Dec2022 19:55:00.055] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[19Dec2022 19:55:00.056] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
-[19Dec2022 19:55:00.056] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.skipEmptyShapelessCheck was corrected from null to its default, true. 
-[19Dec2022 19:55:00.056] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
-[19Dec2022 19:55:00.056] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[19Dec2022 19:55:10.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[19Dec2022 19:55:11.286] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Dec2022 19:55:11.286] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Dec2022 19:55:11.329] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Dec2022 19:55:11.856] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Dec2022 19:55:12.326] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Dec2022 19:55:12.856] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Dec2022 19:55:13.355] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[19Dec2022 19:55:13.830] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[19Dec2022 19:55:14.329] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[19Dec2022 19:55:14.864] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Dec2022 19:55:15.363] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[19Dec2022 19:55:15.873] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[19Dec2022 19:55:16.358] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[19Dec2022 19:55:16.849] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
-[19Dec2022 19:55:17.334] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[19Dec2022 19:55:17.826] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[19Dec2022 19:55:18.346] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
-[19Dec2022 19:55:18.859] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
-[19Dec2022 19:55:19.339] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[19Dec2022 19:55:19.827] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[19Dec2022 19:55:20.338] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[19Dec2022 19:55:20.855] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
-[19Dec2022 19:55:21.330] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[19Dec2022 19:55:21.841] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
-[19Dec2022 19:55:22.343] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[19Dec2022 19:55:22.835] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
-[19Dec2022 19:55:23.358] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
-[19Dec2022 19:55:23.847] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
-[19Dec2022 19:55:24.357] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[19Dec2022 19:55:24.851] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[19Dec2022 19:55:25.347] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[19Dec2022 19:55:25.840] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
-[19Dec2022 19:55:26.332] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
-[19Dec2022 19:55:26.831] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[19Dec2022 19:55:27.345] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
-[19Dec2022 19:55:27.866] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
-[19Dec2022 19:55:28.331] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[19Dec2022 19:55:28.841] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
-[19Dec2022 19:55:29.328] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
-[19Dec2022 19:55:29.848] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[19Dec2022 19:55:30.344] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[19Dec2022 19:55:30.838] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
-[19Dec2022 19:55:31.335] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
-[19Dec2022 19:55:31.851] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
-[19Dec2022 19:55:32.335] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
-[19Dec2022 19:55:32.850] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
-[19Dec2022 19:55:33.337] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[19Dec2022 19:55:33.846] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[19Dec2022 19:55:34.333] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[19Dec2022 19:55:34.833] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
-[19Dec2022 19:55:35.336] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
-[19Dec2022 19:55:35.837] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
-[19Dec2022 19:55:36.326] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
-[19Dec2022 19:55:36.839] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[19Dec2022 19:55:37.339] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[19Dec2022 19:55:37.833] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[19Dec2022 19:55:38.361] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[19Dec2022 19:55:38.829] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[19Dec2022 19:55:39.349] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
-[19Dec2022 19:55:39.827] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
-[19Dec2022 19:55:40.359] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[19Dec2022 19:55:40.588] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[19Dec2022 19:55:40.604] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 30278 ms
-[19Dec2022 19:55:40.656] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[19Dec2022 19:55:40.658] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 8, from 0
-[19Dec2022 19:55:41.657] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[19Dec2022 19:55:41.691] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@457bd37
-[19Dec2022 19:55:41.708] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:f6268c2c] logged in with entity id 377 at (2.5, 88.0, -1.5)
-[19Dec2022 19:55:41.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[19Dec2022 19:55:41.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Wild, Wilder, Wildest]
-[19Dec2022 19:55:42.172] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Dev has made the advancement [Wild, Wilder, Wildest]
-[19Dec2022 19:55:42.414] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 6 advancements
-[19Dec2022 19:55:43.988] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19Dec2022 19:55:44.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19Dec2022 19:55:45.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19Dec2022 19:55:45.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19Dec2022 19:56:26.590] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19Dec2022 19:56:26.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19Dec2022 19:56:26.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19Dec2022 19:56:26.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19Dec2022 19:56:40.547] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] The nearest wildaside:hickory_forest is at [-352, ~, -356] (498 blocks away)
-[19Dec2022 19:56:43.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -351.500000, 91.282719, -355.500000]
-[19Dec2022 19:56:43.365] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Teleported Dev to -351.500000, 91.282719, -355.500000
-[19Dec2022 19:56:44.266] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2128ms or 42 ticks behind
-[19Dec2022 19:56:45.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
-[19Dec2022 19:56:45.602] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Set own game mode to Spectator Mode
-[19Dec2022 19:56:47.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[19Dec2022 19:56:47.660] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Set own game mode to Creative Mode
-[19Dec2022 19:57:12.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[19Dec2022 19:57:12.880] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Set own game mode to Survival Mode
-[19Dec2022 19:57:14.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
-[19Dec2022 19:57:14.185] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Set own game mode to Spectator Mode
-[19Dec2022 19:57:37.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Unsafe Haven]
-[19Dec2022 19:57:37.305] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Dev has reached the goal [Unsafe Haven]
-[19Dec2022 19:57:37.356] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 8 advancements
-[19Dec2022 19:57:42.442] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] [Debug]: Reloading all chunks
-[19Dec2022 19:57:59.356] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] [Debug]: Reloading all chunks
-[19Dec2022 19:58:25.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to 9999.500000, 11.463051, 9999.500000]
-[19Dec2022 19:58:25.856] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Teleported Dev to 9999.500000, 11.463051, 9999.500000
-[19Dec2022 19:58:26.716] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2677ms or 53 ticks behind
-[19Dec2022 19:58:29.172] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] The nearest wildaside:vibrion_hive is at [9996, ~, 9996] (4 blocks away)
-[19Dec2022 19:58:30.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to 9996.500000, 11.463051, 9996.500000]
-[19Dec2022 19:58:30.813] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Teleported Dev to 9996.500000, 11.463051, 9996.500000
-[19Dec2022 19:59:15.941] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19Dec2022 19:59:15.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19Dec2022 19:59:15.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19Dec2022 19:59:15.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[19Dec2022 20:17:31.583] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.1.0, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[19Dec2022 20:17:31.587] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.5 by Eclipse Adoptium
+[19Dec2022 20:17:31.886] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2322!/ Service=ModLauncher Env=CLIENT
+[19Dec2022 20:17:35.670] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.18]
+[19Dec2022 20:17:47.822] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/MCreatorWorkspaces/WildAsideNew/build/fg_cache/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2.jar%2376!/assets/.mcassetsroot' uses unexpected schema
+[19Dec2022 20:17:47.823] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/MCreatorWorkspaces/WildAsideNew/build/fg_cache/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2.jar%2376!/data/.mcassetsroot' uses unexpected schema
+[19Dec2022 20:17:47.847] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19Dec2022 20:17:47.857] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[19Dec2022 20:17:48.161] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[19Dec2022 20:17:50.989] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.0, for MC 1.18.2 with MCP 20220404.173914
+[19Dec2022 20:17:50.994] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.0 Initialized
+[19Dec2022 20:17:57.573] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[19Dec2022 20:17:57.741] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[19Dec2022 20:17:58.404] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[19Dec2022 20:17:59.882] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[19Dec2022 20:18:01.482] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 40.1.0 Target: null
+[19Dec2022 20:18:24.785] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Hangszórók (Realtek High Definition Audio)
+[19Dec2022 20:18:24.787] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[19Dec2022 20:18:25.059] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[19Dec2022 20:18:25.076] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
+[19Dec2022 20:18:25.077] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[19Dec2022 20:18:25.079] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[19Dec2022 20:18:25.081] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[19Dec2022 20:18:25.082] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[19Dec2022 20:18:25.083] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19Dec2022 20:18:27.019] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[19Dec2022 20:18:27.021] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19Dec2022 20:18:27.022] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19Dec2022 20:18:30.762] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[19Dec2022 20:18:33.289] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Deleting level New World (13)
+[19Dec2022 20:18:33.289] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Attempt 1...
+[19Dec2022 20:18:37.999] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19Dec2022 20:18:38.001] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19Dec2022 20:18:38.007] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19Dec2022 20:18:38.009] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19Dec2022 20:18:38.011] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19Dec2022 20:18:43.605] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[19Dec2022 20:18:46.398] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1156 advancements
+[19Dec2022 20:18:46.947] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19Dec2022 20:18:46.977] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.18.2
+[19Dec2022 20:18:46.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[19Dec2022 20:18:47.050] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World (13)\serverconfig\forge-server.toml is not correct. Correcting
+[19Dec2022 20:18:47.053] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19Dec2022 20:18:47.053] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[19Dec2022 20:18:47.054] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[19Dec2022 20:18:47.054] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[19Dec2022 20:18:47.054] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[19Dec2022 20:18:47.054] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+[19Dec2022 20:18:47.055] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.skipEmptyShapelessCheck was corrected from null to its default, true. 
+[19Dec2022 20:18:47.055] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[19Dec2022 20:18:47.055] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[19Dec2022 20:18:58.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[19Dec2022 20:18:59.054] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Dec2022 20:18:59.055] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Dec2022 20:18:59.392] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Dec2022 20:18:59.864] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Dec2022 20:19:00.362] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Dec2022 20:19:00.879] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[19Dec2022 20:19:01.368] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[19Dec2022 20:19:01.849] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[19Dec2022 20:19:02.374] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[19Dec2022 20:19:02.862] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[19Dec2022 20:19:03.362] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[19Dec2022 20:19:03.848] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[19Dec2022 20:19:04.347] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[19Dec2022 20:19:04.871] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[19Dec2022 20:19:05.365] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[19Dec2022 20:19:05.844] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[19Dec2022 20:19:06.345] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[19Dec2022 20:19:06.878] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[19Dec2022 20:19:07.354] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[19Dec2022 20:19:07.866] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[19Dec2022 20:19:08.360] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[19Dec2022 20:19:08.859] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[19Dec2022 20:19:09.351] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[19Dec2022 20:19:09.848] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[19Dec2022 20:19:10.379] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[19Dec2022 20:19:10.871] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[19Dec2022 20:19:11.363] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[19Dec2022 20:19:11.873] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
+[19Dec2022 20:19:12.367] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[19Dec2022 20:19:12.873] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
+[19Dec2022 20:19:13.364] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[19Dec2022 20:19:13.879] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[19Dec2022 20:19:14.346] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[19Dec2022 20:19:14.848] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
+[19Dec2022 20:19:15.346] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
+[19Dec2022 20:19:15.876] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[19Dec2022 20:19:16.376] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[19Dec2022 20:19:16.858] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[19Dec2022 20:19:17.364] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[19Dec2022 20:19:17.875] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
+[19Dec2022 20:19:18.374] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
+[19Dec2022 20:19:18.864] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[19Dec2022 20:19:19.380] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[19Dec2022 20:19:19.875] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[19Dec2022 20:19:20.353] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
+[19Dec2022 20:19:20.870] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
+[19Dec2022 20:19:21.386] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
+[19Dec2022 20:19:21.856] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
+[19Dec2022 20:19:22.357] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[19Dec2022 20:19:22.864] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[19Dec2022 20:19:23.370] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[19Dec2022 20:19:23.887] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[19Dec2022 20:19:24.359] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[19Dec2022 20:19:24.906] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
+[19Dec2022 20:19:25.361] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[19Dec2022 20:19:25.456] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[19Dec2022 20:19:25.463] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 27120 ms
+[19Dec2022 20:19:26.613] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[19Dec2022 20:19:26.616] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 8, from 0
+[19Dec2022 20:19:28.251] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2694ms or 53 ticks behind
+[19Dec2022 20:19:31.794] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[19Dec2022 20:19:31.874] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@60a8f8d1
+[19Dec2022 20:19:31.892] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:00de70ea] logged in with entity id 3532 at (-55.5, 64.0, 336.5)
+[19Dec2022 20:19:31.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[19Dec2022 20:19:32.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Wild, Wilder, Wildest]
+[19Dec2022 20:19:32.543] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Dev has made the advancement [Wild, Wilder, Wildest]
+[19Dec2022 20:19:32.871] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 6 advancements
+[19Dec2022 20:19:34.297] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[19Dec2022 20:19:34.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[19Dec2022 20:19:34.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[19Dec2022 20:19:34.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[19Dec2022 20:20:36.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[19Dec2022 20:20:36.989] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Set own game mode to Survival Mode
+[19Dec2022 20:21:03.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[19Dec2022 20:21:03.140] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Set own game mode to Creative Mode
+[19Dec2022 20:21:20.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Applied enchantment Silk Touch to Dev's item]
+[19Dec2022 20:21:20.221] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Applied enchantment Silk Touch to Dev's item
+[19Dec2022 20:21:36.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 9261 blocks]
+[19Dec2022 20:21:36.259] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Successfully filled 9261 blocks
+[19Dec2022 20:21:40.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[19Dec2022 20:21:40.707] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Set own game mode to Survival Mode
+[19Dec2022 20:21:49.965] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 16 advancements
+[19Dec2022 20:22:03.272] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=72, z=339} BlockPos{x=-53, y=72, z=339}
+[19Dec2022 20:22:03.324] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=72, z=339} BlockPos{x=-53, y=72, z=339}
+[19Dec2022 20:22:03.370] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=72, z=339} BlockPos{x=-53, y=72, z=339}
+[19Dec2022 20:22:03.419] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=72, z=339} BlockPos{x=-53, y=72, z=339}
+[19Dec2022 20:22:03.468] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=72, z=339} BlockPos{x=-53, y=72, z=339}
+[19Dec2022 20:22:03.505] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-54, y=72, z=339} BlockPos{x=-53, y=72, z=339}
+[19Dec2022 20:22:04.922] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-52, y=68, z=337} BlockPos{x=-51, y=69, z=337}
+[19Dec2022 20:22:05.968] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-49, y=68, z=335} BlockPos{x=-50, y=68, z=335}
+[19Dec2022 20:22:07.454] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-51, y=67, z=335} BlockPos{x=-50, y=67, z=334}
+[19Dec2022 20:22:07.521] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-51, y=67, z=335} BlockPos{x=-50, y=67, z=334}
+[19Dec2022 20:22:09.421] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 22 advancements
+[19Dec2022 20:22:10.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[19Dec2022 20:22:10.794] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Set own game mode to Creative Mode
+[19Dec2022 20:22:21.598] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] The nearest wildaside:hickory_forest is at [-244, ~, 356] (196 blocks away)
+[19Dec2022 20:22:22.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -243.500000, 65.548038, 356.500000]
+[19Dec2022 20:22:22.741] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Teleported Dev to -243.500000, 65.548038, 356.500000
+[19Dec2022 20:23:13.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[19Dec2022 20:23:13.096] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Set own game mode to Survival Mode
+[19Dec2022 20:23:15.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
+[19Dec2022 20:23:15.527] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Set own game mode to Spectator Mode
+[19Dec2022 20:23:15.583] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[19Dec2022 20:23:16.125] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
+[19Dec2022 20:23:16.322] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.puffer_fish.ambient
+[19Dec2022 20:23:25.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Unsafe Haven]
+[19Dec2022 20:23:25.080] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Dev has reached the goal [Unsafe Haven]
+[19Dec2022 20:23:25.080] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 24 advancements
+[19Dec2022 20:23:33.425] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] [Debug]: Reloading all chunks
+[19Dec2022 20:23:43.808] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[19Dec2022 20:23:43.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[19Dec2022 20:23:43.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[19Dec2022 20:23:43.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
