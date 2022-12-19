@@ -1,9 +1,9 @@
 package net.gyula.wildaside.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
-
-import net.gyula.wildaside.init.WildasideModBlocks;
 
 public class HickoryTreeStrAdditionalGenerationConditionProcedure {
 	public static boolean execute(LevelAccessor world, double x, double y, double z) {
@@ -18,7 +18,7 @@ public class HickoryTreeStrAdditionalGenerationConditionProcedure {
 			for (int index1 = 0; index1 < (int) (5); index1++) {
 				sz = -3;
 				for (int index2 = 0; index2 < (int) (7); index2++) {
-					if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.HICKORY_LOG.get()) {
+					if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).is(BlockTags.create(new ResourceLocation("minecraft:logs")))) {
 						found = true;
 					}
 					sz = sz + 1;

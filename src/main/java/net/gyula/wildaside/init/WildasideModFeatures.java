@@ -328,6 +328,7 @@ import net.gyula.wildaside.world.features.HickoryTreeStr22Feature;
 import net.gyula.wildaside.world.features.HickoryTreeStr21Feature;
 import net.gyula.wildaside.world.features.HickoryTreeStr12Feature;
 import net.gyula.wildaside.world.features.HickoryTreeStr11Feature;
+import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStrFeature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr9Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr8Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr7Feature;
@@ -336,7 +337,12 @@ import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr5Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr4Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr3Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr2Feature;
+import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr20Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr1Feature;
+import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr19Feature;
+import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr17Feature;
+import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr16Feature;
+import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr15Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr14Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr13Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVinesGrowerStr12Feature;
@@ -351,6 +357,12 @@ import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr4Feature;
 import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr3Feature;
 import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr2Feature;
 import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr1Feature;
+import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr15Feature;
+import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr14Feature;
+import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr13Feature;
+import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr12Feature;
+import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr11Feature;
+import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr10Feature;
 import net.gyula.wildaside.WildasideMod;
 
 import java.util.function.Supplier;
@@ -1363,6 +1375,42 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> TALL_OAK_TREE_STR_1 = register("tall_oak_tree_str_1", TallOakTreeStr1Feature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, TallOakTreeStr1Feature.GENERATE_BIOMES,
 					TallOakTreeStr1Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_VINES_GROWER_STR_15 = register("hanging_vibrion_vines_grower_str_15",
+			HangingVibrionVinesGrowerStr15Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionVinesGrowerStr15Feature.GENERATE_BIOMES, HangingVibrionVinesGrowerStr15Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_VINES_GROWER_STR_16 = register("hanging_vibrion_vines_grower_str_16",
+			HangingVibrionVinesGrowerStr16Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionVinesGrowerStr16Feature.GENERATE_BIOMES, HangingVibrionVinesGrowerStr16Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_VINES_GROWER_STR_17 = register("hanging_vibrion_vines_grower_str_17",
+			HangingVibrionVinesGrowerStr17Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionVinesGrowerStr17Feature.GENERATE_BIOMES, HangingVibrionVinesGrowerStr17Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_VINES_GROWER_STR = register("hanging_vibrion_vines_grower_str",
+			HangingVibrionVinesGrowerStrFeature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionVinesGrowerStrFeature.GENERATE_BIOMES, HangingVibrionVinesGrowerStrFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_VINES_GROWER_STR_19 = register("hanging_vibrion_vines_grower_str_19",
+			HangingVibrionVinesGrowerStr19Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionVinesGrowerStr19Feature.GENERATE_BIOMES, HangingVibrionVinesGrowerStr19Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_VINES_GROWER_STR_20 = register("hanging_vibrion_vines_grower_str_20",
+			HangingVibrionVinesGrowerStr20Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionVinesGrowerStr20Feature.GENERATE_BIOMES, HangingVibrionVinesGrowerStr20Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_10 = register("hanging_vibrion_gel_grower_str_10",
+			HangingVibrionGelGrowerStr10Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionGelGrowerStr10Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr10Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_11 = register("hanging_vibrion_gel_grower_str_11",
+			HangingVibrionGelGrowerStr11Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionGelGrowerStr11Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr11Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_12 = register("hanging_vibrion_gel_grower_str_12",
+			HangingVibrionGelGrowerStr12Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionGelGrowerStr12Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr12Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_13 = register("hanging_vibrion_gel_grower_str_13",
+			HangingVibrionGelGrowerStr13Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionGelGrowerStr13Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr13Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_14 = register("hanging_vibrion_gel_grower_str_14",
+			HangingVibrionGelGrowerStr14Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionGelGrowerStr14Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr14Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_15 = register("hanging_vibrion_gel_grower_str_15",
+			HangingVibrionGelGrowerStr15Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+					HangingVibrionGelGrowerStr15Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr15Feature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

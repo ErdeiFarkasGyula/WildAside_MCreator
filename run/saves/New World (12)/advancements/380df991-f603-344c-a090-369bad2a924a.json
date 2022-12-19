@@ -1,0 +1,22 @@
+{
+  "wildaside:wild_wilder_wildest": {
+    "criteria": {
+      "wild_wilder_wildest": "2022-12-13 16:42:51 +0100"
+    },
+    "done": true
+  },
+  "wildaside:unsafe_haven": {
+    "criteria": {
+      "unsafe_haven": "2022-12-13 16:56:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2022-12-13 16:57:39 +0100",
+      "minecraft:plains": "2022-12-13 16:42:51 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}
