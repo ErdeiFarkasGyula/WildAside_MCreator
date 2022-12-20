@@ -18,6 +18,8 @@ import net.minecraft.world.level.block.Block;
 import net.gyula.wildaside.block.VibrionSporeholderBlock;
 import net.gyula.wildaside.block.VibrionRootsBlock;
 import net.gyula.wildaside.block.VibrionGrowthBlock;
+import net.gyula.wildaside.block.VibrionGlassPaneBlock;
+import net.gyula.wildaside.block.VibrionGlassBlock;
 import net.gyula.wildaside.block.VibrionGelBlock;
 import net.gyula.wildaside.block.VibrionBlockBlock;
 import net.gyula.wildaside.block.SubstiliumTreeGrowerBlock;
@@ -128,6 +130,8 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower",
 			() -> new SubstiliumTreeGrowerBlock());
 	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
+	public static final RegistryObject<Block> VIBRION_GLASS = REGISTRY.register("vibrion_glass", () -> new VibrionGlassBlock());
+	public static final RegistryObject<Block> VIBRION_GLASS_PANE = REGISTRY.register("vibrion_glass_pane", () -> new VibrionGlassPaneBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -157,6 +161,8 @@ public class WildasideModBlocks {
 			HangingVibrionVinesPlantBlock.registerRenderLayer();
 			HangingVibrionGelGrowerBlock.registerRenderLayer();
 			SporeAirBlock.registerRenderLayer();
+			VibrionGlassBlock.registerRenderLayer();
+			VibrionGlassPaneBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent

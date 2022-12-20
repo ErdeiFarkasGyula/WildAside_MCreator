@@ -5578,6 +5578,60 @@
       "locked_code": false,
       "registry_name": "hickory_sapling",
       "path": "~/blocks"
+    },
+    {
+      "name": "VibrionGlass",
+      "type": "block",
+      "sortid": 534,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_glass",
+      "path": "~/blocks"
+    },
+    {
+      "name": "VibrionGlassPane",
+      "type": "block",
+      "sortid": 535,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_glass_pane",
+      "path": "~/blocks"
+    },
+    {
+      "name": "VibrionGlassLoot",
+      "type": "loottable",
+      "sortid": 536,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_glass_loot",
+      "path": "~/loottables"
+    },
+    {
+      "name": "VibrionGlassPaneLoot",
+      "type": "loottable",
+      "sortid": 537,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_glass_pane_loot",
+      "path": "~/loottables"
+    },
+    {
+      "name": "VibrionGlassCraft",
+      "type": "recipe",
+      "sortid": 538,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_glass_craft",
+      "path": "~/recipes/vibrion"
+    },
+    {
+      "name": "VibrionGlassPaneCraft",
+      "type": "recipe",
+      "sortid": 539,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_glass_pane_craft",
+      "path": "~/recipes/vibrion"
     }
   ],
   "variable_elements": [
@@ -5612,6 +5666,7 @@
       "itemGroup.tabwild_aside_tab": "WildAside",
       "item.wildaside.entorium_pill": "Entorium Pill",
       "advancements.substilium_planks_hidden_1.title": "SubstiliumPlanksHidden1",
+      "block.wildaside.vibrion_glass_pane": "Vibrion Glass Pane",
       "item.wildaside.entorium_gauntlet_helmet": "Entorium Gauntlet Helmet",
       "block.wildaside.hickory_planks": "Hickory Planks",
       "block.wildaside.entorium_ore": "Entorium Ore",
@@ -5634,6 +5689,7 @@
       "block.wildaside.hanging_vibrion_vines_plant": "Hanging Vibrion Vines Plant",
       "advancements.useful_finding.descr": "Shear an Overgrown Substilium Soil block",
       "advancements.spread_100.title": "Spread 100",
+      "block.wildaside.vibrion_glass": "Vibrion Glass",
       "biome.wildaside.hickory_forest": "Hickory Forest",
       "advancements.hickory_log_hidden_1.title": "HickoryLogHidden1",
       "advancements.danger_eliminated.title": "Danger Eliminated",
