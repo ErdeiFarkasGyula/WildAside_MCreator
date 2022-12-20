@@ -116,6 +116,7 @@ public class WildasideModBlocks {
 			() -> new HickoryPressurePlateBlock());
 	public static final RegistryObject<Block> HICKORY_BUTTON = REGISTRY.register("hickory_button", () -> new HickoryButtonBlock());
 	public static final RegistryObject<Block> HICKORY_LEAVES = REGISTRY.register("hickory_leaves", () -> new HickoryLeavesBlock());
+	public static final RegistryObject<Block> HICKORY_SAPLING = REGISTRY.register("hickory_sapling", () -> new HickorySaplingBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VINES_PLANT = REGISTRY.register("hanging_vibrion_vines_plant",
 			() -> new HangingVibrionVinesPlantBlock());
 	public static final RegistryObject<Block> LOWER_SUBSTILIUM_SOIL = REGISTRY.register("lower_substilium_soil",
@@ -127,7 +128,6 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower",
 			() -> new SubstiliumTreeGrowerBlock());
 	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
-	public static final RegistryObject<Block> HICKORY_SAPLING = REGISTRY.register("hickory_sapling", () -> new HickorySaplingBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -153,10 +153,10 @@ public class WildasideModBlocks {
 			HickoryFenceGateBlock.registerRenderLayer();
 			HickoryPressurePlateBlock.registerRenderLayer();
 			HickoryButtonBlock.registerRenderLayer();
+			HickorySaplingBlock.registerRenderLayer();
 			HangingVibrionVinesPlantBlock.registerRenderLayer();
 			HangingVibrionGelGrowerBlock.registerRenderLayer();
 			SporeAirBlock.registerRenderLayer();
-			HickorySaplingBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent

@@ -1,25 +1,33 @@
 {
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "has_bone_meal": "2022-12-19 21:00:34 +0100"
+      "has_bone_meal": "2022-12-20 20:43:44 +0100"
     },
     "done": true
   },
   "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "wild_wilder_wildest": "2022-12-19 20:59:59 +0100"
+      "wild_wilder_wildest": "2022-12-20 20:40:45 +0100"
+    },
+    "done": true
+  },
+  "wildaside:unsafe_haven": {
+    "criteria": {
+      "unsafe_haven": "2022-12-20 20:41:02 +0100"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:plains": "2022-12-19 20:59:59 +0100"
+      "minecraft:windswept_forest": "2022-12-20 20:41:54 +0100",
+      "minecraft:old_growth_spruce_taiga": "2022-12-20 20:42:29 +0100",
+      "minecraft:plains": "2022-12-20 20:40:45 +0100"
     },
     "done": false
   },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
-      "has_bone_meal": "2022-12-19 21:00:34 +0100"
+      "has_bone_meal": "2022-12-20 20:43:44 +0100"
     },
     "done": true
   },

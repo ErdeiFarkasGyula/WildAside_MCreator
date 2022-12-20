@@ -386,6 +386,9 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> SUBSTILIUM_SPROUTS = register("substilium_sprouts", SubstiliumSproutsFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, SubstiliumSproutsFeature.GENERATE_BIOMES,
 					SubstiliumSproutsFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> HICKORY_SAPLING = register("hickory_sapling", HickorySaplingFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, HickorySaplingFeature.GENERATE_BIOMES,
+					HickorySaplingFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> HANGING_VIBRION_VINES_GROWER_STR_1 = register("hanging_vibrion_vines_grower_str_1",
 			HangingVibrionVinesGrowerStr1Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
 					HangingVibrionVinesGrowerStr1Feature.GENERATE_BIOMES, HangingVibrionVinesGrowerStr1Feature::placedFeature));
@@ -1412,9 +1415,6 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_15 = register("hanging_vibrion_gel_grower_str_15",
 			HangingVibrionGelGrowerStr15Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
 					HangingVibrionGelGrowerStr15Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr15Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> HICKORY_SAPLING = register("hickory_sapling", HickorySaplingFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, HickorySaplingFeature.GENERATE_BIOMES,
-					HickorySaplingFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
