@@ -77,6 +77,11 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> VIBRION_BLOCK = REGISTRY.register("vibrion_block", () -> new VibrionBlockBlock());
 	public static final RegistryObject<Block> VIBRION_GEL = REGISTRY.register("vibrion_gel", () -> new VibrionGelBlock());
 	public static final RegistryObject<Block> LIT_VIBRION_GEL = REGISTRY.register("lit_vibrion_gel", () -> new LitVibrionGelBlock());
+	public static final RegistryObject<Block> VIBRION_GLASS = REGISTRY.register("vibrion_glass", () -> new VibrionGlassBlock());
+	public static final RegistryObject<Block> LIT_VIBRION_GLASS = REGISTRY.register("lit_vibrion_glass", () -> new LitVibrionGlassBlock());
+	public static final RegistryObject<Block> VIBRION_GLASS_PANE = REGISTRY.register("vibrion_glass_pane", () -> new VibrionGlassPaneBlock());
+	public static final RegistryObject<Block> LIT_VIBRION_GLASS_PANE = REGISTRY.register("lit_vibrion_glass_pane",
+			() -> new LitVibrionGlassPaneBlock());
 	public static final RegistryObject<Block> VIBRION_ROOTS = REGISTRY.register("vibrion_roots", () -> new VibrionRootsBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VINES = REGISTRY.register("hanging_vibrion_vines",
 			() -> new HangingVibrionVinesBlock());
@@ -93,6 +98,13 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> OVERGROWN_ENTORIUM_ORE = REGISTRY.register("overgrown_entorium_ore",
 			() -> new OvergrownEntoriumOreBlock());
 	public static final RegistryObject<Block> ENTORIUM_ORE = REGISTRY.register("entorium_ore", () -> new EntoriumOreBlock());
+	public static final RegistryObject<Block> COMPRESSED_SUBSTILIUM_SOIL = REGISTRY.register("compressed_substilium_soil",
+			() -> new CompressedSubstiliumSoilBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILES = REGISTRY.register("substilium_tiles", () -> new SubstiliumTilesBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_SOIL = REGISTRY.register("smooth_substilium_soil",
+			() -> new SmoothSubstiliumSoilBlock());
+	public static final RegistryObject<Block> CHISELED_SUBSTILIUM_SOIL = REGISTRY.register("chiseled_substilium_soil",
+			() -> new ChiseledSubstiliumSoilBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_SPROUTS = REGISTRY.register("substilium_sprouts", () -> new SubstiliumSproutsBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_PLANKS = REGISTRY.register("substilium_planks", () -> new SubstiliumPlanksBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_STAIRS = REGISTRY.register("substilium_stairs", () -> new SubstiliumStairsBlock());
@@ -136,18 +148,6 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower",
 			() -> new SubstiliumTreeGrowerBlock());
 	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
-	public static final RegistryObject<Block> VIBRION_GLASS = REGISTRY.register("vibrion_glass", () -> new VibrionGlassBlock());
-	public static final RegistryObject<Block> VIBRION_GLASS_PANE = REGISTRY.register("vibrion_glass_pane", () -> new VibrionGlassPaneBlock());
-	public static final RegistryObject<Block> LIT_VIBRION_GLASS = REGISTRY.register("lit_vibrion_glass", () -> new LitVibrionGlassBlock());
-	public static final RegistryObject<Block> LIT_VIBRION_GLASS_PANE = REGISTRY.register("lit_vibrion_glass_pane",
-			() -> new LitVibrionGlassPaneBlock());
-	public static final RegistryObject<Block> COMPRESSED_SUBSTILIUM_SOIL = REGISTRY.register("compressed_substilium_soil",
-			() -> new CompressedSubstiliumSoilBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_TILES = REGISTRY.register("substilium_tiles", () -> new SubstiliumTilesBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_SOIL = REGISTRY.register("smooth_substilium_soil",
-			() -> new SmoothSubstiliumSoilBlock());
-	public static final RegistryObject<Block> CHISELED_SUBSTILIUM_SOIL = REGISTRY.register("chiseled_substilium_soil",
-			() -> new ChiseledSubstiliumSoilBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -155,6 +155,10 @@ public class WildasideModBlocks {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			VibrionGelBlock.registerRenderLayer();
 			LitVibrionGelBlock.registerRenderLayer();
+			VibrionGlassBlock.registerRenderLayer();
+			LitVibrionGlassBlock.registerRenderLayer();
+			VibrionGlassPaneBlock.registerRenderLayer();
+			LitVibrionGlassPaneBlock.registerRenderLayer();
 			VibrionRootsBlock.registerRenderLayer();
 			HangingVibrionVinesBlock.registerRenderLayer();
 			VibrionSporeholderBlock.registerRenderLayer();
@@ -177,10 +181,6 @@ public class WildasideModBlocks {
 			HangingVibrionVinesPlantBlock.registerRenderLayer();
 			HangingVibrionGelGrowerBlock.registerRenderLayer();
 			SporeAirBlock.registerRenderLayer();
-			VibrionGlassBlock.registerRenderLayer();
-			VibrionGlassPaneBlock.registerRenderLayer();
-			LitVibrionGlassBlock.registerRenderLayer();
-			LitVibrionGlassPaneBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent

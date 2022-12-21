@@ -119,6 +119,9 @@
     "onTickUpdate": {
       "name": "VibrionGrowthGrower"
     },
+    "onRandomUpdateEvent": {
+      "name": "VibrionParticleSpawnLow"
+    },
     "onDestroyedByPlayer": {
       "name": "DropXP2_10"
     },

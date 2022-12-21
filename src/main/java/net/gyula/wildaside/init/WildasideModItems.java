@@ -28,6 +28,11 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> VIBRION_BLOCK = block(WildasideModBlocks.VIBRION_BLOCK, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> VIBRION_GEL = block(WildasideModBlocks.VIBRION_GEL, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> LIT_VIBRION_GEL = block(WildasideModBlocks.LIT_VIBRION_GEL, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> VIBRION_GLASS = block(WildasideModBlocks.VIBRION_GLASS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> LIT_VIBRION_GLASS = block(WildasideModBlocks.LIT_VIBRION_GLASS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> VIBRION_GLASS_PANE = block(WildasideModBlocks.VIBRION_GLASS_PANE, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> LIT_VIBRION_GLASS_PANE = block(WildasideModBlocks.LIT_VIBRION_GLASS_PANE,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> VIBRION_ROOTS = block(WildasideModBlocks.VIBRION_ROOTS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HANGING_VIBRION_VINES = block(WildasideModBlocks.HANGING_VIBRION_VINES,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
@@ -49,6 +54,13 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> OVERGROWN_ENTORIUM_ORE = block(WildasideModBlocks.OVERGROWN_ENTORIUM_ORE,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> ENTORIUM_ORE = block(WildasideModBlocks.ENTORIUM_ORE, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> COMPRESSED_SUBSTILIUM_SOIL = block(WildasideModBlocks.COMPRESSED_SUBSTILIUM_SOIL,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_TILES = block(WildasideModBlocks.SUBSTILIUM_TILES, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_SOIL = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_SOIL,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> CHISELED_SUBSTILIUM_SOIL = block(WildasideModBlocks.CHISELED_SUBSTILIUM_SOIL,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SUBSTILIUM_SPROUTS = block(WildasideModBlocks.SUBSTILIUM_SPROUTS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SUBSTILIUM_PLANKS = block(WildasideModBlocks.SUBSTILIUM_PLANKS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SUBSTILIUM_STAIRS = block(WildasideModBlocks.SUBSTILIUM_STAIRS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
@@ -89,18 +101,6 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> HANGING_VIBRION_GEL_GROWER = block(WildasideModBlocks.HANGING_VIBRION_GEL_GROWER, null);
 	public static final RegistryObject<Item> SUBSTILIUM_TREE_GROWER = block(WildasideModBlocks.SUBSTILIUM_TREE_GROWER, null);
 	public static final RegistryObject<Item> SPORE_AIR = block(WildasideModBlocks.SPORE_AIR, null);
-	public static final RegistryObject<Item> VIBRION_GLASS = block(WildasideModBlocks.VIBRION_GLASS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> VIBRION_GLASS_PANE = block(WildasideModBlocks.VIBRION_GLASS_PANE, WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> LIT_VIBRION_GLASS = block(WildasideModBlocks.LIT_VIBRION_GLASS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> LIT_VIBRION_GLASS_PANE = block(WildasideModBlocks.LIT_VIBRION_GLASS_PANE,
-			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> COMPRESSED_SUBSTILIUM_SOIL = block(WildasideModBlocks.COMPRESSED_SUBSTILIUM_SOIL,
-			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SUBSTILIUM_TILES = block(WildasideModBlocks.SUBSTILIUM_TILES, WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_SOIL = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_SOIL,
-			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> CHISELED_SUBSTILIUM_SOIL = block(WildasideModBlocks.CHISELED_SUBSTILIUM_SOIL,
-			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

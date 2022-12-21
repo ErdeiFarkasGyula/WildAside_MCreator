@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "wildaside:bioengineer_workspace",
     "wildaside:compressed_substilium_soil",
     "wildaside:substilium_tiles",
     "wildaside:smooth_substilium_soil",
-    "wildaside:chiseled_substilium_soil"
+    "wildaside:chiseled_substilium_soil",
+    "wildaside:bioengineer_workspace"
   ]
 }

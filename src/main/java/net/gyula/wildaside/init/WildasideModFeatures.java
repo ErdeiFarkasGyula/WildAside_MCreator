@@ -384,6 +384,9 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> OVERGROWN_ENTORIUM_ORE = register("overgrown_entorium_ore", OvergrownEntoriumOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, OvergrownEntoriumOreFeature.GENERATE_BIOMES,
 					OvergrownEntoriumOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> COMPRESSED_SUBSTILIUM_SOIL = register("compressed_substilium_soil",
+			CompressedSubstiliumSoilFeature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+					CompressedSubstiliumSoilFeature.GENERATE_BIOMES, CompressedSubstiliumSoilFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> SUBSTILIUM_SPROUTS = register("substilium_sprouts", SubstiliumSproutsFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, SubstiliumSproutsFeature.GENERATE_BIOMES,
 					SubstiliumSproutsFeature::placedFeature));
@@ -1416,9 +1419,6 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_15 = register("hanging_vibrion_gel_grower_str_15",
 			HangingVibrionGelGrowerStr15Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
 					HangingVibrionGelGrowerStr15Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr15Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> COMPRESSED_SUBSTILIUM_SOIL = register("compressed_substilium_soil",
-			CompressedSubstiliumSoilFeature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
-					CompressedSubstiliumSoilFeature.GENERATE_BIOMES, CompressedSubstiliumSoilFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
