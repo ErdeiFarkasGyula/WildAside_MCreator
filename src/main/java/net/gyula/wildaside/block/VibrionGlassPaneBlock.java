@@ -1,8 +1,6 @@
 
 package net.gyula.wildaside.block;
 
-import org.checkerframework.checker.units.qual.s;
-
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -21,8 +19,8 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 public class VibrionGlassPaneBlock extends IronBarsBlock {
 	public VibrionGlassPaneBlock() {
-		super(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.COLOR_YELLOW).sound(SoundType.GLASS).strength(0.4f).lightLevel(s -> 5)
-				.noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.COLOR_YELLOW).sound(SoundType.GLASS).strength(0.4f).noOcclusion()
+				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

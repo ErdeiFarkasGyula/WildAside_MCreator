@@ -46,6 +46,8 @@ import net.gyula.wildaside.block.SporeAirBlock;
 import net.gyula.wildaside.block.OvergrownEntoriumOreBlock;
 import net.gyula.wildaside.block.NaturalSporeBlasterBlock;
 import net.gyula.wildaside.block.LowerSubstiliumSoilBlock;
+import net.gyula.wildaside.block.LitVibrionGlassPaneBlock;
+import net.gyula.wildaside.block.LitVibrionGlassBlock;
 import net.gyula.wildaside.block.LitVibrionGelBlock;
 import net.gyula.wildaside.block.HickoryStairsBlock;
 import net.gyula.wildaside.block.HickorySlabBlock;
@@ -132,6 +134,9 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
 	public static final RegistryObject<Block> VIBRION_GLASS = REGISTRY.register("vibrion_glass", () -> new VibrionGlassBlock());
 	public static final RegistryObject<Block> VIBRION_GLASS_PANE = REGISTRY.register("vibrion_glass_pane", () -> new VibrionGlassPaneBlock());
+	public static final RegistryObject<Block> LIT_VIBRION_GLASS = REGISTRY.register("lit_vibrion_glass", () -> new LitVibrionGlassBlock());
+	public static final RegistryObject<Block> LIT_VIBRION_GLASS_PANE = REGISTRY.register("lit_vibrion_glass_pane",
+			() -> new LitVibrionGlassPaneBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -163,6 +168,8 @@ public class WildasideModBlocks {
 			SporeAirBlock.registerRenderLayer();
 			VibrionGlassBlock.registerRenderLayer();
 			VibrionGlassPaneBlock.registerRenderLayer();
+			LitVibrionGlassBlock.registerRenderLayer();
+			LitVibrionGlassPaneBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent
