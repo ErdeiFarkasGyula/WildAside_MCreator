@@ -27,7 +27,7 @@ public class NaturalSporeBlasterBlock extends Block {
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
 	public NaturalSporeBlasterBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_YELLOW).sound(SoundType.SHROOMLIGHT).strength(3f, 4f));
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).sound(SoundType.SHROOMLIGHT).strength(3f, 4f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 

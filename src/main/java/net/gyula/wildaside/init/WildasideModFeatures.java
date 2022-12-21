@@ -22,6 +22,7 @@ import net.gyula.wildaside.world.features.plants.VibrionRootsFeature;
 import net.gyula.wildaside.world.features.plants.SubstiliumSproutsFeature;
 import net.gyula.wildaside.world.features.plants.HickorySaplingFeature;
 import net.gyula.wildaside.world.features.ores.OvergrownEntoriumOreFeature;
+import net.gyula.wildaside.world.features.ores.CompressedSubstiliumSoilFeature;
 import net.gyula.wildaside.world.features.TallOakTreeStr1Feature;
 import net.gyula.wildaside.world.features.TallBirchTreeStr1Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr59Feature;
@@ -1415,6 +1416,9 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_15 = register("hanging_vibrion_gel_grower_str_15",
 			HangingVibrionGelGrowerStr15Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
 					HangingVibrionGelGrowerStr15Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr15Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> COMPRESSED_SUBSTILIUM_SOIL = register("compressed_substilium_soil",
+			CompressedSubstiliumSoilFeature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+					CompressedSubstiliumSoilFeature.GENERATE_BIOMES, CompressedSubstiliumSoilFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

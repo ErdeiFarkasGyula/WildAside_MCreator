@@ -63,7 +63,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "YELLOW",
+    "colorOnMap": "CYAN",
     "creativePickItem": {
       "value": ""
     },

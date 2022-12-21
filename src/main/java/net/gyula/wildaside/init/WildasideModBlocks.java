@@ -24,6 +24,7 @@ import net.gyula.wildaside.block.VibrionGelBlock;
 import net.gyula.wildaside.block.VibrionBlockBlock;
 import net.gyula.wildaside.block.SubstiliumTreeGrowerBlock;
 import net.gyula.wildaside.block.SubstiliumTrapdoorBlock;
+import net.gyula.wildaside.block.SubstiliumTilesBlock;
 import net.gyula.wildaside.block.SubstiliumStemBlock;
 import net.gyula.wildaside.block.SubstiliumStairsBlock;
 import net.gyula.wildaside.block.SubstiliumSproutsBlock;
@@ -43,6 +44,7 @@ import net.gyula.wildaside.block.StrippedHickoryLogBlock;
 import net.gyula.wildaside.block.StrippedHickoryBlockBlock;
 import net.gyula.wildaside.block.SporeBlasterBlock;
 import net.gyula.wildaside.block.SporeAirBlock;
+import net.gyula.wildaside.block.SmoothSubstiliumSoilBlock;
 import net.gyula.wildaside.block.OvergrownEntoriumOreBlock;
 import net.gyula.wildaside.block.NaturalSporeBlasterBlock;
 import net.gyula.wildaside.block.LowerSubstiliumSoilBlock;
@@ -65,6 +67,8 @@ import net.gyula.wildaside.block.HangingVibrionVinesGrowerBlock;
 import net.gyula.wildaside.block.HangingVibrionVinesBlock;
 import net.gyula.wildaside.block.HangingVibrionGelGrowerBlock;
 import net.gyula.wildaside.block.EntoriumOreBlock;
+import net.gyula.wildaside.block.CompressedSubstiliumSoilBlock;
+import net.gyula.wildaside.block.ChiseledSubstiliumSoilBlock;
 import net.gyula.wildaside.block.BioengineerWorkspaceBlock;
 import net.gyula.wildaside.WildasideMod;
 
@@ -137,6 +141,13 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> LIT_VIBRION_GLASS = REGISTRY.register("lit_vibrion_glass", () -> new LitVibrionGlassBlock());
 	public static final RegistryObject<Block> LIT_VIBRION_GLASS_PANE = REGISTRY.register("lit_vibrion_glass_pane",
 			() -> new LitVibrionGlassPaneBlock());
+	public static final RegistryObject<Block> COMPRESSED_SUBSTILIUM_SOIL = REGISTRY.register("compressed_substilium_soil",
+			() -> new CompressedSubstiliumSoilBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILES = REGISTRY.register("substilium_tiles", () -> new SubstiliumTilesBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_SOIL = REGISTRY.register("smooth_substilium_soil",
+			() -> new SmoothSubstiliumSoilBlock());
+	public static final RegistryObject<Block> CHISELED_SUBSTILIUM_SOIL = REGISTRY.register("chiseled_substilium_soil",
+			() -> new ChiseledSubstiliumSoilBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
