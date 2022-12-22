@@ -27,18 +27,18 @@ public class HangingVibrionGelGrowerProcProcedure {
 		double sy = 0;
 		double sz = 0;
 		if (world.getLevelData().getGameRules().getBoolean(WildasideModGameRules.WILDASIDEDEBUGMODE) == false) {
+			if (Math.random() > 0.5) {
+				randomBlock = WildasideModBlocks.VIBRION_GEL.get().defaultBlockState();
+			} else {
+				randomBlock = WildasideModBlocks.LIT_VIBRION_GEL.get().defaultBlockState();
+			}
 			world.setBlock(new BlockPos(x, y, z), Blocks.CAVE_AIR.defaultBlockState(), 3);
-			if (new ResourceLocation("wildaside:hickory_forest").equals(world.getBiome(new BlockPos(x, y, z)).value().getRegistryName())) {
-				if (Math.random() > 0.5) {
-					randomBlock = WildasideModBlocks.VIBRION_GEL.get().defaultBlockState();
-				} else {
-					randomBlock = WildasideModBlocks.LIT_VIBRION_GEL.get().defaultBlockState();
-				}
+			if (new ResourceLocation("wildaside:vibrion_hive").equals(world.getBiome(new BlockPos(x, y, z)).value().getRegistryName())) {
 				canGrowNumber = 0;
 				for (int index0 = 0; index0 < (int) (3); index0++) {
-					canGrowNumber = canGrowNumber + 1;
 					canGrow = (world.getBlockState(new BlockPos(x, y - canGrowNumber, z)))
 							.getMaterial() == net.minecraft.world.level.material.Material.AIR;
+					canGrowNumber = canGrowNumber + 1;
 				}
 				if (canGrowNumber <= 3 && canGrow == true) {
 					baseBuilder = 0;
