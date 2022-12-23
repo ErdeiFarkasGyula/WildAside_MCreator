@@ -20,7 +20,7 @@ import java.util.List;
 
 public class VibrionHiveBiome {
 	public static final List<Climate.ParameterPoint> UNDERGROUND_PARAMETER_POINTS = List
-			.of(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 0f), Climate.Parameter.span(-1f, 0f), Climate.Parameter.span(-0.3f, 0.2f),
+			.of(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 0f), Climate.Parameter.span(-1f, 0f), Climate.Parameter.span(-0.3f, 0.5f),
 					Climate.Parameter.span(-0.3f, 0.3f), Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1f, 1f), 0));
 
 	public static Biome createBiome() {

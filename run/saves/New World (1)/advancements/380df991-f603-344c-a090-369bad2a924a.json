@@ -1,0 +1,25 @@
+{
+  "wildaside:wild_wilder_wildest": {
+    "criteria": {
+      "wild_wilder_wildest": "2022-12-23 18:00:43 +0100"
+    },
+    "done": true
+  },
+  "wildaside:unsafe_haven": {
+    "criteria": {
+      "unsafe_haven": "2022-12-23 18:01:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna_plateau": "2022-12-23 18:03:14 +0100",
+      "minecraft:forest": "2022-12-23 18:02:06 +0100",
+      "minecraft:desert": "2022-12-23 18:00:43 +0100",
+      "minecraft:meadow": "2022-12-23 18:03:26 +0100",
+      "minecraft:savanna": "2022-12-23 18:01:37 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

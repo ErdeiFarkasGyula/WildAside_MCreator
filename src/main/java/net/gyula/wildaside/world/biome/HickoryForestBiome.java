@@ -42,6 +42,7 @@ public class HickoryForestBiome {
 				PlacementUtils.register("wildaside:mushrooms_huge_hickory_forest", VegetationFeatures.MUSHROOM_ISLAND_VEGETATION,
 						List.of(CountPlacement.of(1), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
 		BiomeDefaultFeatures.addFerns(biomeGenerationSettings);
+		BiomeDefaultFeatures.addSavannaGrass(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);
 		BiomeDefaultFeatures.addMossyStoneBlock(biomeGenerationSettings);
