@@ -64,7 +64,7 @@ public class TallOakTreeStr1Feature extends Feature<NoneFeatureConfiguration> {
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
-		if ((context.random().nextInt(1000000) + 1) <= 300000) {
+		if ((context.random().nextInt(1000000) + 1) <= 1000000) {
 			int count = context.random().nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);

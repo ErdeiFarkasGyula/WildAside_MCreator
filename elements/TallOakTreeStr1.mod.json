@@ -5,7 +5,7 @@
     "structure": "tall_hickory_oak_tree",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 300000,
+    "spawnProbability": 1000000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",

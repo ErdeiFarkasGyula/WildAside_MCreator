@@ -6197,7 +6197,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
-    "credits": "All textures by Gyula \u0026 Dylanvhs. Developed by Gyula. License and Datagen by Toma400. Special thanks to Aqu and Toma400 for helping in some coding.",
+    "credits": "Textures by Gyula \u0026 Dylanvhs. Developed by Gyula. Special thanks to Aqu and Toma400.",
     "modElementsPackage": "net.gyula.wildaside",
     "lockBaseModFiles": false
   },
