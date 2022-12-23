@@ -32,7 +32,7 @@ public class HangingVibrionGelGrowerProcProcedure {
 			} else {
 				randomBlock = WildasideModBlocks.LIT_VIBRION_GEL.get().defaultBlockState();
 			}
-			world.setBlock(new BlockPos(x, y, z), Blocks.CAVE_AIR.defaultBlockState(), 3);
+			world.setBlock(new BlockPos(x, y, z), (world.getBlockState(new BlockPos(x, y + 1, z))), 3);
 			if (new ResourceLocation("wildaside:vibrion_hive").equals(world.getBiome(new BlockPos(x, y, z)).value().getRegistryName())) {
 				canGrowNumber = 0;
 				for (int index0 = 0; index0 < (int) (3); index0++) {

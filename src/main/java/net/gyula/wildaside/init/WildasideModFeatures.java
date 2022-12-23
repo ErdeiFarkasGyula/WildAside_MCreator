@@ -20,6 +20,8 @@ import net.minecraft.core.Holder;
 import net.gyula.wildaside.world.features.plants.VibrionSporeholderFeature;
 import net.gyula.wildaside.world.features.plants.VibrionRootsFeature;
 import net.gyula.wildaside.world.features.plants.SubstiliumSproutsFeature;
+import net.gyula.wildaside.world.features.plants.SpottedWintergreenFeature;
+import net.gyula.wildaside.world.features.plants.PanxterFlowerFeature;
 import net.gyula.wildaside.world.features.plants.HickorySaplingFeature;
 import net.gyula.wildaside.world.features.ores.OvergrownEntoriumOreFeature;
 import net.gyula.wildaside.world.features.ores.CompressedSubstiliumSoilFeature;
@@ -1419,6 +1421,11 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_15 = register("hanging_vibrion_gel_grower_str_15",
 			HangingVibrionGelGrowerStr15Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
 					HangingVibrionGelGrowerStr15Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr15Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> PANXTER_FLOWER = register("panxter_flower", PanxterFlowerFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, PanxterFlowerFeature.GENERATE_BIOMES, PanxterFlowerFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SPOTTED_WINTERGREEN = register("spotted_wintergreen", SpottedWintergreenFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, SpottedWintergreenFeature.GENERATE_BIOMES,
+					SpottedWintergreenFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

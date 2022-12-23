@@ -42,9 +42,11 @@ import net.gyula.wildaside.block.StrippedSubstiliumStemBlock;
 import net.gyula.wildaside.block.StrippedSubstiliumBlockBlock;
 import net.gyula.wildaside.block.StrippedHickoryLogBlock;
 import net.gyula.wildaside.block.StrippedHickoryBlockBlock;
+import net.gyula.wildaside.block.SpottedWintergreenBlock;
 import net.gyula.wildaside.block.SporeBlasterBlock;
 import net.gyula.wildaside.block.SporeAirBlock;
 import net.gyula.wildaside.block.SmoothSubstiliumSoilBlock;
+import net.gyula.wildaside.block.PanxterFlowerBlock;
 import net.gyula.wildaside.block.OvergrownEntoriumOreBlock;
 import net.gyula.wildaside.block.NaturalSporeBlasterBlock;
 import net.gyula.wildaside.block.LowerSubstiliumSoilBlock;
@@ -148,6 +150,8 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower",
 			() -> new SubstiliumTreeGrowerBlock());
 	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
+	public static final RegistryObject<Block> PANXTER_FLOWER = REGISTRY.register("panxter_flower", () -> new PanxterFlowerBlock());
+	public static final RegistryObject<Block> SPOTTED_WINTERGREEN = REGISTRY.register("spotted_wintergreen", () -> new SpottedWintergreenBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -181,6 +185,8 @@ public class WildasideModBlocks {
 			HangingVibrionVinesPlantBlock.registerRenderLayer();
 			HangingVibrionGelGrowerBlock.registerRenderLayer();
 			SporeAirBlock.registerRenderLayer();
+			PanxterFlowerBlock.registerRenderLayer();
+			SpottedWintergreenBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent

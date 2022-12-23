@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "wildaside:blocks/pinxter_flower",
+    "particle": "wildaside:blocks/pinxter_flower"
+  }
+}
