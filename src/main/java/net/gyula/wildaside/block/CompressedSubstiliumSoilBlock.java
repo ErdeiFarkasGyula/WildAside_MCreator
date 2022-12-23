@@ -30,7 +30,7 @@ public class CompressedSubstiliumSoilBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public CompressedSubstiliumSoilBlock() {
-		super(BlockBehaviour.Properties.of(Material.GRASS, MaterialColor.COLOR_CYAN).sound(SoundType.DEEPSLATE).strength(2f, 5f)
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).sound(SoundType.DEEPSLATE).strength(2f, 5f)
 				.requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "wildaside:blocks/substilium_tiles"
+  }
+}

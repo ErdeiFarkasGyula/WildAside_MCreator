@@ -28,18 +28,13 @@ import java.util.Collections;
 
 public class PanxterFlowerBlock extends FlowerBlock {
 	public PanxterFlowerBlock() {
-		super(MobEffects.MOVEMENT_SPEED, 100,
+		super(MobEffects.POISON, 200,
 				BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_RED).sound(SoundType.GRASS).instabreak().noCollission());
 	}
 
 	@Override
 	public int getEffectDuration() {
-		return 100;
-	}
-
-	@Override
-	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
-		return 100;
+		return 200;
 	}
 
 	@Override

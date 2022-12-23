@@ -63,7 +63,7 @@
       "min": -0.7,
       "max": 0.3
     },
-    "grassPerChunk": 69,
+    "grassPerChunk": 30,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 15,
     "mushroomsPerChunk": 0,
@@ -112,7 +112,8 @@
       "Caves",
       "Ores",
       "TaigaLargeFerns",
-      "TaigaRocks"
+      "TaigaRocks",
+      "Lakes"
     ],
     "spawnEntries": [
       {

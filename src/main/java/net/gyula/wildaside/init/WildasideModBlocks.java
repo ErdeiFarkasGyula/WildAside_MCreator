@@ -25,6 +25,11 @@ import net.gyula.wildaside.block.VibrionBlockBlock;
 import net.gyula.wildaside.block.SubstiliumTreeGrowerBlock;
 import net.gyula.wildaside.block.SubstiliumTrapdoorBlock;
 import net.gyula.wildaside.block.SubstiliumTilesBlock;
+import net.gyula.wildaside.block.SubstiliumTileWallBlock;
+import net.gyula.wildaside.block.SubstiliumTileStairsBlock;
+import net.gyula.wildaside.block.SubstiliumTileSlabBlock;
+import net.gyula.wildaside.block.SubstiliumTilePressurePlateBlock;
+import net.gyula.wildaside.block.SubstiliumTileButtonBlock;
 import net.gyula.wildaside.block.SubstiliumStemBlock;
 import net.gyula.wildaside.block.SubstiliumStairsBlock;
 import net.gyula.wildaside.block.SubstiliumSproutsBlock;
@@ -45,7 +50,12 @@ import net.gyula.wildaside.block.StrippedHickoryBlockBlock;
 import net.gyula.wildaside.block.SpottedWintergreenBlock;
 import net.gyula.wildaside.block.SporeBlasterBlock;
 import net.gyula.wildaside.block.SporeAirBlock;
+import net.gyula.wildaside.block.SmoothSubstiliumWallBlock;
+import net.gyula.wildaside.block.SmoothSubstiliumStairsBlock;
 import net.gyula.wildaside.block.SmoothSubstiliumSoilBlock;
+import net.gyula.wildaside.block.SmoothSubstiliumSlabBlock;
+import net.gyula.wildaside.block.SmoothSubstiliumPressurePlateBlock;
+import net.gyula.wildaside.block.SmoothSubstiliumButtonBlock;
 import net.gyula.wildaside.block.PanxterFlowerBlock;
 import net.gyula.wildaside.block.OvergrownEntoriumOreBlock;
 import net.gyula.wildaside.block.NaturalSporeBlasterBlock;
@@ -152,6 +162,24 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
 	public static final RegistryObject<Block> PANXTER_FLOWER = REGISTRY.register("panxter_flower", () -> new PanxterFlowerBlock());
 	public static final RegistryObject<Block> SPOTTED_WINTERGREEN = REGISTRY.register("spotted_wintergreen", () -> new SpottedWintergreenBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_STAIRS = REGISTRY.register("substilium_tile_stairs",
+			() -> new SubstiliumTileStairsBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_SLAB = REGISTRY.register("substilium_tile_slab", () -> new SubstiliumTileSlabBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_WALL = REGISTRY.register("substilium_tile_wall", () -> new SubstiliumTileWallBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_PRESSURE_PLATE = REGISTRY.register("substilium_tile_pressure_plate",
+			() -> new SubstiliumTilePressurePlateBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_BUTTON = REGISTRY.register("substilium_tile_button",
+			() -> new SubstiliumTileButtonBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_STAIRS = REGISTRY.register("smooth_substilium_stairs",
+			() -> new SmoothSubstiliumStairsBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_SLAB = REGISTRY.register("smooth_substilium_slab",
+			() -> new SmoothSubstiliumSlabBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_WALL = REGISTRY.register("smooth_substilium_wall",
+			() -> new SmoothSubstiliumWallBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_PRESSURE_PLATE = REGISTRY.register("smooth_substilium_pressure_plate",
+			() -> new SmoothSubstiliumPressurePlateBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_BUTTON = REGISTRY.register("smooth_substilium_button",
+			() -> new SmoothSubstiliumButtonBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

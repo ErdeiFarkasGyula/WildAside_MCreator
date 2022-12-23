@@ -103,6 +103,26 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> SPORE_AIR = block(WildasideModBlocks.SPORE_AIR, null);
 	public static final RegistryObject<Item> PANXTER_FLOWER = block(WildasideModBlocks.PANXTER_FLOWER, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SPOTTED_WINTERGREEN = block(WildasideModBlocks.SPOTTED_WINTERGREEN, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_TILE_STAIRS = block(WildasideModBlocks.SUBSTILIUM_TILE_STAIRS,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_TILE_SLAB = block(WildasideModBlocks.SUBSTILIUM_TILE_SLAB,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_TILE_WALL = block(WildasideModBlocks.SUBSTILIUM_TILE_WALL,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_TILE_PRESSURE_PLATE = block(WildasideModBlocks.SUBSTILIUM_TILE_PRESSURE_PLATE,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_TILE_BUTTON = block(WildasideModBlocks.SUBSTILIUM_TILE_BUTTON,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_STAIRS = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_STAIRS,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_SLAB = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_SLAB,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_WALL = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_WALL,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_PRESSURE_PLATE = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_PRESSURE_PLATE,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_BUTTON = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_BUTTON,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

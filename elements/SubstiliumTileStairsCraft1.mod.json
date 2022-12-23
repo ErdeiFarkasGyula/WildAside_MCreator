@@ -1,0 +1,46 @@
+{
+  "_fv": 38,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "substilium_tile_stairs",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SubstiliumTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SubstiliumTiles"
+      },
+      {
+        "value": "CUSTOM:SubstiliumTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SubstiliumTiles"
+      },
+      {
+        "value": "CUSTOM:SubstiliumTiles"
+      },
+      {
+        "value": "CUSTOM:SubstiliumTiles"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SubstiliumTileStairs"
+    },
+    "name": "substilium_tile_stairs",
+    "namespace": "mod"
+  }
+}

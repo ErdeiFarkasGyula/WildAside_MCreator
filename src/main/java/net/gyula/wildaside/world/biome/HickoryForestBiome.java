@@ -33,7 +33,7 @@ public class HickoryForestBiome {
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("wildaside:grass_hickory_forest", VegetationFeatures.PATCH_GRASS,
-						List.of(NoiseThresholdCountPlacement.of(-0.8D, 5, 69), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE,
+						List.of(NoiseThresholdCountPlacement.of(-0.8D, 5, 30), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE,
 								BiomeFilter.biome())));
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("wildaside:flower_hickory_forest", VegetationFeatures.FLOWER_DEFAULT, List.of(CountPlacement.of(15),

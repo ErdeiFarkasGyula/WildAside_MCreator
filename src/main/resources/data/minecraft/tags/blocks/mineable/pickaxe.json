@@ -5,6 +5,16 @@
     "wildaside:substilium_tiles",
     "wildaside:smooth_substilium_soil",
     "wildaside:chiseled_substilium_soil",
-    "wildaside:bioengineer_workspace"
+    "wildaside:bioengineer_workspace",
+    "wildaside:substilium_tile_stairs",
+    "wildaside:substilium_tile_slab",
+    "wildaside:substilium_tile_wall",
+    "wildaside:substilium_tile_pressure_plate",
+    "wildaside:substilium_tile_button",
+    "wildaside:smooth_substilium_stairs",
+    "wildaside:smooth_substilium_slab",
+    "wildaside:smooth_substilium_wall",
+    "wildaside:smooth_substilium_pressure_plate",
+    "wildaside:smooth_substilium_button"
   ]
 }
