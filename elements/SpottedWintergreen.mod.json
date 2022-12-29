@@ -86,6 +86,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:HickoryForest"
+      },
+      {
+        "value": "CUSTOM:GlowingHickoryForest"
       }
     ],
     "patchSize": 40,

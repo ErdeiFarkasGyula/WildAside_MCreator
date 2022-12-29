@@ -23,6 +23,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:HickoryForest"
+      },
+      {
+        "value": "CUSTOM:GlowingHickoryForest"
       }
     ],
     "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK",

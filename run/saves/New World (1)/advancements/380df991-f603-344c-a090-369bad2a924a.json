@@ -1,23 +1,127 @@
 {
-  "wildaside:wild_wilder_wildest": {
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "wild_wilder_wildest": "2022-12-23 18:00:43 +0100"
+      "has_planks": "2022-12-28 13:51:17 +0100"
     },
     "done": true
   },
-  "wildaside:unsafe_haven": {
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
-      "unsafe_haven": "2022-12-23 18:01:11 +0100"
+      "has_stone": "2022-12-28 13:54:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2022-12-28 13:54:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2022-12-28 13:54:05 +0100"
+    },
+    "done": true
+  },
+  "wildaside:wild_wilder_wildest": {
+    "criteria": {
+      "wild_wilder_wildest": "2022-12-28 13:48:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2022-12-28 13:54:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2022-12-28 13:54:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2022-12-28 13:54:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2022-12-28 13:51:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2022-12-28 13:54:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2022-12-28 13:54:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2022-12-28 13:54:05 +0100"
+    },
+    "done": true
+  },
+  "wildaside:hickory_planks_hidden_1": {
+    "criteria": {
+      "hickory_planks_hidden_1": "2022-12-28 13:51:17 +0100"
+    },
+    "done": true
+  },
+  "wildaside:hickory_log_hidden_1": {
+    "criteria": {
+      "hickory_log_hidden_1": "2022-12-28 13:51:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2022-12-28 13:51:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2022-12-28 13:54:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2022-12-28 13:54:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2022-12-28 13:54:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2022-12-28 13:54:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2022-12-28 13:54:05 +0100"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:savanna_plateau": "2022-12-23 18:03:14 +0100",
-      "minecraft:forest": "2022-12-23 18:02:06 +0100",
-      "minecraft:desert": "2022-12-23 18:00:43 +0100",
-      "minecraft:meadow": "2022-12-23 18:03:26 +0100",
-      "minecraft:savanna": "2022-12-23 18:01:37 +0100"
+      "minecraft:forest": "2022-12-28 13:48:36 +0100"
     },
     "done": false
   },

@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "wildaside:substilium_tile_wall",
+    "wildaside:smooth_substilium_wall"
+  ]
 }

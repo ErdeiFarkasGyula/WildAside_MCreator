@@ -17,14 +17,19 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
+import net.gyula.wildaside.world.features.plants.YellowGlowingHickorySaplingFeature;
 import net.gyula.wildaside.world.features.plants.VibrionSporeholderFeature;
 import net.gyula.wildaside.world.features.plants.VibrionRootsFeature;
 import net.gyula.wildaside.world.features.plants.SubstiliumSproutsFeature;
 import net.gyula.wildaside.world.features.plants.SpottedWintergreenFeature;
+import net.gyula.wildaside.world.features.plants.RedGlowingHickorySaplingFeature;
 import net.gyula.wildaside.world.features.plants.PanxterFlowerFeature;
 import net.gyula.wildaside.world.features.plants.HickorySaplingFeature;
+import net.gyula.wildaside.world.features.plants.GreenGlowingHickorySaplingFeature;
+import net.gyula.wildaside.world.features.plants.BrownGlowingHickorySaplingFeature;
 import net.gyula.wildaside.world.features.ores.OvergrownEntoriumOreFeature;
 import net.gyula.wildaside.world.features.ores.CompressedSubstiliumSoilFeature;
+import net.gyula.wildaside.world.features.YellowGlowingHickoryTreeFeature;
 import net.gyula.wildaside.world.features.TallOakTreeStr1Feature;
 import net.gyula.wildaside.world.features.TallBirchTreeStr1Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr59Feature;
@@ -301,6 +306,7 @@ import net.gyula.wildaside.world.features.SubstiliumMushroomStr113Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr112Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr111Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr110Feature;
+import net.gyula.wildaside.world.features.RedGlowingHickoryTreeFeature;
 import net.gyula.wildaside.world.features.NaturalSporeBlasterStrFeature;
 import net.gyula.wildaside.world.features.NaturalSporeBlasterStr9Feature;
 import net.gyula.wildaside.world.features.NaturalSporeBlasterStr8Feature;
@@ -367,6 +373,8 @@ import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr13Feature;
 import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr12Feature;
 import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr11Feature;
 import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr10Feature;
+import net.gyula.wildaside.world.features.GreenGlowingHickoryTreeFeature;
+import net.gyula.wildaside.world.features.BrownGlowingHickoryTreeFeature;
 import net.gyula.wildaside.WildasideMod;
 
 import java.util.function.Supplier;
@@ -395,6 +403,18 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> HICKORY_SAPLING = register("hickory_sapling", HickorySaplingFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, HickorySaplingFeature.GENERATE_BIOMES,
 					HickorySaplingFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> RED_GLOWING_HICKORY_SAPLING = register("red_glowing_hickory_sapling",
+			RedGlowingHickorySaplingFeature::feature, new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION,
+					RedGlowingHickorySaplingFeature.GENERATE_BIOMES, RedGlowingHickorySaplingFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> YELLOW_GLOWING_HICKORY_SAPLING = register("yellow_glowing_hickory_sapling",
+			YellowGlowingHickorySaplingFeature::feature, new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION,
+					YellowGlowingHickorySaplingFeature.GENERATE_BIOMES, YellowGlowingHickorySaplingFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> BROWN_GLOWING_HICKORY_SAPLING = register("brown_glowing_hickory_sapling",
+			BrownGlowingHickorySaplingFeature::feature, new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION,
+					BrownGlowingHickorySaplingFeature.GENERATE_BIOMES, BrownGlowingHickorySaplingFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> GREEN_GLOWING_HICKORY_SAPLING = register("green_glowing_hickory_sapling",
+			GreenGlowingHickorySaplingFeature::feature, new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION,
+					GreenGlowingHickorySaplingFeature.GENERATE_BIOMES, GreenGlowingHickorySaplingFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> PANXTER_FLOWER = register("panxter_flower", PanxterFlowerFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.VEGETAL_DECORATION, PanxterFlowerFeature.GENERATE_BIOMES, PanxterFlowerFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> SPOTTED_WINTERGREEN = register("spotted_wintergreen", SpottedWintergreenFeature::feature,
@@ -1426,6 +1446,18 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> HANGING_VIBRION_GEL_GROWER_STR_15 = register("hanging_vibrion_gel_grower_str_15",
 			HangingVibrionGelGrowerStr15Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
 					HangingVibrionGelGrowerStr15Feature.GENERATE_BIOMES, HangingVibrionGelGrowerStr15Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> RED_GLOWING_HICKORY_TREE = register("red_glowing_hickory_tree",
+			RedGlowingHickoryTreeFeature::feature, new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES,
+					RedGlowingHickoryTreeFeature.GENERATE_BIOMES, RedGlowingHickoryTreeFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> YELLOW_GLOWING_HICKORY_TREE = register("yellow_glowing_hickory_tree",
+			YellowGlowingHickoryTreeFeature::feature, new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES,
+					YellowGlowingHickoryTreeFeature.GENERATE_BIOMES, YellowGlowingHickoryTreeFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> BROWN_GLOWING_HICKORY_TREE = register("brown_glowing_hickory_tree",
+			BrownGlowingHickoryTreeFeature::feature, new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES,
+					BrownGlowingHickoryTreeFeature.GENERATE_BIOMES, BrownGlowingHickoryTreeFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> GREEN_GLOWING_HICKORY_TREE = register("green_glowing_hickory_tree",
+			GreenGlowingHickoryTreeFeature::feature, new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES,
+					GreenGlowingHickoryTreeFeature.GENERATE_BIOMES, GreenGlowingHickoryTreeFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

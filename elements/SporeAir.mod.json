@@ -109,6 +109,9 @@
     "onTickUpdate": {
       "name": "SporeAirUpdateTick"
     },
+    "onRandomUpdateEvent": {
+      "name": "SporeAirClientDisplayRandomTick"
+    },
     "onEntityCollides": {
       "name": "SporeAirEntityCollidesInTheBlock"
     },

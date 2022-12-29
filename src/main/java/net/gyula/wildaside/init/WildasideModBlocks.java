@@ -15,6 +15,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.gyula.wildaside.block.YellowGlowingHickorySaplingBlock;
+import net.gyula.wildaside.block.YellowGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.VibrionSporeholderBlock;
 import net.gyula.wildaside.block.VibrionRootsBlock;
 import net.gyula.wildaside.block.VibrionGrowthBlock;
@@ -56,6 +58,8 @@ import net.gyula.wildaside.block.SmoothSubstiliumSoilBlock;
 import net.gyula.wildaside.block.SmoothSubstiliumSlabBlock;
 import net.gyula.wildaside.block.SmoothSubstiliumPressurePlateBlock;
 import net.gyula.wildaside.block.SmoothSubstiliumButtonBlock;
+import net.gyula.wildaside.block.RedGlowingHickorySaplingBlock;
+import net.gyula.wildaside.block.RedGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.PanxterFlowerBlock;
 import net.gyula.wildaside.block.OvergrownEntoriumOreBlock;
 import net.gyula.wildaside.block.NaturalSporeBlasterBlock;
@@ -78,9 +82,13 @@ import net.gyula.wildaside.block.HangingVibrionVinesPlantBlock;
 import net.gyula.wildaside.block.HangingVibrionVinesGrowerBlock;
 import net.gyula.wildaside.block.HangingVibrionVinesBlock;
 import net.gyula.wildaside.block.HangingVibrionGelGrowerBlock;
+import net.gyula.wildaside.block.GreenGlowingHickorySaplingBlock;
+import net.gyula.wildaside.block.GreenGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.EntoriumOreBlock;
 import net.gyula.wildaside.block.CompressedSubstiliumSoilBlock;
 import net.gyula.wildaside.block.ChiseledSubstiliumSoilBlock;
+import net.gyula.wildaside.block.BrownGlowingHickorySaplingBlock;
+import net.gyula.wildaside.block.BrownGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.BioengineerWorkspaceBlock;
 import net.gyula.wildaside.WildasideMod;
 
@@ -101,11 +109,11 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> VIBRION_GROWTH = REGISTRY.register("vibrion_growth", () -> new VibrionGrowthBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_STEM = REGISTRY.register("substilium_stem", () -> new SubstiliumStemBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_BLOCK = REGISTRY.register("substilium_block", () -> new SubstiliumBlockBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_SHROOM = REGISTRY.register("substilium_shroom", () -> new SubstiliumShroomBlock());
 	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_STEM = REGISTRY.register("stripped_substilium_stem",
 			() -> new StrippedSubstiliumStemBlock());
 	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_BLOCK = REGISTRY.register("stripped_substilium_block",
 			() -> new StrippedSubstiliumBlockBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_SHROOM = REGISTRY.register("substilium_shroom", () -> new SubstiliumShroomBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_SOIL = REGISTRY.register("substilium_soil", () -> new SubstiliumSoilBlock());
 	public static final RegistryObject<Block> OVERGROWN_ENTORIUM_ORE = REGISTRY.register("overgrown_entorium_ore",
 			() -> new OvergrownEntoriumOreBlock());
@@ -113,28 +121,28 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> COMPRESSED_SUBSTILIUM_SOIL = REGISTRY.register("compressed_substilium_soil",
 			() -> new CompressedSubstiliumSoilBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TILES = REGISTRY.register("substilium_tiles", () -> new SubstiliumTilesBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_TILE_STAIRS = REGISTRY.register("substilium_tile_stairs",
-			() -> new SubstiliumTileStairsBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_TILE_SLAB = REGISTRY.register("substilium_tile_slab", () -> new SubstiliumTileSlabBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_TILE_WALL = REGISTRY.register("substilium_tile_wall", () -> new SubstiliumTileWallBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_TILE_PRESSURE_PLATE = REGISTRY.register("substilium_tile_pressure_plate",
-			() -> new SubstiliumTilePressurePlateBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_TILE_BUTTON = REGISTRY.register("substilium_tile_button",
-			() -> new SubstiliumTileButtonBlock());
 	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_SOIL = REGISTRY.register("smooth_substilium_soil",
 			() -> new SmoothSubstiliumSoilBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_STAIRS = REGISTRY.register("smooth_substilium_stairs",
-			() -> new SmoothSubstiliumStairsBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_SLAB = REGISTRY.register("smooth_substilium_slab",
-			() -> new SmoothSubstiliumSlabBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_WALL = REGISTRY.register("smooth_substilium_wall",
-			() -> new SmoothSubstiliumWallBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_PRESSURE_PLATE = REGISTRY.register("smooth_substilium_pressure_plate",
-			() -> new SmoothSubstiliumPressurePlateBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_BUTTON = REGISTRY.register("smooth_substilium_button",
-			() -> new SmoothSubstiliumButtonBlock());
 	public static final RegistryObject<Block> CHISELED_SUBSTILIUM_SOIL = REGISTRY.register("chiseled_substilium_soil",
 			() -> new ChiseledSubstiliumSoilBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_STAIRS = REGISTRY.register("substilium_tile_stairs",
+			() -> new SubstiliumTileStairsBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_STAIRS = REGISTRY.register("smooth_substilium_stairs",
+			() -> new SmoothSubstiliumStairsBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_SLAB = REGISTRY.register("substilium_tile_slab", () -> new SubstiliumTileSlabBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_SLAB = REGISTRY.register("smooth_substilium_slab",
+			() -> new SmoothSubstiliumSlabBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_WALL = REGISTRY.register("substilium_tile_wall", () -> new SubstiliumTileWallBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_WALL = REGISTRY.register("smooth_substilium_wall",
+			() -> new SmoothSubstiliumWallBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_PRESSURE_PLATE = REGISTRY.register("substilium_tile_pressure_plate",
+			() -> new SubstiliumTilePressurePlateBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_PRESSURE_PLATE = REGISTRY.register("smooth_substilium_pressure_plate",
+			() -> new SmoothSubstiliumPressurePlateBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_BUTTON = REGISTRY.register("substilium_tile_button",
+			() -> new SubstiliumTileButtonBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_BUTTON = REGISTRY.register("smooth_substilium_button",
+			() -> new SmoothSubstiliumButtonBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_SPROUTS = REGISTRY.register("substilium_sprouts", () -> new SubstiliumSproutsBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_PLANKS = REGISTRY.register("substilium_planks", () -> new SubstiliumPlanksBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_STAIRS = REGISTRY.register("substilium_stairs", () -> new SubstiliumStairsBlock());
@@ -166,7 +174,23 @@ public class WildasideModBlocks {
 			() -> new HickoryPressurePlateBlock());
 	public static final RegistryObject<Block> HICKORY_BUTTON = REGISTRY.register("hickory_button", () -> new HickoryButtonBlock());
 	public static final RegistryObject<Block> HICKORY_LEAVES = REGISTRY.register("hickory_leaves", () -> new HickoryLeavesBlock());
+	public static final RegistryObject<Block> RED_GLOWING_HICKORY_LEAVES = REGISTRY.register("red_glowing_hickory_leaves",
+			() -> new RedGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> YELLOW_GLOWING_HICKORY_LEAVES = REGISTRY.register("yellow_glowing_hickory_leaves",
+			() -> new YellowGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> BROWN_GLOWING_HICKORY_LEAVES = REGISTRY.register("brown_glowing_hickory_leaves",
+			() -> new BrownGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> GREEN_GLOWING_HICKORY_LEAVES = REGISTRY.register("green_glowing_hickory_leaves",
+			() -> new GreenGlowingHickoryLeavesBlock());
 	public static final RegistryObject<Block> HICKORY_SAPLING = REGISTRY.register("hickory_sapling", () -> new HickorySaplingBlock());
+	public static final RegistryObject<Block> RED_GLOWING_HICKORY_SAPLING = REGISTRY.register("red_glowing_hickory_sapling",
+			() -> new RedGlowingHickorySaplingBlock());
+	public static final RegistryObject<Block> YELLOW_GLOWING_HICKORY_SAPLING = REGISTRY.register("yellow_glowing_hickory_sapling",
+			() -> new YellowGlowingHickorySaplingBlock());
+	public static final RegistryObject<Block> BROWN_GLOWING_HICKORY_SAPLING = REGISTRY.register("brown_glowing_hickory_sapling",
+			() -> new BrownGlowingHickorySaplingBlock());
+	public static final RegistryObject<Block> GREEN_GLOWING_HICKORY_SAPLING = REGISTRY.register("green_glowing_hickory_sapling",
+			() -> new GreenGlowingHickorySaplingBlock());
 	public static final RegistryObject<Block> PANXTER_FLOWER = REGISTRY.register("panxter_flower", () -> new PanxterFlowerBlock());
 	public static final RegistryObject<Block> SPOTTED_WINTERGREEN = REGISTRY.register("spotted_wintergreen", () -> new SpottedWintergreenBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VINES_PLANT = REGISTRY.register("hanging_vibrion_vines_plant",
@@ -210,6 +234,10 @@ public class WildasideModBlocks {
 			HickoryPressurePlateBlock.registerRenderLayer();
 			HickoryButtonBlock.registerRenderLayer();
 			HickorySaplingBlock.registerRenderLayer();
+			RedGlowingHickorySaplingBlock.registerRenderLayer();
+			YellowGlowingHickorySaplingBlock.registerRenderLayer();
+			BrownGlowingHickorySaplingBlock.registerRenderLayer();
+			GreenGlowingHickorySaplingBlock.registerRenderLayer();
 			PanxterFlowerBlock.registerRenderLayer();
 			SpottedWintergreenBlock.registerRenderLayer();
 			HangingVibrionVinesPlantBlock.registerRenderLayer();

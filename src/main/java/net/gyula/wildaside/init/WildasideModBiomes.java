@@ -31,6 +31,7 @@ import net.minecraft.core.Holder;
 
 import net.gyula.wildaside.world.biome.VibrionHiveBiome;
 import net.gyula.wildaside.world.biome.HickoryForestBiome;
+import net.gyula.wildaside.world.biome.GlowingHickoryForestBiome;
 import net.gyula.wildaside.WildasideMod;
 
 import java.util.Map;
@@ -44,6 +45,8 @@ public class WildasideModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, WildasideMod.MODID);
 	public static final RegistryObject<Biome> VIBRION_HIVE = REGISTRY.register("vibrion_hive", () -> VibrionHiveBiome.createBiome());
 	public static final RegistryObject<Biome> HICKORY_FOREST = REGISTRY.register("hickory_forest", () -> HickoryForestBiome.createBiome());
+	public static final RegistryObject<Biome> GLOWING_HICKORY_FOREST = REGISTRY.register("glowing_hickory_forest",
+			() -> GlowingHickoryForestBiome.createBiome());
 
 	@SubscribeEvent
 	public static void onServerAboutToStart(ServerAboutToStartEvent event) {
@@ -61,6 +64,10 @@ public class WildasideModBiomes {
 					for (Climate.ParameterPoint parameterPoint : HickoryForestBiome.PARAMETER_POINTS) {
 						parameters.add(new Pair<>(parameterPoint,
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, HICKORY_FOREST.getId()))));
+					}
+					for (Climate.ParameterPoint parameterPoint : GlowingHickoryForestBiome.PARAMETER_POINTS) {
+						parameters.add(new Pair<>(parameterPoint,
+								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, GLOWING_HICKORY_FOREST.getId()))));
 					}
 					for (Climate.ParameterPoint parameterPoint : VibrionHiveBiome.UNDERGROUND_PARAMETER_POINTS) {
 						parameters.add(new Pair<>(parameterPoint,
@@ -83,6 +90,8 @@ public class WildasideModBiomes {
 										WildasideModBlocks.LOWER_SUBSTILIUM_SOIL.get().defaultBlockState(),
 										WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState()));
 						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, HICKORY_FOREST.getId()),
+								Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
+						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, GLOWING_HICKORY_FOREST.getId()),
 								Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 								noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(), noiseGeneratorSettings.noiseRouter(),

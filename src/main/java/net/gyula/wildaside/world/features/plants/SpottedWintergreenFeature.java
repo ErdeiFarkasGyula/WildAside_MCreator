@@ -46,7 +46,8 @@ public class SpottedWintergreenFeature extends RandomPatchFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("wildaside:hickory_forest"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("wildaside:hickory_forest"),
+			new ResourceLocation("wildaside:glowing_hickory_forest"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
 	public SpottedWintergreenFeature() {

@@ -10,6 +10,12 @@
     "biomes": [
       {
         "value": "CUSTOM:VibrionHive"
+      },
+      {
+        "value": "CUSTOM:HickoryForest"
+      },
+      {
+        "value": "CUSTOM:GlowingHickoryForest"
       }
     ],
     "name": "is_overworld",

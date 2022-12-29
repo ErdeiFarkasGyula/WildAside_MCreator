@@ -42,7 +42,7 @@ public class StillVibrionParticleParticle extends TextureSheetParticle {
 		this.setSize(0.2f, 0.2f);
 
 		this.lifetime = (int) Math.max(1, 30 + (this.random.nextInt(16) - 8));
-		this.gravity = -0.1f;
+		this.gravity = 0f;
 		this.hasPhysics = true;
 		this.xd = vx * 1;
 		this.yd = vy * 1;

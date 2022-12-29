@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "wildaside:blocks/green_glowing_hickory_sapling",
+    "particle": "wildaside:blocks/green_glowing_hickory_sapling"
+  }
+}

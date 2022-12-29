@@ -57,11 +57,11 @@
     },
     "genErosion": {
       "min": -1.0,
-      "max": 0.3
+      "max": 0.35
     },
     "genWeirdness": {
       "min": -0.7,
-      "max": 0.3
+      "max": 0.35
     },
     "grassPerChunk": 30,
     "seagrassPerChunk": 0,

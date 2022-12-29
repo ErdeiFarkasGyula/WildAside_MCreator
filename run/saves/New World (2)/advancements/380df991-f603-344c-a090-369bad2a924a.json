@@ -1,0 +1,24 @@
+{
+  "wildaside:wild_wilder_wildest": {
+    "criteria": {
+      "wild_wilder_wildest": "2022-12-28 14:37:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2022-12-28 14:47:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sunflower_plains": "2022-12-28 14:37:17 +0100",
+      "minecraft:river": "2022-12-28 14:42:36 +0100",
+      "minecraft:flower_forest": "2022-12-28 14:42:37 +0100",
+      "minecraft:plains": "2022-12-28 14:42:45 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

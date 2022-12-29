@@ -20,6 +20,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.MenuProvider;
@@ -27,9 +28,11 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.Minecraft;
 
 import net.gyula.wildaside.procedures.SporeAirUpdateTickProcedure;
 import net.gyula.wildaside.procedures.SporeAirEntityCollidesInTheBlockProcedure;
+import net.gyula.wildaside.procedures.SporeAirClientDisplayRandomTickProcedure;
 import net.gyula.wildaside.init.WildasideModBlocks;
 import net.gyula.wildaside.block.entity.SporeAirBlockEntity;
 
@@ -94,6 +97,18 @@ public class SporeAirBlock extends Block
 
 		SporeAirUpdateTickProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 20);
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	@Override
+	public void animateTick(BlockState blockstate, Level world, BlockPos pos, Random random) {
+		super.animateTick(blockstate, world, pos, random);
+		Player entity = Minecraft.getInstance().player;
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+
+		SporeAirClientDisplayRandomTickProcedure.execute(world, x, y, z);
 	}
 
 	@Override

@@ -45,7 +45,8 @@ public class HickoryTreeStr11Feature extends Feature<NoneFeatureConfiguration> {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("wildaside:hickory_forest"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("wildaside:hickory_forest"),
+			new ResourceLocation("wildaside:glowing_hickory_forest"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 	private final List<Block> base_blocks;
 	private StructureTemplate template = null;
