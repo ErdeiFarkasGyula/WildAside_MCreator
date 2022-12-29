@@ -53,7 +53,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 8,
+    "lightOpacity": 1,
     "material": {
       "value": "LEAVES"
     },
@@ -97,7 +97,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 7,
+    "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": -1,
     "hasInventory": false,

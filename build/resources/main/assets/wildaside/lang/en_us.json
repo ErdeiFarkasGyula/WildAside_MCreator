@@ -1,7 +1,7 @@
 {
   "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
-  "advancements.substilium_log_hidden_1.title": "SubstiliumPlanksHidden1",
   "item.wildaside.entorium": "Entorium",
+  "advancements.substilium_log_hidden_1.title": "SubstiliumPlanksHidden1",
   "item.minecraft.tipped_arrow.effect.immune_portection_item": "Arrow of Immune Portection",
   "block.wildaside.vibrion_block": "Vibrion Block",
   "item.wildaside.entorium_gauntlet_leggings": "Entorium Gauntlet Leggings",
@@ -9,8 +9,8 @@
   "advancements.vibrion_gel_hidden_1_adv.descr": "Vibrion Gel Hidden 1 Adv",
   "block.wildaside.spore_blaster": "Spore Blaster",
   "advancements.barrier_of_bacteria.descr": "Place down a Spore Blaster",
-  "block.wildaside.substilium_fence": "Substilium Fence",
   "block.wildaside.brown_glowing_hickory_leaves": "Brown Glowing Hickory Leaves",
+  "block.wildaside.substilium_fence": "Substilium Fence",
   "block.wildaside.hickory_sapling": "Hickory Sapling",
   "item.wildaside.entorium_sporebomb": "Entorium Sporebomb",
   "block.wildaside.hanging_vibrion_gel_grower": "Hanging Vibrion Gel Grower",

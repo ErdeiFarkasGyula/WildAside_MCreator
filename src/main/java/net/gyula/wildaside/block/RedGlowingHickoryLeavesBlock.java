@@ -1,8 +1,6 @@
 
 package net.gyula.wildaside.block;
 
-import org.checkerframework.checker.units.qual.s;
-
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.FluidState;
@@ -19,13 +17,12 @@ import net.gyula.wildaside.procedures.RedGlowingHickoryLeavesBlockDestroyedByPla
 
 public class RedGlowingHickoryLeavesBlock extends LeavesBlock {
 	public RedGlowingHickoryLeavesBlock() {
-		super(BlockBehaviour.Properties.of(Material.LEAVES, MaterialColor.COLOR_GREEN).sound(SoundType.GRASS).strength(0.3f).lightLevel(s -> 7)
-				.noOcclusion());
+		super(BlockBehaviour.Properties.of(Material.LEAVES, MaterialColor.COLOR_RED).sound(SoundType.GRASS).strength(0.3f).noOcclusion());
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 8;
+		return 1;
 	}
 
 	@Override
