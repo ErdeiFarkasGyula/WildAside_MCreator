@@ -1,10 +1,7 @@
 {
   "variants": {
-    "lit=false": {
-      "model": "wildaside:block/red_hickory_leaves"
-    },
-    "lit=true": {
-      "model": "wildaside:block/red_hickory_leaves"
+    "": {
+      "model": "wildaside:block/red_glowing_hickory_leaves"
     }
   }
 }

@@ -37,7 +37,7 @@ public class SpottedWintergreenFeature extends RandomPatchFeature {
 				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
 						new SimpleBlockConfiguration(BlockStateProvider.simple(WildasideModBlocks.SPOTTED_WINTERGREEN.get().defaultBlockState())),
 						List.of(), 40));
-		PLACED_FEATURE = PlacementUtils.register("wildaside:spotted_wintergreen", CONFIGURED_FEATURE, List.of(CountPlacement.of(15),
+		PLACED_FEATURE = PlacementUtils.register("wildaside:spotted_wintergreen", CONFIGURED_FEATURE, List.of(CountPlacement.of(20),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

@@ -26,6 +26,8 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
+import net.gyula.wildaside.network.WildasideModVariables;
+
 import java.util.Random;
 
 public class BrownGlowingHickorySaplingPlantRightClickedProcedure {
@@ -91,6 +93,13 @@ public class BrownGlowingHickorySaplingPlantRightClickedProcedure {
 									_serverworld.random, 3);
 						}
 					}
+					{
+						boolean _setval = true;
+						entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.brownGlowingHickorySapling = _setval;
+							capability.syncPlayerVariables(entity);
+						});
+					}
 				}
 			}
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == Items.BONE_MEAL) {
@@ -150,6 +159,13 @@ public class BrownGlowingHickorySaplingPlantRightClickedProcedure {
 									new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
 									_serverworld.random, 3);
 						}
+					}
+					{
+						boolean _setval = true;
+						entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.brownGlowingHickorySapling = _setval;
+							capability.syncPlayerVariables(entity);
+						});
 					}
 				}
 			}

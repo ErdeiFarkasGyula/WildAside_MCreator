@@ -1,22 +1,48 @@
 {
-  "wildaside:wild_wilder_wildest": {
+  "wildaside:grow_the_glow": {
     "criteria": {
-      "wild_wilder_wildest": "2022-12-29 21:39:11 +0100"
+      "grow_the_glow": "2022-12-31 13:06:03 +0100"
     },
     "done": true
   },
-  "wildaside:unsafe_haven": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "unsafe_haven": "2022-12-29 21:40:08 +0100"
+      "has_bone_meal": "2022-12-31 13:05:37 +0100"
+    },
+    "done": true
+  },
+  "wildaside:wild_wilder_wildest": {
+    "criteria": {
+      "wild_wilder_wildest": "2022-12-31 13:04:20 +0100"
+    },
+    "done": true
+  },
+  "wildaside:spread_100": {
+    "criteria": {
+      "spread_100": "2022-12-31 13:04:56 +0100"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:beach": "2022-12-29 21:39:11 +0100",
-      "minecraft:plains": "2022-12-29 21:39:52 +0100"
+      "minecraft:river": "2022-12-31 13:04:41 +0100",
+      "minecraft:forest": "2022-12-31 13:06:12 +0100",
+      "minecraft:old_growth_birch_forest": "2022-12-31 13:06:44 +0100",
+      "minecraft:plains": "2022-12-31 13:04:20 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2022-12-31 13:05:37 +0100"
+    },
+    "done": true
+  },
+  "wildaside:glowing_wonder": {
+    "criteria": {
+      "glowing_wonder": "2022-12-31 13:05:07 +0100"
+    },
+    "done": true
   },
   "DataVersion": 2975
 }

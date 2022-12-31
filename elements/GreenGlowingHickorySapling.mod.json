@@ -6,7 +6,7 @@
     "texture": "green_glowing_hickory_sapling",
     "textureBottom": "",
     "customModelName": "Cross model",
-    "itemTexture": "brown_glowing_hickory_sapling",
+    "itemTexture": "green_glowing_hickory_sapling",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

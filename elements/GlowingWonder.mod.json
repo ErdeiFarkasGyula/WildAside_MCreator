@@ -1,0 +1,25 @@
+{
+  "_fv": 38,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Glowing Wonder",
+    "achievementDescription": "Enter a Glowing Hickory Forest biome",
+    "achievementIcon": {
+      "value": "CUSTOM:RedGlowingHickoryLeaves"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 10,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:WildWilderWildest"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"65\" y=\"113\"><field name=\"biome\">CUSTOM:GlowingHickoryForest</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}
