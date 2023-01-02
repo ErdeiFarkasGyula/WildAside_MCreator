@@ -155,9 +155,9 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SUBSTILIUM_PRESSURE_PLATE = REGISTRY.register("substilium_pressure_plate",
 			() -> new SubstiliumPressurePlateBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_BUTTON = REGISTRY.register("substilium_button", () -> new SubstiliumButtonBlock());
-	public static final RegistryObject<Block> SPORE_BLASTER = REGISTRY.register("spore_blaster", () -> new SporeBlasterBlock());
 	public static final RegistryObject<Block> NATURAL_SPORE_BLASTER = REGISTRY.register("natural_spore_blaster",
 			() -> new NaturalSporeBlasterBlock());
+	public static final RegistryObject<Block> SPORE_BLASTER = REGISTRY.register("spore_blaster", () -> new SporeBlasterBlock());
 	public static final RegistryObject<Block> BIOENGINEER_WORKSPACE = REGISTRY.register("bioengineer_workspace",
 			() -> new BioengineerWorkspaceBlock());
 	public static final RegistryObject<Block> HICKORY_LOG = REGISTRY.register("hickory_log", () -> new HickoryLogBlock());

@@ -17,10 +17,13 @@ import net.gyula.wildaside.block.entity.RedGlowingHickorySaplingBlockEntity;
 import net.gyula.wildaside.block.entity.HickorySaplingBlockEntity;
 import net.gyula.wildaside.block.entity.GreenGlowingHickorySaplingBlockEntity;
 import net.gyula.wildaside.block.entity.BrownGlowingHickorySaplingBlockEntity;
+import net.gyula.wildaside.block.entity.BioengineerWorkspaceBlockEntity;
 import net.gyula.wildaside.WildasideMod;
 
 public class WildasideModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, WildasideMod.MODID);
+	public static final RegistryObject<BlockEntityType<?>> BIOENGINEER_WORKSPACE = register("bioengineer_workspace",
+			WildasideModBlocks.BIOENGINEER_WORKSPACE, BioengineerWorkspaceBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> HICKORY_SAPLING = register("hickory_sapling", WildasideModBlocks.HICKORY_SAPLING,
 			HickorySaplingBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> RED_GLOWING_HICKORY_SAPLING = register("red_glowing_hickory_sapling",

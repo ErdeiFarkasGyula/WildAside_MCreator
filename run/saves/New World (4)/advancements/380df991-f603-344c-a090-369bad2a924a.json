@@ -1,42 +1,15 @@
 {
-  "wildaside:grow_the_glow": {
-    "criteria": {
-      "grow_the_glow": "2022-12-31 13:19:45 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2022-12-31 13:19:15 +0100"
-    },
-    "done": true
-  },
   "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "wild_wilder_wildest": "2022-12-31 13:18:09 +0100"
+      "wild_wilder_wildest": "2023-01-02 13:11:15 +0100"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:snowy_slopes": "2022-12-31 13:18:09 +0100",
-      "minecraft:forest": "2022-12-31 13:18:43 +0100",
-      "minecraft:flower_forest": "2022-12-31 13:18:15 +0100",
-      "minecraft:plains": "2022-12-31 13:18:16 +0100"
+      "minecraft:forest": "2023-01-02 13:11:15 +0100"
     },
     "done": false
-  },
-  "minecraft:recipes/building_blocks/bone_block": {
-    "criteria": {
-      "has_bone_meal": "2022-12-31 13:19:15 +0100"
-    },
-    "done": true
-  },
-  "wildaside:glowing_wonder": {
-    "criteria": {
-      "glowing_wonder": "2022-12-31 13:18:56 +0100"
-    },
-    "done": true
   },
   "DataVersion": 2975
 }

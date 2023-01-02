@@ -24,5 +24,17 @@ public class WildasideModCompostableItems {
 		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.VIBRION_ROOTS.get().asItem(), 0.65f);
 		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.SUBSTILIUM_SPROUTS.get().asItem(), 0.5f);
 		ComposterBlock.COMPOSTABLES.put(WildasideModItems.HICKORY_NUT.get(), 0.1f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModItems.HICKORY_NUT.get(), 0.5f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.HICKORY_LEAVES.get().asItem(), 0.3f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.RED_GLOWING_HICKORY_LEAVES.get().asItem(), 0.5f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.YELLOW_GLOWING_HICKORY_LEAVES.get().asItem(), 0.5f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.BROWN_GLOWING_HICKORY_LEAVES.get().asItem(), 0.5f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.GREEN_GLOWING_HICKORY_LEAVES.get().asItem(), 0.5f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.HICKORY_SAPLING.get().asItem(), 0.3f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.RED_GLOWING_HICKORY_SAPLING.get().asItem(), 0.5f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.YELLOW_GLOWING_HICKORY_SAPLING.get().asItem(), 0.5f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.BROWN_GLOWING_HICKORY_SAPLING.get().asItem(), 0.5f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.GREEN_GLOWING_HICKORY_SAPLING.get().asItem(), 0.5f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModItems.RUTILLION.get(), 1f);
 	}
 }
