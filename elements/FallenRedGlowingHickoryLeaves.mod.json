@@ -85,9 +85,6 @@
     ],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:HickoryForest"
-      },
-      {
         "value": "CUSTOM:GlowingHickoryForest"
       }
     ],

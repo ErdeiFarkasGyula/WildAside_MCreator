@@ -84,8 +84,11 @@ import net.gyula.wildaside.block.HangingVibrionVinesBlock;
 import net.gyula.wildaside.block.HangingVibrionGelGrowerBlock;
 import net.gyula.wildaside.block.GreenGlowingHickorySaplingBlock;
 import net.gyula.wildaside.block.GreenGlowingHickoryLeavesBlock;
+import net.gyula.wildaside.block.FallenYellowGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.FallenRedGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.FallenHickoryLeavesBlock;
+import net.gyula.wildaside.block.FallenGreenGlwoingHickoryLeavesBlock;
+import net.gyula.wildaside.block.FallenBrownGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.EntoriumOreBlock;
 import net.gyula.wildaside.block.CompressedSubstiliumSoilBlock;
 import net.gyula.wildaside.block.ChiseledSubstiliumSoilBlock;
@@ -210,6 +213,12 @@ public class WildasideModBlocks {
 			() -> new FallenHickoryLeavesBlock());
 	public static final RegistryObject<Block> FALLEN_RED_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_red_glowing_hickory_leaves",
 			() -> new FallenRedGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> FALLEN_YELLOW_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_yellow_glowing_hickory_leaves",
+			() -> new FallenYellowGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> FALLEN_BROWN_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_brown_glowing_hickory_leaves",
+			() -> new FallenBrownGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> FALLEN_GREEN_GLWOING_HICKORY_LEAVES = REGISTRY.register("fallen_green_glwoing_hickory_leaves",
+			() -> new FallenGreenGlwoingHickoryLeavesBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -251,6 +260,9 @@ public class WildasideModBlocks {
 			SporeAirBlock.registerRenderLayer();
 			FallenHickoryLeavesBlock.registerRenderLayer();
 			FallenRedGlowingHickoryLeavesBlock.registerRenderLayer();
+			FallenYellowGlowingHickoryLeavesBlock.registerRenderLayer();
+			FallenBrownGlowingHickoryLeavesBlock.registerRenderLayer();
+			FallenGreenGlwoingHickoryLeavesBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent

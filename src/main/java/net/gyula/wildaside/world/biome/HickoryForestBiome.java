@@ -29,7 +29,7 @@ public class HickoryForestBiome {
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(4159204).waterFogColor(329011).skyColor(7972607)
-				.foliageColorOverride(-13196533).grassColorOverride(-13196533).build();
+				.foliageColorOverride(-13196533).grassColorOverride(-11687384).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("wildaside:grass_hickory_forest", VegetationFeatures.PATCH_GRASS,

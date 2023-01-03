@@ -32,7 +32,7 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 public class VibrionSporeholderBlock extends FlowerBlock {
 	public VibrionSporeholderBlock() {
-		super(MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.FUNGUS)
+		super(MobEffects.MOVEMENT_SPEED, 0, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.FUNGUS)
 				.strength(1.5f, 2f).lightLevel(s -> 5).noCollission());
 	}
 
@@ -40,11 +40,6 @@ public class VibrionSporeholderBlock extends FlowerBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		Vec3 offset = state.getOffset(world, pos);
 		return box(0, 0, 0, 16, 4, 16).move(offset.x, offset.y, offset.z);
-	}
-
-	@Override
-	public int getEffectDuration() {
-		return 100;
 	}
 
 	@Override

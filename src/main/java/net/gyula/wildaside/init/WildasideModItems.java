@@ -145,6 +145,12 @@ public class WildasideModItems {
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> FALLEN_RED_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.FALLEN_RED_GLOWING_HICKORY_LEAVES,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> FALLEN_YELLOW_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.FALLEN_YELLOW_GLOWING_HICKORY_LEAVES,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> FALLEN_BROWN_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.FALLEN_BROWN_GLOWING_HICKORY_LEAVES,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> FALLEN_GREEN_GLWOING_HICKORY_LEAVES = block(WildasideModBlocks.FALLEN_GREEN_GLWOING_HICKORY_LEAVES,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
