@@ -84,6 +84,8 @@ import net.gyula.wildaside.block.HangingVibrionVinesBlock;
 import net.gyula.wildaside.block.HangingVibrionGelGrowerBlock;
 import net.gyula.wildaside.block.GreenGlowingHickorySaplingBlock;
 import net.gyula.wildaside.block.GreenGlowingHickoryLeavesBlock;
+import net.gyula.wildaside.block.FallenRedGlowingHickoryLeavesBlock;
+import net.gyula.wildaside.block.FallenHickoryLeavesBlock;
 import net.gyula.wildaside.block.EntoriumOreBlock;
 import net.gyula.wildaside.block.CompressedSubstiliumSoilBlock;
 import net.gyula.wildaside.block.ChiseledSubstiliumSoilBlock;
@@ -204,6 +206,10 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower",
 			() -> new SubstiliumTreeGrowerBlock());
 	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
+	public static final RegistryObject<Block> FALLEN_HICKORY_LEAVES = REGISTRY.register("fallen_hickory_leaves",
+			() -> new FallenHickoryLeavesBlock());
+	public static final RegistryObject<Block> FALLEN_RED_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_red_glowing_hickory_leaves",
+			() -> new FallenRedGlowingHickoryLeavesBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -243,16 +249,20 @@ public class WildasideModBlocks {
 			HangingVibrionVinesPlantBlock.registerRenderLayer();
 			HangingVibrionGelGrowerBlock.registerRenderLayer();
 			SporeAirBlock.registerRenderLayer();
+			FallenHickoryLeavesBlock.registerRenderLayer();
+			FallenRedGlowingHickoryLeavesBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent
 		public static void blockColorLoad(ColorHandlerEvent.Block event) {
 			HickoryLeavesBlock.blockColorLoad(event);
+			FallenHickoryLeavesBlock.blockColorLoad(event);
 		}
 
 		@SubscribeEvent
 		public static void itemColorLoad(ColorHandlerEvent.Item event) {
 			HickoryLeavesBlock.itemColorLoad(event);
+			FallenHickoryLeavesBlock.itemColorLoad(event);
 		}
 	}
 }

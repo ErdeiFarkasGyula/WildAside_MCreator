@@ -3,9 +3,9 @@
   "textures": {
     "down": "wildaside:blocks/substilium_soil",
     "up": "wildaside:blocks/substilium_soil",
-    "north": "wildaside:blocks/spore_blaster_face",
+    "north": "wildaside:blocks/spore_blaster_base",
     "east": "wildaside:blocks/substilium_soil",
-    "south": "wildaside:blocks/spore_blaster_face",
+    "south": "wildaside:blocks/spore_blaster_base",
     "west": "wildaside:blocks/substilium_soil",
     "particle": "wildaside:blocks/substilium_soil"
   }

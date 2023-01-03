@@ -3,6 +3,6 @@
   "textures": {
     "all": "wildaside:blocks/vibrion_growth",
     "particle": "wildaside:blocks/vibrion_block",
-    "0": "wildaside:blocks/vibrion_growth"
+    "growth": "wildaside:blocks/vibrion_growth"
   }
 }

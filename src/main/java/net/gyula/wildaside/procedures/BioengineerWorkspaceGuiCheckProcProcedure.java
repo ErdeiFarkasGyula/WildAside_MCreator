@@ -2,9 +2,12 @@ package net.gyula.wildaside.procedures;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.Slot;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
 
+import net.gyula.wildaside.init.WildasideModMobEffects;
 import net.gyula.wildaside.init.WildasideModItems;
 import net.gyula.wildaside.init.WildasideModBlocks;
 
@@ -56,6 +59,10 @@ public class BioengineerWorkspaceGuiCheckProcProcedure {
 						_player.containerMenu.broadcastChanges();
 					}
 					i = i + 1;
+				}
+				if (Math.random() >= 0.06) {
+					if (entity instanceof LivingEntity _entity)
+						_entity.addEffect(new MobEffectInstance(WildasideModMobEffects.CONTAMINATION.get(), 600, 1, (false), (true)));
 				}
 			}
 		}

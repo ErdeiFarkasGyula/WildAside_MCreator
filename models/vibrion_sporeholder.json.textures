@@ -2,8 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "vibrion_sporeholder_outer",
-        "1": "vibrion_sporeholder_inner"
+        "sporeholder": "vibrion_sporeholder"
       },
       "name": "default"
     }

@@ -31,7 +31,7 @@ public class HangingVibrionVinesGrowerProcProcedure {
 				}
 			}
 			for (int index1 = 0; index1 < (int) (Math.round(emptySpace / (Mth.nextInt(new Random(), 15, 22) / 10))); index1++) {
-				world.setBlock(new BlockPos(x, y - loopNumber, z), WildasideModBlocks.HANGING_VIBRION_VINES_PLANT.get().defaultBlockState(), 3);
+				world.setBlock(new BlockPos(x, y - loopNumber, z), WildasideModBlocks.HANGING_VIBRION_VINES.get().defaultBlockState(), 3);
 				loopNumber = loopNumber + 1;
 			}
 			sx = -4;

@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "vibrion_growth"
+        "growth": "vibrion_growth"
       },
       "name": "default"
     }
