@@ -24,7 +24,6 @@ import java.util.function.ToIntFunction;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.Block;
-
 import java.util.Random;
 
 public class RedGlowingHickoryLeavesBlock extends LeavesBlock {

@@ -1,0 +1,27 @@
+{
+  "_fv": 38,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:FallenRedGlowingHickoryLeaves"
+      },
+      {
+        "value": "CUSTOM:FallenYellowGlowingHickoryLeaves"
+      },
+      {
+        "value": "CUSTOM:FallenBrownGlowingHickoryLeaves"
+      },
+      {
+        "value": "CUSTOM:FallenGreenGlowingHickoryLeaves"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "fallen_glowing_hickory_leaves",
+    "namespace": "mod"
+  }
+}

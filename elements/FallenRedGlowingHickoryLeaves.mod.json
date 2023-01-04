@@ -80,14 +80,8 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [],
     "frequencyOnChunks": 5,
-    "spawnWorldTypes": [
-      "Surface"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:GlowingHickoryForest"
-      }
-    ],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "generateCondition": {
       "name": "FallenRedGlowingHickoryLeavesAdditionalGenerationCondition"
     },

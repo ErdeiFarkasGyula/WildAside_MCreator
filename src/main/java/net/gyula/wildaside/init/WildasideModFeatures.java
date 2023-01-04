@@ -26,11 +26,6 @@ import net.gyula.wildaside.world.features.plants.RedGlowingHickorySaplingFeature
 import net.gyula.wildaside.world.features.plants.PanxterFlowerFeature;
 import net.gyula.wildaside.world.features.plants.HickorySaplingFeature;
 import net.gyula.wildaside.world.features.plants.GreenGlowingHickorySaplingFeature;
-import net.gyula.wildaside.world.features.plants.FallenYellowGlowingHickoryLeavesFeature;
-import net.gyula.wildaside.world.features.plants.FallenRedGlowingHickoryLeavesFeature;
-import net.gyula.wildaside.world.features.plants.FallenHickoryLeavesFeature;
-import net.gyula.wildaside.world.features.plants.FallenGreenGlwoingHickoryLeavesFeature;
-import net.gyula.wildaside.world.features.plants.FallenBrownGlowingHickoryLeavesFeature;
 import net.gyula.wildaside.world.features.plants.BrownGlowingHickorySaplingFeature;
 import net.gyula.wildaside.world.features.ores.OvergrownEntoriumOreFeature;
 import net.gyula.wildaside.world.features.ores.CompressedSubstiliumSoilFeature;
@@ -1463,21 +1458,6 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> GREEN_GLOWING_HICKORY_TREE = register("green_glowing_hickory_tree",
 			GreenGlowingHickoryTreeFeature::feature, new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES,
 					GreenGlowingHickoryTreeFeature.GENERATE_BIOMES, GreenGlowingHickoryTreeFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> FALLEN_HICKORY_LEAVES = register("fallen_hickory_leaves", FallenHickoryLeavesFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, FallenHickoryLeavesFeature.GENERATE_BIOMES,
-					FallenHickoryLeavesFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> FALLEN_RED_GLOWING_HICKORY_LEAVES = register("fallen_red_glowing_hickory_leaves",
-			FallenRedGlowingHickoryLeavesFeature::feature, new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION,
-					FallenRedGlowingHickoryLeavesFeature.GENERATE_BIOMES, FallenRedGlowingHickoryLeavesFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> FALLEN_YELLOW_GLOWING_HICKORY_LEAVES = register("fallen_yellow_glowing_hickory_leaves",
-			FallenYellowGlowingHickoryLeavesFeature::feature, new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION,
-					FallenYellowGlowingHickoryLeavesFeature.GENERATE_BIOMES, FallenYellowGlowingHickoryLeavesFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> FALLEN_BROWN_GLOWING_HICKORY_LEAVES = register("fallen_brown_glowing_hickory_leaves",
-			FallenBrownGlowingHickoryLeavesFeature::feature, new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION,
-					FallenBrownGlowingHickoryLeavesFeature.GENERATE_BIOMES, FallenBrownGlowingHickoryLeavesFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> FALLEN_GREEN_GLWOING_HICKORY_LEAVES = register("fallen_green_glwoing_hickory_leaves",
-			FallenGreenGlwoingHickoryLeavesFeature::feature, new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION,
-					FallenGreenGlwoingHickoryLeavesFeature.GENERATE_BIOMES, FallenGreenGlwoingHickoryLeavesFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

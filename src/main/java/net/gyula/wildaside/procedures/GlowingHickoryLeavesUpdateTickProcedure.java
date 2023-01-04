@@ -2,11 +2,15 @@ package net.gyula.wildaside.procedures;
 
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.core.BlockPos;
 
+import net.gyula.wildaside.init.WildasideModBlocks;
+
 public class GlowingHickoryLeavesUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
+		double i = 0;
 		if (world.dayTime() < 12000) {
 			if (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _getip2
 					? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip2)
@@ -58,6 +62,41 @@ public class GlowingHickoryLeavesUpdateTickProcedure {
 						}
 					}
 				}
+			}
+		}
+		if (Math.random() >= 0.995) {
+			i = 1;
+			for (int index0 = 0; index0 < (int) (7); index0++) {
+				if (!world.getBlockState(new BlockPos(x, y - i, z)).canOcclude()
+						&& (world.getBlockState(new BlockPos(x, y - (i + 1), z))).getBlock() == Blocks.GRASS_BLOCK) {
+					if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.HICKORY_LEAVES.get()) {
+						world.setBlock(new BlockPos(x, y - i, z), WildasideModBlocks.FALLEN_HICKORY_LEAVES.get().defaultBlockState(), 3);
+					} else {
+						if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.RED_GLOWING_HICKORY_LEAVES.get()) {
+							world.setBlock(new BlockPos(x, y - i, z), WildasideModBlocks.FALLEN_RED_GLOWING_HICKORY_LEAVES.get().defaultBlockState(),
+									3);
+						} else {
+							if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.YELLOW_GLOWING_HICKORY_LEAVES.get()) {
+								world.setBlock(new BlockPos(x, y - i, z),
+										WildasideModBlocks.FALLEN_YELLOW_GLOWING_HICKORY_LEAVES.get().defaultBlockState(), 3);
+							} else {
+								if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.BROWN_GLOWING_HICKORY_LEAVES
+										.get()) {
+									world.setBlock(new BlockPos(x, y - i, z),
+											WildasideModBlocks.FALLEN_BROWN_GLOWING_HICKORY_LEAVES.get().defaultBlockState(), 3);
+								} else {
+									if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.GREEN_GLOWING_HICKORY_LEAVES
+											.get()) {
+										world.setBlock(new BlockPos(x, y - i, z),
+												WildasideModBlocks.FALLEN_GREEN_GLOWING_HICKORY_LEAVES.get().defaultBlockState(), 3);
+									}
+								}
+							}
+						}
+					}
+					break;
+				}
+				i = i + 1;
 			}
 		}
 	}

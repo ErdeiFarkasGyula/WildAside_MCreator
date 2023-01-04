@@ -87,7 +87,7 @@ import net.gyula.wildaside.block.GreenGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.FallenYellowGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.FallenRedGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.FallenHickoryLeavesBlock;
-import net.gyula.wildaside.block.FallenGreenGlwoingHickoryLeavesBlock;
+import net.gyula.wildaside.block.FallenGreenGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.FallenBrownGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.EntoriumOreBlock;
 import net.gyula.wildaside.block.CompressedSubstiliumSoilBlock;
@@ -187,6 +187,16 @@ public class WildasideModBlocks {
 			() -> new BrownGlowingHickoryLeavesBlock());
 	public static final RegistryObject<Block> GREEN_GLOWING_HICKORY_LEAVES = REGISTRY.register("green_glowing_hickory_leaves",
 			() -> new GreenGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> FALLEN_HICKORY_LEAVES = REGISTRY.register("fallen_hickory_leaves",
+			() -> new FallenHickoryLeavesBlock());
+	public static final RegistryObject<Block> FALLEN_RED_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_red_glowing_hickory_leaves",
+			() -> new FallenRedGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> FALLEN_YELLOW_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_yellow_glowing_hickory_leaves",
+			() -> new FallenYellowGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> FALLEN_BROWN_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_brown_glowing_hickory_leaves",
+			() -> new FallenBrownGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> FALLEN_GREEN_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_green_glowing_hickory_leaves",
+			() -> new FallenGreenGlowingHickoryLeavesBlock());
 	public static final RegistryObject<Block> HICKORY_SAPLING = REGISTRY.register("hickory_sapling", () -> new HickorySaplingBlock());
 	public static final RegistryObject<Block> RED_GLOWING_HICKORY_SAPLING = REGISTRY.register("red_glowing_hickory_sapling",
 			() -> new RedGlowingHickorySaplingBlock());
@@ -209,16 +219,6 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower",
 			() -> new SubstiliumTreeGrowerBlock());
 	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
-	public static final RegistryObject<Block> FALLEN_HICKORY_LEAVES = REGISTRY.register("fallen_hickory_leaves",
-			() -> new FallenHickoryLeavesBlock());
-	public static final RegistryObject<Block> FALLEN_RED_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_red_glowing_hickory_leaves",
-			() -> new FallenRedGlowingHickoryLeavesBlock());
-	public static final RegistryObject<Block> FALLEN_YELLOW_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_yellow_glowing_hickory_leaves",
-			() -> new FallenYellowGlowingHickoryLeavesBlock());
-	public static final RegistryObject<Block> FALLEN_BROWN_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_brown_glowing_hickory_leaves",
-			() -> new FallenBrownGlowingHickoryLeavesBlock());
-	public static final RegistryObject<Block> FALLEN_GREEN_GLWOING_HICKORY_LEAVES = REGISTRY.register("fallen_green_glwoing_hickory_leaves",
-			() -> new FallenGreenGlwoingHickoryLeavesBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -248,6 +248,11 @@ public class WildasideModBlocks {
 			HickoryFenceGateBlock.registerRenderLayer();
 			HickoryPressurePlateBlock.registerRenderLayer();
 			HickoryButtonBlock.registerRenderLayer();
+			FallenHickoryLeavesBlock.registerRenderLayer();
+			FallenRedGlowingHickoryLeavesBlock.registerRenderLayer();
+			FallenYellowGlowingHickoryLeavesBlock.registerRenderLayer();
+			FallenBrownGlowingHickoryLeavesBlock.registerRenderLayer();
+			FallenGreenGlowingHickoryLeavesBlock.registerRenderLayer();
 			HickorySaplingBlock.registerRenderLayer();
 			RedGlowingHickorySaplingBlock.registerRenderLayer();
 			YellowGlowingHickorySaplingBlock.registerRenderLayer();
@@ -258,11 +263,6 @@ public class WildasideModBlocks {
 			HangingVibrionVinesPlantBlock.registerRenderLayer();
 			HangingVibrionGelGrowerBlock.registerRenderLayer();
 			SporeAirBlock.registerRenderLayer();
-			FallenHickoryLeavesBlock.registerRenderLayer();
-			FallenRedGlowingHickoryLeavesBlock.registerRenderLayer();
-			FallenYellowGlowingHickoryLeavesBlock.registerRenderLayer();
-			FallenBrownGlowingHickoryLeavesBlock.registerRenderLayer();
-			FallenGreenGlwoingHickoryLeavesBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent

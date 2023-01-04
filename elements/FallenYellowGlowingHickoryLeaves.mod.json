@@ -80,17 +80,8 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [],
     "frequencyOnChunks": 5,
-    "spawnWorldTypes": [
-      "Surface"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:GlowingHickoryForest"
-      }
-    ],
-    "generateCondition": {
-      "name": "FallenYellowGlowingHickoryLeavesAdditionalGenerationCondition"
-    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "patchSize": 64,
     "generateAtAnyHeight": false,
     "onDestroyedByPlayer": {
