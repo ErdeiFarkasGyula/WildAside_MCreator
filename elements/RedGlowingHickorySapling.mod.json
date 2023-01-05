@@ -92,9 +92,6 @@
     "generateAtAnyHeight": false,
     "onTickUpdate": {
       "name": "RedGlowingHickorySaplingUpdateTick"
-    },
-    "onRightClicked": {
-      "name": "RedGlowingHickorySaplingPlantRightClicked"
     }
   }
 }

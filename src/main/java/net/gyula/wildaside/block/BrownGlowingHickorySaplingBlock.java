@@ -31,7 +31,6 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.gyula.wildaside.procedures.BrownGlowingHickorySaplingUpdateTickProcedure;
-import net.gyula.wildaside.procedures.BrownGlowingHickorySaplingPlantRightClickedProcedure;
 import net.gyula.wildaside.init.WildasideModBlocks;
 import net.gyula.wildaside.block.entity.BrownGlowingHickorySaplingBlockEntity;
 
@@ -72,13 +71,6 @@ public class BrownGlowingHickorySaplingBlock extends FlowerBlock implements Enti
 	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, Random random) {
 		super.tick(blockstate, world, pos, random);
 		BrownGlowingHickorySaplingUpdateTickProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-	}
-
-	@Override
-	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
-		super.use(blockstate, world, pos, entity, hand, hit);
-		BrownGlowingHickorySaplingPlantRightClickedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
-		return InteractionResult.SUCCESS;
 	}
 
 	@Override

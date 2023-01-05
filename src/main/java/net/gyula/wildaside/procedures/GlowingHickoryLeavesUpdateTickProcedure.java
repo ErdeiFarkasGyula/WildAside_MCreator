@@ -4,6 +4,8 @@ import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
 import net.gyula.wildaside.init.WildasideModBlocks;
@@ -11,54 +13,58 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 public class GlowingHickoryLeavesUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		double i = 0;
-		if (world.dayTime() < 12000) {
-			if (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _getip2
-					? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip2)
-					: -1) > 0) {
-				{
-					int _value = (int) (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty(
-							"light") instanceof IntegerProperty _getip4 ? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip4) : -1) - 1);
-					BlockPos _pos = new BlockPos(x, y, z);
-					BlockState _bs = world.getBlockState(_pos);
-					if (_bs.getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _integerProp
-							&& _integerProp.getPossibleValues().contains(_value))
-						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
-				}
-			}
-		} else {
-			if (world.dayTime() >= 12000) {
-				if (world.dayTime() >= 22500) {
-					if (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty(
-							"light") instanceof IntegerProperty _getip9 ? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip9) : -1) > 0) {
-						{
-							int _value = (int) (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition()
-									.getProperty("light") instanceof IntegerProperty _getip11
-											? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip11)
-											: -1)
-									- 1);
-							BlockPos _pos = new BlockPos(x, y, z);
-							BlockState _bs = world.getBlockState(_pos);
-							if (_bs.getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _integerProp
-									&& _integerProp.getPossibleValues().contains(_value))
-								world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
-						}
+		if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("wildaside:glowing_hickory_leaves")))) {
+			if (world.dayTime() < 12000) {
+				if (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty(
+						"light") instanceof IntegerProperty _getip4 ? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip4) : -1) > 0) {
+					{
+						int _value = (int) (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty(
+								"light") instanceof IntegerProperty _getip6 ? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip6) : -1)
+								- 1);
+						BlockPos _pos = new BlockPos(x, y, z);
+						BlockState _bs = world.getBlockState(_pos);
+						if (_bs.getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _integerProp
+								&& _integerProp.getPossibleValues().contains(_value))
+							world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 					}
-				} else {
-					if (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition()
-							.getProperty("light") instanceof IntegerProperty _getip14
-									? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip14)
-									: -1) < 7) {
-						{
-							int _value = (int) (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition()
-									.getProperty("light") instanceof IntegerProperty _getip16
-											? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip16)
-											: -1)
-									+ 1);
-							BlockPos _pos = new BlockPos(x, y, z);
-							BlockState _bs = world.getBlockState(_pos);
-							if (_bs.getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _integerProp
-									&& _integerProp.getPossibleValues().contains(_value))
-								world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
+				}
+			} else {
+				if (world.dayTime() >= 12000) {
+					if (world.dayTime() >= 22500) {
+						if (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition()
+								.getProperty("light") instanceof IntegerProperty _getip11
+										? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip11)
+										: -1) > 0) {
+							{
+								int _value = (int) (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition()
+										.getProperty("light") instanceof IntegerProperty _getip13
+												? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip13)
+												: -1)
+										- 1);
+								BlockPos _pos = new BlockPos(x, y, z);
+								BlockState _bs = world.getBlockState(_pos);
+								if (_bs.getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _integerProp
+										&& _integerProp.getPossibleValues().contains(_value))
+									world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
+							}
+						}
+					} else {
+						if (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition()
+								.getProperty("light") instanceof IntegerProperty _getip16
+										? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip16)
+										: -1) < 7) {
+							{
+								int _value = (int) (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition()
+										.getProperty("light") instanceof IntegerProperty _getip18
+												? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip18)
+												: -1)
+										+ 1);
+								BlockPos _pos = new BlockPos(x, y, z);
+								BlockState _bs = world.getBlockState(_pos);
+								if (_bs.getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _integerProp
+										&& _integerProp.getPossibleValues().contains(_value))
+									world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
+							}
 						}
 					}
 				}

@@ -1,31 +1,28 @@
 {
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2023-01-04 14:53:00 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_planks": {
-    "criteria": {
-      "has_logs": "2023-01-04 14:53:00 +0100"
-    },
-    "done": true
-  },
   "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "wild_wilder_wildest": "2023-01-04 14:51:19 +0100"
+      "wild_wilder_wildest": "2023-01-05 19:28:48 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_wood": {
+  "wildaside:petrified_antibiotic": {
     "criteria": {
-      "has_log": "2023-01-04 14:53:00 +0100"
+      "petrified_antibiotic": "2023-01-05 19:32:03 +0100"
     },
     "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:wooded_badlands": "2023-01-05 19:29:21 +0100",
+      "minecraft:badlands": "2023-01-05 19:28:48 +0100",
+      "minecraft:river": "2023-01-05 19:30:44 +0100",
+      "minecraft:desert": "2023-01-05 19:30:43 +0100"
+    },
+    "done": false
   },
   "wildaside:glowing_wonder": {
     "criteria": {
-      "glowing_wonder": "2023-01-04 14:51:36 +0100"
+      "glowing_wonder": "2023-01-05 19:29:38 +0100"
     },
     "done": true
   },

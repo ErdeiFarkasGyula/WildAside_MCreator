@@ -57,7 +57,7 @@
     "material": {
       "value": "LEAVES"
     },
-    "tickRate": 0,
+    "tickRate": 200,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -117,6 +117,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "GlowingHickoryLeavesUpdateTick"
+    },
     "onDestroyedByPlayer": {
       "name": "HickoryLeavesBlockDestroyedByPlayer"
     },

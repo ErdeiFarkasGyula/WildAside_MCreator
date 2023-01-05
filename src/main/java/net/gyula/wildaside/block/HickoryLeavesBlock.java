@@ -16,11 +16,15 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.FoliageColor;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.BiomeColors;
 
 import net.gyula.wildaside.procedures.HickoryLeavesBlockDestroyedByPlayerProcedure;
+import net.gyula.wildaside.procedures.GlowingHickoryLeavesUpdateTickProcedure;
 import net.gyula.wildaside.init.WildasideModBlocks;
+
+import java.util.Random;
 
 public class HickoryLeavesBlock extends LeavesBlock {
 	public HickoryLeavesBlock() {
@@ -30,6 +34,23 @@ public class HickoryLeavesBlock extends LeavesBlock {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 1;
+	}
+
+	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		world.scheduleTick(pos, this, 200);
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, Random random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+
+		GlowingHickoryLeavesUpdateTickProcedure.execute(world, x, y, z);
+		world.scheduleTick(pos, this, 200);
 	}
 
 	@Override

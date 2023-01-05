@@ -95,9 +95,6 @@
     "generateAtAnyHeight": false,
     "onTickUpdate": {
       "name": "HickorySaplingUpdateTick"
-    },
-    "onRightClicked": {
-      "name": "HickorySaplingPlantRightClicked"
     }
   }
 }
