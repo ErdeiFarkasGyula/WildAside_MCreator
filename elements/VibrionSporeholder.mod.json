@@ -90,6 +90,12 @@
     ],
     "patchSize": 100,
     "generateAtAnyHeight": true,
+    "onDestroyedByPlayer": {
+      "name": "VibrionSporeholderPlantDestroyedByPlayer"
+    },
+    "onDestroyedByExplosion": {
+      "name": "VibrionSporeholderPlantDestroyedByPlayer"
+    },
     "onEntityCollides": {
       "name": "VibrionSporeholderEffectGiver"
     }

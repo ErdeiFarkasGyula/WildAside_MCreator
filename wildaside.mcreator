@@ -137,7 +137,7 @@
     {
       "name": "SubstiliumStem",
       "type": "block",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_stem",
@@ -146,7 +146,7 @@
     {
       "name": "SubstiliumBlock",
       "type": "block",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_block",
@@ -155,7 +155,7 @@
     {
       "name": "SubstiliumShroom",
       "type": "block",
-      "sortid": 19,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_shroom",
@@ -5567,7 +5567,7 @@
     {
       "name": "VibrionGlassLoot",
       "type": "loottable",
-      "sortid": 568,
+      "sortid": 567,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_glass_loot",
@@ -5576,7 +5576,7 @@
     {
       "name": "VibrionGlassPaneLoot",
       "type": "loottable",
-      "sortid": 569,
+      "sortid": 568,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_glass_pane_loot",
@@ -5585,7 +5585,7 @@
     {
       "name": "VibrionGlassCraft",
       "type": "recipe",
-      "sortid": 570,
+      "sortid": 569,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_glass_craft",
@@ -5594,7 +5594,7 @@
     {
       "name": "VibrionGlassPaneCraft",
       "type": "recipe",
-      "sortid": 571,
+      "sortid": 570,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_glass_pane_craft",
@@ -5603,7 +5603,7 @@
     {
       "name": "VibrionGlassPaneCraft2",
       "type": "recipe",
-      "sortid": 572,
+      "sortid": 571,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_glass_pane_craft_2",
@@ -5630,7 +5630,7 @@
     {
       "name": "LitVibrionGlassCraft",
       "type": "recipe",
-      "sortid": 573,
+      "sortid": 572,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_vibrion_glass_craft",
@@ -5639,7 +5639,7 @@
     {
       "name": "LitVibrionGlassPaneCraft",
       "type": "recipe",
-      "sortid": 574,
+      "sortid": 573,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_vibrion_glass_pane_craft",
@@ -5648,7 +5648,7 @@
     {
       "name": "LitVibrionGlassPaneCraft2",
       "type": "recipe",
-      "sortid": 575,
+      "sortid": 574,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_vibrion_glass_pane_craft_2",
@@ -5657,7 +5657,7 @@
     {
       "name": "VibrionGelHidden1Adv",
       "type": "achievement",
-      "sortid": 576,
+      "sortid": 575,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_gel_hidden_1_adv",
@@ -5666,7 +5666,7 @@
     {
       "name": "LitVibrionGelHidden1Adv",
       "type": "achievement",
-      "sortid": 577,
+      "sortid": 576,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_vibrion_gel_hidden_1_adv",
@@ -5684,7 +5684,7 @@
     {
       "name": "CompressedSubstiliumSoilCraft",
       "type": "recipe",
-      "sortid": 578,
+      "sortid": 577,
       "compiles": true,
       "locked_code": false,
       "registry_name": "compressed_substilium_soil_craft",
@@ -5711,7 +5711,7 @@
     {
       "name": "SubstiliumTilesCraft",
       "type": "recipe",
-      "sortid": 579,
+      "sortid": 578,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tiles_craft",
@@ -5720,7 +5720,7 @@
     {
       "name": "SmoothSubstiliumSoilCraft",
       "type": "recipe",
-      "sortid": 580,
+      "sortid": 579,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_soil_craft",
@@ -5738,7 +5738,7 @@
     {
       "name": "ChiseledSubstiliumSoilCraft",
       "type": "recipe",
-      "sortid": 581,
+      "sortid": 580,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_substilium_soil_craft",
@@ -5747,7 +5747,7 @@
     {
       "name": "VibrionParticleSpawnLow",
       "type": "procedure",
-      "sortid": 582,
+      "sortid": 581,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_particle_spawn_low",
@@ -5759,7 +5759,7 @@
     {
       "name": "LitVibrionGlassLoot",
       "type": "loottable",
-      "sortid": 583,
+      "sortid": 582,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_vibrion_glass_loot",
@@ -5768,7 +5768,7 @@
     {
       "name": "LitVibrionGlassPaneLoot",
       "type": "loottable",
-      "sortid": 584,
+      "sortid": 583,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_vibrion_glass_pane_loot",
@@ -5885,7 +5885,7 @@
     {
       "name": "SubstiliumTileStairsCraft1",
       "type": "recipe",
-      "sortid": 585,
+      "sortid": 584,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_stairs_craft_1",
@@ -5894,7 +5894,7 @@
     {
       "name": "SubstiliumTileSlabCraft1",
       "type": "recipe",
-      "sortid": 586,
+      "sortid": 585,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_slab_craft_1",
@@ -5903,7 +5903,7 @@
     {
       "name": "SubstiliumTileWallCraft1",
       "type": "recipe",
-      "sortid": 587,
+      "sortid": 586,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_wall_craft_1",
@@ -5912,7 +5912,7 @@
     {
       "name": "SubstiliumTilePressurePlateCraft1",
       "type": "recipe",
-      "sortid": 588,
+      "sortid": 587,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_pressure_plate_craft_1",
@@ -5921,7 +5921,7 @@
     {
       "name": "SubstiliumTileButtonCraft1",
       "type": "recipe",
-      "sortid": 589,
+      "sortid": 588,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_button_craft_1",
@@ -5930,7 +5930,7 @@
     {
       "name": "SubstiliumTileStairsCraft2",
       "type": "recipe",
-      "sortid": 590,
+      "sortid": 589,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_stairs_craft_2",
@@ -5939,7 +5939,7 @@
     {
       "name": "SubstiliumTileSlabCraft2",
       "type": "recipe",
-      "sortid": 591,
+      "sortid": 590,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_slab_craft_2",
@@ -5948,7 +5948,7 @@
     {
       "name": "SubstiliumTileWallCraft2",
       "type": "recipe",
-      "sortid": 592,
+      "sortid": 591,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_wall_craft_2",
@@ -5957,7 +5957,7 @@
     {
       "name": "SubstiliumTilePressurePlateCraft2",
       "type": "recipe",
-      "sortid": 593,
+      "sortid": 592,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_pressure_plate_craft_2",
@@ -5966,7 +5966,7 @@
     {
       "name": "SubstiliumTileButtonCraft2",
       "type": "recipe",
-      "sortid": 594,
+      "sortid": 593,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_button_craft_2",
@@ -5975,7 +5975,7 @@
     {
       "name": "SmoothSubstiliumStairsCraft1",
       "type": "recipe",
-      "sortid": 595,
+      "sortid": 594,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_stairs_craft_1",
@@ -5984,7 +5984,7 @@
     {
       "name": "SmoothSubstiliumSlabCraft1",
       "type": "recipe",
-      "sortid": 596,
+      "sortid": 595,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_slab_craft_1",
@@ -5993,7 +5993,7 @@
     {
       "name": "SmoothSubstiliumWallCraft1",
       "type": "recipe",
-      "sortid": 597,
+      "sortid": 596,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_wall_craft_1",
@@ -6002,7 +6002,7 @@
     {
       "name": "SmoothSubstiliumPressurePlateCraft1",
       "type": "recipe",
-      "sortid": 598,
+      "sortid": 597,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_pressure_plate_craft_1",
@@ -6011,7 +6011,7 @@
     {
       "name": "SmoothSubstiliumButtonCraft1",
       "type": "recipe",
-      "sortid": 599,
+      "sortid": 598,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_button_craft_1",
@@ -6020,7 +6020,7 @@
     {
       "name": "SmoothSubstiliumStairsCraft2",
       "type": "recipe",
-      "sortid": 600,
+      "sortid": 599,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_stairs_craft_2",
@@ -6029,7 +6029,7 @@
     {
       "name": "SmoothSubstiliumSlabCraft2",
       "type": "recipe",
-      "sortid": 601,
+      "sortid": 600,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_slab_craft_2",
@@ -6038,7 +6038,7 @@
     {
       "name": "SmoothSubstiliumWallCraft2",
       "type": "recipe",
-      "sortid": 602,
+      "sortid": 601,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_wall_craft_2",
@@ -6047,7 +6047,7 @@
     {
       "name": "SmoothSubstiliumPressurePlateCraft2",
       "type": "recipe",
-      "sortid": 603,
+      "sortid": 602,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_pressure_plate_craft_2",
@@ -6056,7 +6056,7 @@
     {
       "name": "SmoothSubstiliumButtonCraft2",
       "type": "recipe",
-      "sortid": 604,
+      "sortid": 603,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_button_craft_2",
@@ -6065,7 +6065,7 @@
     {
       "name": "PanxterFlowerToDye",
       "type": "recipe",
-      "sortid": 605,
+      "sortid": 604,
       "compiles": true,
       "locked_code": false,
       "registry_name": "panxter_flower_to_dye",
@@ -6074,7 +6074,7 @@
     {
       "name": "SpottedWintergreenToDye",
       "type": "recipe",
-      "sortid": 606,
+      "sortid": 605,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spotted_wintergreen_to_dye",
@@ -6083,7 +6083,7 @@
     {
       "name": "SporeAirClientDisplayRandomTick",
       "type": "procedure",
-      "sortid": 607,
+      "sortid": 606,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spore_air_client_display_random_tick",
@@ -6166,7 +6166,7 @@
     {
       "name": "GlowingHickoryForest",
       "type": "biome",
-      "sortid": 608,
+      "sortid": 607,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_hickory_forest",
@@ -6175,7 +6175,7 @@
     {
       "name": "RedGlowingHickoryTree",
       "type": "structure",
-      "sortid": 609,
+      "sortid": 608,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_glowing_hickory_tree",
@@ -6184,7 +6184,7 @@
     {
       "name": "YellowGlowingHickoryTree",
       "type": "structure",
-      "sortid": 610,
+      "sortid": 609,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_glowing_hickory_tree",
@@ -6193,7 +6193,7 @@
     {
       "name": "BrownGlowingHickoryTree",
       "type": "structure",
-      "sortid": 611,
+      "sortid": 610,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_glowing_hickory_tree",
@@ -6220,7 +6220,7 @@
     {
       "name": "RedGlowingHickorySaplingUpdateTick",
       "type": "procedure",
-      "sortid": 613,
+      "sortid": 611,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_glowing_hickory_sapling_update_tick",
@@ -6249,7 +6249,7 @@
     {
       "name": "YellowGlowingHickorySaplingUpdateTick",
       "type": "procedure",
-      "sortid": 615,
+      "sortid": 612,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_glowing_hickory_sapling_update_tick",
@@ -6278,7 +6278,7 @@
     {
       "name": "BrownGlowingHickorySaplingUpdateTick",
       "type": "procedure",
-      "sortid": 617,
+      "sortid": 613,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_glowing_hickory_sapling_update_tick",
@@ -6307,7 +6307,7 @@
     {
       "name": "RedGlowingHickoryLeavesBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 618,
+      "sortid": 614,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_glowing_hickory_leaves_block_destroyed_by_player",
@@ -6340,7 +6340,7 @@
     {
       "name": "YellowGlowingHickoryLeavesBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 619,
+      "sortid": 615,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_glowing_hickory_leaves_block_destroyed_by_player",
@@ -6373,7 +6373,7 @@
     {
       "name": "BrownGlowingHickoryLeavesBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 620,
+      "sortid": 616,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_glowing_hickory_leaves_block_destroyed_by_player",
@@ -6406,7 +6406,7 @@
     {
       "name": "GreenGlowingHickoryTree",
       "type": "structure",
-      "sortid": 621,
+      "sortid": 617,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_glowing_hickory_tree",
@@ -6415,7 +6415,7 @@
     {
       "name": "GreenGlowingHickorySaplingUpdateTick",
       "type": "procedure",
-      "sortid": 623,
+      "sortid": 618,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_glowing_hickory_sapling_update_tick",
@@ -6444,7 +6444,7 @@
     {
       "name": "GreenGlowingHickoryLeavesBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 624,
+      "sortid": 619,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_glowing_hickory_leaves_block_destroyed_by_player",
@@ -6477,7 +6477,7 @@
     {
       "name": "GlowingHickoryLeavesUpdateTick",
       "type": "procedure",
-      "sortid": 625,
+      "sortid": 620,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_hickory_leaves_update_tick",
@@ -6506,7 +6506,7 @@
     {
       "name": "GlowingWonder",
       "type": "achievement",
-      "sortid": 626,
+      "sortid": 621,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_wonder",
@@ -6515,7 +6515,7 @@
     {
       "name": "GrowTheGlow",
       "type": "achievement",
-      "sortid": 627,
+      "sortid": 622,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grow_the_glow",
@@ -6524,7 +6524,7 @@
     {
       "name": "GrowTheGlowAdvProc",
       "type": "procedure",
-      "sortid": 628,
+      "sortid": 623,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grow_the_glow_adv_proc",
@@ -6541,7 +6541,7 @@
     {
       "name": "RedGlowingHickoryLeavesLoot",
       "type": "loottable",
-      "sortid": 629,
+      "sortid": 624,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_glowing_hickory_leaves_loot",
@@ -6550,7 +6550,7 @@
     {
       "name": "YellowGlowingHickoryLeavesLoot",
       "type": "loottable",
-      "sortid": 630,
+      "sortid": 625,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_glowing_hickory_leaves_loot",
@@ -6559,7 +6559,7 @@
     {
       "name": "GreenGlowingHickoryLeavesLoot",
       "type": "loottable",
-      "sortid": 631,
+      "sortid": 626,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_glowing_hickory_leaves_loot",
@@ -6568,7 +6568,7 @@
     {
       "name": "BrownGlowingHickoryLeavesLoot",
       "type": "loottable",
-      "sortid": 632,
+      "sortid": 627,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_glowing_hickory_leaves_loot",
@@ -6577,7 +6577,7 @@
     {
       "name": "HickoryNutExt",
       "type": "itemextension",
-      "sortid": 633,
+      "sortid": 628,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_nut_ext",
@@ -6586,7 +6586,7 @@
     {
       "name": "HickoryLeavesExt",
       "type": "itemextension",
-      "sortid": 634,
+      "sortid": 629,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_leaves_ext",
@@ -6595,7 +6595,7 @@
     {
       "name": "RedGlowingHickoryLeavesExt",
       "type": "itemextension",
-      "sortid": 635,
+      "sortid": 630,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_glowing_hickory_leaves_ext",
@@ -6604,7 +6604,7 @@
     {
       "name": "YellowGlowingHickoryLeavesExt",
       "type": "itemextension",
-      "sortid": 636,
+      "sortid": 631,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_glowing_hickory_leaves_ext",
@@ -6613,7 +6613,7 @@
     {
       "name": "BrownGlowingHickoryLeavesExt",
       "type": "itemextension",
-      "sortid": 637,
+      "sortid": 632,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_glowing_hickory_leaves_ext",
@@ -6622,7 +6622,7 @@
     {
       "name": "GreenGlowingHickoryLeavesExt",
       "type": "itemextension",
-      "sortid": 638,
+      "sortid": 633,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_glowing_hickory_leaves_ext",
@@ -6631,7 +6631,7 @@
     {
       "name": "HickorySaplingExt",
       "type": "itemextension",
-      "sortid": 639,
+      "sortid": 634,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_sapling_ext",
@@ -6640,7 +6640,7 @@
     {
       "name": "RedGlowingHickorySaplingExt",
       "type": "itemextension",
-      "sortid": 640,
+      "sortid": 635,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_glowing_hickory_sapling_ext",
@@ -6649,7 +6649,7 @@
     {
       "name": "YellowGlowingHickorySaplingExt",
       "type": "itemextension",
-      "sortid": 641,
+      "sortid": 636,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_glowing_hickory_sapling_ext",
@@ -6658,7 +6658,7 @@
     {
       "name": "BrownGlowingHickorySaplingExt",
       "type": "itemextension",
-      "sortid": 642,
+      "sortid": 637,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_glowing_hickory_sapling_ext",
@@ -6667,7 +6667,7 @@
     {
       "name": "GreenGlowingHickorySaplingExt",
       "type": "itemextension",
-      "sortid": 643,
+      "sortid": 638,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_glowing_hickory_sapling_ext",
@@ -6685,7 +6685,7 @@
     {
       "name": "BioengineerWorkspaceGui",
       "type": "gui",
-      "sortid": 644,
+      "sortid": 639,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bioengineer_workspace_gui",
@@ -6694,7 +6694,7 @@
     {
       "name": "BioengineerWorkspaceGuiCheckProc",
       "type": "procedure",
-      "sortid": 645,
+      "sortid": 640,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bioengineer_workspace_gui_check_proc",
@@ -6711,7 +6711,7 @@
     {
       "name": "RutillionExt",
       "type": "itemextension",
-      "sortid": 646,
+      "sortid": 641,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rutillion_ext",
@@ -6729,7 +6729,7 @@
     {
       "name": "FallenHickoryLeavesPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 647,
+      "sortid": 642,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_hickory_leaves_plant_destroyed_by_player",
@@ -6771,7 +6771,7 @@
     {
       "name": "FallenRedGlowingHickoryLeavesPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 649,
+      "sortid": 643,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_red_glowing_hickory_leaves_plant_destroyed_by_player",
@@ -6813,7 +6813,7 @@
     {
       "name": "FallenYellowGlowingHickoryLeavesPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 651,
+      "sortid": 644,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_yellow_glowing_hickory_leaves_plant_destroyed_by_player",
@@ -6855,7 +6855,7 @@
     {
       "name": "FallenBrownGlowingHickoryLeavesPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 653,
+      "sortid": 645,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_brown_glowing_hickory_leaves_plant_destroyed_by_player",
@@ -6897,7 +6897,7 @@
     {
       "name": "FallenGreenGlowingHickoryLeavesPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 656,
+      "sortid": 646,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_green_glowing_hickory_leaves_plant_destroyed_by_player",
@@ -6930,7 +6930,7 @@
     {
       "name": "GlowingHickoryLeaves",
       "type": "tag",
-      "sortid": 657,
+      "sortid": 647,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_hickory_leaves",
@@ -6939,7 +6939,7 @@
     {
       "name": "FallenGlowingHickoryLeaves",
       "type": "tag",
-      "sortid": 658,
+      "sortid": 648,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_glowing_hickory_leaves",
@@ -6948,7 +6948,7 @@
     {
       "name": "HickoryLeavesTag",
       "type": "tag",
-      "sortid": 659,
+      "sortid": 649,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_leaves_tag",
@@ -6957,7 +6957,7 @@
     {
       "name": "GlowingHickorySaplings",
       "type": "tag",
-      "sortid": 660,
+      "sortid": 650,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_hickory_saplings",
@@ -6966,7 +6966,7 @@
     {
       "name": "HickorySaplingRightClicked",
       "type": "procedure",
-      "sortid": 660,
+      "sortid": 651,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_sapling_right_clicked",
@@ -6995,6 +6995,35 @@
         ]
       },
       "path": "~/procedures/Hickory"
+    },
+    {
+      "name": "VibrionSporeholderPlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 652,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_sporeholder_plant_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/PotionEffect"
     }
   ],
   "variable_elements": [

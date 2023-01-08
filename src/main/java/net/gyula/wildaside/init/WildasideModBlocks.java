@@ -112,9 +112,9 @@ public class WildasideModBlocks {
 			() -> new HangingVibrionVinesBlock());
 	public static final RegistryObject<Block> VIBRION_SPOREHOLDER = REGISTRY.register("vibrion_sporeholder", () -> new VibrionSporeholderBlock());
 	public static final RegistryObject<Block> VIBRION_GROWTH = REGISTRY.register("vibrion_growth", () -> new VibrionGrowthBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_SHROOM = REGISTRY.register("substilium_shroom", () -> new SubstiliumShroomBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_STEM = REGISTRY.register("substilium_stem", () -> new SubstiliumStemBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_BLOCK = REGISTRY.register("substilium_block", () -> new SubstiliumBlockBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_SHROOM = REGISTRY.register("substilium_shroom", () -> new SubstiliumShroomBlock());
 	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_STEM = REGISTRY.register("stripped_substilium_stem",
 			() -> new StrippedSubstiliumStemBlock());
 	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_BLOCK = REGISTRY.register("stripped_substilium_block",

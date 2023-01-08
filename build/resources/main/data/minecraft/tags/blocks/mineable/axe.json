@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
+    "wildaside:substilium_shroom",
     "wildaside:substilium_stem",
     "wildaside:substilium_block",
-    "wildaside:substilium_shroom",
     "wildaside:stripped_substilium_stem",
     "wildaside:stripped_substilium_block",
     "wildaside:substilium_planks",
