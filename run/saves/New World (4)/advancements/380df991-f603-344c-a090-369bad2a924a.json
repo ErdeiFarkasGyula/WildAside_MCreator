@@ -1,30 +1,21 @@
 {
   "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "wild_wilder_wildest": "2023-01-05 19:28:48 +0100"
+      "wild_wilder_wildest": "2023-01-10 21:42:15 +0100"
     },
     "done": true
   },
-  "wildaside:petrified_antibiotic": {
+  "wildaside:unsafe_haven": {
     "criteria": {
-      "petrified_antibiotic": "2023-01-05 19:32:03 +0100"
+      "unsafe_haven": "2023-01-10 21:42:35 +0100"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:wooded_badlands": "2023-01-05 19:29:21 +0100",
-      "minecraft:badlands": "2023-01-05 19:28:48 +0100",
-      "minecraft:river": "2023-01-05 19:30:44 +0100",
-      "minecraft:desert": "2023-01-05 19:30:43 +0100"
+      "minecraft:forest": "2023-01-10 21:42:15 +0100"
     },
     "done": false
-  },
-  "wildaside:glowing_wonder": {
-    "criteria": {
-      "glowing_wonder": "2023-01-05 19:29:38 +0100"
-    },
-    "done": true
   },
   "DataVersion": 2975
 }

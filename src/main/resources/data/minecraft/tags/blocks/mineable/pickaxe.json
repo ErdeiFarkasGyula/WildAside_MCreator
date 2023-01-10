@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "wildaside:bioengineer_workspace",
     "wildaside:compressed_substilium_soil",
     "wildaside:substilium_tiles",
     "wildaside:smooth_substilium_soil",
@@ -14,7 +15,6 @@
     "wildaside:substilium_tile_pressure_plate",
     "wildaside:smooth_substilium_pressure_plate",
     "wildaside:substilium_tile_button",
-    "wildaside:smooth_substilium_button",
-    "wildaside:bioengineer_workspace"
+    "wildaside:smooth_substilium_button"
   ]
 }

@@ -55,6 +55,11 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> OVERGROWN_ENTORIUM_ORE = block(WildasideModBlocks.OVERGROWN_ENTORIUM_ORE,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> ENTORIUM_ORE = block(WildasideModBlocks.ENTORIUM_ORE, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> NATURAL_SPORE_BLASTER = block(WildasideModBlocks.NATURAL_SPORE_BLASTER,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SPORE_BLASTER = block(WildasideModBlocks.SPORE_BLASTER, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> BIOENGINEER_WORKSPACE = block(WildasideModBlocks.BIOENGINEER_WORKSPACE,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> COMPRESSED_SUBSTILIUM_SOIL = block(WildasideModBlocks.COMPRESSED_SUBSTILIUM_SOIL,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SUBSTILIUM_TILES = block(WildasideModBlocks.SUBSTILIUM_TILES, WildasideModTabs.TAB_WILD_ASIDE_TAB);
@@ -94,11 +99,6 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> SUBSTILIUM_PRESSURE_PLATE = block(WildasideModBlocks.SUBSTILIUM_PRESSURE_PLATE,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SUBSTILIUM_BUTTON = block(WildasideModBlocks.SUBSTILIUM_BUTTON, WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> NATURAL_SPORE_BLASTER = block(WildasideModBlocks.NATURAL_SPORE_BLASTER,
-			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SPORE_BLASTER = block(WildasideModBlocks.SPORE_BLASTER, WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> BIOENGINEER_WORKSPACE = block(WildasideModBlocks.BIOENGINEER_WORKSPACE,
-			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_LOG = block(WildasideModBlocks.HICKORY_LOG, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_BLOCK = block(WildasideModBlocks.HICKORY_BLOCK, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> STRIPPED_HICKORY_LOG = block(WildasideModBlocks.STRIPPED_HICKORY_LOG,
@@ -116,9 +116,9 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> HICKORY_LEAVES = block(WildasideModBlocks.HICKORY_LEAVES, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> RED_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.RED_GLOWING_HICKORY_LEAVES,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> YELLOW_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.YELLOW_GLOWING_HICKORY_LEAVES,
-			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> BROWN_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.BROWN_GLOWING_HICKORY_LEAVES,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> YELLOW_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.YELLOW_GLOWING_HICKORY_LEAVES,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> GREEN_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.GREEN_GLOWING_HICKORY_LEAVES,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
@@ -126,18 +126,18 @@ public class WildasideModItems {
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> FALLEN_RED_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.FALLEN_RED_GLOWING_HICKORY_LEAVES,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> FALLEN_YELLOW_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.FALLEN_YELLOW_GLOWING_HICKORY_LEAVES,
-			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> FALLEN_BROWN_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.FALLEN_BROWN_GLOWING_HICKORY_LEAVES,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> FALLEN_YELLOW_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.FALLEN_YELLOW_GLOWING_HICKORY_LEAVES,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> FALLEN_GREEN_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.FALLEN_GREEN_GLOWING_HICKORY_LEAVES,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_SAPLING = block(WildasideModBlocks.HICKORY_SAPLING, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> RED_GLOWING_HICKORY_SAPLING = block(WildasideModBlocks.RED_GLOWING_HICKORY_SAPLING,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> YELLOW_GLOWING_HICKORY_SAPLING = block(WildasideModBlocks.YELLOW_GLOWING_HICKORY_SAPLING,
-			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> BROWN_GLOWING_HICKORY_SAPLING = block(WildasideModBlocks.BROWN_GLOWING_HICKORY_SAPLING,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> YELLOW_GLOWING_HICKORY_SAPLING = block(WildasideModBlocks.YELLOW_GLOWING_HICKORY_SAPLING,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> GREEN_GLOWING_HICKORY_SAPLING = block(WildasideModBlocks.GREEN_GLOWING_HICKORY_SAPLING,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);

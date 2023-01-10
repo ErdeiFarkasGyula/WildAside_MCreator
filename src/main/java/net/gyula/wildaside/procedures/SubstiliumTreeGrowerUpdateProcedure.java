@@ -1,23 +1,28 @@
 package net.gyula.wildaside.procedures;
 
-import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate;
-import net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.Rotation;
-import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.util.Mth;
 import net.minecraft.core.BlockPos;
 
 import net.gyula.wildaside.init.WildasideModGameRules;
+import net.gyula.wildaside.init.WildasideModBlocks;
 
+import java.util.Random;
 import java.util.Map;
 
 public class SubstiliumTreeGrowerUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
+		boolean canPlace = false;
+		boolean found = false;
+		double height = 0;
+		double canPlaceLoop = 0;
+		double i = 0;
+		double sx = 0;
+		double sy = 0;
+		double sz = 0;
 		if (world.getLevelData().getGameRules().getBoolean(WildasideModGameRules.WILDASIDEDEBUGMODE) == false) {
 			{
 				BlockPos _bp = new BlockPos(x, y, z);
@@ -33,59 +38,36 @@ public class SubstiliumTreeGrowerUpdateProcedure {
 				}
 				world.setBlock(_bp, _bs, 3);
 			}
-			if (Math.random() <= 0.6) {
-				if (Math.random() <= 0.4) {
-					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager()
-								.getOrCreate(new ResourceLocation("wildaside", "substilium_mushroom_1"));
-						if (template != null) {
-							template.placeInWorld(_serverworld, new BlockPos(x, y, z), new BlockPos(x, y, z),
-									new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-									_serverworld.random, 3);
-						}
-					}
-				} else if (Math.random() <= 0.6) {
-					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager()
-								.getOrCreate(new ResourceLocation("wildaside", "substilium_mushroom_2"));
-						if (template != null) {
-							template.placeInWorld(_serverworld, new BlockPos(x, y, z), new BlockPos(x, y, z),
-									new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-									_serverworld.random, 3);
-						}
-					}
-				} else {
-					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager()
-								.getOrCreate(new ResourceLocation("wildaside", "substilium_mushroom_3"));
-						if (template != null) {
-							template.placeInWorld(_serverworld, new BlockPos(x, y, z), new BlockPos(x, y, z),
-									new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-									_serverworld.random, 3);
-						}
-					}
+			height = Mth.nextInt(new Random(), 6, 9);
+			canPlaceLoop = 0;
+			i = 0;
+			canPlace = true;
+			for (int index0 = 0; index0 < (int) (height); index0++) {
+				world.setBlock(new BlockPos(x, y + i, z), WildasideModBlocks.SUBSTILIUM_STEM.get().defaultBlockState(), 3);
+				i = i + 1;
+			}
+			for (int index1 = 0; index1 < (int) (height); index1++) {
+				canPlaceLoop = canPlaceLoop + 1;
+				if (world.getBlockState(new BlockPos(x, y + canPlaceLoop, z)).canOcclude()) {
+					canPlace = false;
 				}
-			} else {
-				if (Math.random() <= 0.6) {
-					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager()
-								.getOrCreate(new ResourceLocation("wildaside", "substilium_stick_1"));
-						if (template != null) {
-							template.placeInWorld(_serverworld, new BlockPos(x, y, z), new BlockPos(x, y, z),
-									new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-									_serverworld.random, 3);
+			}
+			if (canPlace == true) {
+				sx = -1;
+				found = false;
+				for (int index2 = 0; index2 < (int) (3); index2++) {
+					sy = height / 3;
+					for (int index3 = 0; index3 < (int) (height - height / 3); index3++) {
+						sz = -1;
+						for (int index4 = 0; index4 < (int) (3); index4++) {
+							if (Math.random() >= 0.7) {
+								world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.VIBRION_BLOCK.get().defaultBlockState(), 3);
+							}
+							sz = sz + 1;
 						}
+						sy = sy + 1;
 					}
-				} else {
-					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager()
-								.getOrCreate(new ResourceLocation("wildaside", "substilium_stick_2"));
-						if (template != null) {
-							template.placeInWorld(_serverworld, new BlockPos(x, y, z), new BlockPos(x, y, z),
-									new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-									_serverworld.random, 3);
-						}
-					}
+					sx = sx + 1;
 				}
 			}
 		}
