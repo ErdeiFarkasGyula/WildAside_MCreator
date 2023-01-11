@@ -7024,6 +7024,321 @@
         ]
       },
       "path": "~/procedures/PotionEffect"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr1",
+      "type": "structure",
+      "sortid": 653,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_1",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr2",
+      "type": "structure",
+      "sortid": 654,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_2",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr3",
+      "type": "structure",
+      "sortid": 655,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_3",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr4",
+      "type": "structure",
+      "sortid": 656,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_4",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr5",
+      "type": "structure",
+      "sortid": 657,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_5",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr6",
+      "type": "structure",
+      "sortid": 658,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_6",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr7",
+      "type": "structure",
+      "sortid": 659,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_7",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr8",
+      "type": "structure",
+      "sortid": 660,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_8",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr9",
+      "type": "structure",
+      "sortid": 661,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_9",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr10",
+      "type": "structure",
+      "sortid": 662,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_10",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr11",
+      "type": "structure",
+      "sortid": 663,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_11",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr12",
+      "type": "structure",
+      "sortid": 664,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_12",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr13",
+      "type": "structure",
+      "sortid": 665,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_13",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr14",
+      "type": "structure",
+      "sortid": 666,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_14",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr15",
+      "type": "structure",
+      "sortid": 667,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_15",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr16",
+      "type": "structure",
+      "sortid": 668,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_16",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr17",
+      "type": "structure",
+      "sortid": 669,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_17",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr18",
+      "type": "structure",
+      "sortid": 670,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_18",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr19",
+      "type": "structure",
+      "sortid": 671,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_19",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr20",
+      "type": "structure",
+      "sortid": 672,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_20",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr21",
+      "type": "structure",
+      "sortid": 673,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_21",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr22",
+      "type": "structure",
+      "sortid": 674,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_22",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr23",
+      "type": "structure",
+      "sortid": 675,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_23",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr24",
+      "type": "structure",
+      "sortid": 676,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_24",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr25",
+      "type": "structure",
+      "sortid": 677,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_25",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr26",
+      "type": "structure",
+      "sortid": 678,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_26",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr27",
+      "type": "structure",
+      "sortid": 679,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_27",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr28",
+      "type": "structure",
+      "sortid": 680,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_28",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr29",
+      "type": "structure",
+      "sortid": 681,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_29",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr30",
+      "type": "structure",
+      "sortid": 682,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_30",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr31",
+      "type": "structure",
+      "sortid": 683,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_31",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr32",
+      "type": "structure",
+      "sortid": 684,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_32",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr33",
+      "type": "structure",
+      "sortid": 685,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_33",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr34",
+      "type": "structure",
+      "sortid": 686,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_34",
+      "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr35",
+      "type": "structure",
+      "sortid": 687,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_35",
+      "path": "~/structures/SubstiliumTree"
     }
   ],
   "variable_elements": [
@@ -7056,9 +7371,9 @@
   "language_map": {
     "en_us": {
       "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
-      "advancements.grow_the_glow.title": "Grow The Glow!",
-      "item.wildaside.entorium": "Entorium",
       "advancements.substilium_log_hidden_1.title": "SubstiliumPlanksHidden1",
+      "item.wildaside.entorium": "Entorium",
+      "advancements.grow_the_glow.title": "Grow The Glow!",
       "item.minecraft.tipped_arrow.effect.immune_portection_item": "Arrow of Immune Portection",
       "block.wildaside.vibrion_block": "Vibrion Block",
       "item.wildaside.entorium_gauntlet_leggings": "Entorium Gauntlet Leggings",
@@ -7067,8 +7382,8 @@
       "block.wildaside.spore_blaster": "Spore Blaster",
       "block.wildaside.fallen_green_glowing_hickory_leaves": "Fallen Green Glowing Hickory Leaves",
       "advancements.barrier_of_bacteria.descr": "Place down a Spore Blaster",
-      "block.wildaside.brown_glowing_hickory_leaves": "Brown Glowing Hickory Leaves",
       "block.wildaside.substilium_fence": "Substilium Fence",
+      "block.wildaside.brown_glowing_hickory_leaves": "Brown Glowing Hickory Leaves",
       "block.wildaside.hickory_sapling": "Hickory Sapling",
       "item.wildaside.entorium_sporebomb": "Entorium Sporebomb",
       "block.wildaside.hanging_vibrion_gel_grower": "Hanging Vibrion Gel Grower",
