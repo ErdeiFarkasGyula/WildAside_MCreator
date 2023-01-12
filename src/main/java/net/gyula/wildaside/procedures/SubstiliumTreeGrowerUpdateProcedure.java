@@ -38,21 +38,21 @@ public class SubstiliumTreeGrowerUpdateProcedure {
 				}
 				world.setBlock(_bp, _bs, 3);
 			}
-			height = Mth.nextInt(new Random(), 6, 9);
+			height = Mth.nextInt(new Random(), 6, 12);
 			canPlaceLoop = 0;
 			i = 0;
 			canPlace = true;
 			for (int index0 = 0; index0 < (int) (height); index0++) {
-				world.setBlock(new BlockPos(x, y + i, z), WildasideModBlocks.SUBSTILIUM_STEM.get().defaultBlockState(), 3);
-				i = i + 1;
-			}
-			for (int index1 = 0; index1 < (int) (height); index1++) {
 				canPlaceLoop = canPlaceLoop + 1;
 				if (world.getBlockState(new BlockPos(x, y + canPlaceLoop, z)).canOcclude()) {
 					canPlace = false;
 				}
 			}
 			if (canPlace == true) {
+				for (int index1 = 0; index1 < (int) (height); index1++) {
+					world.setBlock(new BlockPos(x, y + i, z), WildasideModBlocks.SUBSTILIUM_STEM.get().defaultBlockState(), 3);
+					i = i + 1;
+				}
 				sx = -1;
 				found = false;
 				for (int index2 = 0; index2 < (int) (3); index2++) {
@@ -60,8 +60,19 @@ public class SubstiliumTreeGrowerUpdateProcedure {
 					for (int index3 = 0; index3 < (int) (height - height / 3); index3++) {
 						sz = -1;
 						for (int index4 = 0; index4 < (int) (3); index4++) {
-							if (Math.random() >= 0.7) {
-								world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.VIBRION_BLOCK.get().defaultBlockState(), 3);
+							if (Math.random() >= 0.69) {
+								if (world.isEmptyBlock(new BlockPos(x + sx, y + sy, z + sz))) {
+									if (Math.random() >= 0.3) {
+										world.setBlock(new BlockPos(x + sx, y + sy, z + sz),
+												WildasideModBlocks.VIBRION_BLOCK.get().defaultBlockState(), 3);
+									} else if (Math.random() >= 0.5) {
+										world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.VIBRION_GEL.get().defaultBlockState(),
+												3);
+									} else {
+										world.setBlock(new BlockPos(x + sx, y + sy, z + sz),
+												WildasideModBlocks.LIT_VIBRION_GEL.get().defaultBlockState(), 3);
+									}
+								}
 							}
 							sz = sz + 1;
 						}
@@ -69,6 +80,29 @@ public class SubstiliumTreeGrowerUpdateProcedure {
 					}
 					sx = sx + 1;
 				}
+				sx = -1;
+				found = false;
+				for (int index5 = 0; index5 < (int) (3); index5++) {
+					sy = height / 3;
+					for (int index6 = 0; index6 < (int) (height - height / 3); index6++) {
+						sz = -1;
+						for (int index7 = 0; index7 < (int) (3); index7++) {
+							if ((world.getBlockState(new BlockPos(x + sx, y + sy + 1, z + sz))).getBlock() == WildasideModBlocks.VIBRION_BLOCK
+									.get()) {
+								if (world.isEmptyBlock(new BlockPos(x + sx, y + sy, z + sz))) {
+									if (Math.random() <= 0.2) {
+										world.setBlock(new BlockPos(x + sx, y + sy, z + sz),
+												WildasideModBlocks.VIBRION_GROWTH.get().defaultBlockState(), 3);
+									}
+								}
+							}
+							sz = sz + 1;
+						}
+						sy = sy + 1;
+					}
+					sx = sx + 1;
+				}
+				world.setBlock(new BlockPos(x, y + height, z), WildasideModBlocks.VIBRION_BLOCK.get().defaultBlockState(), 3);
 			}
 		}
 	}

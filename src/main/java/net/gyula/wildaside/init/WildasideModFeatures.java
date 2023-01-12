@@ -39,28 +39,8 @@ import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr6Feature;
 import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr5Feature;
 import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr4Feature;
 import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr3Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr35Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr34Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr33Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr32Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr31Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr30Feature;
 import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr2Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr29Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr28Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr27Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr26Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr25Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr24Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr23Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr22Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr21Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr20Feature;
 import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr1Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr19Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr18Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr17Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr16Feature;
 import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr15Feature;
 import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr14Feature;
 import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr13Feature;
@@ -293,7 +273,6 @@ import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr12Feature;
 import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr11Feature;
 import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr10Feature;
 import net.gyula.wildaside.world.features.GreenGlowingHickoryTreeFeature;
-import net.gyula.wildaside.world.features.FeatureTest1Feature;
 import net.gyula.wildaside.world.features.BrownGlowingHickoryTreeFeature;
 import net.gyula.wildaside.WildasideMod;
 
@@ -1075,68 +1054,6 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_15 = register("substilium_tree_grower_str_15",
 			SubstiliumTreeGrowerStr15Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
 					SubstiliumTreeGrowerStr15Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr15Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_16 = register("substilium_tree_grower_str_16",
-			SubstiliumTreeGrowerStr16Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr16Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr16Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_17 = register("substilium_tree_grower_str_17",
-			SubstiliumTreeGrowerStr17Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr17Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr17Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_18 = register("substilium_tree_grower_str_18",
-			SubstiliumTreeGrowerStr18Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr18Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr18Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_19 = register("substilium_tree_grower_str_19",
-			SubstiliumTreeGrowerStr19Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr19Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr19Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_20 = register("substilium_tree_grower_str_20",
-			SubstiliumTreeGrowerStr20Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr20Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr20Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_21 = register("substilium_tree_grower_str_21",
-			SubstiliumTreeGrowerStr21Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr21Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr21Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_22 = register("substilium_tree_grower_str_22",
-			SubstiliumTreeGrowerStr22Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr22Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr22Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_23 = register("substilium_tree_grower_str_23",
-			SubstiliumTreeGrowerStr23Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr23Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr23Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_24 = register("substilium_tree_grower_str_24",
-			SubstiliumTreeGrowerStr24Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr24Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr24Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_25 = register("substilium_tree_grower_str_25",
-			SubstiliumTreeGrowerStr25Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr25Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr25Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_26 = register("substilium_tree_grower_str_26",
-			SubstiliumTreeGrowerStr26Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr26Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr26Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_27 = register("substilium_tree_grower_str_27",
-			SubstiliumTreeGrowerStr27Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr27Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr27Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_28 = register("substilium_tree_grower_str_28",
-			SubstiliumTreeGrowerStr28Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr28Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr28Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_29 = register("substilium_tree_grower_str_29",
-			SubstiliumTreeGrowerStr29Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr29Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr29Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_30 = register("substilium_tree_grower_str_30",
-			SubstiliumTreeGrowerStr30Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr30Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr30Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_31 = register("substilium_tree_grower_str_31",
-			SubstiliumTreeGrowerStr31Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr31Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr31Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_32 = register("substilium_tree_grower_str_32",
-			SubstiliumTreeGrowerStr32Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr32Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr32Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_33 = register("substilium_tree_grower_str_33",
-			SubstiliumTreeGrowerStr33Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr33Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr33Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_34 = register("substilium_tree_grower_str_34",
-			SubstiliumTreeGrowerStr34Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr34Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr34Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_35 = register("substilium_tree_grower_str_35",
-			SubstiliumTreeGrowerStr35Feature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-					SubstiliumTreeGrowerStr35Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr35Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> FEATURE_TEST_1 = register("feature_test_1", FeatureTest1Feature::feature, new FeatureRegistration(
-			GenerationStep.Decoration.UNDERGROUND_STRUCTURES, FeatureTest1Feature.GENERATE_BIOMES, FeatureTest1Feature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

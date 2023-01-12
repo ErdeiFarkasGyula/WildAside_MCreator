@@ -2,14 +2,14 @@
   "_fv": 38,
   "_type": "structure",
   "definition": {
-    "structure": "substilium_tree_grower",
+    "structure": "substilium_tree_grower_block_str",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 1000000,
-    "minCountPerChunk": 1,
-    "maxCountPerChunk": 1,
+    "minCountPerChunk": 16,
+    "maxCountPerChunk": 16,
     "spawnLocation": "Underground",
-    "spawnHeightOffset": -2,
+    "spawnHeightOffset": 1,
     "spawnXOffset": 0,
     "spawnZOffset": 0,
     "spawnWorldTypes": [
@@ -26,6 +26,9 @@
       }
     ],
     "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "SubstiliumTreeGrowerStr1AdditionalGenerationCondition"
+    },
     "onStructureGenerated": {
       "name": "HangingVibrionVinesGrowerStrOnGenerated"
     }

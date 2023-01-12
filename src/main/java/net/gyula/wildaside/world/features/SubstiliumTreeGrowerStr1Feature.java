@@ -24,6 +24,7 @@ import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.core.Holder;
 import net.minecraft.core.BlockPos;
 
+import net.gyula.wildaside.procedures.SubstiliumTreeGrowerStr1AdditionalGenerationConditionProcedure;
 import net.gyula.wildaside.procedures.HangingVibrionVinesGrowerStrOnGeneratedProcedure;
 import net.gyula.wildaside.init.WildasideModBlocks;
 
@@ -61,12 +62,13 @@ public class SubstiliumTreeGrowerStr1Feature extends Feature<NoneFeatureConfigur
 		if (!generate_dimensions.contains(context.level().getLevel().dimension()))
 			return false;
 		if (template == null)
-			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("wildaside", "substilium_tree_grower"));
+			template = context.level().getLevel().getStructureManager()
+					.getOrCreate(new ResourceLocation("wildaside", "substilium_tree_grower_block_str"));
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
 		if ((context.random().nextInt(1000000) + 1) <= 1000000) {
-			int count = context.random().nextInt(1) + 1;
+			int count = context.random().nextInt(1) + 16;
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);
 				int k = context.origin().getZ() + context.random().nextInt(16);
@@ -74,11 +76,13 @@ public class SubstiliumTreeGrowerStr1Feature extends Feature<NoneFeatureConfigur
 				j = Mth.nextInt(context.random(), 8 + context.level().getMinBuildHeight(), Math.max(j, 9 + context.level().getMinBuildHeight()));
 				if (!base_blocks.contains(context.level().getBlockState(new BlockPos(i, j, k)).getBlock()))
 					continue;
-				BlockPos spawnTo = new BlockPos(i + 0, j + -1, k + 0);
+				BlockPos spawnTo = new BlockPos(i + 0, j + 1, k + 0);
 				WorldGenLevel world = context.level();
 				int x = spawnTo.getX();
 				int y = spawnTo.getY();
 				int z = spawnTo.getZ();
+				if (!SubstiliumTreeGrowerStr1AdditionalGenerationConditionProcedure.execute(world, x, y, z))
+					continue;
 				if (template.placeInWorld(
 						context.level(), spawnTo, spawnTo, new StructurePlaceSettings().setMirror(Mirror.NONE).setRotation(Rotation.NONE)
 								.setRandom(context.random()).addProcessor(BlockIgnoreProcessor.STRUCTURE_AND_AIR).setIgnoreEntities(false),

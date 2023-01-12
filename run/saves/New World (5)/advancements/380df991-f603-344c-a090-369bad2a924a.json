@@ -1,0 +1,21 @@
+{
+  "wildaside:wild_wilder_wildest": {
+    "criteria": {
+      "wild_wilder_wildest": "2023-01-12 15:32:45 +0100"
+    },
+    "done": true
+  },
+  "wildaside:unsafe_haven": {
+    "criteria": {
+      "unsafe_haven": "2023-01-12 15:33:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2023-01-12 15:32:45 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}
