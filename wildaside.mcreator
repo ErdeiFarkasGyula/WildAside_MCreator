@@ -6115,6 +6115,15 @@
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_15",
       "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "HickorySaplings",
+      "type": "tag",
+      "sortid": 668,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_saplings",
+      "path": "~/tags"
     }
   ],
   "variable_elements": [

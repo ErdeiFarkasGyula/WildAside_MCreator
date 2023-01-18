@@ -51,7 +51,7 @@ public class HickorySaplingRightClickedProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("wildaside:glowing_hickory_saplings")))) {
+		if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("wildaside:hickory_saplings")))) {
 			if (world.isEmptyBlock(new BlockPos(x, y + 1, z))) {
 				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.BONE_MEAL) {
 					if (entity instanceof LivingEntity _entity)

@@ -61,8 +61,8 @@ public class SubstiliumTreeGrowerUpdateProcedure {
 						sz = -1;
 						for (int index4 = 0; index4 < (int) (3); index4++) {
 							if (Math.random() >= 0.69) {
-								if (world.isEmptyBlock(new BlockPos(x + sx, y + sy, z + sz))) {
-									if (Math.random() >= 0.3) {
+								if (!world.getBlockState(new BlockPos(x + sx, y + sy, z + sz)).canOcclude()) {
+									if (Math.random() >= 0.15) {
 										world.setBlock(new BlockPos(x + sx, y + sy, z + sz),
 												WildasideModBlocks.VIBRION_BLOCK.get().defaultBlockState(), 3);
 									} else if (Math.random() >= 0.5) {
@@ -89,7 +89,7 @@ public class SubstiliumTreeGrowerUpdateProcedure {
 						for (int index7 = 0; index7 < (int) (3); index7++) {
 							if ((world.getBlockState(new BlockPos(x + sx, y + sy + 1, z + sz))).getBlock() == WildasideModBlocks.VIBRION_BLOCK
 									.get()) {
-								if (world.isEmptyBlock(new BlockPos(x + sx, y + sy, z + sz))) {
+								if (!world.getBlockState(new BlockPos(x + sx, y + sy, z + sz)).canOcclude()) {
 									if (Math.random() <= 0.2) {
 										world.setBlock(new BlockPos(x + sx, y + sy, z + sz),
 												WildasideModBlocks.VIBRION_GROWTH.get().defaultBlockState(), 3);
@@ -102,7 +102,9 @@ public class SubstiliumTreeGrowerUpdateProcedure {
 					}
 					sx = sx + 1;
 				}
-				world.setBlock(new BlockPos(x, y + height, z), WildasideModBlocks.VIBRION_BLOCK.get().defaultBlockState(), 3);
+				if (!world.getBlockState(new BlockPos(x + sx, y + sy, z + sz)).canOcclude()) {
+					world.setBlock(new BlockPos(x, y + height, z), WildasideModBlocks.VIBRION_BLOCK.get().defaultBlockState(), 3);
+				}
 			}
 		}
 	}
