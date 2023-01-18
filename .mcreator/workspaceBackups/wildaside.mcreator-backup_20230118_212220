@@ -6115,6 +6115,24 @@
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_15",
       "path": "~/structures/SubstiliumTree"
+    },
+    {
+      "name": "HickorySaplings",
+      "type": "tag",
+      "sortid": 668,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_saplings",
+      "path": "~/tags"
+    },
+    {
+      "name": "CrackedSubstiliumTiles",
+      "type": "block",
+      "sortid": 669,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tiles",
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [
@@ -6293,6 +6311,7 @@
       "block.wildaside.substilium_pressure_plate": "Substilium Pressure Plate",
       "block.wildaside.smooth_substilium_pressure_plate": "Smooth Substilium Pressure Plate",
       "block.wildaside.substilium_block": "Substilium Block",
+      "block.wildaside.cracked_substilium_tiles": "Cracked Substilium Tiles",
       "advancements.extensive_research.descr": "Shear an Overgrown Substilium Soil Block with Revealing"
     }
   },
