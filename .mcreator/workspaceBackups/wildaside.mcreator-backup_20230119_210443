@@ -587,7 +587,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "revealing",
-      "path": "~/enchantements"
+      "path": "~/enchantments"
     },
     {
       "name": "ContaminationDamage1",
@@ -1332,7 +1332,7 @@
     {
       "name": "SubstiliumDoor",
       "type": "block",
-      "sortid": 54,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_door",
@@ -1341,7 +1341,7 @@
     {
       "name": "SubstiliumTrapdoor",
       "type": "block",
-      "sortid": 55,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_trapdoor",
@@ -1350,7 +1350,7 @@
     {
       "name": "SubstiliumPressurePlate",
       "type": "block",
-      "sortid": 56,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_pressure_plate",
@@ -1359,7 +1359,7 @@
     {
       "name": "SubstiliumButton",
       "type": "block",
-      "sortid": 57,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_button",
@@ -6263,7 +6263,7 @@
     {
       "name": "CrackedSubstiliumTileSlabCraft2",
       "type": "recipe",
-      "sortid": 569,
+      "sortid": 568,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cracked_substilium_tile_slab_craft_2",
@@ -6272,7 +6272,7 @@
     {
       "name": "CrackedSubstiliumTileWallCraft2",
       "type": "recipe",
-      "sortid": 570,
+      "sortid": 569,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cracked_substilium_tile_wall_craft_2",
@@ -6281,7 +6281,7 @@
     {
       "name": "CrackedSubstiliumTilePressurePlateCraft2",
       "type": "recipe",
-      "sortid": 571,
+      "sortid": 570,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cracked_substilium_tile_pressure_plate_craft_2",
@@ -6290,7 +6290,7 @@
     {
       "name": "CrackedSubstiliumTileButtonCraft2",
       "type": "recipe",
-      "sortid": 572,
+      "sortid": 571,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cracked_substilium_tile_button_craft_2",
@@ -6299,11 +6299,98 @@
     {
       "name": "CrackedSubstiliumTileStairsCraft3",
       "type": "recipe",
-      "sortid": 573,
+      "sortid": 572,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cracked_substilium_tile_stairs_craft_3",
       "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileSlabCraft3",
+      "type": "recipe",
+      "sortid": 573,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_slab_craft_3",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileWallCraft3",
+      "type": "recipe",
+      "sortid": 574,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_wall_craft_3",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTilePressurePlateCraft3",
+      "type": "recipe",
+      "sortid": 575,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_pressure_plate_craft_3",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileButtonCraft3",
+      "type": "recipe",
+      "sortid": 576,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_button_craft_3",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "GlimmeringGlass",
+      "type": "achievement",
+      "sortid": 577,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glimmering_glass",
+      "path": "~/advancements"
+    },
+    {
+      "name": "GlimmeringGlassAdvProc",
+      "type": "procedure",
+      "sortid": 578,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glimmering_glass_adv_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/Advancements"
+    },
+    {
+      "name": "OrganicBuildingMaterials",
+      "type": "achievement",
+      "sortid": 579,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "organic_building_materials",
+      "path": "~/advancements"
     }
   ],
   "variable_elements": [
@@ -6342,6 +6429,7 @@
       "item.minecraft.tipped_arrow.effect.immune_portection_item": "Arrow of Immune Portection",
       "block.wildaside.vibrion_block": "Vibrion Block",
       "item.wildaside.entorium_gauntlet_leggings": "Entorium Gauntlet Leggings",
+      "advancements.organic_building_materials.descr": "Obtain a Compressed Substilium Soil block",
       "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
       "advancements.vibrion_gel_hidden_1_adv.descr": "Vibrion Gel Hidden 1 Adv",
       "block.wildaside.spore_blaster": "Spore Blaster",
@@ -6368,6 +6456,7 @@
       "item.wildaside.entorium_pill": "Entorium Pill",
       "advancements.substilium_planks_hidden_1.title": "SubstiliumPlanksHidden1",
       "block.wildaside.vibrion_glass_pane": "Vibrion Glass Pane",
+      "advancements.glimmering_glass.descr": "Place down a Lit Vibrion Glass block or pane",
       "item.wildaside.entorium_gauntlet_helmet": "Entorium Gauntlet Helmet",
       "block.wildaside.green_glowing_hickory_sapling": "Green Glowing Hickory Sapling",
       "block.wildaside.hickory_planks": "Hickory Planks",
@@ -6446,6 +6535,7 @@
       "block.wildaside.hickory_stairs": "Hickory Stairs",
       "block.wildaside.red_glowing_hickory_leaves": "Red Glowing Hickory Leaves",
       "block.wildaside.red_glowing_hickory_sapling": "Red Glowing Hickory Sapling",
+      "advancements.organic_building_materials.title": "Organic Building Materials",
       "block.wildaside.stripped_hickory_block": "Stipped Hickory Block",
       "block.wildaside.smooth_substilium_slab": "Smooth Substilium Slab",
       "advancements.extensive_research.title": "Extensive Research",
@@ -6488,6 +6578,7 @@
       "block.wildaside.smooth_substilium_pressure_plate": "Smooth Substilium Pressure Plate",
       "block.wildaside.substilium_block": "Substilium Block",
       "block.wildaside.cracked_substilium_tiles": "Cracked Substilium Tiles",
+      "advancements.glimmering_glass.title": "Glimmering Glass",
       "advancements.extensive_research.descr": "Shear an Overgrown Substilium Soil Block with Revealing"
     }
   },
@@ -6666,7 +6757,7 @@
         "children": []
       },
       {
-        "name": "enchantements",
+        "name": "enchantments",
         "children": []
       },
       {
@@ -6714,7 +6805,7 @@
   },
   "workspaceSettings": {
     "modid": "wildaside",
-    "modName": "WildAside",
+    "modName": "Wild Aside",
     "version": "0.0.3-1.18.2",
     "author": "Gyula, Lyof, MCreator",
     "websiteURL": "https://mcreator.net",
@@ -6727,7 +6818,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
-    "credits": "Developed by Gyula. Quality management by Lyof. Textures by Gyula \u0026 Dylanvhs. Special thanks to Aqu and Toma400.",
+    "credits": "Imagined by Gyula \u0026 Lyof. Developed by Gyula. Quality management by Lyof. Textures by Gyula \u0026 Dylanvhs. Concept art by Toma400 \u0026 Gyula. Special thanks to Aqu \u0026 Toma400.",
     "modElementsPackage": "net.gyula.wildaside",
     "lockBaseModFiles": false
   },
