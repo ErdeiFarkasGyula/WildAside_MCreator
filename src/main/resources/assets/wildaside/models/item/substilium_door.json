@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wildaside:blocks/substilium_door_bottom"
+    "layer0": "wildaside:items/substilium_door"
   }
 }
