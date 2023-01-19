@@ -1,0 +1,20 @@
+{
+  "_fv": 38,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 2.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "cracked_substilium_tile_pressure_plate",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SubstiliumTilePressurePlate"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CrackedSubstiliumTilePressurePlate"
+    },
+    "name": "cracked_substilium_tile_pressure_plate",
+    "namespace": "mod"
+  }
+}

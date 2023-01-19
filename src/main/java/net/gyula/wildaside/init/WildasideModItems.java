@@ -62,55 +62,55 @@ public class WildasideModItems {
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> COMPRESSED_SUBSTILIUM_SOIL = block(WildasideModBlocks.COMPRESSED_SUBSTILIUM_SOIL,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SUBSTILIUM_TILES = block(WildasideModBlocks.SUBSTILIUM_TILES, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_SOIL = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_SOIL,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> CHISELED_SUBSTILIUM_SOIL = block(WildasideModBlocks.CHISELED_SUBSTILIUM_SOIL,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SUBSTILIUM_TILE_STAIRS = block(WildasideModBlocks.SUBSTILIUM_TILE_STAIRS,
-			WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_TILES = block(WildasideModBlocks.SUBSTILIUM_TILES, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> CRACKED_SUBSTILIUM_TILES = block(WildasideModBlocks.CRACKED_SUBSTILIUM_TILES,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_STAIRS = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_STAIRS,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SUBSTILIUM_TILE_SLAB = block(WildasideModBlocks.SUBSTILIUM_TILE_SLAB,
-			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_SLAB = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_SLAB,
+	public static final RegistryObject<Item> SUBSTILIUM_TILE_STAIRS = block(WildasideModBlocks.SUBSTILIUM_TILE_STAIRS,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> CRACKED_SUBSTILIUM_TILE_STAIRS = block(WildasideModBlocks.CRACKED_SUBSTILIUM_TILE_STAIRS,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SUBSTILIUM_TILE_WALL = block(WildasideModBlocks.SUBSTILIUM_TILE_WALL,
+	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_SLAB = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_SLAB,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_WALL = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_WALL,
+	public static final RegistryObject<Item> SUBSTILIUM_TILE_SLAB = block(WildasideModBlocks.SUBSTILIUM_TILE_SLAB,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> CRACKED_SUBSTILIUM_TILE_SLAB = block(WildasideModBlocks.CRACKED_SUBSTILIUM_TILE_SLAB,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_PRESSURE_PLATE = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_PRESSURE_PLATE,
+	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_WALL = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_WALL,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_BUTTON = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_BUTTON,
+	public static final RegistryObject<Item> SUBSTILIUM_TILE_WALL = block(WildasideModBlocks.SUBSTILIUM_TILE_WALL,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> CRACKED_SUBSTILIUM_TILE_WALL = block(WildasideModBlocks.CRACKED_SUBSTILIUM_TILE_WALL,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SUBSTILIUM_SPROUTS = block(WildasideModBlocks.SUBSTILIUM_SPROUTS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SUBSTILIUM_PLANKS = block(WildasideModBlocks.SUBSTILIUM_PLANKS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_PRESSURE_PLATE = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_PRESSURE_PLATE,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> CRACKED_SUBSTILIUM_TILE_PRESSURE_PLATE = block(WildasideModBlocks.CRACKED_SUBSTILIUM_TILE_PRESSURE_PLATE,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SUBSTILIUM_STAIRS = block(WildasideModBlocks.SUBSTILIUM_STAIRS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SUBSTILIUM_TILE_PRESSURE_PLATE = block(WildasideModBlocks.SUBSTILIUM_TILE_PRESSURE_PLATE,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SUBSTILIUM_SLAB = block(WildasideModBlocks.SUBSTILIUM_SLAB, WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SUBSTILIUM_FENCE = block(WildasideModBlocks.SUBSTILIUM_FENCE, WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> CRACKED_SUBSTILIUM_TILE_BUTTON = block(WildasideModBlocks.CRACKED_SUBSTILIUM_TILE_BUTTON,
+	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_BUTTON = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_BUTTON,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SUBSTILIUM_FENCE_GATE = block(WildasideModBlocks.SUBSTILIUM_FENCE_GATE,
+	public static final RegistryObject<Item> CRACKED_SUBSTILIUM_TILE_BUTTON = block(WildasideModBlocks.CRACKED_SUBSTILIUM_TILE_BUTTON,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SUBSTILIUM_TILE_BUTTON = block(WildasideModBlocks.SUBSTILIUM_TILE_BUTTON,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SUBSTILIUM_DOOR = doubleBlock(WildasideModBlocks.SUBSTILIUM_DOOR, WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> SUBSTILIUM_TRAPDOOR = block(WildasideModBlocks.SUBSTILIUM_TRAPDOOR, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_SPROUTS = block(WildasideModBlocks.SUBSTILIUM_SPROUTS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_PLANKS = block(WildasideModBlocks.SUBSTILIUM_PLANKS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_STAIRS = block(WildasideModBlocks.SUBSTILIUM_STAIRS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_SLAB = block(WildasideModBlocks.SUBSTILIUM_SLAB, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_FENCE = block(WildasideModBlocks.SUBSTILIUM_FENCE, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_FENCE_GATE = block(WildasideModBlocks.SUBSTILIUM_FENCE_GATE,
+			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SUBSTILIUM_PRESSURE_PLATE = block(WildasideModBlocks.SUBSTILIUM_PRESSURE_PLATE,
 			WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SUBSTILIUM_BUTTON = block(WildasideModBlocks.SUBSTILIUM_BUTTON, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_DOOR = doubleBlock(WildasideModBlocks.SUBSTILIUM_DOOR, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_TRAPDOOR = block(WildasideModBlocks.SUBSTILIUM_TRAPDOOR, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_LOG = block(WildasideModBlocks.HICKORY_LOG, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_BLOCK = block(WildasideModBlocks.HICKORY_BLOCK, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> STRIPPED_HICKORY_LOG = block(WildasideModBlocks.STRIPPED_HICKORY_LOG,

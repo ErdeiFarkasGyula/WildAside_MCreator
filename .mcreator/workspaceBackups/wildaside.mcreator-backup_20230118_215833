@@ -12,7 +12,7 @@
     {
       "name": "WildAsideTab",
       "type": "tab",
-      "sortid": 82,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wild_aside_tab"
@@ -29,7 +29,7 @@
     {
       "name": "VibrionExt",
       "type": "itemextension",
-      "sortid": 83,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_ext",
@@ -38,7 +38,7 @@
     {
       "name": "DropXP2_10",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drop_xp_2_10",
@@ -67,7 +67,7 @@
     {
       "name": "VibrionPoisonEffect",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_poison_effect",
@@ -93,7 +93,7 @@
     {
       "name": "EntoriumExt",
       "type": "itemextension",
-      "sortid": 86,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_ext",
@@ -102,7 +102,7 @@
     {
       "name": "EntoriumPillEffects",
       "type": "procedure",
-      "sortid": 87,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_pill_effects",
@@ -128,7 +128,7 @@
     {
       "name": "EntoriumPillExt",
       "type": "itemextension",
-      "sortid": 88,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_pill_ext",
@@ -164,7 +164,7 @@
     {
       "name": "HangingVibrionVinesPlant",
       "type": "block",
-      "sortid": 89,
+      "sortid": 95,
       "compiles": true,
       "locked_code": true,
       "registry_name": "hanging_vibrion_vines_plant",
@@ -191,7 +191,7 @@
     {
       "name": "VibrionSporeholderLoot",
       "type": "loottable",
-      "sortid": 90,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_sporeholder_loot",
@@ -227,7 +227,7 @@
     {
       "name": "SubstiliumSprouts",
       "type": "plant",
-      "sortid": 42,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_sprouts",
@@ -245,7 +245,7 @@
     {
       "name": "LowerSubstiliumSoil",
       "type": "block",
-      "sortid": 91,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lower_substilium_soil",
@@ -254,7 +254,7 @@
     {
       "name": "DropXP0_3",
       "type": "procedure",
-      "sortid": 92,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drop_xp_0_3",
@@ -283,7 +283,7 @@
     {
       "name": "SubstiliumSoilCheckTopBlock",
       "type": "procedure",
-      "sortid": 93,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_soil_check_top_block",
@@ -312,7 +312,7 @@
     {
       "name": "LowerSubstiliumSoilCheckTopBlock",
       "type": "procedure",
-      "sortid": 94,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lower_substilium_soil_check_top_block",
@@ -341,7 +341,7 @@
     {
       "name": "VibrionHive",
       "type": "biome",
-      "sortid": 95,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_hive",
@@ -359,7 +359,7 @@
     {
       "name": "Cooldown_60",
       "type": "procedure",
-      "sortid": 96,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooldown_60",
@@ -380,7 +380,7 @@
     {
       "name": "EntoriumSporebombExt",
       "type": "itemextension",
-      "sortid": 97,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_sporebomb_ext",
@@ -389,7 +389,7 @@
     {
       "name": "Contamination",
       "type": "potioneffect",
-      "sortid": 98,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "contamination",
@@ -398,7 +398,7 @@
     {
       "name": "ContaminationItem",
       "type": "potion",
-      "sortid": 99,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "contamination_item",
@@ -407,7 +407,7 @@
     {
       "name": "ImmuneProtection",
       "type": "potioneffect",
-      "sortid": 100,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "immune_protection",
@@ -416,7 +416,7 @@
     {
       "name": "ImmunePortectionItem",
       "type": "potion",
-      "sortid": 101,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "immune_portection_item",
@@ -425,7 +425,7 @@
     {
       "name": "VibrionParticle",
       "type": "particle",
-      "sortid": 102,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_particle",
@@ -434,7 +434,7 @@
     {
       "name": "EntoriumParticle",
       "type": "particle",
-      "sortid": 103,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_particle",
@@ -443,7 +443,7 @@
     {
       "name": "SubstiliumParticle",
       "type": "particle",
-      "sortid": 104,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_particle",
@@ -452,7 +452,7 @@
     {
       "name": "StillSubstiliumParticle",
       "type": "particle",
-      "sortid": 105,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "still_substilium_particle",
@@ -461,7 +461,7 @@
     {
       "name": "EntoriumSporebombHits",
       "type": "procedure",
-      "sortid": 106,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_sporebomb_hits",
@@ -498,7 +498,7 @@
     {
       "name": "EntoriumSporebombFly",
       "type": "procedure",
-      "sortid": 107,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_sporebomb_fly",
@@ -527,7 +527,7 @@
     {
       "name": "EntoriumSporebombBlocked",
       "type": "procedure",
-      "sortid": 108,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_sporebomb_blocked",
@@ -556,7 +556,7 @@
     {
       "name": "VibrionBlockCraft",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_block_craft",
@@ -565,7 +565,7 @@
     {
       "name": "EntoriumPillCraft",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_pill_craft",
@@ -574,7 +574,7 @@
     {
       "name": "VibrionToDye",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_to_dye",
@@ -583,7 +583,7 @@
     {
       "name": "Revealing",
       "type": "enchantment",
-      "sortid": 112,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revealing",
@@ -592,7 +592,7 @@
     {
       "name": "ContaminationDamage1",
       "type": "procedure",
-      "sortid": 113,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "contamination_damage_1",
@@ -613,7 +613,7 @@
     {
       "name": "ContaminationDamage2",
       "type": "procedure",
-      "sortid": 114,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "contamination_damage_2",
@@ -630,7 +630,7 @@
     {
       "name": "ContaminationDamage3",
       "type": "procedure",
-      "sortid": 115,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "contamination_damage_3",
@@ -647,7 +647,7 @@
     {
       "name": "ContaminationDamage4",
       "type": "procedure",
-      "sortid": 116,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "contamination_damage_4",
@@ -664,7 +664,7 @@
     {
       "name": "VibrionSporeholderEffectGiver",
       "type": "procedure",
-      "sortid": 117,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_sporeholder_effect_giver",
@@ -681,7 +681,7 @@
     {
       "name": "VibrionBlockExt",
       "type": "itemextension",
-      "sortid": 118,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_block_ext",
@@ -690,7 +690,7 @@
     {
       "name": "SubstiliumShroomExt",
       "type": "itemextension",
-      "sortid": 119,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_shroom_ext",
@@ -699,7 +699,7 @@
     {
       "name": "HangingVibrionVinesExt",
       "type": "itemextension",
-      "sortid": 120,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_ext",
@@ -708,7 +708,7 @@
     {
       "name": "VibrionSporeholderExt",
       "type": "itemextension",
-      "sortid": 121,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_sporeholder_ext",
@@ -717,7 +717,7 @@
     {
       "name": "VibrionGelExt",
       "type": "itemextension",
-      "sortid": 122,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_gel_ext",
@@ -726,7 +726,7 @@
     {
       "name": "LitVibrionGelExt",
       "type": "itemextension",
-      "sortid": 123,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_vibrion_gel_ext",
@@ -735,7 +735,7 @@
     {
       "name": "VibrionRootsExt",
       "type": "itemextension",
-      "sortid": 124,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_roots_ext",
@@ -744,7 +744,7 @@
     {
       "name": "SubstiliumSproutsExt",
       "type": "itemextension",
-      "sortid": 125,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_sprouts_ext",
@@ -753,7 +753,7 @@
     {
       "name": "CheckSolidTopBlock",
       "type": "procedure",
-      "sortid": 126,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "check_solid_top_block",
@@ -791,7 +791,7 @@
     {
       "name": "MuteVibrionGrowths",
       "type": "gamerule",
-      "sortid": 127,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muteVibrionGrowths",
@@ -803,7 +803,7 @@
     {
       "name": "VibrionGrowthGrower",
       "type": "procedure",
-      "sortid": 128,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_growth_grower",
@@ -832,7 +832,7 @@
     {
       "name": "VibrionGrowthLoot",
       "type": "loottable",
-      "sortid": 129,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_growth_loot",
@@ -841,7 +841,7 @@
     {
       "name": "CheckTopBlockCondition",
       "type": "procedure",
-      "sortid": 130,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "check_top_block_condition",
@@ -871,7 +871,7 @@
     {
       "name": "CheckLivingEntity27Condition",
       "type": "procedure",
-      "sortid": 131,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "check_living_entity_27_condition",
@@ -919,7 +919,7 @@
     {
       "name": "WildWilderWildest",
       "type": "achievement",
-      "sortid": 132,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wild_wilder_wildest",
@@ -928,7 +928,7 @@
     {
       "name": "WildWilderWildestProc",
       "type": "procedure",
-      "sortid": 133,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wild_wilder_wildest_proc",
@@ -945,7 +945,7 @@
     {
       "name": "UnsafeHaven",
       "type": "achievement",
-      "sortid": 134,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "unsafe_haven",
@@ -954,7 +954,7 @@
     {
       "name": "ThroughHundredsOfMutations",
       "type": "achievement",
-      "sortid": 135,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "through_hundreds_of_mutations",
@@ -963,7 +963,7 @@
     {
       "name": "UsefulFinding",
       "type": "achievement",
-      "sortid": 136,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "useful_finding",
@@ -972,7 +972,7 @@
     {
       "name": "Spread100",
       "type": "achievement",
-      "sortid": 137,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spread_100",
@@ -981,7 +981,7 @@
     {
       "name": "PetrifiedAntibiotic",
       "type": "achievement",
-      "sortid": 138,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_antibiotic",
@@ -990,7 +990,7 @@
     {
       "name": "ExtensiveResearch",
       "type": "achievement",
-      "sortid": 139,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "extensive_research",
@@ -999,7 +999,7 @@
     {
       "name": "TemporarySolution",
       "type": "achievement",
-      "sortid": 140,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "temporary_solution",
@@ -1008,7 +1008,7 @@
     {
       "name": "DangerousWarfare",
       "type": "achievement",
-      "sortid": 141,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dangerous_warfare",
@@ -1017,7 +1017,7 @@
     {
       "name": "EntoriumRevealProc",
       "type": "procedure",
-      "sortid": 142,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_reveal_proc",
@@ -1050,7 +1050,7 @@
     {
       "name": "WildAsideDebugMode",
       "type": "gamerule",
-      "sortid": 143,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wildAsideDebugMode",
@@ -1062,7 +1062,7 @@
     {
       "name": "HangingVibrionVinesGrowerProc",
       "type": "procedure",
-      "sortid": 144,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_proc",
@@ -1091,7 +1091,7 @@
     {
       "name": "HangingVibrionVinesGrower",
       "type": "block",
-      "sortid": 145,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower",
@@ -1100,7 +1100,7 @@
     {
       "name": "HangingVibrionVinesGrowerStrCondition",
       "type": "procedure",
-      "sortid": 146,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_condition",
@@ -1130,7 +1130,7 @@
     {
       "name": "HangingVibrionVinesGrowerStrOnGenerated",
       "type": "procedure",
-      "sortid": 147,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_on_generated",
@@ -1159,7 +1159,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr1",
       "type": "structure",
-      "sortid": 148,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_1",
@@ -1168,7 +1168,7 @@
     {
       "name": "HangingVibrionGelGrowerProc",
       "type": "procedure",
-      "sortid": 149,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_proc",
@@ -1197,7 +1197,7 @@
     {
       "name": "HangingVibrionGelGrower",
       "type": "block",
-      "sortid": 150,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower",
@@ -1206,7 +1206,7 @@
     {
       "name": "HangingVibrionGelGrowerStr1",
       "type": "structure",
-      "sortid": 151,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_1",
@@ -1215,7 +1215,7 @@
     {
       "name": "HangingVibrionGelGrowerStr2",
       "type": "structure",
-      "sortid": 152,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_2",
@@ -1224,7 +1224,7 @@
     {
       "name": "HangingVibrionGelGrowerStr3",
       "type": "structure",
-      "sortid": 153,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_3",
@@ -1233,7 +1233,7 @@
     {
       "name": "HangingVibrionGelGrowerStr4",
       "type": "structure",
-      "sortid": 154,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_4",
@@ -1242,7 +1242,7 @@
     {
       "name": "HangingVibrionGelGrowerStr5",
       "type": "structure",
-      "sortid": 155,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_5",
@@ -1251,7 +1251,7 @@
     {
       "name": "HangingVibrionGelGrowerStr6",
       "type": "structure",
-      "sortid": 156,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_6",
@@ -1260,7 +1260,7 @@
     {
       "name": "HangingVibrionGelGrowerStr7",
       "type": "structure",
-      "sortid": 157,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_7",
@@ -1269,7 +1269,7 @@
     {
       "name": "HangingVibrionGelGrowerStr8",
       "type": "structure",
-      "sortid": 158,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_8",
@@ -1278,7 +1278,7 @@
     {
       "name": "HangingVibrionGelGrowerStr9",
       "type": "structure",
-      "sortid": 159,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_9",
@@ -1287,7 +1287,7 @@
     {
       "name": "SubstiliumPlanks",
       "type": "block",
-      "sortid": 43,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_planks",
@@ -1296,7 +1296,7 @@
     {
       "name": "SubstiliumStairs",
       "type": "block",
-      "sortid": 44,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_stairs",
@@ -1305,7 +1305,7 @@
     {
       "name": "SubstiliumSlab",
       "type": "block",
-      "sortid": 45,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_slab",
@@ -1314,7 +1314,7 @@
     {
       "name": "SubstiliumFence",
       "type": "block",
-      "sortid": 46,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_fence",
@@ -1323,7 +1323,7 @@
     {
       "name": "SubstiliumFenceGate",
       "type": "block",
-      "sortid": 47,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_fence_gate",
@@ -1332,7 +1332,7 @@
     {
       "name": "SubstiliumDoor",
       "type": "block",
-      "sortid": 48,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_door",
@@ -1341,7 +1341,7 @@
     {
       "name": "SubstiliumTrapdoor",
       "type": "block",
-      "sortid": 49,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_trapdoor",
@@ -1350,7 +1350,7 @@
     {
       "name": "SubstiliumPressurePlate",
       "type": "block",
-      "sortid": 50,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_pressure_plate",
@@ -1359,7 +1359,7 @@
     {
       "name": "SubstiliumButton",
       "type": "block",
-      "sortid": 51,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_button",
@@ -1368,7 +1368,7 @@
     {
       "name": "SubstiliumTreeGrower",
       "type": "block",
-      "sortid": 160,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower",
@@ -1377,7 +1377,7 @@
     {
       "name": "SubstiliumTreeGrowerProc",
       "type": "procedure",
-      "sortid": 161,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_proc",
@@ -1406,7 +1406,7 @@
     {
       "name": "SubstiliumPlanksCraft2",
       "type": "recipe",
-      "sortid": 162,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_planks_craft_2",
@@ -1415,7 +1415,7 @@
     {
       "name": "SubstiliumBlockCraft",
       "type": "recipe",
-      "sortid": 163,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_block_craft",
@@ -1424,7 +1424,7 @@
     {
       "name": "SubstiliumStairsCraft",
       "type": "recipe",
-      "sortid": 164,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_stairs_craft",
@@ -1433,7 +1433,7 @@
     {
       "name": "SubstiliumSlabCraft",
       "type": "recipe",
-      "sortid": 165,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_slab_craft",
@@ -1442,7 +1442,7 @@
     {
       "name": "SubstiliumFenceCraft",
       "type": "recipe",
-      "sortid": 166,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_fence_craft",
@@ -1451,7 +1451,7 @@
     {
       "name": "SubstiliumFenceGateCraft",
       "type": "recipe",
-      "sortid": 167,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_fence_gate_craft",
@@ -1460,7 +1460,7 @@
     {
       "name": "SubstiliumDoorCraft",
       "type": "recipe",
-      "sortid": 168,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_door_craft",
@@ -1469,7 +1469,7 @@
     {
       "name": "SubstiliumTrapdoorCraft",
       "type": "recipe",
-      "sortid": 169,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_trapdoor_craft",
@@ -1478,7 +1478,7 @@
     {
       "name": "SubstiliumPressurePlateCraft",
       "type": "recipe",
-      "sortid": 170,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_pressure_plate_craft",
@@ -1487,7 +1487,7 @@
     {
       "name": "SubstiliumButtonCraft",
       "type": "recipe",
-      "sortid": 171,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_button_craft",
@@ -1496,7 +1496,7 @@
     {
       "name": "DirtBlocks",
       "type": "tag",
-      "sortid": 172,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirt_blocks",
@@ -1505,7 +1505,7 @@
     {
       "name": "LogBlocks",
       "type": "tag",
-      "sortid": 173,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "log_blocks",
@@ -1514,7 +1514,7 @@
     {
       "name": "FenceBlocks",
       "type": "tag",
-      "sortid": 174,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fence_blocks",
@@ -1523,7 +1523,7 @@
     {
       "name": "WoodenFenceBlocks",
       "type": "tag",
-      "sortid": 175,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_fence_blocks",
@@ -1532,7 +1532,7 @@
     {
       "name": "WallBlocks",
       "type": "tag",
-      "sortid": 176,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_blocks",
@@ -1541,7 +1541,7 @@
     {
       "name": "SmallFlowerBlocks",
       "type": "tag",
-      "sortid": 177,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_flower_blocks",
@@ -1550,7 +1550,7 @@
     {
       "name": "PlankItems",
       "type": "tag",
-      "sortid": 178,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plank_items",
@@ -1559,7 +1559,7 @@
     {
       "name": "FlowerItems",
       "type": "tag",
-      "sortid": 179,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_items",
@@ -1568,7 +1568,7 @@
     {
       "name": "SmallFlowerItems",
       "type": "tag",
-      "sortid": 180,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_flower_items",
@@ -1577,7 +1577,7 @@
     {
       "name": "ImpactProjectileEntities",
       "type": "tag",
-      "sortid": 181,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "impact_projectile_entities",
@@ -1586,7 +1586,7 @@
     {
       "name": "ImmuneProtectionProc",
       "type": "procedure",
-      "sortid": 182,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "immune_protection_proc",
@@ -1603,7 +1603,7 @@
     {
       "name": "ContaminationEffectStarted",
       "type": "procedure",
-      "sortid": 183,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "contamination_effect_started",
@@ -1620,7 +1620,7 @@
     {
       "name": "EntoriumSporebombUsed",
       "type": "procedure",
-      "sortid": 184,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_sporebomb_used",
@@ -1641,7 +1641,7 @@
     {
       "name": "HickoryLog",
       "type": "block",
-      "sortid": 52,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_log",
@@ -1650,7 +1650,7 @@
     {
       "name": "HickoryPlanks",
       "type": "block",
-      "sortid": 56,
+      "sortid": 62,
       "compiles": true,
       "locked_code": true,
       "registry_name": "hickory_planks",
@@ -1659,7 +1659,7 @@
     {
       "name": "HickoryBlock",
       "type": "block",
-      "sortid": 53,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_block",
@@ -1668,7 +1668,7 @@
     {
       "name": "HickoryPlanksPlaced",
       "type": "procedure",
-      "sortid": 185,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_planks_placed",
@@ -1697,7 +1697,7 @@
     {
       "name": "HickoryStairs",
       "type": "block",
-      "sortid": 57,
+      "sortid": 63,
       "compiles": true,
       "locked_code": true,
       "registry_name": "hickory_stairs",
@@ -1706,7 +1706,7 @@
     {
       "name": "HickorySlab",
       "type": "block",
-      "sortid": 58,
+      "sortid": 64,
       "compiles": true,
       "locked_code": true,
       "registry_name": "hickory_slab",
@@ -1715,7 +1715,7 @@
     {
       "name": "HickoryFence",
       "type": "block",
-      "sortid": 59,
+      "sortid": 65,
       "compiles": true,
       "locked_code": true,
       "registry_name": "hickory_fence",
@@ -1724,7 +1724,7 @@
     {
       "name": "HickoryFenceGate",
       "type": "block",
-      "sortid": 60,
+      "sortid": 66,
       "compiles": true,
       "locked_code": true,
       "registry_name": "hickory_fence_gate",
@@ -1733,7 +1733,7 @@
     {
       "name": "HickoryPressurePlate",
       "type": "block",
-      "sortid": 61,
+      "sortid": 67,
       "compiles": true,
       "locked_code": true,
       "registry_name": "hickory_pressure_plate",
@@ -1742,7 +1742,7 @@
     {
       "name": "HickoryButton",
       "type": "block",
-      "sortid": 62,
+      "sortid": 68,
       "compiles": true,
       "locked_code": true,
       "registry_name": "hickory_button",
@@ -1751,7 +1751,7 @@
     {
       "name": "HickoryLeaves",
       "type": "block",
-      "sortid": 63,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_leaves",
@@ -1760,7 +1760,7 @@
     {
       "name": "LeaveBlocks",
       "type": "tag",
-      "sortid": 186,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leave_blocks",
@@ -1769,7 +1769,7 @@
     {
       "name": "HickoryNut",
       "type": "item",
-      "sortid": 80,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_nut",
@@ -1778,7 +1778,7 @@
     {
       "name": "HickoryNutExp",
       "type": "itemextension",
-      "sortid": 187,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_nut_exp",
@@ -1796,7 +1796,7 @@
     {
       "name": "SporeBlasterRedstoneOn",
       "type": "procedure",
-      "sortid": 188,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spore_blaster_redstone_on",
@@ -1825,7 +1825,7 @@
     {
       "name": "CheckForRedstonePower",
       "type": "procedure",
-      "sortid": 189,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "check_for_redstone_power",
@@ -1864,7 +1864,7 @@
     {
       "name": "SporeBlasterLoot",
       "type": "loottable",
-      "sortid": 190,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spore_blaster_loot",
@@ -1873,7 +1873,7 @@
     {
       "name": "NaturalSporeBlasterLoot",
       "type": "loottable",
-      "sortid": 191,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_loot",
@@ -1882,7 +1882,7 @@
     {
       "name": "NaturalSporeBlasterAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 192,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_additional_generation_condition",
@@ -1912,7 +1912,7 @@
     {
       "name": "NaturalSporeBlasterStr",
       "type": "structure",
-      "sortid": 193,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str",
@@ -1921,7 +1921,7 @@
     {
       "name": "NaturalSporeBlasterBlockIsPlacedBy",
       "type": "procedure",
-      "sortid": 194,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_block_is_placed_by",
@@ -1950,7 +1950,7 @@
     {
       "name": "NaturalSporeBlasterStr2",
       "type": "structure",
-      "sortid": 195,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_2",
@@ -1959,7 +1959,7 @@
     {
       "name": "NaturalSporeBlasterStr3",
       "type": "structure",
-      "sortid": 196,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_3",
@@ -1968,7 +1968,7 @@
     {
       "name": "NaturalSporeBlasterStr4",
       "type": "structure",
-      "sortid": 197,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_4",
@@ -1977,7 +1977,7 @@
     {
       "name": "NaturalSporeBlasterStr5",
       "type": "structure",
-      "sortid": 198,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_5",
@@ -1986,7 +1986,7 @@
     {
       "name": "NaturalSporeBlasterStr6",
       "type": "structure",
-      "sortid": 199,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_6",
@@ -1995,7 +1995,7 @@
     {
       "name": "NaturalSporeBlasterStr7",
       "type": "structure",
-      "sortid": 200,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_7",
@@ -2004,7 +2004,7 @@
     {
       "name": "NaturalSporeBlasterStr8",
       "type": "structure",
-      "sortid": 201,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_8",
@@ -2013,7 +2013,7 @@
     {
       "name": "NaturalSporeBlasterStr9",
       "type": "structure",
-      "sortid": 202,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_9",
@@ -2022,7 +2022,7 @@
     {
       "name": "NaturalSporeBlasterStr10",
       "type": "structure",
-      "sortid": 203,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_10",
@@ -2031,7 +2031,7 @@
     {
       "name": "NaturalSporeBlasterStr11",
       "type": "structure",
-      "sortid": 204,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_11",
@@ -2040,7 +2040,7 @@
     {
       "name": "NaturalSporeBlasterStr12",
       "type": "structure",
-      "sortid": 205,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_12",
@@ -2049,7 +2049,7 @@
     {
       "name": "NaturalSporeBlasterStr13",
       "type": "structure",
-      "sortid": 206,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_13",
@@ -2058,7 +2058,7 @@
     {
       "name": "NaturalSporeBlasterStr14",
       "type": "structure",
-      "sortid": 207,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_14",
@@ -2067,7 +2067,7 @@
     {
       "name": "NaturalSporeBlasterStr15",
       "type": "structure",
-      "sortid": 208,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_15",
@@ -2076,7 +2076,7 @@
     {
       "name": "NaturalSporeBlasterStr16",
       "type": "structure",
-      "sortid": 209,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_16",
@@ -2085,7 +2085,7 @@
     {
       "name": "NaturalSporeBlasterStr17",
       "type": "structure",
-      "sortid": 210,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_17",
@@ -2094,7 +2094,7 @@
     {
       "name": "NaturalSporeBlasterStr18",
       "type": "structure",
-      "sortid": 211,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_18",
@@ -2103,7 +2103,7 @@
     {
       "name": "NaturalSporeBlasterStr19",
       "type": "structure",
-      "sortid": 212,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_19",
@@ -2112,7 +2112,7 @@
     {
       "name": "NaturalSporeBlasterStr20",
       "type": "structure",
-      "sortid": 213,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_20",
@@ -2121,7 +2121,7 @@
     {
       "name": "NaturalSporeBlasterStr21",
       "type": "structure",
-      "sortid": 214,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_21",
@@ -2130,7 +2130,7 @@
     {
       "name": "NaturalSporeBlasterStr22",
       "type": "structure",
-      "sortid": 215,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_22",
@@ -2139,7 +2139,7 @@
     {
       "name": "NaturalSporeBlasterStr23",
       "type": "structure",
-      "sortid": 216,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_23",
@@ -2148,7 +2148,7 @@
     {
       "name": "NaturalSporeBlasterStr24",
       "type": "structure",
-      "sortid": 217,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_24",
@@ -2157,7 +2157,7 @@
     {
       "name": "NaturalSporeBlasterStr25",
       "type": "structure",
-      "sortid": 218,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natural_spore_blaster_str_25",
@@ -2175,7 +2175,7 @@
     {
       "name": "SporeBlasterCraft",
       "type": "recipe",
-      "sortid": 219,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spore_blaster_craft",
@@ -2184,7 +2184,7 @@
     {
       "name": "BarrierOfBacteria",
       "type": "achievement",
-      "sortid": 220,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "barrier_of_bacteria",
@@ -2193,7 +2193,7 @@
     {
       "name": "SubstiliumPlanksHidden1",
       "type": "achievement",
-      "sortid": 221,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_planks_hidden_1",
@@ -2202,7 +2202,7 @@
     {
       "name": "SubstiliumLogHidden1",
       "type": "achievement",
-      "sortid": 222,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_log_hidden_1",
@@ -2211,7 +2211,7 @@
     {
       "name": "HickoryPlanksCraft",
       "type": "recipe",
-      "sortid": 223,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_planks_craft",
@@ -2220,7 +2220,7 @@
     {
       "name": "HickoryPlanksCraft2",
       "type": "recipe",
-      "sortid": 224,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_planks_craft_2",
@@ -2229,7 +2229,7 @@
     {
       "name": "HickoryBlockCraft",
       "type": "recipe",
-      "sortid": 225,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_block_craft",
@@ -2238,7 +2238,7 @@
     {
       "name": "HickoryStairsCraft",
       "type": "recipe",
-      "sortid": 226,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_stairs_craft",
@@ -2247,7 +2247,7 @@
     {
       "name": "HickorySlabCraft",
       "type": "recipe",
-      "sortid": 227,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_slab_craft",
@@ -2256,7 +2256,7 @@
     {
       "name": "HickoryFenceCraft",
       "type": "recipe",
-      "sortid": 228,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_fence_craft",
@@ -2265,7 +2265,7 @@
     {
       "name": "HickoryFenceGateCraft",
       "type": "recipe",
-      "sortid": 229,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_fence_gate_craft",
@@ -2274,7 +2274,7 @@
     {
       "name": "HickoryPressurePlateCraft",
       "type": "recipe",
-      "sortid": 230,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_pressure_plate_craft",
@@ -2283,7 +2283,7 @@
     {
       "name": "HickoryButtonCraft",
       "type": "recipe",
-      "sortid": 231,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_button_craft",
@@ -2292,7 +2292,7 @@
     {
       "name": "HickoryPlanksHidden1",
       "type": "achievement",
-      "sortid": 232,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_planks_hidden_1",
@@ -2301,7 +2301,7 @@
     {
       "name": "HickoryLogHidden1",
       "type": "achievement",
-      "sortid": 233,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_log_hidden_1",
@@ -2310,7 +2310,7 @@
     {
       "name": "DangerEliminated",
       "type": "achievement",
-      "sortid": 234,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "danger_eliminated",
@@ -2319,7 +2319,7 @@
     {
       "name": "DdangerEliminated",
       "type": "procedure",
-      "sortid": 235,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ddanger_eliminated",
@@ -2352,7 +2352,7 @@
     {
       "name": "BioengineerWorkspaceCraft",
       "type": "recipe",
-      "sortid": 236,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bioengineer_workspace_craft",
@@ -2361,7 +2361,7 @@
     {
       "name": "SporeAirEntityCollidesInTheBlock",
       "type": "procedure",
-      "sortid": 237,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spore_air_entity_collides_in_the_block",
@@ -2378,7 +2378,7 @@
     {
       "name": "StrippedHickoryLog",
       "type": "block",
-      "sortid": 54,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_hickory_log",
@@ -2387,7 +2387,7 @@
     {
       "name": "StrippedHickoryBlock",
       "type": "block",
-      "sortid": 55,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_hickory_block",
@@ -2396,7 +2396,7 @@
     {
       "name": "WildasideLogs",
       "type": "tag",
-      "sortid": 238,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wildaside_logs",
@@ -2405,7 +2405,7 @@
     {
       "name": "WoodStrippingProc",
       "type": "procedure",
-      "sortid": 239,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_stripping_proc",
@@ -2471,7 +2471,7 @@
     {
       "name": "SporeAir",
       "type": "block",
-      "sortid": 240,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spore_air",
@@ -2480,7 +2480,7 @@
     {
       "name": "SporeAirUpdateTick",
       "type": "procedure",
-      "sortid": 241,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spore_air_update_tick",
@@ -2509,7 +2509,7 @@
     {
       "name": "StrippableWildasideLogs",
       "type": "tag",
-      "sortid": 242,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strippable_wildaside_logs",
@@ -2518,7 +2518,7 @@
     {
       "name": "IsOverworldBiomes",
       "type": "tag",
-      "sortid": 243,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_overworld_biomes",
@@ -2527,7 +2527,7 @@
     {
       "name": "EntoriumGauntletExt",
       "type": "itemextension",
-      "sortid": 244,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_gauntlet_ext",
@@ -2536,7 +2536,7 @@
     {
       "name": "SubstiliumTreeGrowerUpdate",
       "type": "procedure",
-      "sortid": 245,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_update",
@@ -2565,7 +2565,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr2",
       "type": "structure",
-      "sortid": 246,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_2",
@@ -2574,7 +2574,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr3",
       "type": "structure",
-      "sortid": 247,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_3",
@@ -2583,7 +2583,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr4",
       "type": "structure",
-      "sortid": 248,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_4",
@@ -2592,7 +2592,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr5",
       "type": "structure",
-      "sortid": 249,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_5",
@@ -2601,7 +2601,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr6",
       "type": "structure",
-      "sortid": 250,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_6",
@@ -2610,7 +2610,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr7",
       "type": "structure",
-      "sortid": 251,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_7",
@@ -2619,7 +2619,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr8",
       "type": "structure",
-      "sortid": 252,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_8",
@@ -2628,7 +2628,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr9",
       "type": "structure",
-      "sortid": 253,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_9",
@@ -2637,7 +2637,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr10",
       "type": "structure",
-      "sortid": 254,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_10",
@@ -2646,7 +2646,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr11",
       "type": "structure",
-      "sortid": 255,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_11",
@@ -2655,7 +2655,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr12",
       "type": "structure",
-      "sortid": 256,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_12",
@@ -2664,7 +2664,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr13",
       "type": "structure",
-      "sortid": 257,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_13",
@@ -2673,7 +2673,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr14",
       "type": "structure",
-      "sortid": 258,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_14",
@@ -2682,7 +2682,7 @@
     {
       "name": "SubstiliumTreeGrowerStr1AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 259,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_1_additional_generation_condition",
@@ -2712,7 +2712,7 @@
     {
       "name": "SubstiliumMushroomStr11",
       "type": "structure",
-      "sortid": 260,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_11",
@@ -2721,7 +2721,7 @@
     {
       "name": "SubstiliumMushroomStr12",
       "type": "structure",
-      "sortid": 261,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_12",
@@ -2730,7 +2730,7 @@
     {
       "name": "SubstiliumMushroomStr13",
       "type": "structure",
-      "sortid": 262,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_13",
@@ -2739,7 +2739,7 @@
     {
       "name": "SubstiliumMushroomStr14",
       "type": "structure",
-      "sortid": 263,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_14",
@@ -2748,7 +2748,7 @@
     {
       "name": "SubstiliumMushroomStr15",
       "type": "structure",
-      "sortid": 264,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_15",
@@ -2757,7 +2757,7 @@
     {
       "name": "SubstiliumMushroomStr16",
       "type": "structure",
-      "sortid": 265,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_16",
@@ -2766,7 +2766,7 @@
     {
       "name": "SubstiliumMushroomStr17",
       "type": "structure",
-      "sortid": 266,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_17",
@@ -2775,7 +2775,7 @@
     {
       "name": "SubstiliumMushroomStr18",
       "type": "structure",
-      "sortid": 267,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_18",
@@ -2784,7 +2784,7 @@
     {
       "name": "SubstiliumMushroomStr19",
       "type": "structure",
-      "sortid": 268,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_19",
@@ -2793,7 +2793,7 @@
     {
       "name": "SubstiliumMushroomStr110",
       "type": "structure",
-      "sortid": 269,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_110",
@@ -2802,7 +2802,7 @@
     {
       "name": "SubstiliumMushroomStr111",
       "type": "structure",
-      "sortid": 270,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_111",
@@ -2811,7 +2811,7 @@
     {
       "name": "SubstiliumMushroomStr112",
       "type": "structure",
-      "sortid": 271,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_112",
@@ -2820,7 +2820,7 @@
     {
       "name": "SubstiliumMushroomStr113",
       "type": "structure",
-      "sortid": 272,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_113",
@@ -2829,7 +2829,7 @@
     {
       "name": "SubstiliumMushroomStr114",
       "type": "structure",
-      "sortid": 273,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_114",
@@ -2838,7 +2838,7 @@
     {
       "name": "SubstiliumMushroomStr115",
       "type": "structure",
-      "sortid": 274,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_115",
@@ -2847,7 +2847,7 @@
     {
       "name": "SubstiliumMushroomStr116",
       "type": "structure",
-      "sortid": 275,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_116",
@@ -2856,7 +2856,7 @@
     {
       "name": "SubstiliumMushroomStr117",
       "type": "structure",
-      "sortid": 276,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_117",
@@ -2865,7 +2865,7 @@
     {
       "name": "SubstiliumMushroomStr118",
       "type": "structure",
-      "sortid": 277,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_118",
@@ -2874,7 +2874,7 @@
     {
       "name": "SubstiliumMushroomStr119",
       "type": "structure",
-      "sortid": 278,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_119",
@@ -2883,7 +2883,7 @@
     {
       "name": "SubstiliumMushroomStr120",
       "type": "structure",
-      "sortid": 279,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_120",
@@ -2892,7 +2892,7 @@
     {
       "name": "SubstiliumMushroomStr121",
       "type": "structure",
-      "sortid": 280,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_121",
@@ -2901,7 +2901,7 @@
     {
       "name": "SubstiliumMushroomStr122",
       "type": "structure",
-      "sortid": 281,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_122",
@@ -2910,7 +2910,7 @@
     {
       "name": "SubstiliumMushroomStr123",
       "type": "structure",
-      "sortid": 282,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_123",
@@ -2919,7 +2919,7 @@
     {
       "name": "SubstiliumMushroomStr124",
       "type": "structure",
-      "sortid": 283,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_124",
@@ -2928,7 +2928,7 @@
     {
       "name": "SubstiliumMushroomStr125",
       "type": "structure",
-      "sortid": 284,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_125",
@@ -2937,7 +2937,7 @@
     {
       "name": "SubstiliumMushroomStr126",
       "type": "structure",
-      "sortid": 285,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_126",
@@ -2946,7 +2946,7 @@
     {
       "name": "SubstiliumMushroomStr127",
       "type": "structure",
-      "sortid": 286,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_127",
@@ -2955,7 +2955,7 @@
     {
       "name": "SubstiliumMushroomStr128",
       "type": "structure",
-      "sortid": 287,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_128",
@@ -2964,7 +2964,7 @@
     {
       "name": "SubstiliumMushroomStr129",
       "type": "structure",
-      "sortid": 288,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_129",
@@ -2973,7 +2973,7 @@
     {
       "name": "SubstiliumMushroomStr130",
       "type": "structure",
-      "sortid": 289,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_130",
@@ -2982,7 +2982,7 @@
     {
       "name": "SubstiliumMushroomStr131",
       "type": "structure",
-      "sortid": 290,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_131",
@@ -2991,7 +2991,7 @@
     {
       "name": "SubstiliumMushroomStr132",
       "type": "structure",
-      "sortid": 291,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_132",
@@ -3000,7 +3000,7 @@
     {
       "name": "SubstiliumMushroomStr133",
       "type": "structure",
-      "sortid": 292,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_133",
@@ -3009,7 +3009,7 @@
     {
       "name": "SubstiliumMushroomStr134",
       "type": "structure",
-      "sortid": 293,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_134",
@@ -3018,7 +3018,7 @@
     {
       "name": "SubstiliumMushroomStr135",
       "type": "structure",
-      "sortid": 294,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_135",
@@ -3027,7 +3027,7 @@
     {
       "name": "SubstiliumMushroomStr136",
       "type": "structure",
-      "sortid": 295,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_136",
@@ -3036,7 +3036,7 @@
     {
       "name": "SubstiliumMushroomStr137",
       "type": "structure",
-      "sortid": 296,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_137",
@@ -3045,7 +3045,7 @@
     {
       "name": "SubstiliumMushroomStr138",
       "type": "structure",
-      "sortid": 297,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_138",
@@ -3054,7 +3054,7 @@
     {
       "name": "SubstiliumMushroomStr139",
       "type": "structure",
-      "sortid": 298,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_139",
@@ -3063,7 +3063,7 @@
     {
       "name": "SubstiliumMushroomStr140",
       "type": "structure",
-      "sortid": 299,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_140",
@@ -3072,7 +3072,7 @@
     {
       "name": "SubstiliumMushroomStr21",
       "type": "structure",
-      "sortid": 300,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_21",
@@ -3081,7 +3081,7 @@
     {
       "name": "SubstiliumMushroomStr22",
       "type": "structure",
-      "sortid": 301,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_22",
@@ -3090,7 +3090,7 @@
     {
       "name": "SubstiliumMushroomStr23",
       "type": "structure",
-      "sortid": 302,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_23",
@@ -3099,7 +3099,7 @@
     {
       "name": "SubstiliumMushroomStr24",
       "type": "structure",
-      "sortid": 303,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_24",
@@ -3108,7 +3108,7 @@
     {
       "name": "SubstiliumMushroomStr25",
       "type": "structure",
-      "sortid": 304,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_25",
@@ -3117,7 +3117,7 @@
     {
       "name": "SubstiliumMushroomStr26",
       "type": "structure",
-      "sortid": 305,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_26",
@@ -3126,7 +3126,7 @@
     {
       "name": "SubstiliumMushroomStr27",
       "type": "structure",
-      "sortid": 306,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_27",
@@ -3135,7 +3135,7 @@
     {
       "name": "SubstiliumMushroomStr28",
       "type": "structure",
-      "sortid": 307,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_28",
@@ -3144,7 +3144,7 @@
     {
       "name": "SubstiliumMushroomStr29",
       "type": "structure",
-      "sortid": 308,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_29",
@@ -3153,7 +3153,7 @@
     {
       "name": "SubstiliumMushroomStr210",
       "type": "structure",
-      "sortid": 309,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_210",
@@ -3162,7 +3162,7 @@
     {
       "name": "SubstiliumMushroomStr211",
       "type": "structure",
-      "sortid": 310,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_211",
@@ -3171,7 +3171,7 @@
     {
       "name": "SubstiliumMushroomStr212",
       "type": "structure",
-      "sortid": 311,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_212",
@@ -3180,7 +3180,7 @@
     {
       "name": "SubstiliumMushroomStr213",
       "type": "structure",
-      "sortid": 312,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_213",
@@ -3189,7 +3189,7 @@
     {
       "name": "SubstiliumMushroomStr214",
       "type": "structure",
-      "sortid": 313,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_214",
@@ -3198,7 +3198,7 @@
     {
       "name": "SubstiliumMushroomStr215",
       "type": "structure",
-      "sortid": 314,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_215",
@@ -3207,7 +3207,7 @@
     {
       "name": "SubstiliumMushroomStr216",
       "type": "structure",
-      "sortid": 315,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_216",
@@ -3216,7 +3216,7 @@
     {
       "name": "SubstiliumMushroomStr217",
       "type": "structure",
-      "sortid": 316,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_217",
@@ -3225,7 +3225,7 @@
     {
       "name": "SubstiliumMushroomStr218",
       "type": "structure",
-      "sortid": 317,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_218",
@@ -3234,7 +3234,7 @@
     {
       "name": "SubstiliumMushroomStr219",
       "type": "structure",
-      "sortid": 318,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_219",
@@ -3243,7 +3243,7 @@
     {
       "name": "SubstiliumMushroomStr220",
       "type": "structure",
-      "sortid": 319,
+      "sortid": 325,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_220",
@@ -3252,7 +3252,7 @@
     {
       "name": "SubstiliumMushroomStr221",
       "type": "structure",
-      "sortid": 320,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_221",
@@ -3261,7 +3261,7 @@
     {
       "name": "SubstiliumMushroomStr222",
       "type": "structure",
-      "sortid": 321,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_222",
@@ -3270,7 +3270,7 @@
     {
       "name": "SubstiliumMushroomStr223",
       "type": "structure",
-      "sortid": 322,
+      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_223",
@@ -3279,7 +3279,7 @@
     {
       "name": "SubstiliumMushroomStr224",
       "type": "structure",
-      "sortid": 323,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_224",
@@ -3288,7 +3288,7 @@
     {
       "name": "SubstiliumMushroomStr225",
       "type": "structure",
-      "sortid": 324,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_225",
@@ -3297,7 +3297,7 @@
     {
       "name": "SubstiliumMushroomStr226",
       "type": "structure",
-      "sortid": 325,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_226",
@@ -3306,7 +3306,7 @@
     {
       "name": "SubstiliumMushroomStr227",
       "type": "structure",
-      "sortid": 326,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_227",
@@ -3315,7 +3315,7 @@
     {
       "name": "SubstiliumMushroomStr228",
       "type": "structure",
-      "sortid": 327,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_228",
@@ -3324,7 +3324,7 @@
     {
       "name": "SubstiliumMushroomStr229",
       "type": "structure",
-      "sortid": 328,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_229",
@@ -3333,7 +3333,7 @@
     {
       "name": "SubstiliumMushroomStr31",
       "type": "structure",
-      "sortid": 329,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_31",
@@ -3342,7 +3342,7 @@
     {
       "name": "SubstiliumMushroomStr32",
       "type": "structure",
-      "sortid": 330,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_32",
@@ -3351,7 +3351,7 @@
     {
       "name": "SubstiliumMushroomStr33",
       "type": "structure",
-      "sortid": 331,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_33",
@@ -3360,7 +3360,7 @@
     {
       "name": "SubstiliumMushroomStr34",
       "type": "structure",
-      "sortid": 332,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_34",
@@ -3369,7 +3369,7 @@
     {
       "name": "SubstiliumMushroomStr35",
       "type": "structure",
-      "sortid": 333,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_35",
@@ -3378,7 +3378,7 @@
     {
       "name": "SubstiliumMushroomStr36",
       "type": "structure",
-      "sortid": 334,
+      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_36",
@@ -3387,7 +3387,7 @@
     {
       "name": "SubstiliumMushroomStr37",
       "type": "structure",
-      "sortid": 335,
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_37",
@@ -3396,7 +3396,7 @@
     {
       "name": "SubstiliumMushroomStr38",
       "type": "structure",
-      "sortid": 336,
+      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_38",
@@ -3405,7 +3405,7 @@
     {
       "name": "SubstiliumMushroomStr39",
       "type": "structure",
-      "sortid": 337,
+      "sortid": 343,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_39",
@@ -3414,7 +3414,7 @@
     {
       "name": "SubstiliumMushroomStr310",
       "type": "structure",
-      "sortid": 338,
+      "sortid": 344,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_310",
@@ -3423,7 +3423,7 @@
     {
       "name": "SubstiliumMushroomStr311",
       "type": "structure",
-      "sortid": 339,
+      "sortid": 345,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_311",
@@ -3432,7 +3432,7 @@
     {
       "name": "SubstiliumMushroomStr312",
       "type": "structure",
-      "sortid": 340,
+      "sortid": 346,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_312",
@@ -3441,7 +3441,7 @@
     {
       "name": "SubstiliumMushroomStr313",
       "type": "structure",
-      "sortid": 341,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_313",
@@ -3450,7 +3450,7 @@
     {
       "name": "SubstiliumMushroomStr314",
       "type": "structure",
-      "sortid": 342,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_314",
@@ -3459,7 +3459,7 @@
     {
       "name": "SubstiliumMushroomStr315",
       "type": "structure",
-      "sortid": 343,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_315",
@@ -3468,7 +3468,7 @@
     {
       "name": "SubstiliumMushroomStr316",
       "type": "structure",
-      "sortid": 344,
+      "sortid": 350,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_316",
@@ -3477,7 +3477,7 @@
     {
       "name": "SubstiliumMushroomStr317",
       "type": "structure",
-      "sortid": 345,
+      "sortid": 351,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_317",
@@ -3486,7 +3486,7 @@
     {
       "name": "SubstiliumMushroomStr318",
       "type": "structure",
-      "sortid": 346,
+      "sortid": 352,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_318",
@@ -3495,7 +3495,7 @@
     {
       "name": "SubstiliumMushroomStr319",
       "type": "structure",
-      "sortid": 347,
+      "sortid": 353,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_319",
@@ -3504,7 +3504,7 @@
     {
       "name": "SubstiliumMushroomStr320",
       "type": "structure",
-      "sortid": 348,
+      "sortid": 354,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_320",
@@ -3513,7 +3513,7 @@
     {
       "name": "SubstiliumMushroomStr321",
       "type": "structure",
-      "sortid": 349,
+      "sortid": 355,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_321",
@@ -3522,7 +3522,7 @@
     {
       "name": "SubstiliumMushroomStr322",
       "type": "structure",
-      "sortid": 350,
+      "sortid": 356,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_322",
@@ -3531,7 +3531,7 @@
     {
       "name": "SubstiliumMushroomStr323",
       "type": "structure",
-      "sortid": 351,
+      "sortid": 357,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_323",
@@ -3540,7 +3540,7 @@
     {
       "name": "SubstiliumMushroomStr325",
       "type": "structure",
-      "sortid": 352,
+      "sortid": 358,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_325",
@@ -3549,7 +3549,7 @@
     {
       "name": "SubstiliumMushroomStr141",
       "type": "structure",
-      "sortid": 420,
+      "sortid": 359,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_141",
@@ -3558,7 +3558,7 @@
     {
       "name": "SubstiliumMushroomStr142",
       "type": "structure",
-      "sortid": 421,
+      "sortid": 360,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_142",
@@ -3567,7 +3567,7 @@
     {
       "name": "SubstiliumMushroomStr143",
       "type": "structure",
-      "sortid": 422,
+      "sortid": 361,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_143",
@@ -3576,7 +3576,7 @@
     {
       "name": "SubstiliumMushroomStr144",
       "type": "structure",
-      "sortid": 423,
+      "sortid": 362,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_144",
@@ -3585,7 +3585,7 @@
     {
       "name": "SubstiliumMushroomStr145",
       "type": "structure",
-      "sortid": 424,
+      "sortid": 363,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_145",
@@ -3594,7 +3594,7 @@
     {
       "name": "SubstiliumMushroomStr146",
       "type": "structure",
-      "sortid": 425,
+      "sortid": 364,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_146",
@@ -3603,7 +3603,7 @@
     {
       "name": "SubstiliumMushroomStr147",
       "type": "structure",
-      "sortid": 426,
+      "sortid": 365,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_147",
@@ -3612,7 +3612,7 @@
     {
       "name": "SubstiliumMushroomStr148",
       "type": "structure",
-      "sortid": 427,
+      "sortid": 366,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_148",
@@ -3621,7 +3621,7 @@
     {
       "name": "SubstiliumMushroomStr149",
       "type": "structure",
-      "sortid": 428,
+      "sortid": 367,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_149",
@@ -3630,7 +3630,7 @@
     {
       "name": "SubstiliumMushroomStr150",
       "type": "structure",
-      "sortid": 429,
+      "sortid": 368,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_150",
@@ -3639,7 +3639,7 @@
     {
       "name": "SubstiliumMushroomStr151",
       "type": "structure",
-      "sortid": 430,
+      "sortid": 369,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_151",
@@ -3648,7 +3648,7 @@
     {
       "name": "SubstiliumMushroomStr152",
       "type": "structure",
-      "sortid": 431,
+      "sortid": 370,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_152",
@@ -3657,7 +3657,7 @@
     {
       "name": "SubstiliumMushroomStr153",
       "type": "structure",
-      "sortid": 432,
+      "sortid": 371,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_153",
@@ -3666,7 +3666,7 @@
     {
       "name": "SubstiliumMushroomStr154",
       "type": "structure",
-      "sortid": 433,
+      "sortid": 372,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_154",
@@ -3675,7 +3675,7 @@
     {
       "name": "SubstiliumMushroomStr155",
       "type": "structure",
-      "sortid": 434,
+      "sortid": 373,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_155",
@@ -3684,7 +3684,7 @@
     {
       "name": "SubstiliumMushroomStr156",
       "type": "structure",
-      "sortid": 435,
+      "sortid": 374,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_156",
@@ -3693,7 +3693,7 @@
     {
       "name": "SubstiliumMushroomStr157",
       "type": "structure",
-      "sortid": 436,
+      "sortid": 375,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_157",
@@ -3702,7 +3702,7 @@
     {
       "name": "SubstiliumMushroomStr158",
       "type": "structure",
-      "sortid": 437,
+      "sortid": 376,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_158",
@@ -3711,7 +3711,7 @@
     {
       "name": "SubstiliumMushroomStr326",
       "type": "structure",
-      "sortid": 460,
+      "sortid": 377,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_326",
@@ -3720,7 +3720,7 @@
     {
       "name": "SubstiliumMushroomStr327",
       "type": "structure",
-      "sortid": 461,
+      "sortid": 378,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_327",
@@ -3729,7 +3729,7 @@
     {
       "name": "SubstiliumMushroomStr328",
       "type": "structure",
-      "sortid": 462,
+      "sortid": 379,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_328",
@@ -3738,7 +3738,7 @@
     {
       "name": "SubstiliumMushroomStr329",
       "type": "structure",
-      "sortid": 463,
+      "sortid": 380,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_329",
@@ -3747,7 +3747,7 @@
     {
       "name": "SubstiliumMushroomStr330",
       "type": "structure",
-      "sortid": 464,
+      "sortid": 381,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_330",
@@ -3756,7 +3756,7 @@
     {
       "name": "SubstiliumMushroomStr331",
       "type": "structure",
-      "sortid": 465,
+      "sortid": 382,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_331",
@@ -3765,7 +3765,7 @@
     {
       "name": "SubstiliumMushroomStr332",
       "type": "structure",
-      "sortid": 466,
+      "sortid": 383,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_332",
@@ -3774,7 +3774,7 @@
     {
       "name": "SubstiliumMushroomStr333",
       "type": "structure",
-      "sortid": 467,
+      "sortid": 384,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_333",
@@ -3783,7 +3783,7 @@
     {
       "name": "SubstiliumMushroomStr334",
       "type": "structure",
-      "sortid": 468,
+      "sortid": 385,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_334",
@@ -3792,7 +3792,7 @@
     {
       "name": "SubstiliumMushroomStr335",
       "type": "structure",
-      "sortid": 469,
+      "sortid": 386,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_335",
@@ -3801,7 +3801,7 @@
     {
       "name": "SubstiliumMushroomStr336",
       "type": "structure",
-      "sortid": 470,
+      "sortid": 387,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_336",
@@ -3810,7 +3810,7 @@
     {
       "name": "SubstiliumMushroomStr337",
       "type": "structure",
-      "sortid": 471,
+      "sortid": 388,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_337",
@@ -3819,7 +3819,7 @@
     {
       "name": "SubstiliumMushroomStr338",
       "type": "structure",
-      "sortid": 472,
+      "sortid": 389,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_338",
@@ -3828,7 +3828,7 @@
     {
       "name": "SubstiliumMushroomStr339",
       "type": "structure",
-      "sortid": 473,
+      "sortid": 390,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_339",
@@ -3837,7 +3837,7 @@
     {
       "name": "SubstiliumMushroomStr230",
       "type": "structure",
-      "sortid": 484,
+      "sortid": 391,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_230",
@@ -3846,7 +3846,7 @@
     {
       "name": "SubstiliumMushroomStr231",
       "type": "structure",
-      "sortid": 485,
+      "sortid": 392,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_231",
@@ -3855,7 +3855,7 @@
     {
       "name": "SubstiliumMushroomStr232",
       "type": "structure",
-      "sortid": 486,
+      "sortid": 393,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_232",
@@ -3864,7 +3864,7 @@
     {
       "name": "SubstiliumMushroomStr233",
       "type": "structure",
-      "sortid": 487,
+      "sortid": 394,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_233",
@@ -3873,7 +3873,7 @@
     {
       "name": "SubstiliumMushroomStr234",
       "type": "structure",
-      "sortid": 488,
+      "sortid": 395,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_234",
@@ -3882,7 +3882,7 @@
     {
       "name": "SubstiliumMushroomStr235",
       "type": "structure",
-      "sortid": 489,
+      "sortid": 396,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_235",
@@ -3891,7 +3891,7 @@
     {
       "name": "SubstiliumMushroomStr159",
       "type": "structure",
-      "sortid": 490,
+      "sortid": 397,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_159",
@@ -3900,7 +3900,7 @@
     {
       "name": "SubstiliumMushroomStr160",
       "type": "structure",
-      "sortid": 491,
+      "sortid": 398,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_160",
@@ -3909,7 +3909,7 @@
     {
       "name": "SubstiliumMushroomStr161",
       "type": "structure",
-      "sortid": 492,
+      "sortid": 399,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_161",
@@ -3918,7 +3918,7 @@
     {
       "name": "SubstiliumMushroomStr162",
       "type": "structure",
-      "sortid": 493,
+      "sortid": 400,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_162",
@@ -3927,7 +3927,7 @@
     {
       "name": "SubstiliumMushroomStr163",
       "type": "structure",
-      "sortid": 494,
+      "sortid": 401,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_163",
@@ -3936,7 +3936,7 @@
     {
       "name": "SubstiliumMushroomStr164",
       "type": "structure",
-      "sortid": 495,
+      "sortid": 402,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_164",
@@ -3945,7 +3945,7 @@
     {
       "name": "SubstiliumMushroomStr165",
       "type": "structure",
-      "sortid": 496,
+      "sortid": 403,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_165",
@@ -3954,7 +3954,7 @@
     {
       "name": "SubstiliumMushroomStr166",
       "type": "structure",
-      "sortid": 497,
+      "sortid": 404,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_166",
@@ -3963,7 +3963,7 @@
     {
       "name": "SubstiliumMushroomStr167",
       "type": "structure",
-      "sortid": 498,
+      "sortid": 405,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_167",
@@ -3972,7 +3972,7 @@
     {
       "name": "SubstiliumMushroomStr168",
       "type": "structure",
-      "sortid": 499,
+      "sortid": 406,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_168",
@@ -3981,7 +3981,7 @@
     {
       "name": "SubstiliumMushroomStr169",
       "type": "structure",
-      "sortid": 500,
+      "sortid": 407,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_169",
@@ -3990,7 +3990,7 @@
     {
       "name": "SubstiliumMushroomStr340",
       "type": "structure",
-      "sortid": 518,
+      "sortid": 408,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_340",
@@ -3999,7 +3999,7 @@
     {
       "name": "SubstiliumMushroomStr341",
       "type": "structure",
-      "sortid": 519,
+      "sortid": 409,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_341",
@@ -4008,7 +4008,7 @@
     {
       "name": "SubstiliumMushroomStr342",
       "type": "structure",
-      "sortid": 520,
+      "sortid": 410,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_342",
@@ -4017,7 +4017,7 @@
     {
       "name": "SubstiliumMushroomStr343",
       "type": "structure",
-      "sortid": 521,
+      "sortid": 411,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_343",
@@ -4026,7 +4026,7 @@
     {
       "name": "SubstiliumMushroomStr344",
       "type": "structure",
-      "sortid": 522,
+      "sortid": 412,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_344",
@@ -4035,7 +4035,7 @@
     {
       "name": "SubstiliumMushroomStr345",
       "type": "structure",
-      "sortid": 523,
+      "sortid": 413,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_345",
@@ -4044,7 +4044,7 @@
     {
       "name": "SubstiliumMushroomStr236",
       "type": "structure",
-      "sortid": 524,
+      "sortid": 414,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_236",
@@ -4053,7 +4053,7 @@
     {
       "name": "SubstiliumMushroomStr237",
       "type": "structure",
-      "sortid": 525,
+      "sortid": 415,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_237",
@@ -4062,7 +4062,7 @@
     {
       "name": "SubstiliumMushroomStr238",
       "type": "structure",
-      "sortid": 526,
+      "sortid": 416,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_238",
@@ -4071,7 +4071,7 @@
     {
       "name": "SubstiliumMushroomStr239",
       "type": "structure",
-      "sortid": 527,
+      "sortid": 417,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_239",
@@ -4080,7 +4080,7 @@
     {
       "name": "SubstiliumMushroomStr240",
       "type": "structure",
-      "sortid": 528,
+      "sortid": 418,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_240",
@@ -4089,7 +4089,7 @@
     {
       "name": "SubstiliumMushroomStr241",
       "type": "structure",
-      "sortid": 529,
+      "sortid": 419,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_241",
@@ -4098,7 +4098,7 @@
     {
       "name": "SubstiliumMushroomStr242",
       "type": "structure",
-      "sortid": 530,
+      "sortid": 420,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_242",
@@ -4107,7 +4107,7 @@
     {
       "name": "SubstiliumMushroomStr243",
       "type": "structure",
-      "sortid": 531,
+      "sortid": 421,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_243",
@@ -4116,7 +4116,7 @@
     {
       "name": "SubstiliumMushroomStr244",
       "type": "structure",
-      "sortid": 532,
+      "sortid": 422,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_244",
@@ -4125,7 +4125,7 @@
     {
       "name": "SubstiliumMushroomStr245",
       "type": "structure",
-      "sortid": 533,
+      "sortid": 423,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_mushroom_str_245",
@@ -4134,7 +4134,7 @@
     {
       "name": "VibrionBlockLoot",
       "type": "loottable",
-      "sortid": 534,
+      "sortid": 424,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_block_loot",
@@ -4143,7 +4143,7 @@
     {
       "name": "EntoriumOreLoot",
       "type": "loottable",
-      "sortid": 535,
+      "sortid": 425,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entorium_ore_loot",
@@ -4152,7 +4152,7 @@
     {
       "name": "SubstiliumPlanksCraft",
       "type": "recipe",
-      "sortid": 536,
+      "sortid": 426,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_planks_craft",
@@ -4161,7 +4161,7 @@
     {
       "name": "SubstiliumPlanksCraft3",
       "type": "recipe",
-      "sortid": 537,
+      "sortid": 427,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_planks_craft_3",
@@ -4170,7 +4170,7 @@
     {
       "name": "SubstiliumPlanksCraft4",
       "type": "recipe",
-      "sortid": 538,
+      "sortid": 428,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_planks_craft_4",
@@ -4179,7 +4179,7 @@
     {
       "name": "HickoryPlanksCraft3",
       "type": "recipe",
-      "sortid": 539,
+      "sortid": 429,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_planks_craft_3",
@@ -4188,7 +4188,7 @@
     {
       "name": "HickoryPlanksCraft4",
       "type": "recipe",
-      "sortid": 540,
+      "sortid": 430,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_planks_craft_4",
@@ -4197,7 +4197,7 @@
     {
       "name": "HickoryForest",
       "type": "biome",
-      "sortid": 541,
+      "sortid": 431,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_forest",
@@ -4206,7 +4206,7 @@
     {
       "name": "HickoryTreeStrAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 542,
+      "sortid": 432,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_tree_str_additional_generation_condition",
@@ -4236,7 +4236,7 @@
     {
       "name": "HickoryTreeStr11",
       "type": "structure",
-      "sortid": 543,
+      "sortid": 433,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_tree_str_11",
@@ -4245,7 +4245,7 @@
     {
       "name": "HickoryTreeStr12",
       "type": "structure",
-      "sortid": 544,
+      "sortid": 434,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_tree_str_12",
@@ -4254,7 +4254,7 @@
     {
       "name": "HickoryTreeStr21",
       "type": "structure",
-      "sortid": 545,
+      "sortid": 435,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_tree_str_21",
@@ -4263,7 +4263,7 @@
     {
       "name": "HickoryTreeStr22",
       "type": "structure",
-      "sortid": 546,
+      "sortid": 436,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_tree_str_22",
@@ -4272,7 +4272,7 @@
     {
       "name": "HickoryTreeStr31",
       "type": "structure",
-      "sortid": 547,
+      "sortid": 437,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_tree_str_31",
@@ -4281,7 +4281,7 @@
     {
       "name": "HickoryTreeStr32",
       "type": "structure",
-      "sortid": 548,
+      "sortid": 438,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_tree_str_32",
@@ -4290,7 +4290,7 @@
     {
       "name": "TallBirchTreeStr1",
       "type": "structure",
-      "sortid": 549,
+      "sortid": 439,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_birch_tree_str_1",
@@ -4299,7 +4299,7 @@
     {
       "name": "TallOakTreeStr1",
       "type": "structure",
-      "sortid": 550,
+      "sortid": 440,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_oak_tree_str_1",
@@ -4308,7 +4308,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr15",
       "type": "structure",
-      "sortid": 551,
+      "sortid": 441,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_15",
@@ -4317,7 +4317,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr16",
       "type": "structure",
-      "sortid": 552,
+      "sortid": 442,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_16",
@@ -4326,7 +4326,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr17",
       "type": "structure",
-      "sortid": 553,
+      "sortid": 443,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_17",
@@ -4335,7 +4335,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr",
       "type": "structure",
-      "sortid": 554,
+      "sortid": 444,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str",
@@ -4344,7 +4344,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr19",
       "type": "structure",
-      "sortid": 555,
+      "sortid": 445,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_19",
@@ -4353,7 +4353,7 @@
     {
       "name": "HangingVibrionVinesGrowerStr20",
       "type": "structure",
-      "sortid": 556,
+      "sortid": 446,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_vines_grower_str_20",
@@ -4362,7 +4362,7 @@
     {
       "name": "HangingVibrionGelGrowerStr10",
       "type": "structure",
-      "sortid": 557,
+      "sortid": 447,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_10",
@@ -4371,7 +4371,7 @@
     {
       "name": "HangingVibrionGelGrowerStr11",
       "type": "structure",
-      "sortid": 558,
+      "sortid": 448,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_11",
@@ -4380,7 +4380,7 @@
     {
       "name": "HangingVibrionGelGrowerStr12",
       "type": "structure",
-      "sortid": 559,
+      "sortid": 449,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_12",
@@ -4389,7 +4389,7 @@
     {
       "name": "HangingVibrionGelGrowerStr13",
       "type": "structure",
-      "sortid": 560,
+      "sortid": 450,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_13",
@@ -4398,7 +4398,7 @@
     {
       "name": "HangingVibrionGelGrowerStr14",
       "type": "structure",
-      "sortid": 561,
+      "sortid": 451,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_14",
@@ -4407,7 +4407,7 @@
     {
       "name": "HangingVibrionGelGrowerStr15",
       "type": "structure",
-      "sortid": 562,
+      "sortid": 452,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_vibrion_gel_grower_str_15",
@@ -4416,7 +4416,7 @@
     {
       "name": "StillVibrionParticle",
       "type": "particle",
-      "sortid": 563,
+      "sortid": 453,
       "compiles": true,
       "locked_code": false,
       "registry_name": "still_vibrion_particle",
@@ -4425,7 +4425,7 @@
     {
       "name": "HickoryLeavesBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 564,
+      "sortid": 454,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_leaves_block_destroyed_by_player",
@@ -4458,7 +4458,7 @@
     {
       "name": "HickoryLeavesLoot",
       "type": "loottable",
-      "sortid": 565,
+      "sortid": 455,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_leaves_loot",
@@ -4467,7 +4467,7 @@
     {
       "name": "HickorySaplingUpdateTick",
       "type": "procedure",
-      "sortid": 566,
+      "sortid": 456,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_sapling_update_tick",
@@ -4496,7 +4496,7 @@
     {
       "name": "HickorySapling",
       "type": "plant",
-      "sortid": 73,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_sapling",
@@ -4523,7 +4523,7 @@
     {
       "name": "VibrionGlassLoot",
       "type": "loottable",
-      "sortid": 567,
+      "sortid": 457,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_glass_loot",
@@ -4532,7 +4532,7 @@
     {
       "name": "VibrionGlassPaneLoot",
       "type": "loottable",
-      "sortid": 568,
+      "sortid": 458,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_glass_pane_loot",
@@ -4541,7 +4541,7 @@
     {
       "name": "VibrionGlassCraft",
       "type": "recipe",
-      "sortid": 569,
+      "sortid": 459,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_glass_craft",
@@ -4550,7 +4550,7 @@
     {
       "name": "VibrionGlassPaneCraft",
       "type": "recipe",
-      "sortid": 570,
+      "sortid": 460,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_glass_pane_craft",
@@ -4559,7 +4559,7 @@
     {
       "name": "VibrionGlassPaneCraft2",
       "type": "recipe",
-      "sortid": 571,
+      "sortid": 461,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_glass_pane_craft_2",
@@ -4586,7 +4586,7 @@
     {
       "name": "LitVibrionGlassCraft",
       "type": "recipe",
-      "sortid": 572,
+      "sortid": 462,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_vibrion_glass_craft",
@@ -4595,7 +4595,7 @@
     {
       "name": "LitVibrionGlassPaneCraft",
       "type": "recipe",
-      "sortid": 573,
+      "sortid": 463,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_vibrion_glass_pane_craft",
@@ -4604,7 +4604,7 @@
     {
       "name": "LitVibrionGlassPaneCraft2",
       "type": "recipe",
-      "sortid": 574,
+      "sortid": 464,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_vibrion_glass_pane_craft_2",
@@ -4613,7 +4613,7 @@
     {
       "name": "VibrionGelHidden1Adv",
       "type": "achievement",
-      "sortid": 575,
+      "sortid": 465,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_gel_hidden_1_adv",
@@ -4622,7 +4622,7 @@
     {
       "name": "LitVibrionGelHidden1Adv",
       "type": "achievement",
-      "sortid": 576,
+      "sortid": 466,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_vibrion_gel_hidden_1_adv",
@@ -4640,7 +4640,7 @@
     {
       "name": "CompressedSubstiliumSoilCraft",
       "type": "recipe",
-      "sortid": 577,
+      "sortid": 467,
       "compiles": true,
       "locked_code": false,
       "registry_name": "compressed_substilium_soil_craft",
@@ -4649,7 +4649,7 @@
     {
       "name": "SubstiliumTiles",
       "type": "block",
-      "sortid": 29,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tiles",
@@ -4658,7 +4658,7 @@
     {
       "name": "SmoothSubstiliumSoil",
       "type": "block",
-      "sortid": 30,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_soil",
@@ -4667,7 +4667,7 @@
     {
       "name": "SubstiliumTilesCraft",
       "type": "recipe",
-      "sortid": 578,
+      "sortid": 468,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tiles_craft",
@@ -4676,7 +4676,7 @@
     {
       "name": "SmoothSubstiliumSoilCraft",
       "type": "recipe",
-      "sortid": 579,
+      "sortid": 469,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_soil_craft",
@@ -4685,7 +4685,7 @@
     {
       "name": "ChiseledSubstiliumSoil",
       "type": "block",
-      "sortid": 31,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_substilium_soil",
@@ -4694,7 +4694,7 @@
     {
       "name": "ChiseledSubstiliumSoilCraft",
       "type": "recipe",
-      "sortid": 580,
+      "sortid": 470,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_substilium_soil_craft",
@@ -4703,7 +4703,7 @@
     {
       "name": "VibrionParticleSpawnLow",
       "type": "procedure",
-      "sortid": 581,
+      "sortid": 471,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_particle_spawn_low",
@@ -4715,7 +4715,7 @@
     {
       "name": "LitVibrionGlassLoot",
       "type": "loottable",
-      "sortid": 582,
+      "sortid": 472,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_vibrion_glass_loot",
@@ -4724,7 +4724,7 @@
     {
       "name": "LitVibrionGlassPaneLoot",
       "type": "loottable",
-      "sortid": 583,
+      "sortid": 473,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_vibrion_glass_pane_loot",
@@ -4733,7 +4733,7 @@
     {
       "name": "PanxterFlower",
       "type": "plant",
-      "sortid": 78,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "panxter_flower",
@@ -4742,7 +4742,7 @@
     {
       "name": "SpottedWintergreen",
       "type": "plant",
-      "sortid": 79,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spotted_wintergreen",
@@ -4751,7 +4751,7 @@
     {
       "name": "SubstiliumTileStairs",
       "type": "block",
-      "sortid": 32,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_stairs",
@@ -4760,7 +4760,7 @@
     {
       "name": "SubstiliumTileSlab",
       "type": "block",
-      "sortid": 34,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_slab",
@@ -4769,7 +4769,7 @@
     {
       "name": "SubstiliumTileWall",
       "type": "block",
-      "sortid": 36,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_wall",
@@ -4778,7 +4778,7 @@
     {
       "name": "SubstiliumTilePressurePlate",
       "type": "block",
-      "sortid": 38,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_pressure_plate",
@@ -4787,7 +4787,7 @@
     {
       "name": "SubstiliumTileButton",
       "type": "block",
-      "sortid": 40,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_button",
@@ -4805,7 +4805,7 @@
     {
       "name": "SmoothSubstiliumSlab",
       "type": "block",
-      "sortid": 35,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_slab",
@@ -4814,7 +4814,7 @@
     {
       "name": "SmoothSubstiliumWall",
       "type": "block",
-      "sortid": 37,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_wall",
@@ -4823,7 +4823,7 @@
     {
       "name": "SmoothSubstiliumPressurePlate",
       "type": "block",
-      "sortid": 39,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_pressure_plate",
@@ -4832,7 +4832,7 @@
     {
       "name": "SmoothSubstiliumButton",
       "type": "block",
-      "sortid": 41,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_button",
@@ -4841,7 +4841,7 @@
     {
       "name": "SubstiliumTileStairsCraft1",
       "type": "recipe",
-      "sortid": 584,
+      "sortid": 474,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_stairs_craft_1",
@@ -4850,7 +4850,7 @@
     {
       "name": "SubstiliumTileSlabCraft1",
       "type": "recipe",
-      "sortid": 585,
+      "sortid": 475,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_slab_craft_1",
@@ -4859,7 +4859,7 @@
     {
       "name": "SubstiliumTileWallCraft1",
       "type": "recipe",
-      "sortid": 586,
+      "sortid": 476,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_wall_craft_1",
@@ -4868,7 +4868,7 @@
     {
       "name": "SubstiliumTilePressurePlateCraft1",
       "type": "recipe",
-      "sortid": 587,
+      "sortid": 477,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_pressure_plate_craft_1",
@@ -4877,7 +4877,7 @@
     {
       "name": "SubstiliumTileButtonCraft1",
       "type": "recipe",
-      "sortid": 588,
+      "sortid": 478,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_button_craft_1",
@@ -4886,7 +4886,7 @@
     {
       "name": "SubstiliumTileStairsCraft2",
       "type": "recipe",
-      "sortid": 589,
+      "sortid": 479,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_stairs_craft_2",
@@ -4895,7 +4895,7 @@
     {
       "name": "SubstiliumTileSlabCraft2",
       "type": "recipe",
-      "sortid": 590,
+      "sortid": 480,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_slab_craft_2",
@@ -4904,7 +4904,7 @@
     {
       "name": "SubstiliumTileWallCraft2",
       "type": "recipe",
-      "sortid": 591,
+      "sortid": 481,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_wall_craft_2",
@@ -4913,7 +4913,7 @@
     {
       "name": "SubstiliumTilePressurePlateCraft2",
       "type": "recipe",
-      "sortid": 592,
+      "sortid": 482,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_pressure_plate_craft_2",
@@ -4922,7 +4922,7 @@
     {
       "name": "SubstiliumTileButtonCraft2",
       "type": "recipe",
-      "sortid": 593,
+      "sortid": 483,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tile_button_craft_2",
@@ -4931,7 +4931,7 @@
     {
       "name": "SmoothSubstiliumStairsCraft1",
       "type": "recipe",
-      "sortid": 594,
+      "sortid": 484,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_stairs_craft_1",
@@ -4940,7 +4940,7 @@
     {
       "name": "SmoothSubstiliumSlabCraft1",
       "type": "recipe",
-      "sortid": 595,
+      "sortid": 485,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_slab_craft_1",
@@ -4949,7 +4949,7 @@
     {
       "name": "SmoothSubstiliumWallCraft1",
       "type": "recipe",
-      "sortid": 596,
+      "sortid": 486,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_wall_craft_1",
@@ -4958,7 +4958,7 @@
     {
       "name": "SmoothSubstiliumPressurePlateCraft1",
       "type": "recipe",
-      "sortid": 597,
+      "sortid": 487,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_pressure_plate_craft_1",
@@ -4967,7 +4967,7 @@
     {
       "name": "SmoothSubstiliumButtonCraft1",
       "type": "recipe",
-      "sortid": 598,
+      "sortid": 488,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_button_craft_1",
@@ -4976,7 +4976,7 @@
     {
       "name": "SmoothSubstiliumStairsCraft2",
       "type": "recipe",
-      "sortid": 599,
+      "sortid": 489,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_stairs_craft_2",
@@ -4985,7 +4985,7 @@
     {
       "name": "SmoothSubstiliumSlabCraft2",
       "type": "recipe",
-      "sortid": 600,
+      "sortid": 490,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_slab_craft_2",
@@ -4994,7 +4994,7 @@
     {
       "name": "SmoothSubstiliumWallCraft2",
       "type": "recipe",
-      "sortid": 601,
+      "sortid": 491,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_wall_craft_2",
@@ -5003,7 +5003,7 @@
     {
       "name": "SmoothSubstiliumPressurePlateCraft2",
       "type": "recipe",
-      "sortid": 602,
+      "sortid": 492,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_pressure_plate_craft_2",
@@ -5012,7 +5012,7 @@
     {
       "name": "SmoothSubstiliumButtonCraft2",
       "type": "recipe",
-      "sortid": 603,
+      "sortid": 493,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_substilium_button_craft_2",
@@ -5021,7 +5021,7 @@
     {
       "name": "PanxterFlowerToDye",
       "type": "recipe",
-      "sortid": 604,
+      "sortid": 494,
       "compiles": true,
       "locked_code": false,
       "registry_name": "panxter_flower_to_dye",
@@ -5030,7 +5030,7 @@
     {
       "name": "SpottedWintergreenToDye",
       "type": "recipe",
-      "sortid": 605,
+      "sortid": 495,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spotted_wintergreen_to_dye",
@@ -5039,7 +5039,7 @@
     {
       "name": "SporeAirClientDisplayRandomTick",
       "type": "procedure",
-      "sortid": 606,
+      "sortid": 496,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spore_air_client_display_random_tick",
@@ -5068,7 +5068,7 @@
     {
       "name": "RedGlowingHickoryLeaves",
       "type": "block",
-      "sortid": 64,
+      "sortid": 70,
       "compiles": true,
       "locked_code": true,
       "registry_name": "red_glowing_hickory_leaves",
@@ -5077,7 +5077,7 @@
     {
       "name": "YellowGlowingHickoryLeaves",
       "type": "block",
-      "sortid": 66,
+      "sortid": 72,
       "compiles": true,
       "locked_code": true,
       "registry_name": "yellow_glowing_hickory_leaves",
@@ -5086,7 +5086,7 @@
     {
       "name": "BrownGlowingHickoryLeaves",
       "type": "block",
-      "sortid": 65,
+      "sortid": 71,
       "compiles": true,
       "locked_code": true,
       "registry_name": "brown_glowing_hickory_leaves",
@@ -5095,7 +5095,7 @@
     {
       "name": "RedGlowingHickorySapling",
       "type": "plant",
-      "sortid": 74,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_glowing_hickory_sapling",
@@ -5104,7 +5104,7 @@
     {
       "name": "YellowGlowingHickorySapling",
       "type": "plant",
-      "sortid": 76,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_glowing_hickory_sapling",
@@ -5113,7 +5113,7 @@
     {
       "name": "BrownGlowingHickorySapling",
       "type": "plant",
-      "sortid": 75,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_glowing_hickory_sapling",
@@ -5122,7 +5122,7 @@
     {
       "name": "GlowingHickoryForest",
       "type": "biome",
-      "sortid": 607,
+      "sortid": 497,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_hickory_forest",
@@ -5131,7 +5131,7 @@
     {
       "name": "RedGlowingHickoryTree",
       "type": "structure",
-      "sortid": 608,
+      "sortid": 498,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_glowing_hickory_tree",
@@ -5140,7 +5140,7 @@
     {
       "name": "YellowGlowingHickoryTree",
       "type": "structure",
-      "sortid": 609,
+      "sortid": 499,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_glowing_hickory_tree",
@@ -5149,7 +5149,7 @@
     {
       "name": "BrownGlowingHickoryTree",
       "type": "structure",
-      "sortid": 610,
+      "sortid": 500,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_glowing_hickory_tree",
@@ -5158,7 +5158,7 @@
     {
       "name": "GreenGlowingHickoryLeaves",
       "type": "block",
-      "sortid": 67,
+      "sortid": 73,
       "compiles": true,
       "locked_code": true,
       "registry_name": "green_glowing_hickory_leaves",
@@ -5167,7 +5167,7 @@
     {
       "name": "GreenGlowingHickorySapling",
       "type": "plant",
-      "sortid": 77,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_glowing_hickory_sapling",
@@ -5176,7 +5176,7 @@
     {
       "name": "RedGlowingHickorySaplingUpdateTick",
       "type": "procedure",
-      "sortid": 611,
+      "sortid": 501,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_glowing_hickory_sapling_update_tick",
@@ -5205,7 +5205,7 @@
     {
       "name": "YellowGlowingHickorySaplingUpdateTick",
       "type": "procedure",
-      "sortid": 612,
+      "sortid": 502,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_glowing_hickory_sapling_update_tick",
@@ -5234,7 +5234,7 @@
     {
       "name": "BrownGlowingHickorySaplingUpdateTick",
       "type": "procedure",
-      "sortid": 613,
+      "sortid": 503,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_glowing_hickory_sapling_update_tick",
@@ -5263,7 +5263,7 @@
     {
       "name": "RedGlowingHickoryLeavesBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 614,
+      "sortid": 504,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_glowing_hickory_leaves_block_destroyed_by_player",
@@ -5296,7 +5296,7 @@
     {
       "name": "YellowGlowingHickoryLeavesBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 615,
+      "sortid": 505,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_glowing_hickory_leaves_block_destroyed_by_player",
@@ -5329,7 +5329,7 @@
     {
       "name": "BrownGlowingHickoryLeavesBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 616,
+      "sortid": 506,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_glowing_hickory_leaves_block_destroyed_by_player",
@@ -5362,7 +5362,7 @@
     {
       "name": "GreenGlowingHickoryTree",
       "type": "structure",
-      "sortid": 617,
+      "sortid": 507,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_glowing_hickory_tree",
@@ -5371,7 +5371,7 @@
     {
       "name": "GreenGlowingHickorySaplingUpdateTick",
       "type": "procedure",
-      "sortid": 618,
+      "sortid": 508,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_glowing_hickory_sapling_update_tick",
@@ -5400,7 +5400,7 @@
     {
       "name": "GreenGlowingHickoryLeavesBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 619,
+      "sortid": 509,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_glowing_hickory_leaves_block_destroyed_by_player",
@@ -5433,7 +5433,7 @@
     {
       "name": "GlowingHickoryLeavesUpdateTick",
       "type": "procedure",
-      "sortid": 620,
+      "sortid": 510,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_hickory_leaves_update_tick",
@@ -5462,7 +5462,7 @@
     {
       "name": "GlowingWonder",
       "type": "achievement",
-      "sortid": 621,
+      "sortid": 511,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_wonder",
@@ -5471,7 +5471,7 @@
     {
       "name": "GrowTheGlow",
       "type": "achievement",
-      "sortid": 622,
+      "sortid": 512,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grow_the_glow",
@@ -5480,7 +5480,7 @@
     {
       "name": "GrowTheGlowAdvProc",
       "type": "procedure",
-      "sortid": 623,
+      "sortid": 513,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grow_the_glow_adv_proc",
@@ -5497,7 +5497,7 @@
     {
       "name": "RedGlowingHickoryLeavesLoot",
       "type": "loottable",
-      "sortid": 624,
+      "sortid": 514,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_glowing_hickory_leaves_loot",
@@ -5506,7 +5506,7 @@
     {
       "name": "YellowGlowingHickoryLeavesLoot",
       "type": "loottable",
-      "sortid": 625,
+      "sortid": 515,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_glowing_hickory_leaves_loot",
@@ -5515,7 +5515,7 @@
     {
       "name": "GreenGlowingHickoryLeavesLoot",
       "type": "loottable",
-      "sortid": 626,
+      "sortid": 516,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_glowing_hickory_leaves_loot",
@@ -5524,7 +5524,7 @@
     {
       "name": "BrownGlowingHickoryLeavesLoot",
       "type": "loottable",
-      "sortid": 627,
+      "sortid": 517,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_glowing_hickory_leaves_loot",
@@ -5533,7 +5533,7 @@
     {
       "name": "HickoryNutExt",
       "type": "itemextension",
-      "sortid": 628,
+      "sortid": 518,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_nut_ext",
@@ -5542,7 +5542,7 @@
     {
       "name": "HickoryLeavesExt",
       "type": "itemextension",
-      "sortid": 629,
+      "sortid": 519,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_leaves_ext",
@@ -5551,7 +5551,7 @@
     {
       "name": "RedGlowingHickoryLeavesExt",
       "type": "itemextension",
-      "sortid": 630,
+      "sortid": 520,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_glowing_hickory_leaves_ext",
@@ -5560,7 +5560,7 @@
     {
       "name": "YellowGlowingHickoryLeavesExt",
       "type": "itemextension",
-      "sortid": 631,
+      "sortid": 521,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_glowing_hickory_leaves_ext",
@@ -5569,7 +5569,7 @@
     {
       "name": "BrownGlowingHickoryLeavesExt",
       "type": "itemextension",
-      "sortid": 632,
+      "sortid": 522,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_glowing_hickory_leaves_ext",
@@ -5578,7 +5578,7 @@
     {
       "name": "GreenGlowingHickoryLeavesExt",
       "type": "itemextension",
-      "sortid": 633,
+      "sortid": 523,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_glowing_hickory_leaves_ext",
@@ -5587,7 +5587,7 @@
     {
       "name": "HickorySaplingExt",
       "type": "itemextension",
-      "sortid": 634,
+      "sortid": 524,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_sapling_ext",
@@ -5596,7 +5596,7 @@
     {
       "name": "RedGlowingHickorySaplingExt",
       "type": "itemextension",
-      "sortid": 635,
+      "sortid": 525,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_glowing_hickory_sapling_ext",
@@ -5605,7 +5605,7 @@
     {
       "name": "YellowGlowingHickorySaplingExt",
       "type": "itemextension",
-      "sortid": 636,
+      "sortid": 526,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_glowing_hickory_sapling_ext",
@@ -5614,7 +5614,7 @@
     {
       "name": "BrownGlowingHickorySaplingExt",
       "type": "itemextension",
-      "sortid": 637,
+      "sortid": 527,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_glowing_hickory_sapling_ext",
@@ -5623,7 +5623,7 @@
     {
       "name": "GreenGlowingHickorySaplingExt",
       "type": "itemextension",
-      "sortid": 638,
+      "sortid": 528,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_glowing_hickory_sapling_ext",
@@ -5632,7 +5632,7 @@
     {
       "name": "Rutillion",
       "type": "item",
-      "sortid": 81,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rutillion",
@@ -5641,7 +5641,7 @@
     {
       "name": "BioengineerWorkspaceGui",
       "type": "gui",
-      "sortid": 639,
+      "sortid": 529,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bioengineer_workspace_gui",
@@ -5650,7 +5650,7 @@
     {
       "name": "BioengineerWorkspaceGuiCheckProc",
       "type": "procedure",
-      "sortid": 640,
+      "sortid": 530,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bioengineer_workspace_gui_check_proc",
@@ -5667,7 +5667,7 @@
     {
       "name": "RutillionExt",
       "type": "itemextension",
-      "sortid": 641,
+      "sortid": 531,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rutillion_ext",
@@ -5676,7 +5676,7 @@
     {
       "name": "FallenHickoryLeaves",
       "type": "plant",
-      "sortid": 68,
+      "sortid": 74,
       "compiles": true,
       "locked_code": true,
       "registry_name": "fallen_hickory_leaves",
@@ -5685,7 +5685,7 @@
     {
       "name": "FallenHickoryLeavesPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 642,
+      "sortid": 532,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_hickory_leaves_plant_destroyed_by_player",
@@ -5718,7 +5718,7 @@
     {
       "name": "FallenRedGlowingHickoryLeaves",
       "type": "plant",
-      "sortid": 69,
+      "sortid": 75,
       "compiles": true,
       "locked_code": true,
       "registry_name": "fallen_red_glowing_hickory_leaves",
@@ -5727,7 +5727,7 @@
     {
       "name": "FallenRedGlowingHickoryLeavesPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 643,
+      "sortid": 533,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_red_glowing_hickory_leaves_plant_destroyed_by_player",
@@ -5760,7 +5760,7 @@
     {
       "name": "FallenYellowGlowingHickoryLeaves",
       "type": "plant",
-      "sortid": 71,
+      "sortid": 77,
       "compiles": true,
       "locked_code": true,
       "registry_name": "fallen_yellow_glowing_hickory_leaves",
@@ -5769,7 +5769,7 @@
     {
       "name": "FallenYellowGlowingHickoryLeavesPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 644,
+      "sortid": 534,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_yellow_glowing_hickory_leaves_plant_destroyed_by_player",
@@ -5802,7 +5802,7 @@
     {
       "name": "FallenBrownGlowingHickoryLeaves",
       "type": "plant",
-      "sortid": 70,
+      "sortid": 76,
       "compiles": true,
       "locked_code": true,
       "registry_name": "fallen_brown_glowing_hickory_leaves",
@@ -5811,7 +5811,7 @@
     {
       "name": "FallenBrownGlowingHickoryLeavesPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 645,
+      "sortid": 535,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_brown_glowing_hickory_leaves_plant_destroyed_by_player",
@@ -5844,7 +5844,7 @@
     {
       "name": "FallenGreenGlowingHickoryLeaves",
       "type": "plant",
-      "sortid": 72,
+      "sortid": 78,
       "compiles": true,
       "locked_code": true,
       "registry_name": "fallen_green_glowing_hickory_leaves",
@@ -5853,7 +5853,7 @@
     {
       "name": "FallenGreenGlowingHickoryLeavesPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 646,
+      "sortid": 536,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_green_glowing_hickory_leaves_plant_destroyed_by_player",
@@ -5886,7 +5886,7 @@
     {
       "name": "GlowingHickoryLeaves",
       "type": "tag",
-      "sortid": 647,
+      "sortid": 537,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_hickory_leaves",
@@ -5895,7 +5895,7 @@
     {
       "name": "FallenGlowingHickoryLeaves",
       "type": "tag",
-      "sortid": 648,
+      "sortid": 538,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_glowing_hickory_leaves",
@@ -5904,7 +5904,7 @@
     {
       "name": "HickoryLeavesTag",
       "type": "tag",
-      "sortid": 649,
+      "sortid": 539,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_leaves_tag",
@@ -5913,7 +5913,7 @@
     {
       "name": "GlowingHickorySaplings",
       "type": "tag",
-      "sortid": 650,
+      "sortid": 540,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_hickory_saplings",
@@ -5922,7 +5922,7 @@
     {
       "name": "HickorySaplingRightClicked",
       "type": "procedure",
-      "sortid": 651,
+      "sortid": 541,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_sapling_right_clicked",
@@ -5955,7 +5955,7 @@
     {
       "name": "VibrionSporeholderPlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 652,
+      "sortid": 542,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_sporeholder_plant_destroyed_by_player",
@@ -5984,7 +5984,7 @@
     {
       "name": "SubstiliumTreeGrowerStr1",
       "type": "structure",
-      "sortid": 653,
+      "sortid": 543,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_1",
@@ -5993,7 +5993,7 @@
     {
       "name": "SubstiliumTreeGrowerStr2",
       "type": "structure",
-      "sortid": 654,
+      "sortid": 544,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_2",
@@ -6002,7 +6002,7 @@
     {
       "name": "SubstiliumTreeGrowerStr3",
       "type": "structure",
-      "sortid": 655,
+      "sortid": 545,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_3",
@@ -6011,7 +6011,7 @@
     {
       "name": "SubstiliumTreeGrowerStr4",
       "type": "structure",
-      "sortid": 656,
+      "sortid": 546,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_4",
@@ -6020,7 +6020,7 @@
     {
       "name": "SubstiliumTreeGrowerStr5",
       "type": "structure",
-      "sortid": 657,
+      "sortid": 547,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_5",
@@ -6029,7 +6029,7 @@
     {
       "name": "SubstiliumTreeGrowerStr6",
       "type": "structure",
-      "sortid": 658,
+      "sortid": 548,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_6",
@@ -6038,7 +6038,7 @@
     {
       "name": "SubstiliumTreeGrowerStr7",
       "type": "structure",
-      "sortid": 659,
+      "sortid": 549,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_7",
@@ -6047,7 +6047,7 @@
     {
       "name": "SubstiliumTreeGrowerStr8",
       "type": "structure",
-      "sortid": 660,
+      "sortid": 550,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_8",
@@ -6056,7 +6056,7 @@
     {
       "name": "SubstiliumTreeGrowerStr9",
       "type": "structure",
-      "sortid": 661,
+      "sortid": 551,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_9",
@@ -6065,7 +6065,7 @@
     {
       "name": "SubstiliumTreeGrowerStr10",
       "type": "structure",
-      "sortid": 662,
+      "sortid": 552,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_10",
@@ -6074,7 +6074,7 @@
     {
       "name": "SubstiliumTreeGrowerStr11",
       "type": "structure",
-      "sortid": 663,
+      "sortid": 553,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_11",
@@ -6083,7 +6083,7 @@
     {
       "name": "SubstiliumTreeGrowerStr12",
       "type": "structure",
-      "sortid": 664,
+      "sortid": 554,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_12",
@@ -6092,7 +6092,7 @@
     {
       "name": "SubstiliumTreeGrowerStr13",
       "type": "structure",
-      "sortid": 665,
+      "sortid": 555,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_13",
@@ -6101,7 +6101,7 @@
     {
       "name": "SubstiliumTreeGrowerStr14",
       "type": "structure",
-      "sortid": 666,
+      "sortid": 556,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_14",
@@ -6110,7 +6110,7 @@
     {
       "name": "SubstiliumTreeGrowerStr15",
       "type": "structure",
-      "sortid": 667,
+      "sortid": 557,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_str_15",
@@ -6119,11 +6119,101 @@
     {
       "name": "HickorySaplings",
       "type": "tag",
-      "sortid": 668,
+      "sortid": 558,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hickory_saplings",
       "path": "~/tags"
+    },
+    {
+      "name": "CrackedSubstiliumTiles",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tiles",
+      "path": "~/blocks"
+    },
+    {
+      "name": "CrackedSubstiliumTileSlab",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_slab",
+      "path": "~/blocks"
+    },
+    {
+      "name": "CrackedSubstiliumTileStairs",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_stairs",
+      "path": "~/blocks"
+    },
+    {
+      "name": "CrackedSubstiliumTileWall",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_wall",
+      "path": "~/blocks"
+    },
+    {
+      "name": "CrackedSubstiliumTilePressurePlate",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_pressure_plate",
+      "path": "~/blocks"
+    },
+    {
+      "name": "CrackedSubstiliumTileButton",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_button",
+      "path": "~/blocks"
+    },
+    {
+      "name": "CrackedSubstiliumTilesCraft",
+      "type": "recipe",
+      "sortid": 559,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tiles_craft",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTilesCraft2",
+      "type": "recipe",
+      "sortid": 560,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tiles_craft_2",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTilesCraft3",
+      "type": "recipe",
+      "sortid": 561,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tiles_craft_3",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileStairsCraft",
+      "type": "recipe",
+      "sortid": 562,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_stairs_craft",
+      "path": "~/recipes/substilium_build"
     }
   ],
   "variable_elements": [
@@ -6181,6 +6271,9 @@
       "itemGroup.tabwild_aside_tab": "Wild Aside",
       "block.wildaside.lit_vibrion_glass": "Lit Vibrion Glass",
       "block.wildaside.smooth_substilium_wall": "Smooth Substilium Wall",
+      "block.wildaside.cracked_substilium_tile_button": "Cracked Substilium Tile Button",
+      "block.wildaside.cracked_substilium_tile_slab": "Cracked Substilium Tiles Slab",
+      "block.wildaside.cracked_substilium_tile_stairs": "Cracked Substilium Tile Stairs",
       "block.wildaside.spotted_wintergreen": "Spotted Wintergreen",
       "item.wildaside.entorium_pill": "Entorium Pill",
       "advancements.substilium_planks_hidden_1.title": "SubstiliumPlanksHidden1",
@@ -6221,6 +6314,7 @@
       "block.wildaside.smooth_substilium_soil": "Smooth Substilium Soil",
       "block.wildaside.fallen_hickory_leaves": "Fallen Hickory Leaves",
       "block.wildaside.hickory_slab": "Hickory Slab",
+      "block.wildaside.cracked_substilium_tile_pressure_plate": "Cracked Substilium Tile Pressure Plate",
       "block.wildaside.lower_substilium_soil": "Substilium Soil",
       "block.wildaside.substilium_door": "Substilium Door",
       "advancements.lit_vibrion_gel_hidden_1_adv.descr": "Lit Vibrion Gel Hidden 1 Adv",
@@ -6240,7 +6334,7 @@
       "advancements.vibrion_gel_hidden_1_adv.title": "Vibrion Gel Hidden 1 Adv",
       "advancements.grow_the_glow.descr": "Grow at least 1 of all 4 Glowing Hickory Saplings using bonemeal",
       "block.wildaside.substilium_shroom": "Substilium Shroom",
-      "block.wildaside.substilium_tile_button": "Substilium Tiles Button",
+      "block.wildaside.substilium_tile_button": "Substilium Tile Button",
       "block.wildaside.fallen_brown_glowing_hickory_leaves": "Fallen Brown Glowing Hickory Leaves",
       "block.wildaside.hickory_pressure_plate": "Hickory Pressure Plate",
       "block.wildaside.substilium_stairs": "Substilium Stairs",
@@ -6274,7 +6368,7 @@
       "gui.wildaside.bioengineer_workspace_gui.button_convert": "Convert",
       "item.minecraft.potion.effect.immune_portection_item": "Potion of Immune Portection",
       "block.wildaside.hickory_button": "Hickory Button",
-      "block.wildaside.substilium_tile_pressure_plate": "Substilium Tiles Pressure Plate",
+      "block.wildaside.substilium_tile_pressure_plate": "Substilium Tile Pressure Plate",
       "advancements.wild_wilder_wildest.title": "Wild, Wilder, Wildest",
       "biome.wildaside.vibrion_hive": "Vibrion Hive",
       "advancements.lit_vibrion_gel_hidden_1_adv.title": "Lit Vibrion Gel Hidden 1 Adv",
@@ -6289,6 +6383,7 @@
       "advancements.through_hundreds_of_mutations.descr": "Obtain a Vibrion",
       "block.wildaside.green_glowing_hickory_leaves": "Green Glowing Hickory Leaves",
       "item.minecraft.splash_potion.effect.immune_portection_item": "Splash Potion of Immune Portection",
+      "block.wildaside.cracked_substilium_tile_wall": "Cracked Substilium Tiles Wall",
       "advancements.temporary_solution.title": "Temporary Solution",
       "block.wildaside.natural_spore_blaster": "Natural Spore Blaster",
       "item.wildaside.rutillion": "Rutillion",
@@ -6302,6 +6397,7 @@
       "block.wildaside.substilium_pressure_plate": "Substilium Pressure Plate",
       "block.wildaside.smooth_substilium_pressure_plate": "Smooth Substilium Pressure Plate",
       "block.wildaside.substilium_block": "Substilium Block",
+      "block.wildaside.cracked_substilium_tiles": "Cracked Substilium Tiles",
       "advancements.extensive_research.descr": "Shear an Overgrown Substilium Soil Block with Revealing"
     }
   },

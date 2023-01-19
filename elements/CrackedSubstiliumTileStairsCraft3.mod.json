@@ -1,0 +1,20 @@
+{
+  "_fv": 38,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 2.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "cracked_substilium_tile_stairs",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SubstiliumTileStairs"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CrackedSubstiliumTileStairs"
+    },
+    "name": "cracked_substilium_tile_stairs",
+    "namespace": "mod"
+  }
+}

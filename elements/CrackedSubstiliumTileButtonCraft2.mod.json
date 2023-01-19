@@ -1,0 +1,20 @@
+{
+  "_fv": 38,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "cracked_substilium_tile_button",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:SmoothSubstiliumButton"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:CrackedSubstiliumTileButton"
+    },
+    "name": "cracked_substilium_tile_button",
+    "namespace": "mod"
+  }
+}

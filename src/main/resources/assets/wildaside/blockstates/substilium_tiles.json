@@ -1,19 +1,7 @@
 {
   "variants": {
-    "facing=north": {
+    "": {
       "model": "wildaside:block/substilium_tiles"
-    },
-    "facing=east": {
-      "model": "wildaside:block/substilium_tiles",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "wildaside:block/substilium_tiles",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "wildaside:block/substilium_tiles",
-      "y": 270
     }
   }
 }

@@ -136,53 +136,53 @@ public class WildasideModBlocks {
 			() -> new BioengineerWorkspaceBlock());
 	public static final RegistryObject<Block> COMPRESSED_SUBSTILIUM_SOIL = REGISTRY.register("compressed_substilium_soil",
 			() -> new CompressedSubstiliumSoilBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_TILES = REGISTRY.register("substilium_tiles", () -> new SubstiliumTilesBlock());
 	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_SOIL = REGISTRY.register("smooth_substilium_soil",
 			() -> new SmoothSubstiliumSoilBlock());
 	public static final RegistryObject<Block> CHISELED_SUBSTILIUM_SOIL = REGISTRY.register("chiseled_substilium_soil",
 			() -> new ChiseledSubstiliumSoilBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_TILE_STAIRS = REGISTRY.register("substilium_tile_stairs",
-			() -> new SubstiliumTileStairsBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILES = REGISTRY.register("substilium_tiles", () -> new SubstiliumTilesBlock());
 	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILES = REGISTRY.register("cracked_substilium_tiles",
 			() -> new CrackedSubstiliumTilesBlock());
 	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_STAIRS = REGISTRY.register("smooth_substilium_stairs",
 			() -> new SmoothSubstiliumStairsBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_TILE_SLAB = REGISTRY.register("substilium_tile_slab", () -> new SubstiliumTileSlabBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_SLAB = REGISTRY.register("smooth_substilium_slab",
-			() -> new SmoothSubstiliumSlabBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_STAIRS = REGISTRY.register("substilium_tile_stairs",
+			() -> new SubstiliumTileStairsBlock());
 	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILE_STAIRS = REGISTRY.register("cracked_substilium_tile_stairs",
 			() -> new CrackedSubstiliumTileStairsBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_TILE_WALL = REGISTRY.register("substilium_tile_wall", () -> new SubstiliumTileWallBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_WALL = REGISTRY.register("smooth_substilium_wall",
-			() -> new SmoothSubstiliumWallBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_SLAB = REGISTRY.register("smooth_substilium_slab",
+			() -> new SmoothSubstiliumSlabBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_SLAB = REGISTRY.register("substilium_tile_slab", () -> new SubstiliumTileSlabBlock());
 	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILE_SLAB = REGISTRY.register("cracked_substilium_tile_slab",
 			() -> new CrackedSubstiliumTileSlabBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_PRESSURE_PLATE = REGISTRY.register("smooth_substilium_pressure_plate",
-			() -> new SmoothSubstiliumPressurePlateBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_BUTTON = REGISTRY.register("smooth_substilium_button",
-			() -> new SmoothSubstiliumButtonBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_WALL = REGISTRY.register("smooth_substilium_wall",
+			() -> new SmoothSubstiliumWallBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_WALL = REGISTRY.register("substilium_tile_wall", () -> new SubstiliumTileWallBlock());
 	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILE_WALL = REGISTRY.register("cracked_substilium_tile_wall",
 			() -> new CrackedSubstiliumTileWallBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_SPROUTS = REGISTRY.register("substilium_sprouts", () -> new SubstiliumSproutsBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_PLANKS = REGISTRY.register("substilium_planks", () -> new SubstiliumPlanksBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_PRESSURE_PLATE = REGISTRY.register("smooth_substilium_pressure_plate",
+			() -> new SmoothSubstiliumPressurePlateBlock());
 	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILE_PRESSURE_PLATE = REGISTRY.register("cracked_substilium_tile_pressure_plate",
 			() -> new CrackedSubstiliumTilePressurePlateBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_STAIRS = REGISTRY.register("substilium_stairs", () -> new SubstiliumStairsBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TILE_PRESSURE_PLATE = REGISTRY.register("substilium_tile_pressure_plate",
 			() -> new SubstiliumTilePressurePlateBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_SLAB = REGISTRY.register("substilium_slab", () -> new SubstiliumSlabBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_FENCE = REGISTRY.register("substilium_fence", () -> new SubstiliumFenceBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_BUTTON = REGISTRY.register("smooth_substilium_button",
+			() -> new SmoothSubstiliumButtonBlock());
 	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILE_BUTTON = REGISTRY.register("cracked_substilium_tile_button",
 			() -> new CrackedSubstiliumTileButtonBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_FENCE_GATE = REGISTRY.register("substilium_fence_gate",
-			() -> new SubstiliumFenceGateBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TILE_BUTTON = REGISTRY.register("substilium_tile_button",
 			() -> new SubstiliumTileButtonBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_DOOR = REGISTRY.register("substilium_door", () -> new SubstiliumDoorBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_TRAPDOOR = REGISTRY.register("substilium_trapdoor", () -> new SubstiliumTrapdoorBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_SPROUTS = REGISTRY.register("substilium_sprouts", () -> new SubstiliumSproutsBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_PLANKS = REGISTRY.register("substilium_planks", () -> new SubstiliumPlanksBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_STAIRS = REGISTRY.register("substilium_stairs", () -> new SubstiliumStairsBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_SLAB = REGISTRY.register("substilium_slab", () -> new SubstiliumSlabBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_FENCE = REGISTRY.register("substilium_fence", () -> new SubstiliumFenceBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_FENCE_GATE = REGISTRY.register("substilium_fence_gate",
+			() -> new SubstiliumFenceGateBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_PRESSURE_PLATE = REGISTRY.register("substilium_pressure_plate",
 			() -> new SubstiliumPressurePlateBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_BUTTON = REGISTRY.register("substilium_button", () -> new SubstiliumButtonBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_DOOR = REGISTRY.register("substilium_door", () -> new SubstiliumDoorBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TRAPDOOR = REGISTRY.register("substilium_trapdoor", () -> new SubstiliumTrapdoorBlock());
 	public static final RegistryObject<Block> HICKORY_LOG = REGISTRY.register("hickory_log", () -> new HickoryLogBlock());
 	public static final RegistryObject<Block> HICKORY_BLOCK = REGISTRY.register("hickory_block", () -> new HickoryBlockBlock());
 	public static final RegistryObject<Block> STRIPPED_HICKORY_LOG = REGISTRY.register("stripped_hickory_log", () -> new StrippedHickoryLogBlock());
@@ -258,10 +258,10 @@ public class WildasideModBlocks {
 			SubstiliumSlabBlock.registerRenderLayer();
 			SubstiliumFenceBlock.registerRenderLayer();
 			SubstiliumFenceGateBlock.registerRenderLayer();
-			SubstiliumDoorBlock.registerRenderLayer();
-			SubstiliumTrapdoorBlock.registerRenderLayer();
 			SubstiliumPressurePlateBlock.registerRenderLayer();
 			SubstiliumButtonBlock.registerRenderLayer();
+			SubstiliumDoorBlock.registerRenderLayer();
+			SubstiliumTrapdoorBlock.registerRenderLayer();
 			HickoryFenceBlock.registerRenderLayer();
 			HickoryFenceGateBlock.registerRenderLayer();
 			HickoryPressurePlateBlock.registerRenderLayer();

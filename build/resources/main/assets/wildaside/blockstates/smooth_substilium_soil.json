@@ -1,19 +1,7 @@
 {
   "variants": {
-    "facing=north": {
+    "": {
       "model": "wildaside:block/smooth_substilium_soil"
-    },
-    "facing=east": {
-      "model": "wildaside:block/smooth_substilium_soil",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "wildaside:block/smooth_substilium_soil",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "wildaside:block/smooth_substilium_soil",
-      "y": 270
     }
   }
 }

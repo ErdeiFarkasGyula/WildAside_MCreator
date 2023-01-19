@@ -1332,7 +1332,7 @@
     {
       "name": "SubstiliumDoor",
       "type": "block",
-      "sortid": 54,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_door",
@@ -1341,7 +1341,7 @@
     {
       "name": "SubstiliumTrapdoor",
       "type": "block",
-      "sortid": 55,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_trapdoor",
@@ -1350,7 +1350,7 @@
     {
       "name": "SubstiliumPressurePlate",
       "type": "block",
-      "sortid": 56,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_pressure_plate",
@@ -1359,7 +1359,7 @@
     {
       "name": "SubstiliumButton",
       "type": "block",
-      "sortid": 57,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "substilium_button",
@@ -6178,6 +6178,168 @@
       "locked_code": false,
       "registry_name": "cracked_substilium_tile_button",
       "path": "~/blocks"
+    },
+    {
+      "name": "CrackedSubstiliumTilesCraft",
+      "type": "recipe",
+      "sortid": 559,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tiles_craft",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTilesCraft2",
+      "type": "recipe",
+      "sortid": 560,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tiles_craft_2",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTilesCraft3",
+      "type": "recipe",
+      "sortid": 561,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tiles_craft_3",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileStairsCraft",
+      "type": "recipe",
+      "sortid": 562,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_stairs_craft",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileSlabCraft",
+      "type": "recipe",
+      "sortid": 563,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_slab_craft",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileWallCraft",
+      "type": "recipe",
+      "sortid": 564,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_wall_craft",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTilePressurePlateCraft",
+      "type": "recipe",
+      "sortid": 565,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_pressure_plate_craft",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileButtonCraft",
+      "type": "recipe",
+      "sortid": 566,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_button_craft",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileStairsCraft2",
+      "type": "recipe",
+      "sortid": 567,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_stairs_craft_2",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileSlabCraft2",
+      "type": "recipe",
+      "sortid": 568,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_slab_craft_2",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileWallCraft2",
+      "type": "recipe",
+      "sortid": 569,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_wall_craft_2",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTilePressurePlateCraft2",
+      "type": "recipe",
+      "sortid": 570,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_pressure_plate_craft_2",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileButtonCraft2",
+      "type": "recipe",
+      "sortid": 571,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_button_craft_2",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileStairsCraft3",
+      "type": "recipe",
+      "sortid": 572,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_stairs_craft_3",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileSlabCraft3",
+      "type": "recipe",
+      "sortid": 573,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_slab_craft_3",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileWallCraft3",
+      "type": "recipe",
+      "sortid": 574,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_wall_craft_3",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTilePressurePlateCraft3",
+      "type": "recipe",
+      "sortid": 575,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_pressure_plate_craft_3",
+      "path": "~/recipes/substilium_build"
+    },
+    {
+      "name": "CrackedSubstiliumTileButtonCraft3",
+      "type": "recipe",
+      "sortid": 576,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_substilium_tile_button_craft_3",
+      "path": "~/recipes/substilium_build"
     }
   ],
   "variable_elements": [

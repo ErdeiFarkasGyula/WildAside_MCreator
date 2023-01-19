@@ -1,0 +1,10 @@
+{
+  "group": "cracked_substilium_tile_slab",
+  "type": "minecraft:smelting",
+  "experience": 2,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "wildaside:substilium_tile_slab"
+  },
+  "result": "wildaside:cracked_substilium_tile_slab"
+}
