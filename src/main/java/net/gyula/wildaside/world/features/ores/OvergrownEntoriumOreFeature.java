@@ -42,11 +42,9 @@ public class OvergrownEntoriumOreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new OvergrownEntoriumOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("wildaside:overgrown_entorium_ore", FEATURE, new OreConfiguration(
-				OvergrownEntoriumOreFeatureRuleTest.INSTANCE, WildasideModBlocks.OVERGROWN_ENTORIUM_ORE.get().defaultBlockState(), 16));
+		CONFIGURED_FEATURE = FeatureUtils.register("wildaside:overgrown_entorium_ore", FEATURE, new OreConfiguration(OvergrownEntoriumOreFeatureRuleTest.INSTANCE, WildasideModBlocks.OVERGROWN_ENTORIUM_ORE.get().defaultBlockState(), 16));
 		PLACED_FEATURE = PlacementUtils.register("wildaside:overgrown_entorium_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(32), InSquarePlacement.spread(),
-						HeightRangePlacement.triangle(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(70)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(32), InSquarePlacement.spread(), HeightRangePlacement.triangle(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(70)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -71,8 +69,7 @@ public class OvergrownEntoriumOreFeature extends OreFeature {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 	private static class OvergrownEntoriumOreFeatureRuleTest extends RuleTest {
 		static final OvergrownEntoriumOreFeatureRuleTest INSTANCE = new OvergrownEntoriumOreFeatureRuleTest();
-		private static final com.mojang.serialization.Codec<OvergrownEntoriumOreFeatureRuleTest> CODEC = com.mojang.serialization.Codec
-				.unit(() -> INSTANCE);
+		private static final com.mojang.serialization.Codec<OvergrownEntoriumOreFeatureRuleTest> CODEC = com.mojang.serialization.Codec.unit(() -> INSTANCE);
 		private static final RuleTestType<OvergrownEntoriumOreFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
 
 		@SubscribeEvent

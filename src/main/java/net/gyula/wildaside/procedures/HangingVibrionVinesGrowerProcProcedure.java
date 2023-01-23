@@ -40,8 +40,7 @@ public class HangingVibrionVinesGrowerProcProcedure {
 				for (int index3 = 0; index3 < (int) (6); index3++) {
 					sz = -4;
 					for (int index4 = 0; index4 < (int) (9); index4++) {
-						if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz)))
-								.is(BlockTags.create(new ResourceLocation("minecraft:base_stone_overworld")))) {
+						if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).is(BlockTags.create(new ResourceLocation("minecraft:base_stone_overworld")))) {
 							if (Math.random() <= 0.25) {
 								world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState(), 3);
 							}

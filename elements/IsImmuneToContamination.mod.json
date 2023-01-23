@@ -1,0 +1,18 @@
+{
+  "_fv": 38,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:VibrionMonster"
+      }
+    ],
+    "biomes": [],
+    "name": "is_immune_to_contamination",
+    "namespace": "mod"
+  }
+}

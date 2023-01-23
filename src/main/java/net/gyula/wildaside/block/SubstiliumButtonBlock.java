@@ -21,8 +21,7 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 public class SubstiliumButtonBlock extends WoodButtonBlock {
 	public SubstiliumButtonBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_CYAN).sound(SoundType.WOOD).strength(2f, 1.5f).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false).noDrops());
+		super(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_CYAN).sound(SoundType.WOOD).strength(2f, 1.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noDrops());
 	}
 
 	@Override
@@ -44,5 +43,4 @@ public class SubstiliumButtonBlock extends WoodButtonBlock {
 	public static void registerRenderLayer() {
 		ItemBlockRenderTypes.setRenderLayer(WildasideModBlocks.SUBSTILIUM_BUTTON.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

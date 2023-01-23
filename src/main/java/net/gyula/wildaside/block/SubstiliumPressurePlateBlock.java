@@ -23,8 +23,7 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 public class SubstiliumPressurePlateBlock extends PressurePlateBlock {
 	public SubstiliumPressurePlateBlock() {
-		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_CYAN).sound(SoundType.WOOD).strength(2f, 1.5f)
-				.noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noDrops());
+		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_CYAN).sound(SoundType.WOOD).strength(2f, 1.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noDrops());
 	}
 
 	@Override
@@ -51,5 +50,4 @@ public class SubstiliumPressurePlateBlock extends PressurePlateBlock {
 	public static void registerRenderLayer() {
 		ItemBlockRenderTypes.setRenderLayer(WildasideModBlocks.SUBSTILIUM_PRESSURE_PLATE.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

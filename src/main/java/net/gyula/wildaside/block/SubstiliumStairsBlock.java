@@ -21,8 +21,7 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 public class SubstiliumStairsBlock extends StairBlock {
 	public SubstiliumStairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_CYAN).sound(SoundType.WOOD)
-				.strength(2f, 1.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape().noDrops());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_CYAN).sound(SoundType.WOOD).strength(2f, 1.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape().noDrops());
 	}
 
 	@Override
@@ -49,5 +48,4 @@ public class SubstiliumStairsBlock extends StairBlock {
 	public static void registerRenderLayer() {
 		ItemBlockRenderTypes.setRenderLayer(WildasideModBlocks.SUBSTILIUM_STAIRS.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

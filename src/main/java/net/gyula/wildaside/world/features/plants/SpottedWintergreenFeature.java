@@ -34,11 +34,8 @@ public class SpottedWintergreenFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new SpottedWintergreenFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("wildaside:spotted_wintergreen", FEATURE,
-				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-						new SimpleBlockConfiguration(BlockStateProvider.simple(WildasideModBlocks.SPOTTED_WINTERGREEN.get().defaultBlockState())),
-						List.of(), 40));
-		PLACED_FEATURE = PlacementUtils.register("wildaside:spotted_wintergreen", CONFIGURED_FEATURE, List.of(CountPlacement.of(20),
-				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(WildasideModBlocks.SPOTTED_WINTERGREEN.get().defaultBlockState())), List.of(), 40));
+		PLACED_FEATURE = PlacementUtils.register("wildaside:spotted_wintergreen", CONFIGURED_FEATURE, List.of(CountPlacement.of(20), RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -46,8 +43,7 @@ public class SpottedWintergreenFeature extends RandomPatchFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("wildaside:hickory_forest"),
-			new ResourceLocation("wildaside:glowing_hickory_forest"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("wildaside:hickory_forest"), new ResourceLocation("wildaside:glowing_hickory_forest"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
 	public SpottedWintergreenFeature() {

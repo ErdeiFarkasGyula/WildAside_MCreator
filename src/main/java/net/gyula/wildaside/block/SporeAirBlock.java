@@ -38,13 +38,9 @@ import net.gyula.wildaside.block.entity.SporeAirBlockEntity;
 
 import java.util.Random;
 
-public class SporeAirBlock extends Block
-		implements
-
-			EntityBlock {
+public class SporeAirBlock extends Block implements EntityBlock {
 	public SporeAirBlock() {
-		super(BlockBehaviour.Properties.of(Material.AIR, MaterialColor.COLOR_YELLOW).sound(SoundType.GRAVEL).instabreak().noCollission().noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false).noDrops());
+		super(BlockBehaviour.Properties.of(Material.AIR, MaterialColor.COLOR_YELLOW).sound(SoundType.GRAVEL).instabreak().noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noDrops());
 	}
 
 	@Override
@@ -94,7 +90,6 @@ public class SporeAirBlock extends Block
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-
 		SporeAirUpdateTickProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 20);
 	}
@@ -107,7 +102,6 @@ public class SporeAirBlock extends Block
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-
 		SporeAirClientDisplayRandomTickProcedure.execute(world, x, y, z);
 	}
 

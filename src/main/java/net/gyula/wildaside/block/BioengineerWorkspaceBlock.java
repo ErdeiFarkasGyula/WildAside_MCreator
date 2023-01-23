@@ -38,13 +38,9 @@ import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
-public class BioengineerWorkspaceBlock extends Block
-		implements
-
-			EntityBlock {
+public class BioengineerWorkspaceBlock extends Block implements EntityBlock {
 	public BioengineerWorkspaceBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.QUARTZ).sound(SoundType.METAL).strength(2f, 3f)
-				.requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.QUARTZ).sound(SoundType.METAL).strength(2f, 3f).requiresCorrectToolForDrops());
 	}
 
 	@Override

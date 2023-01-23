@@ -32,10 +32,9 @@ public class VibrionRootsFeature extends RandomPatchFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new VibrionRootsFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("wildaside:vibrion_roots", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(WildasideModBlocks.VIBRION_ROOTS.get().defaultBlockState())), List.of(), 256));
-		PLACED_FEATURE = PlacementUtils.register("wildaside:vibrion_roots", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(40), InSquarePlacement.spread(), PlacementUtils.FULL_RANGE, BiomeFilter.biome()));
+		CONFIGURED_FEATURE = FeatureUtils.register("wildaside:vibrion_roots", FEATURE,
+				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(WildasideModBlocks.VIBRION_ROOTS.get().defaultBlockState())), List.of(), 256));
+		PLACED_FEATURE = PlacementUtils.register("wildaside:vibrion_roots", CONFIGURED_FEATURE, List.of(CountPlacement.of(40), InSquarePlacement.spread(), PlacementUtils.FULL_RANGE, BiomeFilter.biome()));
 		return FEATURE;
 	}
 

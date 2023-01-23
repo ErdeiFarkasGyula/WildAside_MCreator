@@ -13,8 +13,7 @@ import net.gyula.wildaside.init.WildasideModTabs;
 
 public class EntoriumPillItem extends Item {
 	public EntoriumPillItem() {
-		super(new Item.Properties().tab(WildasideModTabs.TAB_WILD_ASIDE_TAB).stacksTo(4).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(-1).saturationMod(-0.2f).alwaysEat().meat().build()));
+		super(new Item.Properties().tab(WildasideModTabs.TAB_WILD_ASIDE_TAB).stacksTo(4).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(-1).saturationMod(-0.2f).alwaysEat().meat().build()));
 	}
 
 	@Override

@@ -58,8 +58,7 @@ public class HangingVibrionVinesGrowerStr14Feature extends Feature<NoneFeatureCo
 		if (!generate_dimensions.contains(context.level().getLevel().dimension()))
 			return false;
 		if (template == null)
-			template = context.level().getLevel().getStructureManager()
-					.getOrCreate(new ResourceLocation("wildaside", "hanging_vibrion_vines_grower"));
+			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("wildaside", "hanging_vibrion_vines_grower"));
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
@@ -77,10 +76,8 @@ public class HangingVibrionVinesGrowerStr14Feature extends Feature<NoneFeatureCo
 				int z = spawnTo.getZ();
 				if (!HangingVibrionVinesGrowerStrConditionProcedure.execute(world, x, y, z))
 					continue;
-				if (template.placeInWorld(
-						context.level(), spawnTo, spawnTo, new StructurePlaceSettings().setMirror(Mirror.NONE).setRotation(Rotation.NONE)
-								.setRandom(context.random()).addProcessor(BlockIgnoreProcessor.STRUCTURE_AND_AIR).setIgnoreEntities(false),
-						context.random(), 2)) {
+				if (template.placeInWorld(context.level(), spawnTo, spawnTo,
+						new StructurePlaceSettings().setMirror(Mirror.NONE).setRotation(Rotation.NONE).setRandom(context.random()).addProcessor(BlockIgnoreProcessor.STRUCTURE_AND_AIR).setIgnoreEntities(false), context.random(), 2)) {
 
 					HangingVibrionVinesGrowerStrOnGeneratedProcedure.execute(world, x, y, z);
 					anyPlaced = true;

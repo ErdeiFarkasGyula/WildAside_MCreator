@@ -2,6 +2,8 @@
 package net.gyula.wildaside.block;
 
 import net.minecraftforge.common.IPlantable;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
@@ -16,9 +18,13 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.Minecraft;
 
+import net.gyula.wildaside.procedures.SubstiliumSoilClientDisplayRandomTickProcedure;
 import net.gyula.wildaside.procedures.SubstiliumSoilCheckTopBlockProcedure;
 import net.gyula.wildaside.procedures.DropXP0_3Procedure;
+
+import java.util.Random;
 
 public class SubstiliumSoilBlock extends Block {
 	public SubstiliumSoilBlock() {
@@ -39,6 +45,17 @@ public class SubstiliumSoilBlock extends Block {
 	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
 		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
 		SubstiliumSoilCheckTopBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	@Override
+	public void animateTick(BlockState blockstate, Level world, BlockPos pos, Random random) {
+		super.animateTick(blockstate, world, pos, random);
+		Player entity = Minecraft.getInstance().player;
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		SubstiliumSoilClientDisplayRandomTickProcedure.execute(world, x, y, z);
 	}
 
 	@Override

@@ -88,12 +88,11 @@ public class BioengineerWorkspaceGuiScreen extends AbstractContainerScreen<Bioen
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 84, this.topPos + 45, 61, 20,
-				new TranslatableComponent("gui.wildaside.bioengineer_workspace_gui.button_convert"), e -> {
-					if (true) {
-						WildasideMod.PACKET_HANDLER.sendToServer(new BioengineerWorkspaceGuiButtonMessage(0, x, y, z));
-						BioengineerWorkspaceGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
-					}
-				}));
+		this.addRenderableWidget(new Button(this.leftPos + 84, this.topPos + 45, 61, 20, new TranslatableComponent("gui.wildaside.bioengineer_workspace_gui.button_convert"), e -> {
+			if (true) {
+				WildasideMod.PACKET_HANDLER.sendToServer(new BioengineerWorkspaceGuiButtonMessage(0, x, y, z));
+				BioengineerWorkspaceGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
 	}
 }

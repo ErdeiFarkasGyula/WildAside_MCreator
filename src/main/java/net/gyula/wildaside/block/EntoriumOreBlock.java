@@ -14,8 +14,7 @@ import net.minecraft.core.BlockPos;
 
 public class EntoriumOreBlock extends Block {
 	public EntoriumOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_PURPLE).sound(SoundType.GILDED_BLACKSTONE).strength(3.5f, 5f)
-				.requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_PURPLE).sound(SoundType.GILDED_BLACKSTONE).strength(3.5f, 5f).requiresCorrectToolForDrops());
 	}
 
 	@Override

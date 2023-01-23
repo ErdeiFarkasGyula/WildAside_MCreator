@@ -22,8 +22,7 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 public class SubstiliumTrapdoorBlock extends TrapDoorBlock {
 	public SubstiliumTrapdoorBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_CYAN).sound(SoundType.WOOD).strength(2f, 1.5f).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false).noDrops());
+		super(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_CYAN).sound(SoundType.WOOD).strength(2f, 1.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noDrops());
 	}
 
 	@Override
@@ -45,5 +44,4 @@ public class SubstiliumTrapdoorBlock extends TrapDoorBlock {
 	public static void registerRenderLayer() {
 		ItemBlockRenderTypes.setRenderLayer(WildasideModBlocks.SUBSTILIUM_TRAPDOOR.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

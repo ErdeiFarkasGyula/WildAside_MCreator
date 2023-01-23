@@ -30,8 +30,7 @@ import java.util.Collections;
 
 public class HangingVibrionGelGrowerBlock extends Block {
 	public HangingVibrionGelGrowerBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -69,7 +68,6 @@ public class HangingVibrionGelGrowerBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-
 		HangingVibrionGelGrowerProcProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 5);
 	}

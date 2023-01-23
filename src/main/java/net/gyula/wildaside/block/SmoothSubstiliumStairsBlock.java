@@ -20,8 +20,7 @@ import java.util.Collections;
 
 public class SmoothSubstiliumStairsBlock extends StairBlock {
 	public SmoothSubstiliumStairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).sound(SoundType.DEEPSLATE)
-				.strength(2f, 5f).requiresCorrectToolForDrops().dynamicShape());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).sound(SoundType.DEEPSLATE).strength(2f, 5f).requiresCorrectToolForDrops().dynamicShape());
 	}
 
 	@Override

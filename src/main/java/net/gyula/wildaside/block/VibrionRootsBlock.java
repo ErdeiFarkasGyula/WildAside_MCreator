@@ -32,8 +32,7 @@ import java.util.Collections;
 
 public class VibrionRootsBlock extends FlowerBlock {
 	public VibrionRootsBlock() {
-		super(MobEffects.INVISIBILITY, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.ROOTS)
-				.strength(0.1f, 0f).lightLevel(s -> 4).noCollission());
+		super(MobEffects.INVISIBILITY, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.ROOTS).strength(0.1f, 0f).lightLevel(s -> 4).noCollission());
 	}
 
 	@Override

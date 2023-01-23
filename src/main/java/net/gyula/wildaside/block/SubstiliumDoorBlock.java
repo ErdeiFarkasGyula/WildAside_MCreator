@@ -23,8 +23,7 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 public class SubstiliumDoorBlock extends DoorBlock {
 	public SubstiliumDoorBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_CYAN).sound(SoundType.WOOD).strength(2f, 1.5f).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false).noDrops());
+		super(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_CYAN).sound(SoundType.WOOD).strength(2f, 1.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noDrops());
 	}
 
 	@Override
@@ -51,5 +50,4 @@ public class SubstiliumDoorBlock extends DoorBlock {
 	public static void registerRenderLayer() {
 		ItemBlockRenderTypes.setRenderLayer(WildasideModBlocks.SUBSTILIUM_DOOR.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

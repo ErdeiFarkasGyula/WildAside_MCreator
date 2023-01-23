@@ -13,10 +13,9 @@ import net.gyula.wildaside.init.WildasideModTabs;
 
 public class VibrionItem extends Item {
 	public VibrionItem() {
-		super(new Item.Properties().tab(WildasideModTabs.TAB_WILD_ASIDE_TAB).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.1f).alwaysEat()
+		super(new Item.Properties().tab(WildasideModTabs.TAB_WILD_ASIDE_TAB).stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.1f).alwaysEat()
 
-						.build()));
+				.build()));
 	}
 
 	@Override

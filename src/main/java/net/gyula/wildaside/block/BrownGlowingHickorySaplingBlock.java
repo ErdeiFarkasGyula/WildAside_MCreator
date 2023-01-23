@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.block.BonemealableBlock;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
@@ -27,6 +28,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.gyula.wildaside.procedures.BrownGlowingHickorySaplingUpdateTickProcedure;
+import net.gyula.wildaside.procedures.BrownGlowingHickorySaplingOnBoneMealSuccessProcedure;
 import net.gyula.wildaside.init.WildasideModBlocks;
 import net.gyula.wildaside.block.entity.BrownGlowingHickorySaplingBlockEntity;
 
@@ -34,10 +36,9 @@ import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-public class BrownGlowingHickorySaplingBlock extends FlowerBlock implements EntityBlock {
+public class BrownGlowingHickorySaplingBlock extends FlowerBlock implements EntityBlock, BonemealableBlock {
 	public BrownGlowingHickorySaplingBlock() {
-		super(MobEffects.MOVEMENT_SPEED, 0,
-				BlockBehaviour.Properties.of(Material.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().lightLevel(s -> 3).noCollission());
+		super(MobEffects.MOVEMENT_SPEED, 0, BlockBehaviour.Properties.of(Material.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().lightLevel(s -> 3).noCollission());
 	}
 
 	@Override
@@ -67,6 +68,21 @@ public class BrownGlowingHickorySaplingBlock extends FlowerBlock implements Enti
 	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, Random random) {
 		super.tick(blockstate, world, pos, random);
 		BrownGlowingHickorySaplingUpdateTickProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@Override
+	public boolean isValidBonemealTarget(BlockGetter worldIn, BlockPos pos, BlockState blockstate, boolean clientSide) {
+		return true;
+	}
+
+	@Override
+	public boolean isBonemealSuccess(Level world, Random random, BlockPos pos, BlockState blockstate) {
+		return true;
+	}
+
+	@Override
+	public void performBonemeal(ServerLevel world, Random random, BlockPos pos, BlockState blockstate) {
+		BrownGlowingHickorySaplingOnBoneMealSuccessProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

@@ -18,8 +18,7 @@ public class SubstiliumTreeGrowerProcProcedure {
 			canPlaceNumber = 0;
 			for (int index0 = 0; index0 < (int) (7); index0++) {
 				canPlaceNumber = canPlaceNumber + 1;
-				canPlace = (world.getBlockState(new BlockPos(x, y + canPlaceNumber, z)))
-						.getMaterial() == net.minecraft.world.level.material.Material.AIR;
+				canPlace = (world.getBlockState(new BlockPos(x, y + canPlaceNumber, z))).getMaterial() == net.minecraft.world.level.material.Material.AIR;
 			}
 			if (canPlaceNumber >= 7) {
 				if (canPlace == true) {

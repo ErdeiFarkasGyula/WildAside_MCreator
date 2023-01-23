@@ -42,11 +42,9 @@ public class CompressedSubstiliumSoilFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new CompressedSubstiliumSoilFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("wildaside:compressed_substilium_soil", FEATURE, new OreConfiguration(
-				CompressedSubstiliumSoilFeatureRuleTest.INSTANCE, WildasideModBlocks.COMPRESSED_SUBSTILIUM_SOIL.get().defaultBlockState(), 26));
+		CONFIGURED_FEATURE = FeatureUtils.register("wildaside:compressed_substilium_soil", FEATURE, new OreConfiguration(CompressedSubstiliumSoilFeatureRuleTest.INSTANCE, WildasideModBlocks.COMPRESSED_SUBSTILIUM_SOIL.get().defaultBlockState(), 26));
 		PLACED_FEATURE = PlacementUtils.register("wildaside:compressed_substilium_soil", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(20), InSquarePlacement.spread(),
-						HeightRangePlacement.triangle(VerticalAnchor.absolute(-140), VerticalAnchor.absolute(80)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(20), InSquarePlacement.spread(), HeightRangePlacement.triangle(VerticalAnchor.absolute(-140), VerticalAnchor.absolute(80)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -71,8 +69,7 @@ public class CompressedSubstiliumSoilFeature extends OreFeature {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 	private static class CompressedSubstiliumSoilFeatureRuleTest extends RuleTest {
 		static final CompressedSubstiliumSoilFeatureRuleTest INSTANCE = new CompressedSubstiliumSoilFeatureRuleTest();
-		private static final com.mojang.serialization.Codec<CompressedSubstiliumSoilFeatureRuleTest> CODEC = com.mojang.serialization.Codec
-				.unit(() -> INSTANCE);
+		private static final com.mojang.serialization.Codec<CompressedSubstiliumSoilFeatureRuleTest> CODEC = com.mojang.serialization.Codec.unit(() -> INSTANCE);
 		private static final RuleTestType<CompressedSubstiliumSoilFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
 
 		@SubscribeEvent

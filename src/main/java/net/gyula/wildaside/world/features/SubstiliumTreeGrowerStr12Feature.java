@@ -62,8 +62,7 @@ public class SubstiliumTreeGrowerStr12Feature extends Feature<NoneFeatureConfigu
 		if (!generate_dimensions.contains(context.level().getLevel().dimension()))
 			return false;
 		if (template == null)
-			template = context.level().getLevel().getStructureManager()
-					.getOrCreate(new ResourceLocation("wildaside", "substilium_tree_grower_block_str"));
+			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("wildaside", "substilium_tree_grower_block_str"));
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
@@ -83,10 +82,8 @@ public class SubstiliumTreeGrowerStr12Feature extends Feature<NoneFeatureConfigu
 				int z = spawnTo.getZ();
 				if (!SubstiliumTreeGrowerStr1AdditionalGenerationConditionProcedure.execute(world, x, y, z))
 					continue;
-				if (template.placeInWorld(
-						context.level(), spawnTo, spawnTo, new StructurePlaceSettings().setMirror(Mirror.NONE).setRotation(Rotation.NONE)
-								.setRandom(context.random()).addProcessor(BlockIgnoreProcessor.STRUCTURE_AND_AIR).setIgnoreEntities(false),
-						context.random(), 2)) {
+				if (template.placeInWorld(context.level(), spawnTo, spawnTo,
+						new StructurePlaceSettings().setMirror(Mirror.NONE).setRotation(Rotation.NONE).setRandom(context.random()).addProcessor(BlockIgnoreProcessor.STRUCTURE_AND_AIR).setIgnoreEntities(false), context.random(), 2)) {
 
 					HangingVibrionVinesGrowerStrOnGeneratedProcedure.execute(world, x, y, z);
 					anyPlaced = true;

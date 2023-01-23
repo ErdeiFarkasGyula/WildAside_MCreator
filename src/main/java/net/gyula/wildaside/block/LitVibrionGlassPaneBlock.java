@@ -21,8 +21,7 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 public class LitVibrionGlassPaneBlock extends IronBarsBlock {
 	public LitVibrionGlassPaneBlock() {
-		super(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.COLOR_YELLOW).sound(SoundType.GLASS).strength(0.4f).lightLevel(s -> 7)
-				.noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.COLOR_YELLOW).sound(SoundType.GLASS).strength(0.4f).lightLevel(s -> 7).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -34,5 +33,4 @@ public class LitVibrionGlassPaneBlock extends IronBarsBlock {
 	public static void registerRenderLayer() {
 		ItemBlockRenderTypes.setRenderLayer(WildasideModBlocks.LIT_VIBRION_GLASS_PANE.get(), renderType -> renderType == RenderType.translucent());
 	}
-
 }

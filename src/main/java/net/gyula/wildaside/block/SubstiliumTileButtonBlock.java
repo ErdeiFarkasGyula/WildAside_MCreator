@@ -19,8 +19,7 @@ import java.util.Collections;
 
 public class SubstiliumTileButtonBlock extends StoneButtonBlock {
 	public SubstiliumTileButtonBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).sound(SoundType.DEEPSLATE).strength(2f, 5f)
-				.requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).sound(SoundType.DEEPSLATE).strength(2f, 5f).requiresCorrectToolForDrops());
 	}
 
 	@Override

@@ -70,7 +70,6 @@ public class BioengineerWorkspaceGuiButtonMessage {
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		WildasideMod.addNetworkMessage(BioengineerWorkspaceGuiButtonMessage.class, BioengineerWorkspaceGuiButtonMessage::buffer,
-				BioengineerWorkspaceGuiButtonMessage::new, BioengineerWorkspaceGuiButtonMessage::handler);
+		WildasideMod.addNetworkMessage(BioengineerWorkspaceGuiButtonMessage.class, BioengineerWorkspaceGuiButtonMessage::buffer, BioengineerWorkspaceGuiButtonMessage::new, BioengineerWorkspaceGuiButtonMessage::handler);
 	}
 }

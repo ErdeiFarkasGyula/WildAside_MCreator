@@ -1,0 +1,50 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.vibrion_monster",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "left_arm",
+					"pivot": [8, 27, 0],
+					"rotation": [20.32322, 0.37066, 35.17645],
+					"cubes": [
+						{"origin": [27.85255, 23.32312, -2.80925], "size": [16, 6, 6], "pivot": [28, 27, 0], "rotation": [0, 20, 40], "uv": [50, 26]},
+						{"origin": [8.45427, 21.77319, -4.14589], "size": [19, 8, 8], "uv": [46, 40]}
+					]
+				},
+				{
+					"name": "body",
+					"pivot": [0, 6, 0],
+					"cubes": [
+						{"origin": [-8, 10, -6], "size": [16, 20, 12], "pivot": [0, 19.5, 0], "rotation": [5, 0, 0], "uv": [0, 0]},
+						{"origin": [-7, 0, -4], "size": [14, 12, 10], "pivot": [0, 10, 0], "rotation": [25, 0, 0], "uv": [0, 48]}
+					]
+				},
+				{
+					"name": "right_arm",
+					"pivot": [-9, 27, 0],
+					"rotation": [170.22362, 17.08517, 138.18994],
+					"cubes": [
+						{"origin": [10.76075, 23.0755, -2.93194], "size": [16, 6, 6], "pivot": [11, 27, 0], "rotation": [0, 0, 22.5], "uv": [44, 0]},
+						{"origin": [-8.48457, 21.77319, -3.93194], "size": [19, 8, 8], "uv": [0, 32]}
+					]
+				},
+				{
+					"name": "head",
+					"pivot": [0, 29.91284, -0.99619],
+					"cubes": [
+						{"origin": [-4, 29.98097, -4.56422], "size": [8, 10, 8], "pivot": [0, 30, 0], "rotation": [5, 0, 0], "uv": [48, 56]}
+					]
+				}
+			]
+		}
+	]
+}

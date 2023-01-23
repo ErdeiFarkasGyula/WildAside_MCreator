@@ -22,15 +22,10 @@ import net.gyula.wildaside.client.particle.EntoriumParticleParticle;
 public class WildasideModParticles {
 	@SubscribeEvent
 	public static void registerParticles(ParticleFactoryRegisterEvent event) {
-		Minecraft.getInstance().particleEngine.register((SimpleParticleType) WildasideModParticleTypes.VIBRION_PARTICLE.get(),
-				VibrionParticleParticle::provider);
-		Minecraft.getInstance().particleEngine.register((SimpleParticleType) WildasideModParticleTypes.ENTORIUM_PARTICLE.get(),
-				EntoriumParticleParticle::provider);
-		Minecraft.getInstance().particleEngine.register((SimpleParticleType) WildasideModParticleTypes.SUBSTILIUM_PARTICLE.get(),
-				SubstiliumParticleParticle::provider);
-		Minecraft.getInstance().particleEngine.register((SimpleParticleType) WildasideModParticleTypes.STILL_SUBSTILIUM_PARTICLE.get(),
-				StillSubstiliumParticleParticle::provider);
-		Minecraft.getInstance().particleEngine.register((SimpleParticleType) WildasideModParticleTypes.STILL_VIBRION_PARTICLE.get(),
-				StillVibrionParticleParticle::provider);
+		Minecraft.getInstance().particleEngine.register((SimpleParticleType) WildasideModParticleTypes.VIBRION_PARTICLE.get(), VibrionParticleParticle::provider);
+		Minecraft.getInstance().particleEngine.register((SimpleParticleType) WildasideModParticleTypes.ENTORIUM_PARTICLE.get(), EntoriumParticleParticle::provider);
+		Minecraft.getInstance().particleEngine.register((SimpleParticleType) WildasideModParticleTypes.SUBSTILIUM_PARTICLE.get(), SubstiliumParticleParticle::provider);
+		Minecraft.getInstance().particleEngine.register((SimpleParticleType) WildasideModParticleTypes.STILL_SUBSTILIUM_PARTICLE.get(), StillSubstiliumParticleParticle::provider);
+		Minecraft.getInstance().particleEngine.register((SimpleParticleType) WildasideModParticleTypes.STILL_VIBRION_PARTICLE.get(), StillVibrionParticleParticle::provider);
 	}
 }

@@ -99,6 +99,7 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 0,
+    "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -118,6 +119,9 @@
     "fluidRestrictions": [],
     "onNeighbourBlockChanges": {
       "name": "SubstiliumSoilCheckTopBlock"
+    },
+    "onRandomUpdateEvent": {
+      "name": "SubstiliumSoilClientDisplayRandomTick"
     },
     "onDestroyedByPlayer": {
       "name": "DropXP0_3"

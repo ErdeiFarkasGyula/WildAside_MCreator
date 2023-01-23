@@ -19,28 +19,20 @@ public class BioengineerWorkspaceGuiCheckProcProcedure {
 		if (entity == null)
 			return;
 		double i = 0;
-		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt
-				? ((Slot) _slt.get(4)).getItem()
-				: ItemStack.EMPTY).getItem() == WildasideModItems.VIBRION.get()) {
-			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY).getItem() == WildasideModItems.VIBRION.get()) {
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
 					.getItem() == WildasideModBlocks.RED_GLOWING_HICKORY_LEAVES.get().asItem()
-					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY)
+					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY)
 							.getItem() == WildasideModBlocks.YELLOW_GLOWING_HICKORY_LEAVES.get().asItem()
-					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY)
+					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY)
 							.getItem() == WildasideModBlocks.BROWN_GLOWING_HICKORY_LEAVES.get().asItem()
-					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY)
+					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY)
 							.getItem() == WildasideModBlocks.GREEN_GLOWING_HICKORY_LEAVES.get().asItem()) {
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get() instanceof Map _slots) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(WildasideModItems.RUTILLION.get());
 					_setstack.setCount((int) (new Object() {
 						public int getAmount(int sltid) {
-							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get() instanceof Map _slots) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 								if (stack != null)
 									return stack.getCount();
@@ -53,8 +45,7 @@ public class BioengineerWorkspaceGuiCheckProcProcedure {
 				}
 				i = 0;
 				for (int index0 = 0; index0 < (int) (5); index0++) {
-					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-							&& _current.get() instanceof Map _slots) {
+					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 						((Slot) _slots.get((int) i)).remove(1);
 						_player.containerMenu.broadcastChanges();
 					}

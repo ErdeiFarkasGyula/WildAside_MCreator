@@ -33,8 +33,7 @@ public class GlimmeringGlassAdvProcProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.LIT_VIBRION_GLASS.get()
-				|| (world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.LIT_VIBRION_GLASS_PANE.get()) {
+		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.LIT_VIBRION_GLASS.get() || (world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.LIT_VIBRION_GLASS_PANE.get()) {
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:glimmering_glass"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);

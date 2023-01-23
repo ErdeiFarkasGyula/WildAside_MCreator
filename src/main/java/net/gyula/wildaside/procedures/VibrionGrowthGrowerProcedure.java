@@ -21,13 +21,9 @@ public class VibrionGrowthGrowerProcedure {
 						if (0.25 > Math.random()) {
 							if (world instanceof Level _level) {
 								if (!_level.isClientSide()) {
-									_level.playSound(null, new BlockPos(x, y, z),
-											ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.crimson_forest.mood")),
-											SoundSource.AMBIENT, (float) 0.5, (float) 0.8);
+									_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.crimson_forest.mood")), SoundSource.AMBIENT, (float) 0.5, (float) 0.8);
 								} else {
-									_level.playLocalSound(x, y, z,
-											ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.crimson_forest.mood")),
-											SoundSource.AMBIENT, (float) 0.5, (float) 0.8, false);
+									_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.crimson_forest.mood")), SoundSource.AMBIENT, (float) 0.5, (float) 0.8, false);
 								}
 							}
 						}

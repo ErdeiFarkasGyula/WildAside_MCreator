@@ -57,8 +57,7 @@ public class EntoriumRevealProcProcedure {
 		double sz = 0;
 		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.OVERGROWN_ENTORIUM_ORE.get()) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.SHEARS) {
-				if (EnchantmentHelper.getItemEnchantmentLevel(WildasideModEnchantments.REVEALING.get(),
-						(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
+				if (EnchantmentHelper.getItemEnchantmentLevel(WildasideModEnchantments.REVEALING.get(), (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
 					sx = -1;
 					found = false;
 					for (int index0 = 0; index0 < (int) (3); index0++) {
@@ -66,8 +65,7 @@ public class EntoriumRevealProcProcedure {
 						for (int index1 = 0; index1 < (int) (3); index1++) {
 							sz = -1;
 							for (int index2 = 0; index2 < (int) (3); index2++) {
-								if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz)))
-										.getBlock() == WildasideModBlocks.OVERGROWN_ENTORIUM_ORE.get()) {
+								if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.OVERGROWN_ENTORIUM_ORE.get()) {
 									{
 										BlockPos _bp = new BlockPos(x + sx, y + sy, z + sz);
 										BlockState _bs = WildasideModBlocks.ENTORIUM_ORE.get().defaultBlockState();
@@ -93,12 +91,9 @@ public class EntoriumRevealProcProcedure {
 					if (found == true) {
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
-								_level.playSound(null, new BlockPos(x, y, z),
-										ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1,
-										1);
+								_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1, 1);
 							} else {
-								_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")),
-										SoundSource.BLOCKS, 1, 1, false);
+								_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1, 1, false);
 							}
 						}
 						if (entity instanceof ServerPlayer _player) {
@@ -125,8 +120,7 @@ public class EntoriumRevealProcProcedure {
 									return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
 								} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
 									return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
-											&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId())
-													.getGameMode() == GameType.CREATIVE;
+											&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 								}
 								return false;
 							}
@@ -157,11 +151,9 @@ public class EntoriumRevealProcProcedure {
 					}
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
-							_level.playSound(null, new BlockPos(x, y, z),
-									ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1, 1);
+							_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1, 1);
 						} else {
-							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")),
-									SoundSource.BLOCKS, 1, 1, false);
+							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1, 1, false);
 						}
 					}
 					if (entity instanceof ServerPlayer _player) {
@@ -179,8 +171,7 @@ public class EntoriumRevealProcProcedure {
 								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
 							} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
 								return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
-										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId())
-												.getGameMode() == GameType.CREATIVE;
+										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 							}
 							return false;
 						}
@@ -198,8 +189,7 @@ public class EntoriumRevealProcProcedure {
 					_entity.swing(InteractionHand.MAIN_HAND, true);
 			} else {
 				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == Items.SHEARS) {
-					if (EnchantmentHelper.getItemEnchantmentLevel(WildasideModEnchantments.REVEALING.get(),
-							(entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)) != 0) {
+					if (EnchantmentHelper.getItemEnchantmentLevel(WildasideModEnchantments.REVEALING.get(), (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)) != 0) {
 						sx = -1;
 						found = false;
 						for (int index3 = 0; index3 < (int) (3); index3++) {
@@ -207,8 +197,7 @@ public class EntoriumRevealProcProcedure {
 							for (int index4 = 0; index4 < (int) (3); index4++) {
 								sz = -1;
 								for (int index5 = 0; index5 < (int) (3); index5++) {
-									if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz)))
-											.getBlock() == WildasideModBlocks.OVERGROWN_ENTORIUM_ORE.get()) {
+									if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.OVERGROWN_ENTORIUM_ORE.get()) {
 										{
 											BlockPos _bp = new BlockPos(x + sx, y + sy, z + sz);
 											BlockState _bs = WildasideModBlocks.ENTORIUM_ORE.get().defaultBlockState();
@@ -234,13 +223,9 @@ public class EntoriumRevealProcProcedure {
 						if (found == true) {
 							if (world instanceof Level _level) {
 								if (!_level.isClientSide()) {
-									_level.playSound(null, new BlockPos(x, y, z),
-											ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS,
-											1, 1);
+									_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1, 1);
 								} else {
-									_level.playLocalSound(x, y, z,
-											ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS,
-											1, 1, false);
+									_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1, 1, false);
 								}
 							}
 							if (entity instanceof ServerPlayer _player) {
@@ -253,8 +238,7 @@ public class EntoriumRevealProcProcedure {
 								}
 							}
 							if (entity instanceof ServerPlayer _player) {
-								Advancement _adv = _player.server.getAdvancements()
-										.getAdvancement(new ResourceLocation("wildaside:temporary_solution"));
+								Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:temporary_solution"));
 								AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 								if (!_ap.isDone()) {
 									Iterator _iterator = _ap.getRemainingCriteria().iterator();
@@ -268,8 +252,7 @@ public class EntoriumRevealProcProcedure {
 										return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
 									} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
 										return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
-												&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId())
-														.getGameMode() == GameType.CREATIVE;
+												&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 									}
 									return false;
 								}
@@ -300,12 +283,9 @@ public class EntoriumRevealProcProcedure {
 						}
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
-								_level.playSound(null, new BlockPos(x, y, z),
-										ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1,
-										1);
+								_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1, 1);
 							} else {
-								_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")),
-										SoundSource.BLOCKS, 1, 1, false);
+								_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1, 1, false);
 							}
 						}
 						if (entity instanceof ServerPlayer _player) {
@@ -323,8 +303,7 @@ public class EntoriumRevealProcProcedure {
 									return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
 								} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
 									return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
-											&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId())
-													.getGameMode() == GameType.CREATIVE;
+											&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 								}
 								return false;
 							}

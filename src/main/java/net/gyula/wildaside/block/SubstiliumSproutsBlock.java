@@ -30,8 +30,7 @@ import java.util.Collections;
 
 public class SubstiliumSproutsBlock extends FlowerBlock {
 	public SubstiliumSproutsBlock() {
-		super(MobEffects.INVISIBILITY, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_CYAN).sound(SoundType.NETHER_SPROUTS)
-				.strength(0.1f, 0f).noCollission());
+		super(MobEffects.INVISIBILITY, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_CYAN).sound(SoundType.NETHER_SPROUTS).strength(0.1f, 0f).noCollission());
 	}
 
 	@Override

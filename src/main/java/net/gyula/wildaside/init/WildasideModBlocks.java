@@ -111,131 +111,85 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> VIBRION_GLASS = REGISTRY.register("vibrion_glass", () -> new VibrionGlassBlock());
 	public static final RegistryObject<Block> LIT_VIBRION_GLASS = REGISTRY.register("lit_vibrion_glass", () -> new LitVibrionGlassBlock());
 	public static final RegistryObject<Block> VIBRION_GLASS_PANE = REGISTRY.register("vibrion_glass_pane", () -> new VibrionGlassPaneBlock());
-	public static final RegistryObject<Block> LIT_VIBRION_GLASS_PANE = REGISTRY.register("lit_vibrion_glass_pane",
-			() -> new LitVibrionGlassPaneBlock());
+	public static final RegistryObject<Block> LIT_VIBRION_GLASS_PANE = REGISTRY.register("lit_vibrion_glass_pane", () -> new LitVibrionGlassPaneBlock());
 	public static final RegistryObject<Block> VIBRION_ROOTS = REGISTRY.register("vibrion_roots", () -> new VibrionRootsBlock());
-	public static final RegistryObject<Block> HANGING_VIBRION_VINES = REGISTRY.register("hanging_vibrion_vines",
-			() -> new HangingVibrionVinesBlock());
+	public static final RegistryObject<Block> HANGING_VIBRION_VINES = REGISTRY.register("hanging_vibrion_vines", () -> new HangingVibrionVinesBlock());
 	public static final RegistryObject<Block> VIBRION_SPOREHOLDER = REGISTRY.register("vibrion_sporeholder", () -> new VibrionSporeholderBlock());
 	public static final RegistryObject<Block> VIBRION_GROWTH = REGISTRY.register("vibrion_growth", () -> new VibrionGrowthBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_SHROOM = REGISTRY.register("substilium_shroom", () -> new SubstiliumShroomBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_STEM = REGISTRY.register("substilium_stem", () -> new SubstiliumStemBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_BLOCK = REGISTRY.register("substilium_block", () -> new SubstiliumBlockBlock());
-	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_STEM = REGISTRY.register("stripped_substilium_stem",
-			() -> new StrippedSubstiliumStemBlock());
-	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_BLOCK = REGISTRY.register("stripped_substilium_block",
-			() -> new StrippedSubstiliumBlockBlock());
+	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_STEM = REGISTRY.register("stripped_substilium_stem", () -> new StrippedSubstiliumStemBlock());
+	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_BLOCK = REGISTRY.register("stripped_substilium_block", () -> new StrippedSubstiliumBlockBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_SOIL = REGISTRY.register("substilium_soil", () -> new SubstiliumSoilBlock());
-	public static final RegistryObject<Block> OVERGROWN_ENTORIUM_ORE = REGISTRY.register("overgrown_entorium_ore",
-			() -> new OvergrownEntoriumOreBlock());
+	public static final RegistryObject<Block> OVERGROWN_ENTORIUM_ORE = REGISTRY.register("overgrown_entorium_ore", () -> new OvergrownEntoriumOreBlock());
 	public static final RegistryObject<Block> ENTORIUM_ORE = REGISTRY.register("entorium_ore", () -> new EntoriumOreBlock());
-	public static final RegistryObject<Block> NATURAL_SPORE_BLASTER = REGISTRY.register("natural_spore_blaster",
-			() -> new NaturalSporeBlasterBlock());
+	public static final RegistryObject<Block> NATURAL_SPORE_BLASTER = REGISTRY.register("natural_spore_blaster", () -> new NaturalSporeBlasterBlock());
 	public static final RegistryObject<Block> SPORE_BLASTER = REGISTRY.register("spore_blaster", () -> new SporeBlasterBlock());
-	public static final RegistryObject<Block> BIOENGINEER_WORKSPACE = REGISTRY.register("bioengineer_workspace",
-			() -> new BioengineerWorkspaceBlock());
-	public static final RegistryObject<Block> COMPRESSED_SUBSTILIUM_SOIL = REGISTRY.register("compressed_substilium_soil",
-			() -> new CompressedSubstiliumSoilBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_SOIL = REGISTRY.register("smooth_substilium_soil",
-			() -> new SmoothSubstiliumSoilBlock());
-	public static final RegistryObject<Block> CHISELED_SUBSTILIUM_SOIL = REGISTRY.register("chiseled_substilium_soil",
-			() -> new ChiseledSubstiliumSoilBlock());
+	public static final RegistryObject<Block> BIOENGINEER_WORKSPACE = REGISTRY.register("bioengineer_workspace", () -> new BioengineerWorkspaceBlock());
+	public static final RegistryObject<Block> COMPRESSED_SUBSTILIUM_SOIL = REGISTRY.register("compressed_substilium_soil", () -> new CompressedSubstiliumSoilBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_SOIL = REGISTRY.register("smooth_substilium_soil", () -> new SmoothSubstiliumSoilBlock());
+	public static final RegistryObject<Block> CHISELED_SUBSTILIUM_SOIL = REGISTRY.register("chiseled_substilium_soil", () -> new ChiseledSubstiliumSoilBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TILES = REGISTRY.register("substilium_tiles", () -> new SubstiliumTilesBlock());
-	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILES = REGISTRY.register("cracked_substilium_tiles",
-			() -> new CrackedSubstiliumTilesBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_STAIRS = REGISTRY.register("smooth_substilium_stairs",
-			() -> new SmoothSubstiliumStairsBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_TILE_STAIRS = REGISTRY.register("substilium_tile_stairs",
-			() -> new SubstiliumTileStairsBlock());
-	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILE_STAIRS = REGISTRY.register("cracked_substilium_tile_stairs",
-			() -> new CrackedSubstiliumTileStairsBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_SLAB = REGISTRY.register("smooth_substilium_slab",
-			() -> new SmoothSubstiliumSlabBlock());
+	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILES = REGISTRY.register("cracked_substilium_tiles", () -> new CrackedSubstiliumTilesBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_STAIRS = REGISTRY.register("smooth_substilium_stairs", () -> new SmoothSubstiliumStairsBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_STAIRS = REGISTRY.register("substilium_tile_stairs", () -> new SubstiliumTileStairsBlock());
+	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILE_STAIRS = REGISTRY.register("cracked_substilium_tile_stairs", () -> new CrackedSubstiliumTileStairsBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_SLAB = REGISTRY.register("smooth_substilium_slab", () -> new SmoothSubstiliumSlabBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TILE_SLAB = REGISTRY.register("substilium_tile_slab", () -> new SubstiliumTileSlabBlock());
-	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILE_SLAB = REGISTRY.register("cracked_substilium_tile_slab",
-			() -> new CrackedSubstiliumTileSlabBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_WALL = REGISTRY.register("smooth_substilium_wall",
-			() -> new SmoothSubstiliumWallBlock());
+	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILE_SLAB = REGISTRY.register("cracked_substilium_tile_slab", () -> new CrackedSubstiliumTileSlabBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_WALL = REGISTRY.register("smooth_substilium_wall", () -> new SmoothSubstiliumWallBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TILE_WALL = REGISTRY.register("substilium_tile_wall", () -> new SubstiliumTileWallBlock());
-	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILE_WALL = REGISTRY.register("cracked_substilium_tile_wall",
-			() -> new CrackedSubstiliumTileWallBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_PRESSURE_PLATE = REGISTRY.register("smooth_substilium_pressure_plate",
-			() -> new SmoothSubstiliumPressurePlateBlock());
-	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILE_PRESSURE_PLATE = REGISTRY.register("cracked_substilium_tile_pressure_plate",
-			() -> new CrackedSubstiliumTilePressurePlateBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_TILE_PRESSURE_PLATE = REGISTRY.register("substilium_tile_pressure_plate",
-			() -> new SubstiliumTilePressurePlateBlock());
-	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_BUTTON = REGISTRY.register("smooth_substilium_button",
-			() -> new SmoothSubstiliumButtonBlock());
-	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILE_BUTTON = REGISTRY.register("cracked_substilium_tile_button",
-			() -> new CrackedSubstiliumTileButtonBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_TILE_BUTTON = REGISTRY.register("substilium_tile_button",
-			() -> new SubstiliumTileButtonBlock());
+	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILE_WALL = REGISTRY.register("cracked_substilium_tile_wall", () -> new CrackedSubstiliumTileWallBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_PRESSURE_PLATE = REGISTRY.register("smooth_substilium_pressure_plate", () -> new SmoothSubstiliumPressurePlateBlock());
+	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILE_PRESSURE_PLATE = REGISTRY.register("cracked_substilium_tile_pressure_plate", () -> new CrackedSubstiliumTilePressurePlateBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_PRESSURE_PLATE = REGISTRY.register("substilium_tile_pressure_plate", () -> new SubstiliumTilePressurePlateBlock());
+	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_BUTTON = REGISTRY.register("smooth_substilium_button", () -> new SmoothSubstiliumButtonBlock());
+	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_TILE_BUTTON = REGISTRY.register("cracked_substilium_tile_button", () -> new CrackedSubstiliumTileButtonBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TILE_BUTTON = REGISTRY.register("substilium_tile_button", () -> new SubstiliumTileButtonBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_SPROUTS = REGISTRY.register("substilium_sprouts", () -> new SubstiliumSproutsBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_PLANKS = REGISTRY.register("substilium_planks", () -> new SubstiliumPlanksBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_STAIRS = REGISTRY.register("substilium_stairs", () -> new SubstiliumStairsBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_SLAB = REGISTRY.register("substilium_slab", () -> new SubstiliumSlabBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_FENCE = REGISTRY.register("substilium_fence", () -> new SubstiliumFenceBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_FENCE_GATE = REGISTRY.register("substilium_fence_gate",
-			() -> new SubstiliumFenceGateBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_PRESSURE_PLATE = REGISTRY.register("substilium_pressure_plate",
-			() -> new SubstiliumPressurePlateBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_FENCE_GATE = REGISTRY.register("substilium_fence_gate", () -> new SubstiliumFenceGateBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_PRESSURE_PLATE = REGISTRY.register("substilium_pressure_plate", () -> new SubstiliumPressurePlateBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_BUTTON = REGISTRY.register("substilium_button", () -> new SubstiliumButtonBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_DOOR = REGISTRY.register("substilium_door", () -> new SubstiliumDoorBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TRAPDOOR = REGISTRY.register("substilium_trapdoor", () -> new SubstiliumTrapdoorBlock());
 	public static final RegistryObject<Block> HICKORY_LOG = REGISTRY.register("hickory_log", () -> new HickoryLogBlock());
 	public static final RegistryObject<Block> HICKORY_BLOCK = REGISTRY.register("hickory_block", () -> new HickoryBlockBlock());
 	public static final RegistryObject<Block> STRIPPED_HICKORY_LOG = REGISTRY.register("stripped_hickory_log", () -> new StrippedHickoryLogBlock());
-	public static final RegistryObject<Block> STRIPPED_HICKORY_BLOCK = REGISTRY.register("stripped_hickory_block",
-			() -> new StrippedHickoryBlockBlock());
+	public static final RegistryObject<Block> STRIPPED_HICKORY_BLOCK = REGISTRY.register("stripped_hickory_block", () -> new StrippedHickoryBlockBlock());
 	public static final RegistryObject<Block> HICKORY_PLANKS = REGISTRY.register("hickory_planks", () -> new HickoryPlanksBlock());
 	public static final RegistryObject<Block> HICKORY_STAIRS = REGISTRY.register("hickory_stairs", () -> new HickoryStairsBlock());
 	public static final RegistryObject<Block> HICKORY_SLAB = REGISTRY.register("hickory_slab", () -> new HickorySlabBlock());
 	public static final RegistryObject<Block> HICKORY_FENCE = REGISTRY.register("hickory_fence", () -> new HickoryFenceBlock());
 	public static final RegistryObject<Block> HICKORY_FENCE_GATE = REGISTRY.register("hickory_fence_gate", () -> new HickoryFenceGateBlock());
-	public static final RegistryObject<Block> HICKORY_PRESSURE_PLATE = REGISTRY.register("hickory_pressure_plate",
-			() -> new HickoryPressurePlateBlock());
+	public static final RegistryObject<Block> HICKORY_PRESSURE_PLATE = REGISTRY.register("hickory_pressure_plate", () -> new HickoryPressurePlateBlock());
 	public static final RegistryObject<Block> HICKORY_BUTTON = REGISTRY.register("hickory_button", () -> new HickoryButtonBlock());
 	public static final RegistryObject<Block> HICKORY_LEAVES = REGISTRY.register("hickory_leaves", () -> new HickoryLeavesBlock());
-	public static final RegistryObject<Block> RED_GLOWING_HICKORY_LEAVES = REGISTRY.register("red_glowing_hickory_leaves",
-			() -> new RedGlowingHickoryLeavesBlock());
-	public static final RegistryObject<Block> BROWN_GLOWING_HICKORY_LEAVES = REGISTRY.register("brown_glowing_hickory_leaves",
-			() -> new BrownGlowingHickoryLeavesBlock());
-	public static final RegistryObject<Block> YELLOW_GLOWING_HICKORY_LEAVES = REGISTRY.register("yellow_glowing_hickory_leaves",
-			() -> new YellowGlowingHickoryLeavesBlock());
-	public static final RegistryObject<Block> GREEN_GLOWING_HICKORY_LEAVES = REGISTRY.register("green_glowing_hickory_leaves",
-			() -> new GreenGlowingHickoryLeavesBlock());
-	public static final RegistryObject<Block> FALLEN_HICKORY_LEAVES = REGISTRY.register("fallen_hickory_leaves",
-			() -> new FallenHickoryLeavesBlock());
-	public static final RegistryObject<Block> FALLEN_RED_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_red_glowing_hickory_leaves",
-			() -> new FallenRedGlowingHickoryLeavesBlock());
-	public static final RegistryObject<Block> FALLEN_BROWN_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_brown_glowing_hickory_leaves",
-			() -> new FallenBrownGlowingHickoryLeavesBlock());
-	public static final RegistryObject<Block> FALLEN_YELLOW_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_yellow_glowing_hickory_leaves",
-			() -> new FallenYellowGlowingHickoryLeavesBlock());
-	public static final RegistryObject<Block> FALLEN_GREEN_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_green_glowing_hickory_leaves",
-			() -> new FallenGreenGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> RED_GLOWING_HICKORY_LEAVES = REGISTRY.register("red_glowing_hickory_leaves", () -> new RedGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> BROWN_GLOWING_HICKORY_LEAVES = REGISTRY.register("brown_glowing_hickory_leaves", () -> new BrownGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> YELLOW_GLOWING_HICKORY_LEAVES = REGISTRY.register("yellow_glowing_hickory_leaves", () -> new YellowGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> GREEN_GLOWING_HICKORY_LEAVES = REGISTRY.register("green_glowing_hickory_leaves", () -> new GreenGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> FALLEN_HICKORY_LEAVES = REGISTRY.register("fallen_hickory_leaves", () -> new FallenHickoryLeavesBlock());
+	public static final RegistryObject<Block> FALLEN_RED_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_red_glowing_hickory_leaves", () -> new FallenRedGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> FALLEN_BROWN_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_brown_glowing_hickory_leaves", () -> new FallenBrownGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> FALLEN_YELLOW_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_yellow_glowing_hickory_leaves", () -> new FallenYellowGlowingHickoryLeavesBlock());
+	public static final RegistryObject<Block> FALLEN_GREEN_GLOWING_HICKORY_LEAVES = REGISTRY.register("fallen_green_glowing_hickory_leaves", () -> new FallenGreenGlowingHickoryLeavesBlock());
 	public static final RegistryObject<Block> HICKORY_SAPLING = REGISTRY.register("hickory_sapling", () -> new HickorySaplingBlock());
-	public static final RegistryObject<Block> RED_GLOWING_HICKORY_SAPLING = REGISTRY.register("red_glowing_hickory_sapling",
-			() -> new RedGlowingHickorySaplingBlock());
-	public static final RegistryObject<Block> BROWN_GLOWING_HICKORY_SAPLING = REGISTRY.register("brown_glowing_hickory_sapling",
-			() -> new BrownGlowingHickorySaplingBlock());
-	public static final RegistryObject<Block> YELLOW_GLOWING_HICKORY_SAPLING = REGISTRY.register("yellow_glowing_hickory_sapling",
-			() -> new YellowGlowingHickorySaplingBlock());
-	public static final RegistryObject<Block> GREEN_GLOWING_HICKORY_SAPLING = REGISTRY.register("green_glowing_hickory_sapling",
-			() -> new GreenGlowingHickorySaplingBlock());
+	public static final RegistryObject<Block> RED_GLOWING_HICKORY_SAPLING = REGISTRY.register("red_glowing_hickory_sapling", () -> new RedGlowingHickorySaplingBlock());
+	public static final RegistryObject<Block> BROWN_GLOWING_HICKORY_SAPLING = REGISTRY.register("brown_glowing_hickory_sapling", () -> new BrownGlowingHickorySaplingBlock());
+	public static final RegistryObject<Block> YELLOW_GLOWING_HICKORY_SAPLING = REGISTRY.register("yellow_glowing_hickory_sapling", () -> new YellowGlowingHickorySaplingBlock());
+	public static final RegistryObject<Block> GREEN_GLOWING_HICKORY_SAPLING = REGISTRY.register("green_glowing_hickory_sapling", () -> new GreenGlowingHickorySaplingBlock());
 	public static final RegistryObject<Block> PANXTER_FLOWER = REGISTRY.register("panxter_flower", () -> new PanxterFlowerBlock());
 	public static final RegistryObject<Block> SPOTTED_WINTERGREEN = REGISTRY.register("spotted_wintergreen", () -> new SpottedWintergreenBlock());
-	public static final RegistryObject<Block> HANGING_VIBRION_VINES_PLANT = REGISTRY.register("hanging_vibrion_vines_plant",
-			() -> new HangingVibrionVinesPlantBlock());
-	public static final RegistryObject<Block> LOWER_SUBSTILIUM_SOIL = REGISTRY.register("lower_substilium_soil",
-			() -> new LowerSubstiliumSoilBlock());
-	public static final RegistryObject<Block> HANGING_VIBRION_VINES_GROWER = REGISTRY.register("hanging_vibrion_vines_grower",
-			() -> new HangingVibrionVinesGrowerBlock());
-	public static final RegistryObject<Block> HANGING_VIBRION_GEL_GROWER = REGISTRY.register("hanging_vibrion_gel_grower",
-			() -> new HangingVibrionGelGrowerBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower",
-			() -> new SubstiliumTreeGrowerBlock());
+	public static final RegistryObject<Block> HANGING_VIBRION_VINES_PLANT = REGISTRY.register("hanging_vibrion_vines_plant", () -> new HangingVibrionVinesPlantBlock());
+	public static final RegistryObject<Block> LOWER_SUBSTILIUM_SOIL = REGISTRY.register("lower_substilium_soil", () -> new LowerSubstiliumSoilBlock());
+	public static final RegistryObject<Block> HANGING_VIBRION_VINES_GROWER = REGISTRY.register("hanging_vibrion_vines_grower", () -> new HangingVibrionVinesGrowerBlock());
+	public static final RegistryObject<Block> HANGING_VIBRION_GEL_GROWER = REGISTRY.register("hanging_vibrion_gel_grower", () -> new HangingVibrionGelGrowerBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower", () -> new SubstiliumTreeGrowerBlock());
 	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)

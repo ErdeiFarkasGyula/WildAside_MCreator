@@ -33,10 +33,9 @@ public class PanxterFlowerFeature extends RandomPatchFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new PanxterFlowerFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("wildaside:panxter_flower", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(WildasideModBlocks.PANXTER_FLOWER.get().defaultBlockState())), List.of(), 40));
-		PLACED_FEATURE = PlacementUtils.register("wildaside:panxter_flower", CONFIGURED_FEATURE, List.of(CountPlacement.of(20),
-				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+		CONFIGURED_FEATURE = FeatureUtils.register("wildaside:panxter_flower", FEATURE,
+				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(WildasideModBlocks.PANXTER_FLOWER.get().defaultBlockState())), List.of(), 40));
+		PLACED_FEATURE = PlacementUtils.register("wildaside:panxter_flower", CONFIGURED_FEATURE, List.of(CountPlacement.of(20), RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -44,8 +43,7 @@ public class PanxterFlowerFeature extends RandomPatchFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("wildaside:hickory_forest"),
-			new ResourceLocation("wildaside:glowing_hickory_forest"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("wildaside:hickory_forest"), new ResourceLocation("wildaside:glowing_hickory_forest"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
 	public PanxterFlowerFeature() {

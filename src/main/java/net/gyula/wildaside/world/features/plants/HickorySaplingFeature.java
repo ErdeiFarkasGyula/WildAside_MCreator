@@ -33,10 +33,9 @@ public class HickorySaplingFeature extends RandomPatchFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new HickorySaplingFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("wildaside:hickory_sapling", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(WildasideModBlocks.HICKORY_SAPLING.get().defaultBlockState())), List.of(), 1));
-		PLACED_FEATURE = PlacementUtils.register("wildaside:hickory_sapling", CONFIGURED_FEATURE, List.of(CountPlacement.of(3),
-				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+		CONFIGURED_FEATURE = FeatureUtils.register("wildaside:hickory_sapling", FEATURE,
+				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(WildasideModBlocks.HICKORY_SAPLING.get().defaultBlockState())), List.of(), 1));
+		PLACED_FEATURE = PlacementUtils.register("wildaside:hickory_sapling", CONFIGURED_FEATURE, List.of(CountPlacement.of(3), RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -44,8 +43,7 @@ public class HickorySaplingFeature extends RandomPatchFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("wildaside:hickory_forest"),
-			new ResourceLocation("wildaside:glowing_hickory_forest"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("wildaside:hickory_forest"), new ResourceLocation("wildaside:glowing_hickory_forest"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
 	public HickorySaplingFeature() {

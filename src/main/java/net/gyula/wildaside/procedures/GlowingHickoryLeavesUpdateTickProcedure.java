@@ -15,54 +15,39 @@ public class GlowingHickoryLeavesUpdateTickProcedure {
 		double i = 0;
 		if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("wildaside:glowing_hickory_leaves")))) {
 			if (world.dayTime() < 12000) {
-				if (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty(
-						"light") instanceof IntegerProperty _getip4 ? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip4) : -1) > 0) {
+				if (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _getip4 ? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip4) : -1) > 0) {
 					{
-						int _value = (int) (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty(
-								"light") instanceof IntegerProperty _getip6 ? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip6) : -1)
+						int _value = (int) (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _getip6 ? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip6) : -1)
 								- 1);
 						BlockPos _pos = new BlockPos(x, y, z);
 						BlockState _bs = world.getBlockState(_pos);
-						if (_bs.getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _integerProp
-								&& _integerProp.getPossibleValues().contains(_value))
+						if (_bs.getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
 							world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 					}
 				}
 			} else {
 				if (world.dayTime() >= 12000) {
 					if (world.dayTime() >= 22500) {
-						if (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition()
-								.getProperty("light") instanceof IntegerProperty _getip11
-										? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip11)
-										: -1) > 0) {
+						if (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _getip11 ? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip11) : -1) > 0) {
 							{
-								int _value = (int) (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition()
-										.getProperty("light") instanceof IntegerProperty _getip13
-												? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip13)
-												: -1)
-										- 1);
+								int _value = (int) (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _getip13
+										? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip13)
+										: -1) - 1);
 								BlockPos _pos = new BlockPos(x, y, z);
 								BlockState _bs = world.getBlockState(_pos);
-								if (_bs.getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _integerProp
-										&& _integerProp.getPossibleValues().contains(_value))
+								if (_bs.getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
 									world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 							}
 						}
 					} else {
-						if (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition()
-								.getProperty("light") instanceof IntegerProperty _getip16
-										? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip16)
-										: -1) < 7) {
+						if (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _getip16 ? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip16) : -1) < 7) {
 							{
-								int _value = (int) (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition()
-										.getProperty("light") instanceof IntegerProperty _getip18
-												? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip18)
-												: -1)
-										+ 1);
+								int _value = (int) (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _getip18
+										? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip18)
+										: -1) + 1);
 								BlockPos _pos = new BlockPos(x, y, z);
 								BlockState _bs = world.getBlockState(_pos);
-								if (_bs.getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _integerProp
-										&& _integerProp.getPossibleValues().contains(_value))
+								if (_bs.getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
 									world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 							}
 						}
@@ -73,28 +58,21 @@ public class GlowingHickoryLeavesUpdateTickProcedure {
 		if (Math.random() >= 0.995) {
 			i = 1;
 			for (int index0 = 0; index0 < (int) (7); index0++) {
-				if (!world.getBlockState(new BlockPos(x, y - i, z)).canOcclude()
-						&& (world.getBlockState(new BlockPos(x, y - (i + 1), z))).getBlock() == Blocks.GRASS_BLOCK) {
+				if (!world.getBlockState(new BlockPos(x, y - i, z)).canOcclude() && (world.getBlockState(new BlockPos(x, y - (i + 1), z))).getBlock() == Blocks.GRASS_BLOCK) {
 					if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.HICKORY_LEAVES.get()) {
 						world.setBlock(new BlockPos(x, y - i, z), WildasideModBlocks.FALLEN_HICKORY_LEAVES.get().defaultBlockState(), 3);
 					} else {
 						if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.RED_GLOWING_HICKORY_LEAVES.get()) {
-							world.setBlock(new BlockPos(x, y - i, z), WildasideModBlocks.FALLEN_RED_GLOWING_HICKORY_LEAVES.get().defaultBlockState(),
-									3);
+							world.setBlock(new BlockPos(x, y - i, z), WildasideModBlocks.FALLEN_RED_GLOWING_HICKORY_LEAVES.get().defaultBlockState(), 3);
 						} else {
 							if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.YELLOW_GLOWING_HICKORY_LEAVES.get()) {
-								world.setBlock(new BlockPos(x, y - i, z),
-										WildasideModBlocks.FALLEN_YELLOW_GLOWING_HICKORY_LEAVES.get().defaultBlockState(), 3);
+								world.setBlock(new BlockPos(x, y - i, z), WildasideModBlocks.FALLEN_YELLOW_GLOWING_HICKORY_LEAVES.get().defaultBlockState(), 3);
 							} else {
-								if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.BROWN_GLOWING_HICKORY_LEAVES
-										.get()) {
-									world.setBlock(new BlockPos(x, y - i, z),
-											WildasideModBlocks.FALLEN_BROWN_GLOWING_HICKORY_LEAVES.get().defaultBlockState(), 3);
+								if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.BROWN_GLOWING_HICKORY_LEAVES.get()) {
+									world.setBlock(new BlockPos(x, y - i, z), WildasideModBlocks.FALLEN_BROWN_GLOWING_HICKORY_LEAVES.get().defaultBlockState(), 3);
 								} else {
-									if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.GREEN_GLOWING_HICKORY_LEAVES
-											.get()) {
-										world.setBlock(new BlockPos(x, y - i, z),
-												WildasideModBlocks.FALLEN_GREEN_GLOWING_HICKORY_LEAVES.get().defaultBlockState(), 3);
+									if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.GREEN_GLOWING_HICKORY_LEAVES.get()) {
+										world.setBlock(new BlockPos(x, y - i, z), WildasideModBlocks.FALLEN_GREEN_GLOWING_HICKORY_LEAVES.get().defaultBlockState(), 3);
 									}
 								}
 							}

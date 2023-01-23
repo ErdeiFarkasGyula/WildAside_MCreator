@@ -39,14 +39,11 @@ import net.gyula.wildaside.procedures.CheckTopBlockConditionProcedure;
 import net.gyula.wildaside.procedures.CheckSolidTopBlockProcedure;
 import net.gyula.wildaside.init.WildasideModBlocks;
 
-public class VibrionGrowthBlock extends Block implements SimpleWaterloggedBlock
-
-{
+public class VibrionGrowthBlock extends Block implements SimpleWaterloggedBlock {
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public VibrionGrowthBlock() {
-		super(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.ROOTS).strength(2f).lightLevel(s -> 4)
-				.noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.ROOTS).strength(2f).lightLevel(s -> 4).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
 
@@ -67,7 +64,6 @@ public class VibrionGrowthBlock extends Block implements SimpleWaterloggedBlock
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-
 		return box(4, 0, 4, 12, 16, 12);
 	}
 
@@ -99,14 +95,11 @@ public class VibrionGrowthBlock extends Block implements SimpleWaterloggedBlock
 	}
 
 	@Override
-	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos,
-			BlockPos facingPos) {
+	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos, BlockPos facingPos) {
 		if (state.getValue(WATERLOGGED)) {
 			world.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
 		}
-		return !state.canSurvive(world, currentPos)
-				? Blocks.AIR.defaultBlockState()
-				: super.updateShape(state, facing, facingState, world, currentPos, facingPos);
+		return !state.canSurvive(world, currentPos) ? Blocks.AIR.defaultBlockState() : super.updateShape(state, facing, facingState, world, currentPos, facingPos);
 	}
 
 	@Override
@@ -129,5 +122,4 @@ public class VibrionGrowthBlock extends Block implements SimpleWaterloggedBlock
 	public static void registerRenderLayer() {
 		ItemBlockRenderTypes.setRenderLayer(WildasideModBlocks.VIBRION_GROWTH.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

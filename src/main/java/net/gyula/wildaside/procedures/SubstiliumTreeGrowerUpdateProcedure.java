@@ -63,14 +63,11 @@ public class SubstiliumTreeGrowerUpdateProcedure {
 							if (Math.random() >= 0.69) {
 								if (!world.getBlockState(new BlockPos(x + sx, y + sy, z + sz)).canOcclude()) {
 									if (Math.random() >= 0.15) {
-										world.setBlock(new BlockPos(x + sx, y + sy, z + sz),
-												WildasideModBlocks.VIBRION_BLOCK.get().defaultBlockState(), 3);
+										world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.VIBRION_BLOCK.get().defaultBlockState(), 3);
 									} else if (Math.random() >= 0.5) {
-										world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.VIBRION_GEL.get().defaultBlockState(),
-												3);
+										world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.VIBRION_GEL.get().defaultBlockState(), 3);
 									} else {
-										world.setBlock(new BlockPos(x + sx, y + sy, z + sz),
-												WildasideModBlocks.LIT_VIBRION_GEL.get().defaultBlockState(), 3);
+										world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.LIT_VIBRION_GEL.get().defaultBlockState(), 3);
 									}
 								}
 							}
@@ -87,12 +84,10 @@ public class SubstiliumTreeGrowerUpdateProcedure {
 					for (int index6 = 0; index6 < (int) (height - height / 3); index6++) {
 						sz = -1;
 						for (int index7 = 0; index7 < (int) (3); index7++) {
-							if ((world.getBlockState(new BlockPos(x + sx, y + sy + 1, z + sz))).getBlock() == WildasideModBlocks.VIBRION_BLOCK
-									.get()) {
+							if ((world.getBlockState(new BlockPos(x + sx, y + sy + 1, z + sz))).getBlock() == WildasideModBlocks.VIBRION_BLOCK.get()) {
 								if (!world.getBlockState(new BlockPos(x + sx, y + sy, z + sz)).canOcclude()) {
 									if (Math.random() <= 0.2) {
-										world.setBlock(new BlockPos(x + sx, y + sy, z + sz),
-												WildasideModBlocks.VIBRION_GROWTH.get().defaultBlockState(), 3);
+										world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.VIBRION_GROWTH.get().defaultBlockState(), 3);
 									}
 								}
 							}

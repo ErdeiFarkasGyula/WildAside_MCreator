@@ -20,8 +20,7 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 public class SubstiliumSlabBlock extends SlabBlock {
 	public SubstiliumSlabBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_CYAN).sound(SoundType.WOOD).strength(2f, 1.5f).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false).noDrops());
+		super(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_CYAN).sound(SoundType.WOOD).strength(2f, 1.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noDrops());
 	}
 
 	@Override
@@ -38,5 +37,4 @@ public class SubstiliumSlabBlock extends SlabBlock {
 	public static void registerRenderLayer() {
 		ItemBlockRenderTypes.setRenderLayer(WildasideModBlocks.SUBSTILIUM_SLAB.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

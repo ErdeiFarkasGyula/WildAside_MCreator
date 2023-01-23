@@ -38,15 +38,12 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 import java.util.Random;
 
-public class SporeBlasterBlock extends Block implements SimpleWaterloggedBlock
-
-{
+public class SporeBlasterBlock extends Block implements SimpleWaterloggedBlock {
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public SporeBlasterBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).sound(SoundType.SHROOMLIGHT).strength(3f, 4f).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).sound(SoundType.SHROOMLIGHT).strength(3f, 4f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
 	}
 
@@ -90,8 +87,7 @@ public class SporeBlasterBlock extends Block implements SimpleWaterloggedBlock
 	}
 
 	@Override
-	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos,
-			BlockPos facingPos) {
+	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos, BlockPos facingPos) {
 		if (state.getValue(WATERLOGGED)) {
 			world.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
 		}
@@ -115,7 +111,6 @@ public class SporeBlasterBlock extends Block implements SimpleWaterloggedBlock
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-
 		SporeBlasterRedstoneOnProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 5);
 	}

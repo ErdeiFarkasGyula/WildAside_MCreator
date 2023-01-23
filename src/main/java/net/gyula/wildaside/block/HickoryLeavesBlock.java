@@ -48,7 +48,6 @@ public class HickoryLeavesBlock extends LeavesBlock {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-
 		GlowingHickoryLeavesUpdateTickProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 200);
 	}

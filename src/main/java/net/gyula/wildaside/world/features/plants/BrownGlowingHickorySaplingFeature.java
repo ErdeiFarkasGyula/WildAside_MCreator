@@ -34,12 +34,9 @@ public class BrownGlowingHickorySaplingFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new BrownGlowingHickorySaplingFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("wildaside:brown_glowing_hickory_sapling", FEATURE,
-				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-						new SimpleBlockConfiguration(
-								BlockStateProvider.simple(WildasideModBlocks.BROWN_GLOWING_HICKORY_SAPLING.get().defaultBlockState())),
-						List.of(), 1));
-		PLACED_FEATURE = PlacementUtils.register("wildaside:brown_glowing_hickory_sapling", CONFIGURED_FEATURE, List.of(CountPlacement.of(3),
-				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(WildasideModBlocks.BROWN_GLOWING_HICKORY_SAPLING.get().defaultBlockState())), List.of(), 1));
+		PLACED_FEATURE = PlacementUtils.register("wildaside:brown_glowing_hickory_sapling", CONFIGURED_FEATURE,
+				List.of(CountPlacement.of(3), RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}
 

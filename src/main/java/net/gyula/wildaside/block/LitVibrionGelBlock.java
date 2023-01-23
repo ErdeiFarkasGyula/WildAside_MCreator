@@ -40,14 +40,12 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 import java.util.List;
 import java.util.Collections;
 
-public class LitVibrionGelBlock extends Block implements SimpleWaterloggedBlock
-
-{
+public class LitVibrionGelBlock extends Block implements SimpleWaterloggedBlock {
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public LitVibrionGelBlock() {
-		super(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.HONEY_BLOCK).strength(0.1f, 0f)
-				.lightLevel(s -> 7).noCollission().speedFactor(0.2f).jumpFactor(0.6f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.HONEY_BLOCK).strength(0.1f, 0f).lightLevel(s -> 7).noCollission().speedFactor(0.19999999999999998f).jumpFactor(0.6f).noOcclusion()
+				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
 
@@ -88,8 +86,7 @@ public class LitVibrionGelBlock extends Block implements SimpleWaterloggedBlock
 	}
 
 	@Override
-	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos,
-			BlockPos facingPos) {
+	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos, BlockPos facingPos) {
 		if (state.getValue(WATERLOGGED)) {
 			world.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
 		}
@@ -118,5 +115,4 @@ public class LitVibrionGelBlock extends Block implements SimpleWaterloggedBlock
 	public static void registerRenderLayer() {
 		ItemBlockRenderTypes.setRenderLayer(WildasideModBlocks.LIT_VIBRION_GEL.get(), renderType -> renderType == RenderType.translucent());
 	}
-
 }

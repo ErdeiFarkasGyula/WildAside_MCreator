@@ -19,8 +19,7 @@ import java.util.Collections;
 
 public class CrackedSubstiliumTilePressurePlateBlock extends PressurePlateBlock {
 	public CrackedSubstiliumTilePressurePlateBlock() {
-		super(Sensitivity.MOBS, BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).sound(SoundType.DEEPSLATE).strength(2f, 5f)
-				.requiresCorrectToolForDrops());
+		super(Sensitivity.MOBS, BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).sound(SoundType.DEEPSLATE).strength(2f, 5f).requiresCorrectToolForDrops());
 	}
 
 	@Override

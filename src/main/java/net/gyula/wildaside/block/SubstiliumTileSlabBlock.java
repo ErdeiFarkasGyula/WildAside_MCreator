@@ -20,8 +20,7 @@ import java.util.Collections;
 
 public class SubstiliumTileSlabBlock extends SlabBlock {
 	public SubstiliumTileSlabBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).sound(SoundType.DEEPSLATE).strength(2f, 5f)
-				.requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).sound(SoundType.DEEPSLATE).strength(2f, 5f).requiresCorrectToolForDrops());
 	}
 
 	@Override

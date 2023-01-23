@@ -102,6 +102,7 @@
     "placingCondition": {
       "name": "CheckTopBlockCondition"
     },
+    "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

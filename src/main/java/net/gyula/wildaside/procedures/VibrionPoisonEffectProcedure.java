@@ -20,8 +20,7 @@ public class VibrionPoisonEffectProcedure {
 			if (entity instanceof LivingEntity _entity)
 				_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 60, Mth.nextInt(new Random(), 1, 2), (false), (false)));
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(
-						new MobEffectInstance(WildasideModMobEffects.CONTAMINATION.get(), 60, Mth.nextInt(new Random(), 1, 2), (false), (false)));
+				_entity.addEffect(new MobEffectInstance(WildasideModMobEffects.CONTAMINATION.get(), 60, Mth.nextInt(new Random(), 1, 2), (false), (false)));
 		}
 	}
 }

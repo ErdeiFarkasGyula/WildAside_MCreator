@@ -79,6 +79,10 @@
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "GreenGlowingHickorySaplingOnBoneMealSuccess"
+    },
     "frequencyOnChunks": 3,
     "spawnWorldTypes": [
       "Surface"

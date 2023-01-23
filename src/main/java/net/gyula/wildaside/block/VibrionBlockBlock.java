@@ -31,8 +31,7 @@ import java.util.Random;
 
 public class VibrionBlockBlock extends Block {
 	public VibrionBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.SHROOMLIGHT).strength(2.3f, 1f)
-				.lightLevel(s -> 7).randomTicks());
+		super(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.SHROOMLIGHT).strength(2.3f, 1f).lightLevel(s -> 7).randomTicks());
 	}
 
 	@Override
@@ -51,7 +50,6 @@ public class VibrionBlockBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-
 		VibrionGrowthGrowerProcedure.execute(world, x, y, z);
 	}
 
@@ -63,7 +61,6 @@ public class VibrionBlockBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-
 		VibrionParticleSpawnLowProcedure.execute();
 	}
 

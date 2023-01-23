@@ -33,14 +33,10 @@ public class GrowTheGlowAdvProcProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new WildasideModVariables.PlayerVariables())).redGlowingHickorySapling == true
-				&& (entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new WildasideModVariables.PlayerVariables())).yellowGlowingHickorySapling == true
-				&& (entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new WildasideModVariables.PlayerVariables())).brownGlowingHickorySapling == true
-				&& (entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new WildasideModVariables.PlayerVariables())).greenGlowingHickorySapling == true) {
+		if ((entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new WildasideModVariables.PlayerVariables())).redGlowingHickorySapling == true
+				&& (entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new WildasideModVariables.PlayerVariables())).yellowGlowingHickorySapling == true
+				&& (entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new WildasideModVariables.PlayerVariables())).brownGlowingHickorySapling == true
+				&& (entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new WildasideModVariables.PlayerVariables())).greenGlowingHickorySapling == true) {
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:grow_the_glow"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);

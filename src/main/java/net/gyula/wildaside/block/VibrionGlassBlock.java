@@ -23,8 +23,7 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 public class VibrionGlassBlock extends Block {
 	public VibrionGlassBlock() {
-		super(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.COLOR_YELLOW).sound(SoundType.GLASS).strength(0.4f).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.COLOR_YELLOW).sound(SoundType.GLASS).strength(0.4f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -51,5 +50,4 @@ public class VibrionGlassBlock extends Block {
 	public static void registerRenderLayer() {
 		ItemBlockRenderTypes.setRenderLayer(WildasideModBlocks.VIBRION_GLASS.get(), renderType -> renderType == RenderType.translucent());
 	}
-
 }

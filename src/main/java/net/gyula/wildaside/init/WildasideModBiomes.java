@@ -45,8 +45,7 @@ public class WildasideModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, WildasideMod.MODID);
 	public static final RegistryObject<Biome> VIBRION_HIVE = REGISTRY.register("vibrion_hive", () -> VibrionHiveBiome.createBiome());
 	public static final RegistryObject<Biome> HICKORY_FOREST = REGISTRY.register("hickory_forest", () -> HickoryForestBiome.createBiome());
-	public static final RegistryObject<Biome> GLOWING_HICKORY_FOREST = REGISTRY.register("glowing_hickory_forest",
-			() -> GlowingHickoryForestBiome.createBiome());
+	public static final RegistryObject<Biome> GLOWING_HICKORY_FOREST = REGISTRY.register("glowing_hickory_forest", () -> GlowingHickoryForestBiome.createBiome());
 
 	@SubscribeEvent
 	public static void onServerAboutToStart(ServerAboutToStartEvent event) {
@@ -62,16 +61,13 @@ public class WildasideModBiomes {
 				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
 					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters.values());
 					for (Climate.ParameterPoint parameterPoint : HickoryForestBiome.PARAMETER_POINTS) {
-						parameters.add(new Pair<>(parameterPoint,
-								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, HICKORY_FOREST.getId()))));
+						parameters.add(new Pair<>(parameterPoint, biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, HICKORY_FOREST.getId()))));
 					}
 					for (Climate.ParameterPoint parameterPoint : GlowingHickoryForestBiome.PARAMETER_POINTS) {
-						parameters.add(new Pair<>(parameterPoint,
-								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, GLOWING_HICKORY_FOREST.getId()))));
+						parameters.add(new Pair<>(parameterPoint, biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, GLOWING_HICKORY_FOREST.getId()))));
 					}
 					for (Climate.ParameterPoint parameterPoint : VibrionHiveBiome.UNDERGROUND_PARAMETER_POINTS) {
-						parameters.add(new Pair<>(parameterPoint,
-								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, VIBRION_HIVE.getId()))));
+						parameters.add(new Pair<>(parameterPoint, biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, VIBRION_HIVE.getId()))));
 					}
 
 					MultiNoiseBiomeSource moddedNoiseSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters), noiseSource.preset);
@@ -84,20 +80,14 @@ public class WildasideModBiomes {
 					SurfaceRules.RuleSource currentRuleSource = noiseGeneratorSettings.surfaceRule();
 					if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
+						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, VIBRION_HIVE.getId()), WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState(),
+								WildasideModBlocks.LOWER_SUBSTILIUM_SOIL.get().defaultBlockState(), WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState()));
+						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, HICKORY_FOREST.getId()), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
 						surfaceRules.add(1,
-								anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, VIBRION_HIVE.getId()),
-										WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState(),
-										WildasideModBlocks.LOWER_SUBSTILIUM_SOIL.get().defaultBlockState(),
-										WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState()));
-						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, HICKORY_FOREST.getId()),
-								Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
-						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, GLOWING_HICKORY_FOREST.getId()),
-								Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
-						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
-								noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(), noiseGeneratorSettings.noiseRouter(),
-								SurfaceRules.sequence(surfaceRules.toArray(i -> new SurfaceRules.RuleSource[i])), noiseGeneratorSettings.seaLevel(),
-								noiseGeneratorSettings.disableMobGeneration(), noiseGeneratorSettings.aquifersEnabled(),
-								noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());
+								preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, GLOWING_HICKORY_FOREST.getId()), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
+						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
+								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(i -> new SurfaceRules.RuleSource[i])), noiseGeneratorSettings.seaLevel(), noiseGeneratorSettings.disableMobGeneration(),
+								noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());
 						noiseGenerator.settings = new Holder.Direct(moddedNoiseGeneratorSettings);
 					}
 				}
@@ -106,27 +96,20 @@ public class WildasideModBiomes {
 		}
 	}
 
-	private static SurfaceRules.RuleSource preliminarySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock,
-			BlockState underwaterBlock) {
-		return SurfaceRules
-				.ifTrue(SurfaceRules.isBiome(biomeKey),
-						SurfaceRules
-								.ifTrue(SurfaceRules.abovePreliminarySurface(),
-										SurfaceRules.sequence(
-												SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
-														SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0),
-																SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
-												SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR),
-														SurfaceRules.state(undergroundBlock)))));
+	private static SurfaceRules.RuleSource preliminarySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {
+		return SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
+				SurfaceRules.ifTrue(SurfaceRules.abovePreliminarySurface(),
+						SurfaceRules.sequence(
+								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
+										SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
+								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(undergroundBlock)))));
 	}
 
-	private static SurfaceRules.RuleSource anySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock,
-			BlockState underwaterBlock) {
+	private static SurfaceRules.RuleSource anySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {
 		return SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
 				SurfaceRules.sequence(
 						SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
-								SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)),
-										SurfaceRules.state(underwaterBlock))),
+								SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
 						SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(undergroundBlock))));
 	}
 }

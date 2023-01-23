@@ -35,9 +35,7 @@ public class ContaminationDamage1Procedure {
 			if (((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)).getCount() > 0) {
 				{
 					ItemStack _ist = (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-					if (_ist.hurt(entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(WildasideModMobEffects.CONTAMINATION.get())
-							? _livEnt.getEffect(WildasideModMobEffects.CONTAMINATION.get()).getAmplifier()
-							: 0, new Random(), null)) {
+					if (_ist.hurt(entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(WildasideModMobEffects.CONTAMINATION.get()) ? _livEnt.getEffect(WildasideModMobEffects.CONTAMINATION.get()).getAmplifier() : 0, new Random(), null)) {
 						_ist.shrink(1);
 						_ist.setDamageValue(0);
 					}
@@ -45,9 +43,7 @@ public class ContaminationDamage1Procedure {
 			} else {
 				{
 					ItemStack _ist = (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY);
-					if (_ist.hurt(entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(WildasideModMobEffects.CONTAMINATION.get())
-							? _livEnt.getEffect(WildasideModMobEffects.CONTAMINATION.get()).getAmplifier()
-							: 0, new Random(), null)) {
+					if (_ist.hurt(entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(WildasideModMobEffects.CONTAMINATION.get()) ? _livEnt.getEffect(WildasideModMobEffects.CONTAMINATION.get()).getAmplifier() : 0, new Random(), null)) {
 						_ist.shrink(1);
 						_ist.setDamageValue(0);
 					}

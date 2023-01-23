@@ -20,8 +20,7 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class WildasideModMenus {
 	private static final List<MenuType<?>> REGISTRY = new ArrayList<>();
-	public static final MenuType<BioengineerWorkspaceGuiMenu> BIOENGINEER_WORKSPACE_GUI = register("bioengineer_workspace_gui",
-			(id, inv, extraData) -> new BioengineerWorkspaceGuiMenu(id, inv, extraData));
+	public static final MenuType<BioengineerWorkspaceGuiMenu> BIOENGINEER_WORKSPACE_GUI = register("bioengineer_workspace_gui", (id, inv, extraData) -> new BioengineerWorkspaceGuiMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);
