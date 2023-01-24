@@ -12,7 +12,7 @@ import net.minecraft.client.renderer.MultiBufferSource;
 import com.mojang.blaze3d.vertex.PoseStack;
 
 public class VibrionMonsterLayer extends GeoLayerRenderer {
-	private static final ResourceLocation LAYER = new ResourceLocation("wildaside", "textures/entities/vibrion_monster_lit.png");
+	private static final ResourceLocation LAYER = new ResourceLocation("wildaside", "textures/entities/vibrion_monster.png");
 	private static final ResourceLocation MODEL = new ResourceLocation("wildaside", "geo/vibrion_monster.geo.json");
 
 	public VibrionMonsterLayer(IGeoRenderer<?> entityRendererIn) {

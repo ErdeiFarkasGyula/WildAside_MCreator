@@ -143,7 +143,13 @@ public class VibrionMonsterEntity extends Monster implements IAnimatable {
 	public boolean hurt(DamageSource source, float amount) {
 		if (source.getDirectEntity() instanceof ThrownPotion || source.getDirectEntity() instanceof AreaEffectCloud)
 			return false;
+		if (source == DamageSource.LIGHTNING_BOLT)
+			return false;
 		if (source == DamageSource.DRAGON_BREATH)
+			return false;
+		if (source == DamageSource.WITHER)
+			return false;
+		if (source.getMsgId().equals("witherSkull"))
 			return false;
 		return super.hurt(source, amount);
 	}
