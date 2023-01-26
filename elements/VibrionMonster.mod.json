@@ -5,7 +5,7 @@
     "mobName": "Vibrion Monster",
     "mobLabel": "",
     "mobModelTexture": "vibrion_monster.png",
-    "mobModelGlowTexture": "vibrion_monster.png",
+    "mobModelGlowTexture": "",
     "modelWidth": 1.4000000000000001,
     "modelHeight": 2.4,
     "modelShadowSize": 0.8,

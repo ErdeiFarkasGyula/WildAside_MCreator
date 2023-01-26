@@ -1,0 +1,23 @@
+{
+  "wildaside:wild_wilder_wildest": {
+    "criteria": {
+      "wild_wilder_wildest": "2023-01-26 15:15:34 +0100"
+    },
+    "done": true
+  },
+  "wildaside:unsafe_haven": {
+    "criteria": {
+      "unsafe_haven": "2023-01-26 15:16:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:bamboo_jungle": "2023-01-26 15:15:34 +0100",
+      "minecraft:lush_caves": "2023-01-26 15:16:45 +0100",
+      "minecraft:jungle": "2023-01-26 15:17:07 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

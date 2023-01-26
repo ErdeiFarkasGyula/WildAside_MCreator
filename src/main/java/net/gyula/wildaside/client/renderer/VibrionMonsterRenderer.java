@@ -9,7 +9,6 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
 import net.gyula.wildaside.entity.model.VibrionMonsterModel;
-import net.gyula.wildaside.entity.layer.VibrionMonsterLayer;
 import net.gyula.wildaside.entity.VibrionMonsterEntity;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
@@ -19,7 +18,6 @@ public class VibrionMonsterRenderer extends GeoEntityRenderer<VibrionMonsterEnti
 	public VibrionMonsterRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new VibrionMonsterModel());
 		this.shadowRadius = 0.8f;
-		this.addLayer(new VibrionMonsterLayer(this));
 	}
 
 	@Override
