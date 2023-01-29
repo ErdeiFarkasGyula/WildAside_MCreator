@@ -2,11 +2,11 @@
   "group": "hickory_fence",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "HSH",
-    "HSH"
+    "ISI",
+    "ISI"
   ],
   "key": {
-    "H": {
+    "I": {
       "item": "wildaside:hickory_planks"
     },
     "S": {

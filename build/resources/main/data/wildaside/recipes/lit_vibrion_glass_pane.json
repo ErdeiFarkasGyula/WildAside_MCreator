@@ -3,14 +3,14 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "GGG",
-    "GLG",
+    "GIG",
     "GGG"
   ],
   "key": {
     "G": {
       "item": "minecraft:glass_pane"
     },
-    "L": {
+    "I": {
       "item": "wildaside:lit_vibrion_gel"
     }
   },

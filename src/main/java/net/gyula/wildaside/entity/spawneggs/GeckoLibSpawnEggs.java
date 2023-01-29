@@ -16,4 +16,6 @@ public class GeckoLibSpawnEggs {
 
 	public static final RegistryObject<Item> VIBRION_MONSTER = REGISTRY.register("vibrion_monster_spawn_egg",
 			() -> new ForgeSpawnEggItem(WildasideModEntities.VIBRION_MONSTER, -329728, -10155038, new Item.Properties().tab(WildasideModTabs.TAB_WILD_ASIDE_TAB)));
+	public static final RegistryObject<Item> RANGED_VIBRION_MONSTER = REGISTRY.register("ranged_vibrion_monster_spawn_egg",
+			() -> new ForgeSpawnEggItem(WildasideModEntities.RANGED_VIBRION_MONSTER, -10155038, -329728, new Item.Properties().tab(WildasideModTabs.TAB_WILD_ASIDE_TAB)));
 }

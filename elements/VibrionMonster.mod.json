@@ -46,13 +46,13 @@
     "mobBehaviourType": "Mob",
     "mobCreatureType": "ILLAGER",
     "attackStrength": 6,
-    "attackKnockback": 0.2,
+    "attackKnockback": 0.30000000000000004,
     "knockbackResistance": 0.1,
     "movementSpeed": 0.19999999999999998,
     "armorBaseValue": 0.19999999999999998,
     "trackingRange": 64,
     "followRange": 16,
-    "health": 30,
+    "health": 50,
     "xpAmount": 10,
     "waterMob": false,
     "flyingMob": false,
@@ -60,13 +60,13 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "deathTime": 20,
-    "lerp": 4,
+    "lerp": 2,
     "babyScale": 0.5,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "immuneToArrows": false,
     "immuneToFallDamage": false,
     "immuneToCactus": false,
@@ -80,7 +80,7 @@
     "immuneToWither": true,
     "immuneToDragonBreath": true,
     "mobDrop": {
-      "value": "CUSTOM:VibrionBlock"
+      "value": ""
     },
     "livingSound": {
       "value": ""
@@ -94,9 +94,21 @@
     "stepSound": {
       "value": ""
     },
+    "whenMobFalls": {
+      "name": "VibrionMonsterSpawnParticleAround"
+    },
+    "whenMobDies": {
+      "name": "VibrionMonsterSpawnParticleAround"
+    },
+    "whenMobIsHurt": {
+      "name": "VibrionMonsterSpawnParticleAround"
+    },
+    "onPlayerCollidesWith": {
+      "name": "VibrionMonsterSpawnParticleAround"
+    },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityCow</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "model": "vibrion_monster",
     "groupName": "",
     "animation1": "animation.vibrion_monster.idle",
@@ -129,12 +141,12 @@
       "value": ""
     },
     "rangedItemType": "Default item",
-    "rangedAttackInterval": 20,
+    "rangedAttackInterval": 40,
     "rangedAttackRadius": 10.0,
     "height": 2.1,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 5,
+    "spawningProbability": 10,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 2,
     "maxNumberOfMobsPerGroup": 3,

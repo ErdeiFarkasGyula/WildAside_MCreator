@@ -2,18 +2,18 @@
   "group": "bioengineer_workspace",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "EQE",
-    "VQV",
-    "VQV"
+    "NQN",
+    "IQI",
+    "IQI"
   ],
   "key": {
-    "E": {
+    "N": {
       "item": "wildaside:entorium"
     },
     "Q": {
       "item": "minecraft:quartz_block"
     },
-    "V": {
+    "I": {
       "item": "wildaside:vibrion"
     }
   },

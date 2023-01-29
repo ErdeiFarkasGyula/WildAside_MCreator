@@ -2,14 +2,14 @@
   "group": "substilium_fence",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "STS",
-    "STS"
+    "USU",
+    "USU"
   ],
   "key": {
-    "S": {
+    "U": {
       "item": "wildaside:substilium_planks"
     },
-    "T": {
+    "S": {
       "item": "minecraft:stick"
     }
   },

@@ -2,14 +2,14 @@
   "group": "hickory_fence_gate",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "SHS",
-    "SHS"
+    "SIS",
+    "SIS"
   ],
   "key": {
     "S": {
       "item": "minecraft:stick"
     },
-    "H": {
+    "I": {
       "item": "wildaside:hickory_planks"
     }
   },

@@ -117,17 +117,23 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "VibrionBlockOnBlockRightClicked"
+    },
+    "onBlockAdded": {
+      "name": "VibrionBlockOnBlockRightClicked"
+    },
     "onTickUpdate": {
       "name": "VibrionGrowthGrower"
-    },
-    "onRandomUpdateEvent": {
-      "name": "VibrionParticleSpawnLow"
     },
     "onDestroyedByPlayer": {
       "name": "DropXP2_10"
     },
     "onDestroyedByExplosion": {
       "name": "DropXP2_10"
+    },
+    "onEntityWalksOn": {
+      "name": "VibrionBlockOnBlockRightClicked"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

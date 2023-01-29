@@ -90,6 +90,21 @@
       }
     ],
     "patchSize": 256,
-    "generateAtAnyHeight": true
+    "generateAtAnyHeight": true,
+    "onBlockAdded": {
+      "name": "VibrionBlockOnBlockRightClicked"
+    },
+    "onDestroyedByPlayer": {
+      "name": "VibrionBlockOnBlockRightClicked"
+    },
+    "onDestroyedByExplosion": {
+      "name": "VibrionBlockOnBlockRightClicked"
+    },
+    "onBlockPlacedBy": {
+      "name": "VibrionRootsPlantRightClicked"
+    },
+    "onRightClicked": {
+      "name": "VibrionRootsPlantRightClicked"
+    }
   }
 }

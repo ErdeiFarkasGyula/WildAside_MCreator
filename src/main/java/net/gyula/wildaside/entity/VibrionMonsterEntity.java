@@ -21,11 +21,9 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ThrownPotion;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.animal.Cow;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -53,8 +51,8 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.Packet;
 
+import net.gyula.wildaside.procedures.VibrionMonsterSpawnParticleAroundProcedure;
 import net.gyula.wildaside.init.WildasideModEntities;
-import net.gyula.wildaside.init.WildasideModBlocks;
 
 import java.util.Set;
 
@@ -72,7 +70,7 @@ public class VibrionMonsterEntity extends Monster implements IAnimatable {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
 		if (SPAWN_BIOMES.contains(event.getName()))
-			event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(WildasideModEntities.VIBRION_MONSTER.get(), 5, 2, 3));
+			event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(WildasideModEntities.VIBRION_MONSTER.get(), 10, 2, 3));
 	}
 
 	public VibrionMonsterEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -106,27 +104,21 @@ public class VibrionMonsterEntity extends Monster implements IAnimatable {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, Cow.class, false, false));
-		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false) {
+		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.2, true) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.targetSelector.addGoal(4, new HurtByTargetGoal(this).setAlertOthers());
-		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(6, new FloatGoal(this));
-		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
+		this.targetSelector.addGoal(3, new HurtByTargetGoal(this).setAlertOthers());
+		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 0.5));
+		this.goalSelector.addGoal(5, new FloatGoal(this));
+		this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
 	}
 
 	@Override
 	public MobType getMobType() {
 		return MobType.ILLAGER;
-	}
-
-	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
-		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(WildasideModBlocks.VIBRION_BLOCK.get()));
 	}
 
 	@Override
@@ -140,7 +132,14 @@ public class VibrionMonsterEntity extends Monster implements IAnimatable {
 	}
 
 	@Override
+	public boolean causeFallDamage(float l, float d, DamageSource source) {
+		VibrionMonsterSpawnParticleAroundProcedure.execute(this.level, this.getX(), this.getY(), this.getZ());
+		return super.causeFallDamage(l, d, source);
+	}
+
+	@Override
 	public boolean hurt(DamageSource source, float amount) {
+		VibrionMonsterSpawnParticleAroundProcedure.execute(this.level, this.getX(), this.getY(), this.getZ());
 		if (source.getDirectEntity() instanceof ThrownPotion || source.getDirectEntity() instanceof AreaEffectCloud)
 			return false;
 		if (source == DamageSource.LIGHTNING_BOLT)
@@ -154,6 +153,18 @@ public class VibrionMonsterEntity extends Monster implements IAnimatable {
 		return super.hurt(source, amount);
 	}
 
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		VibrionMonsterSpawnParticleAroundProcedure.execute(this.level, this.getX(), this.getY(), this.getZ());
+	}
+
+	@Override
+	public void playerTouch(Player sourceentity) {
+		super.playerTouch(sourceentity);
+		VibrionMonsterSpawnParticleAroundProcedure.execute(this.level, this.getX(), this.getY(), this.getZ());
+	}
+
 	public static void init() {
 		SpawnPlacements.register(WildasideModEntities.VIBRION_MONSTER.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
@@ -162,12 +173,12 @@ public class VibrionMonsterEntity extends Monster implements IAnimatable {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.19999999999999998);
-		builder = builder.add(Attributes.MAX_HEALTH, 30);
+		builder = builder.add(Attributes.MAX_HEALTH, 50);
 		builder = builder.add(Attributes.ARMOR, 0.19999999999999998);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 6);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 0.1);
-		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 0.2);
+		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 0.30000000000000004);
 		return builder;
 	}
 
@@ -251,9 +262,9 @@ public class VibrionMonsterEntity extends Monster implements IAnimatable {
 
 	@Override
 	public void registerControllers(AnimationData data) {
-		data.addAnimationController(new AnimationController<>(this, "movement", 4, this::movementPredicate));
-		data.addAnimationController(new AnimationController<>(this, "attacking", 4, this::attackingPredicate));
-		data.addAnimationController(new AnimationController<>(this, "procedure", 4, this::procedurePredicate));
+		data.addAnimationController(new AnimationController<>(this, "movement", 2, this::movementPredicate));
+		data.addAnimationController(new AnimationController<>(this, "attacking", 2, this::attackingPredicate));
+		data.addAnimationController(new AnimationController<>(this, "procedure", 2, this::procedurePredicate));
 	}
 
 	@Override

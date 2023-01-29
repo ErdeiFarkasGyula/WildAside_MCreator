@@ -120,8 +120,23 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "VibrionBlockOnBlockRightClicked"
+    },
+    "onBlockAdded": {
+      "name": "VibrionBlockOnBlockRightClicked"
+    },
     "onNeighbourBlockChanges": {
       "name": "CheckSolidTopBlock"
+    },
+    "onDestroyedByPlayer": {
+      "name": "VibrionBlockOnBlockRightClicked"
+    },
+    "onDestroyedByExplosion": {
+      "name": "VibrionBlockOnBlockRightClicked"
+    },
+    "onEntityWalksOn": {
+      "name": "VibrionBlockOnBlockRightClicked"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

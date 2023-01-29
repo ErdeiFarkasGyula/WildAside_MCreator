@@ -6901,7 +6901,24 @@
         "files": [
           "src/main/java/net/gyula/wildaside/procedures/VibrionParticleSpawnLowProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/procedures/Particles"
     },
@@ -9485,6 +9502,211 @@
         ]
       },
       "path": "~/tags"
+    },
+    {
+      "name": "VibrionMonsterSpawnParticleAround",
+      "type": "procedure",
+      "sortid": 588,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_monster_spawn_particle_around",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/VibrionMonsterSpawnParticleAroundProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/Particles"
+    },
+    {
+      "name": "VibrionMonsterLoot",
+      "type": "loottable",
+      "sortid": 589,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_monster_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/loot_tables/entities/vibrion_monster.json"
+        ]
+      },
+      "path": "~/loottables"
+    },
+    {
+      "name": "VibrionBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 590,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_block_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/VibrionBlockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/Particles"
+    },
+    {
+      "name": "RangedVibrionMonster",
+      "type": "animatedentity",
+      "sortid": 591,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ranged_vibrion_monster",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/entity/model/RangedVibrionMonsterModel.java",
+          "src/main/java/net/gyula/wildaside/entity/RangedVibrionMonsterEntity.java",
+          "src/main/java/net/gyula/wildaside/client/renderer/RangedVibrionMonsterRenderer.java",
+          "src/main/resources/assets/wildaside/models/item/ranged_vibrion_monster_spawn_egg.json"
+        ]
+      },
+      "path": "~/entities"
+    },
+    {
+      "name": "RangedVibrionMonsterLoot",
+      "type": "loottable",
+      "sortid": 592,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ranged_vibrion_monster_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/loot_tables/entities/ranged_vibrion_monster.json"
+        ]
+      },
+      "path": "~/loottables"
+    },
+    {
+      "name": "GiveContaminationToPlayersInBlock",
+      "type": "procedure",
+      "sortid": 593,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_contamination_to_players_in_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/GiveContaminationToPlayersInBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/PotionEffect"
+    },
+    {
+      "name": "VibrionRootsPlantRightClicked",
+      "type": "procedure",
+      "sortid": 594,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_roots_plant_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/VibrionRootsPlantRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/PotionEffect"
+    },
+    {
+      "name": "SubstiliumSproutsPlantRightClicked",
+      "type": "procedure",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_sprouts_plant_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/SubstiliumSproutsPlantRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
     }
   ],
   "variable_elements": [
@@ -9517,14 +9739,15 @@
   "language_map": {
     "en_us": {
       "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
-      "advancements.grow_the_glow.title": "Grow The Glow!",
-      "item.wildaside.entorium": "Entorium",
       "advancements.substilium_log_hidden_1.title": "SubstiliumPlanksHidden1",
+      "item.wildaside.entorium": "Entorium",
+      "advancements.grow_the_glow.title": "Grow The Glow!",
       "item.minecraft.tipped_arrow.effect.immune_portection_item": "Arrow of Immune Portection",
       "block.wildaside.vibrion_block": "Vibrion Block",
       "item.wildaside.entorium_gauntlet_leggings": "Entorium Gauntlet Leggings",
       "advancements.organic_building_materials.descr": "Obtain a Compressed Substilium Soil block",
       "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
+      "item.wildaside.ranged_vibrion_monster_spawn_egg": "Ranged Vibrion Monster Spawn Egg",
       "advancements.vibrion_gel_hidden_1_adv.descr": "Vibrion Gel Hidden 1 Adv",
       "block.wildaside.spore_blaster": "Spore Blaster",
       "block.wildaside.fallen_green_glowing_hickory_leaves": "Fallen Green Glowing Hickory Leaves",
@@ -9636,6 +9859,7 @@
       "block.wildaside.smooth_substilium_slab": "Smooth Substilium Slab",
       "advancements.extensive_research.title": "Extensive Research",
       "block.wildaside.smooth_substilium_stairs": "Smooth Substilium Stairs",
+      "entity.wildaside.ranged_vibrion_monster": "Ranged Vibrion Monster",
       "block.wildaside.hanging_vibrion_vines": "Hanging Vibrion Vines",
       "block.wildaside.hanging_vibrion_vines_grower": "Hanging Vibrion Vines Grower",
       "block.wildaside.smooth_substilium_button": "Smooth Substilium Button",
@@ -9902,7 +10126,7 @@
   "workspaceSettings": {
     "modid": "wildaside",
     "modName": "Wild Aside",
-    "version": "0.0.3-1.18.2",
+    "version": "0.0.3-1.19.2",
     "author": "Gyula, Lyof, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "MIT License",

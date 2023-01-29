@@ -9,6 +9,7 @@ import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 
 import net.gyula.wildaside.entity.spawneggs.GeckoLibSpawnEggs;
 import net.gyula.wildaside.entity.VibrionMonsterEntity;
+import net.gyula.wildaside.entity.RangedVibrionMonsterEntity;
 import net.gyula.wildaside.WildasideMod;
 
 @Mod.EventBusSubscriber(modid = WildasideMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -24,11 +25,13 @@ public class WildasideModGeckoLibEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			VibrionMonsterEntity.init();
+			RangedVibrionMonsterEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(WildasideModEntities.VIBRION_MONSTER.get(), VibrionMonsterEntity.createAttributes().build());
+		event.put(WildasideModEntities.RANGED_VIBRION_MONSTER.get(), RangedVibrionMonsterEntity.createAttributes().build());
 	}
 }

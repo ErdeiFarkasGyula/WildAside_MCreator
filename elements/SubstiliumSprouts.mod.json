@@ -90,6 +90,21 @@
       }
     ],
     "patchSize": 420,
-    "generateAtAnyHeight": true
+    "generateAtAnyHeight": true,
+    "onBlockAdded": {
+      "name": "SubstiliumSproutsPlantRightClicked"
+    },
+    "onDestroyedByPlayer": {
+      "name": "SubstiliumSproutsPlantRightClicked"
+    },
+    "onDestroyedByExplosion": {
+      "name": "SubstiliumSproutsPlantRightClicked"
+    },
+    "onBlockPlacedBy": {
+      "name": "SubstiliumSproutsPlantRightClicked"
+    },
+    "onRightClicked": {
+      "name": "SubstiliumSproutsPlantRightClicked"
+    }
   }
 }
