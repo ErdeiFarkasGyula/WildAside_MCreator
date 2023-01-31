@@ -8,14 +8,14 @@
     "functions": [],
     "entities": [
       {
-        "value": "CUSTOM:VibrionMonster"
+        "value": "CUSTOM:RangedVibrionMonster"
       },
       {
-        "value": "CUSTOM:RangedVibrionMonster"
+        "value": "CUSTOM:VibrionMonster"
       }
     ],
     "biomes": [],
-    "name": "is_immune_to_contamination",
+    "name": "vibrion_monsters",
     "namespace": "mod"
   }
 }

@@ -9706,7 +9706,45 @@
           }
         ]
       },
-      "path": "~/procedures"
+      "path": "~/procedures/Particles"
+    },
+    {
+      "name": "VibrionMonsters",
+      "type": "tag",
+      "sortid": 596,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_monsters",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/tags/entity_types/vibrion_monsters.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "VibrionMonsterHits",
+      "type": "procedure",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_monster_hits",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/VibrionMonsterHitsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/PotionEffect"
     }
   ],
   "variable_elements": [
@@ -9746,8 +9784,8 @@
       "block.wildaside.vibrion_block": "Vibrion Block",
       "item.wildaside.entorium_gauntlet_leggings": "Entorium Gauntlet Leggings",
       "advancements.organic_building_materials.descr": "Obtain a Compressed Substilium Soil block",
-      "item.wildaside.ranged_vibrion_monster_spawn_egg": "Ranged Vibrion Monster Spawn Egg",
       "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
+      "item.wildaside.ranged_vibrion_monster_spawn_egg": "Ranged Vibrion Monster Spawn Egg",
       "advancements.vibrion_gel_hidden_1_adv.descr": "Vibrion Gel Hidden 1 Adv",
       "block.wildaside.spore_blaster": "Spore Blaster",
       "block.wildaside.fallen_green_glowing_hickory_leaves": "Fallen Green Glowing Hickory Leaves",

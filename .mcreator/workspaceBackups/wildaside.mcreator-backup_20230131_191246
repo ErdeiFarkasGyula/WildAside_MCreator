@@ -254,7 +254,7 @@
       "name": "VibrionSporeholder",
       "type": "plant",
       "sortid": 11,
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "registry_name": "vibrion_sporeholder",
       "path": "~/blocks"
@@ -9620,6 +9620,9 @@
       "locked_code": false,
       "registry_name": "give_contamination_to_players_in_block",
       "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/GiveContaminationToPlayersInBlockProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -9640,6 +9643,70 @@
         ]
       },
       "path": "~/procedures/PotionEffect"
+    },
+    {
+      "name": "VibrionRootsPlantRightClicked",
+      "type": "procedure",
+      "sortid": 594,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_roots_plant_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/VibrionRootsPlantRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/PotionEffect"
+    },
+    {
+      "name": "SubstiliumSproutsPlantRightClicked",
+      "type": "procedure",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_sprouts_plant_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/SubstiliumSproutsPlantRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
     }
   ],
   "variable_elements": [
@@ -9679,8 +9746,8 @@
       "block.wildaside.vibrion_block": "Vibrion Block",
       "item.wildaside.entorium_gauntlet_leggings": "Entorium Gauntlet Leggings",
       "advancements.organic_building_materials.descr": "Obtain a Compressed Substilium Soil block",
-      "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
       "item.wildaside.ranged_vibrion_monster_spawn_egg": "Ranged Vibrion Monster Spawn Egg",
+      "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
       "advancements.vibrion_gel_hidden_1_adv.descr": "Vibrion Gel Hidden 1 Adv",
       "block.wildaside.spore_blaster": "Spore Blaster",
       "block.wildaside.fallen_green_glowing_hickory_leaves": "Fallen Green Glowing Hickory Leaves",
