@@ -9620,6 +9620,9 @@
       "locked_code": false,
       "registry_name": "give_contamination_to_players_in_block",
       "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/GiveContaminationToPlayersInBlockProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -9700,6 +9703,44 @@
           {
             "name": "world",
             "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/Particles"
+    },
+    {
+      "name": "VibrionMonsters",
+      "type": "tag",
+      "sortid": 596,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_monsters",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/tags/entity_types/vibrion_monsters.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "VibrionMonsterHits",
+      "type": "procedure",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_monster_hits",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/VibrionMonsterHitsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
           }
         ]
       },

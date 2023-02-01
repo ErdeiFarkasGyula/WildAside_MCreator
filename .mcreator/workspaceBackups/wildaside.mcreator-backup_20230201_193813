@@ -9620,6 +9620,9 @@
       "locked_code": false,
       "registry_name": "give_contamination_to_players_in_block",
       "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/GiveContaminationToPlayersInBlockProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -9703,7 +9706,45 @@
           }
         ]
       },
-      "path": "~/procedures"
+      "path": "~/procedures/Particles"
+    },
+    {
+      "name": "VibrionMonsters",
+      "type": "tag",
+      "sortid": 596,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_monsters",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/tags/entity_types/vibrion_monsters.json"
+        ]
+      },
+      "path": "~/tags"
+    },
+    {
+      "name": "VibrionMonsterHits",
+      "type": "procedure",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vibrion_monster_hits",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/VibrionMonsterHitsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/PotionEffect"
     }
   ],
   "variable_elements": [
@@ -9743,8 +9784,8 @@
       "block.wildaside.vibrion_block": "Vibrion Block",
       "item.wildaside.entorium_gauntlet_leggings": "Entorium Gauntlet Leggings",
       "advancements.organic_building_materials.descr": "Obtain a Compressed Substilium Soil block",
-      "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
       "item.wildaside.ranged_vibrion_monster_spawn_egg": "Ranged Vibrion Monster Spawn Egg",
+      "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
       "advancements.vibrion_gel_hidden_1_adv.descr": "Vibrion Gel Hidden 1 Adv",
       "block.wildaside.spore_blaster": "Spore Blaster",
       "block.wildaside.fallen_green_glowing_hickory_leaves": "Fallen Green Glowing Hickory Leaves",
@@ -10123,7 +10164,7 @@
   "workspaceSettings": {
     "modid": "wildaside",
     "modName": "Wild Aside",
-    "version": "0.0.3-1.19.2",
+    "version": "0.0.4_1.18.2",
     "author": "Gyula, Lyof, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "MIT License",
@@ -10137,7 +10178,7 @@
       "geckolib"
     ],
     "currentGenerator": "forge-1.18.2",
-    "credits": "Imagined by Gyula \u0026 Lyof. Developed by Gyula. Quality management by Lyof. Textures by Gyula \u0026 Dylanvhs. Concept art by Toma400 \u0026 Gyula. Special thanks to Aqu \u0026 Toma400.",
+    "credits": "Imagined by Gyula \u0026 Lyof. Developed by Gyula. Quality management by Lyof. Textures by Gyula \u0026 Dylanvhs. Concept art by Toma400 \u0026 Gyula. Special thanks to Toma400 \u0026 Aqu.",
     "modElementsPackage": "net.gyula.wildaside",
     "lockBaseModFiles": false
   },
