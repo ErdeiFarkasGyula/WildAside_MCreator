@@ -19,7 +19,7 @@ public class WildasideModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(WildasideModEntities.VIBRION_MONSTER.get(), VibrionMonsterRenderer::new);
-		event.registerEntityRenderer(WildasideModEntities.ENTORIUM_SPOREBOMB.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(WildasideModEntities.RANGED_VIBRION_MONSTER.get(), RangedVibrionMonsterRenderer::new);
+		event.registerEntityRenderer(WildasideModEntities.ENTORIUM_SPOREBOMB.get(), ThrownItemRenderer::new);
 	}
 }

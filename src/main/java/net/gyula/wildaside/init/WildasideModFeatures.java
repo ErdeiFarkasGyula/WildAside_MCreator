@@ -273,6 +273,7 @@ import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr12Feature;
 import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr11Feature;
 import net.gyula.wildaside.world.features.HangingVibrionGelGrowerStr10Feature;
 import net.gyula.wildaside.world.features.GreenGlowingHickoryTreeFeature;
+import net.gyula.wildaside.world.features.FdDFeature;
 import net.gyula.wildaside.world.features.BrownGlowingHickoryTreeFeature;
 import net.gyula.wildaside.WildasideMod;
 
@@ -799,6 +800,7 @@ public class WildasideModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumTreeGrowerStr14Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr14Feature::placedFeature));
 	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_15 = register("substilium_tree_grower_str_15", SubstiliumTreeGrowerStr15Feature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumTreeGrowerStr15Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr15Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> FD_D = register("fd_d", FdDFeature::feature, new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, FdDFeature.GENERATE_BIOMES, FdDFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

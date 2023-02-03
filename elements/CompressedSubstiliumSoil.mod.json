@@ -128,9 +128,6 @@
     "blocksToReplace": [
       {
         "value": "CUSTOM:SubstiliumSoil"
-      },
-      {
-        "value": "CUSTOM:LowerSubstiliumSoil"
       }
     ],
     "generationShape": "TRIANGLE",

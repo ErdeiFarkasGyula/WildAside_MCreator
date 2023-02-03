@@ -21,7 +21,6 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
 import net.gyula.wildaside.procedures.SubstiliumSoilClientDisplayRandomTickProcedure;
-import net.gyula.wildaside.procedures.SubstiliumSoilCheckTopBlockProcedure;
 import net.gyula.wildaside.procedures.DropXP0_3Procedure;
 
 import java.util.Random;
@@ -39,12 +38,6 @@ public class SubstiliumSoilBlock extends Block {
 	@Override
 	public boolean canSustainPlant(BlockState state, BlockGetter world, BlockPos pos, Direction direction, IPlantable plantable) {
 		return true;
-	}
-
-	@Override
-	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
-		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
-		SubstiliumSoilCheckTopBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@OnlyIn(Dist.CLIENT)

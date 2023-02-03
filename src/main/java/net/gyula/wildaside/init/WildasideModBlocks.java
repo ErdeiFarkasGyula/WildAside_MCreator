@@ -63,7 +63,6 @@ import net.gyula.wildaside.block.RedGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.PanxterFlowerBlock;
 import net.gyula.wildaside.block.OvergrownEntoriumOreBlock;
 import net.gyula.wildaside.block.NaturalSporeBlasterBlock;
-import net.gyula.wildaside.block.LowerSubstiliumSoilBlock;
 import net.gyula.wildaside.block.LitVibrionGlassPaneBlock;
 import net.gyula.wildaside.block.LitVibrionGlassBlock;
 import net.gyula.wildaside.block.LitVibrionGelBlock;
@@ -186,7 +185,6 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> PANXTER_FLOWER = REGISTRY.register("panxter_flower", () -> new PanxterFlowerBlock());
 	public static final RegistryObject<Block> SPOTTED_WINTERGREEN = REGISTRY.register("spotted_wintergreen", () -> new SpottedWintergreenBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VINES_PLANT = REGISTRY.register("hanging_vibrion_vines_plant", () -> new HangingVibrionVinesPlantBlock());
-	public static final RegistryObject<Block> LOWER_SUBSTILIUM_SOIL = REGISTRY.register("lower_substilium_soil", () -> new LowerSubstiliumSoilBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VINES_GROWER = REGISTRY.register("hanging_vibrion_vines_grower", () -> new HangingVibrionVinesGrowerBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_GEL_GROWER = REGISTRY.register("hanging_vibrion_gel_grower", () -> new HangingVibrionGelGrowerBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower", () -> new SubstiliumTreeGrowerBlock());

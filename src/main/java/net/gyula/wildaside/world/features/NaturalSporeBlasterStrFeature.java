@@ -54,7 +54,7 @@ public class NaturalSporeBlasterStrFeature extends Feature<NoneFeatureConfigurat
 
 	public NaturalSporeBlasterStrFeature() {
 		super(NoneFeatureConfiguration.CODEC);
-		base_blocks = List.of(WildasideModBlocks.SUBSTILIUM_SOIL.get(), WildasideModBlocks.LOWER_SUBSTILIUM_SOIL.get());
+		base_blocks = List.of(WildasideModBlocks.SUBSTILIUM_SOIL.get());
 	}
 
 	@Override

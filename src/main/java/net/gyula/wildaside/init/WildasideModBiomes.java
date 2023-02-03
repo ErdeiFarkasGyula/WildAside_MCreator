@@ -80,8 +80,8 @@ public class WildasideModBiomes {
 					SurfaceRules.RuleSource currentRuleSource = noiseGeneratorSettings.surfaceRule();
 					if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
-						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, VIBRION_HIVE.getId()), WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState(),
-								WildasideModBlocks.LOWER_SUBSTILIUM_SOIL.get().defaultBlockState(), WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState()));
+						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, VIBRION_HIVE.getId()), WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState(), WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState(),
+								WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState()));
 						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, HICKORY_FOREST.getId()), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
 						surfaceRules.add(1,
 								preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, GLOWING_HICKORY_FOREST.getId()), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));

@@ -81,7 +81,7 @@ public class CompressedSubstiliumSoilFeature extends OreFeature {
 
 		public boolean test(BlockState blockAt, Random random) {
 			if (base_blocks == null) {
-				base_blocks = List.of(WildasideModBlocks.SUBSTILIUM_SOIL.get(), WildasideModBlocks.LOWER_SUBSTILIUM_SOIL.get());
+				base_blocks = List.of(WildasideModBlocks.SUBSTILIUM_SOIL.get());
 			}
 			return base_blocks.contains(blockAt.getBlock());
 		}

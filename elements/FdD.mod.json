@@ -1,0 +1,12 @@
+{
+  "_fv": 38,
+  "_type": "feature",
+  "definition": {
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionDimensions": [
+      "Surface"
+    ],
+    "restrictionBiomes": [],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_huge_fungus\"><field name=\"planted\">FALSE</field><value name=\"stem\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:SubstiliumStem</field></block></value><value name=\"hat\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:SubstiliumShroom</field></block></value><value name=\"decor\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:VibrionBlock</field></block></value><value name=\"ground\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.GRASS</field></block></value></block></value><next><block type=\"placement_rarity\"><field name=\"rarity\">1</field></block></next></block></xml>"
+  }
+}
