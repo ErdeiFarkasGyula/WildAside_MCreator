@@ -1,20 +1,79 @@
 {
+  "wildaside:temporary_solution": {
+    "criteria": {
+      "temporary_solution": "2023-02-04 12:30:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-02-04 12:30:34 +0100"
+    },
+    "done": true
+  },
   "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "wild_wilder_wildest": "2023-02-03 15:53:07 +0100"
+      "wild_wilder_wildest": "2023-02-04 12:28:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-02-04 12:29:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-02-04 12:29:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-02-04 12:29:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-02-04 12:29:16 +0100"
+    },
+    "done": true
+  },
+  "wildaside:substilium_log_hidden_1": {
+    "criteria": {
+      "substilium_log_hidden_1": "2023-02-04 12:29:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-02-04 12:29:17 +0100"
+    },
+    "done": true
+  },
+  "wildaside:spread_100": {
+    "criteria": {
+      "spread_100": "2023-02-04 12:29:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-02-04 12:29:16 +0100"
     },
     "done": true
   },
   "wildaside:unsafe_haven": {
     "criteria": {
-      "unsafe_haven": "2023-02-03 15:53:53 +0100"
+      "unsafe_haven": "2023-02-04 12:29:06 +0100"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2023-02-03 15:53:07 +0100",
-      "minecraft:plains": "2023-02-03 15:53:19 +0100"
+      "minecraft:ice_spikes": "2023-02-04 12:28:26 +0100"
     },
     "done": false
   },

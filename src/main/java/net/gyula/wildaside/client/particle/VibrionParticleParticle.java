@@ -40,7 +40,7 @@ public class VibrionParticleParticle extends TextureSheetParticle {
 		this.spriteSet = spriteSet;
 		this.setSize(0.2f, 0.2f);
 
-		this.lifetime = (int) Math.max(1, 30 + (this.random.nextInt(16) - 8));
+		this.lifetime = (int) Math.max(1, 40 + (this.random.nextInt(40) - 20));
 		this.gravity = -0.1f;
 		this.hasPhysics = true;
 		this.xd = vx * 1;

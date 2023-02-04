@@ -12,7 +12,7 @@
     "isBad": false,
     "isBenefitical": true,
     "renderStatusInInventory": true,
-    "renderStatusInHUD": false,
+    "renderStatusInHUD": true,
     "onActiveTick": {
       "name": "ImmuneProtectionProc"
     }
