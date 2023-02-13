@@ -1,81 +1,66 @@
 {
-  "wildaside:temporary_solution": {
+  "wildaside:vibrion_gel_hidden_1_adv": {
     "criteria": {
-      "temporary_solution": "2023-02-04 12:30:34 +0100"
+      "vibrion_gel_hidden_1_adv": "2023-02-13 21:16:53 +0100"
     },
     "done": true
   },
-  "minecraft:husbandry/root": {
+  "wildaside:through_hundreds_of_mutations": {
     "criteria": {
-      "consumed_item": "2023-02-04 12:30:34 +0100"
-    },
-    "done": true
-  },
-  "wildaside:wild_wilder_wildest": {
-    "criteria": {
-      "wild_wilder_wildest": "2023-02-04 12:28:26 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2023-02-04 12:29:17 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2023-02-04 12:29:16 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2023-02-04 12:29:16 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2023-02-04 12:29:16 +0100"
+      "through_hundreds_of_mutations": "2023-02-13 21:16:54 +0100"
     },
     "done": true
   },
   "wildaside:substilium_log_hidden_1": {
     "criteria": {
-      "substilium_log_hidden_1": "2023-02-04 12:29:36 +0100"
+      "substilium_log_hidden_1": "2023-02-13 21:18:30 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/jungle_boat": {
+  "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "in_water": "2023-02-04 12:29:17 +0100"
+      "wild_wilder_wildest": "2023-02-13 21:15:12 +0100"
+    },
+    "done": true
+  },
+  "wildaside:lit_vibrion_gel_hidden_1_adv": {
+    "criteria": {
+      "lit_vibrion_gel_hidden_1_adv": "2023-02-13 21:17:01 +0100"
+    },
+    "done": true
+  },
+  "wildaside:petrified_antibiotic": {
+    "criteria": {
+      "petrified_antibiotic": "2023-02-13 21:16:56 +0100"
     },
     "done": true
   },
   "wildaside:spread_100": {
     "criteria": {
-      "spread_100": "2023-02-04 12:29:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2023-02-04 12:29:16 +0100"
+      "spread_100": "2023-02-13 21:16:22 +0100"
     },
     "done": true
   },
   "wildaside:unsafe_haven": {
     "criteria": {
-      "unsafe_haven": "2023-02-04 12:29:06 +0100"
+      "unsafe_haven": "2023-02-13 21:15:59 +0100"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:ice_spikes": "2023-02-04 12:28:26 +0100"
+      "minecraft:river": "2023-02-13 21:15:27 +0100",
+      "minecraft:forest": "2023-02-13 21:15:12 +0100",
+      "minecraft:meadow": "2023-02-13 21:15:51 +0100",
+      "minecraft:plains": "2023-02-13 21:15:26 +0100"
     },
     "done": false
+  },
+  "wildaside:glowing_wonder": {
+    "criteria": {
+      "glowing_wonder": "2023-02-13 21:15:42 +0100"
+    },
+    "done": true
   },
   "DataVersion": 2975
 }

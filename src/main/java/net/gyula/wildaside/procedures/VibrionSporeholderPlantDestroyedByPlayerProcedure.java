@@ -37,5 +37,6 @@ public class VibrionSporeholderPlantDestroyedByPlayerProcedure {
 				}
 			}
 		}
+		VibrionMonsterSpawnParticleAroundProcedure.execute(world, x, y, z);
 	}
 }

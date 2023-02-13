@@ -19,7 +19,8 @@ import net.gyula.wildaside.block.YellowGlowingHickorySaplingBlock;
 import net.gyula.wildaside.block.YellowGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.VibrionSporeholderBlock;
 import net.gyula.wildaside.block.VibrionRootsBlock;
-import net.gyula.wildaside.block.VibrionGrowthBlock;
+import net.gyula.wildaside.block.VibrionGrowthStemBlock;
+import net.gyula.wildaside.block.VibrionGrowthHeadBlock;
 import net.gyula.wildaside.block.VibrionGlassPaneBlock;
 import net.gyula.wildaside.block.VibrionGlassBlock;
 import net.gyula.wildaside.block.VibrionGelBlock;
@@ -114,7 +115,6 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> VIBRION_ROOTS = REGISTRY.register("vibrion_roots", () -> new VibrionRootsBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VINES = REGISTRY.register("hanging_vibrion_vines", () -> new HangingVibrionVinesBlock());
 	public static final RegistryObject<Block> VIBRION_SPOREHOLDER = REGISTRY.register("vibrion_sporeholder", () -> new VibrionSporeholderBlock());
-	public static final RegistryObject<Block> VIBRION_GROWTH = REGISTRY.register("vibrion_growth", () -> new VibrionGrowthBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_SHROOM = REGISTRY.register("substilium_shroom", () -> new SubstiliumShroomBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_STEM = REGISTRY.register("substilium_stem", () -> new SubstiliumStemBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_BLOCK = REGISTRY.register("substilium_block", () -> new SubstiliumBlockBlock());
@@ -125,6 +125,8 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> ENTORIUM_ORE = REGISTRY.register("entorium_ore", () -> new EntoriumOreBlock());
 	public static final RegistryObject<Block> NATURAL_SPORE_BLASTER = REGISTRY.register("natural_spore_blaster", () -> new NaturalSporeBlasterBlock());
 	public static final RegistryObject<Block> SPORE_BLASTER = REGISTRY.register("spore_blaster", () -> new SporeBlasterBlock());
+	public static final RegistryObject<Block> VIBRION_GROWTH_STEM = REGISTRY.register("vibrion_growth_stem", () -> new VibrionGrowthStemBlock());
+	public static final RegistryObject<Block> VIBRION_GROWTH_HEAD = REGISTRY.register("vibrion_growth_head", () -> new VibrionGrowthHeadBlock());
 	public static final RegistryObject<Block> BIOENGINEER_WORKSPACE = REGISTRY.register("bioengineer_workspace", () -> new BioengineerWorkspaceBlock());
 	public static final RegistryObject<Block> COMPRESSED_SUBSTILIUM_SOIL = REGISTRY.register("compressed_substilium_soil", () -> new CompressedSubstiliumSoilBlock());
 	public static final RegistryObject<Block> SMOOTH_SUBSTILIUM_SOIL = REGISTRY.register("smooth_substilium_soil", () -> new SmoothSubstiliumSoilBlock());
@@ -203,8 +205,8 @@ public class WildasideModBlocks {
 			VibrionRootsBlock.registerRenderLayer();
 			HangingVibrionVinesBlock.registerRenderLayer();
 			VibrionSporeholderBlock.registerRenderLayer();
-			VibrionGrowthBlock.registerRenderLayer();
 			SporeBlasterBlock.registerRenderLayer();
+			VibrionGrowthStemBlock.registerRenderLayer();
 			SubstiliumSproutsBlock.registerRenderLayer();
 			SubstiliumStairsBlock.registerRenderLayer();
 			SubstiliumSlabBlock.registerRenderLayer();

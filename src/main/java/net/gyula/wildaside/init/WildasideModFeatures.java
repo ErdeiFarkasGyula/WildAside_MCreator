@@ -41,7 +41,6 @@ import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr4Feature;
 import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr3Feature;
 import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr2Feature;
 import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr1Feature;
-import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr15Feature;
 import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr14Feature;
 import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr13Feature;
 import net.gyula.wildaside.world.features.SubstiliumTreeGrowerStr12Feature;
@@ -53,22 +52,7 @@ import net.gyula.wildaside.world.features.SubstiliumMushroomStr37Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr36Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr35Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr34Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr345Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr344Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr343Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr342Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr341Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr340Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr33Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr339Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr338Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr337Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr336Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr335Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr334Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr333Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr332Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr331Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr330Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr32Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr329Feature;
@@ -97,18 +81,7 @@ import net.gyula.wildaside.world.features.SubstiliumMushroomStr27Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr26Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr25Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr24Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr245Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr244Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr243Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr242Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr241Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr240Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr23Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr239Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr238Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr237Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr236Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr235Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr234Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr233Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr232Feature;
@@ -140,35 +113,8 @@ import net.gyula.wildaside.world.features.SubstiliumMushroomStr19Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr18Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr17Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr16Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr169Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr168Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr167Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr166Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr165Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr164Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr163Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr162Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr161Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr160Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr15Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr159Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr158Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr157Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr156Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr155Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr154Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr153Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr152Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr151Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr150Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr14Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr149Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr148Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr147Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr146Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr145Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr144Feature;
-import net.gyula.wildaside.world.features.SubstiliumMushroomStr143Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr142Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr141Feature;
 import net.gyula.wildaside.world.features.SubstiliumMushroomStr140Feature;
@@ -596,38 +542,6 @@ public class WildasideModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr141Feature.GENERATE_BIOMES, SubstiliumMushroomStr141Feature::placedFeature));
 	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_142 = register("substilium_mushroom_str_142", SubstiliumMushroomStr142Feature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr142Feature.GENERATE_BIOMES, SubstiliumMushroomStr142Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_143 = register("substilium_mushroom_str_143", SubstiliumMushroomStr143Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr143Feature.GENERATE_BIOMES, SubstiliumMushroomStr143Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_144 = register("substilium_mushroom_str_144", SubstiliumMushroomStr144Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr144Feature.GENERATE_BIOMES, SubstiliumMushroomStr144Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_145 = register("substilium_mushroom_str_145", SubstiliumMushroomStr145Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr145Feature.GENERATE_BIOMES, SubstiliumMushroomStr145Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_146 = register("substilium_mushroom_str_146", SubstiliumMushroomStr146Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr146Feature.GENERATE_BIOMES, SubstiliumMushroomStr146Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_147 = register("substilium_mushroom_str_147", SubstiliumMushroomStr147Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr147Feature.GENERATE_BIOMES, SubstiliumMushroomStr147Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_148 = register("substilium_mushroom_str_148", SubstiliumMushroomStr148Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr148Feature.GENERATE_BIOMES, SubstiliumMushroomStr148Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_149 = register("substilium_mushroom_str_149", SubstiliumMushroomStr149Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr149Feature.GENERATE_BIOMES, SubstiliumMushroomStr149Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_150 = register("substilium_mushroom_str_150", SubstiliumMushroomStr150Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr150Feature.GENERATE_BIOMES, SubstiliumMushroomStr150Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_151 = register("substilium_mushroom_str_151", SubstiliumMushroomStr151Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr151Feature.GENERATE_BIOMES, SubstiliumMushroomStr151Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_152 = register("substilium_mushroom_str_152", SubstiliumMushroomStr152Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr152Feature.GENERATE_BIOMES, SubstiliumMushroomStr152Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_153 = register("substilium_mushroom_str_153", SubstiliumMushroomStr153Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr153Feature.GENERATE_BIOMES, SubstiliumMushroomStr153Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_154 = register("substilium_mushroom_str_154", SubstiliumMushroomStr154Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr154Feature.GENERATE_BIOMES, SubstiliumMushroomStr154Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_155 = register("substilium_mushroom_str_155", SubstiliumMushroomStr155Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr155Feature.GENERATE_BIOMES, SubstiliumMushroomStr155Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_156 = register("substilium_mushroom_str_156", SubstiliumMushroomStr156Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr156Feature.GENERATE_BIOMES, SubstiliumMushroomStr156Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_157 = register("substilium_mushroom_str_157", SubstiliumMushroomStr157Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr157Feature.GENERATE_BIOMES, SubstiliumMushroomStr157Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_158 = register("substilium_mushroom_str_158", SubstiliumMushroomStr158Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr158Feature.GENERATE_BIOMES, SubstiliumMushroomStr158Feature::placedFeature));
 	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_326 = register("substilium_mushroom_str_326", SubstiliumMushroomStr326Feature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr326Feature.GENERATE_BIOMES, SubstiliumMushroomStr326Feature::placedFeature));
 	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_327 = register("substilium_mushroom_str_327", SubstiliumMushroomStr327Feature::feature,
@@ -638,24 +552,6 @@ public class WildasideModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr329Feature.GENERATE_BIOMES, SubstiliumMushroomStr329Feature::placedFeature));
 	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_330 = register("substilium_mushroom_str_330", SubstiliumMushroomStr330Feature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr330Feature.GENERATE_BIOMES, SubstiliumMushroomStr330Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_331 = register("substilium_mushroom_str_331", SubstiliumMushroomStr331Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr331Feature.GENERATE_BIOMES, SubstiliumMushroomStr331Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_332 = register("substilium_mushroom_str_332", SubstiliumMushroomStr332Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr332Feature.GENERATE_BIOMES, SubstiliumMushroomStr332Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_333 = register("substilium_mushroom_str_333", SubstiliumMushroomStr333Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr333Feature.GENERATE_BIOMES, SubstiliumMushroomStr333Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_334 = register("substilium_mushroom_str_334", SubstiliumMushroomStr334Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr334Feature.GENERATE_BIOMES, SubstiliumMushroomStr334Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_335 = register("substilium_mushroom_str_335", SubstiliumMushroomStr335Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr335Feature.GENERATE_BIOMES, SubstiliumMushroomStr335Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_336 = register("substilium_mushroom_str_336", SubstiliumMushroomStr336Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr336Feature.GENERATE_BIOMES, SubstiliumMushroomStr336Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_337 = register("substilium_mushroom_str_337", SubstiliumMushroomStr337Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr337Feature.GENERATE_BIOMES, SubstiliumMushroomStr337Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_338 = register("substilium_mushroom_str_338", SubstiliumMushroomStr338Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr338Feature.GENERATE_BIOMES, SubstiliumMushroomStr338Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_339 = register("substilium_mushroom_str_339", SubstiliumMushroomStr339Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr339Feature.GENERATE_BIOMES, SubstiliumMushroomStr339Feature::placedFeature));
 	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_230 = register("substilium_mushroom_str_230", SubstiliumMushroomStr230Feature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr230Feature.GENERATE_BIOMES, SubstiliumMushroomStr230Feature::placedFeature));
 	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_231 = register("substilium_mushroom_str_231", SubstiliumMushroomStr231Feature::feature,
@@ -666,62 +562,6 @@ public class WildasideModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr233Feature.GENERATE_BIOMES, SubstiliumMushroomStr233Feature::placedFeature));
 	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_234 = register("substilium_mushroom_str_234", SubstiliumMushroomStr234Feature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr234Feature.GENERATE_BIOMES, SubstiliumMushroomStr234Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_235 = register("substilium_mushroom_str_235", SubstiliumMushroomStr235Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr235Feature.GENERATE_BIOMES, SubstiliumMushroomStr235Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_159 = register("substilium_mushroom_str_159", SubstiliumMushroomStr159Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr159Feature.GENERATE_BIOMES, SubstiliumMushroomStr159Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_160 = register("substilium_mushroom_str_160", SubstiliumMushroomStr160Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr160Feature.GENERATE_BIOMES, SubstiliumMushroomStr160Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_161 = register("substilium_mushroom_str_161", SubstiliumMushroomStr161Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr161Feature.GENERATE_BIOMES, SubstiliumMushroomStr161Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_162 = register("substilium_mushroom_str_162", SubstiliumMushroomStr162Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr162Feature.GENERATE_BIOMES, SubstiliumMushroomStr162Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_163 = register("substilium_mushroom_str_163", SubstiliumMushroomStr163Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr163Feature.GENERATE_BIOMES, SubstiliumMushroomStr163Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_164 = register("substilium_mushroom_str_164", SubstiliumMushroomStr164Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr164Feature.GENERATE_BIOMES, SubstiliumMushroomStr164Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_165 = register("substilium_mushroom_str_165", SubstiliumMushroomStr165Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr165Feature.GENERATE_BIOMES, SubstiliumMushroomStr165Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_166 = register("substilium_mushroom_str_166", SubstiliumMushroomStr166Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr166Feature.GENERATE_BIOMES, SubstiliumMushroomStr166Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_167 = register("substilium_mushroom_str_167", SubstiliumMushroomStr167Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr167Feature.GENERATE_BIOMES, SubstiliumMushroomStr167Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_168 = register("substilium_mushroom_str_168", SubstiliumMushroomStr168Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr168Feature.GENERATE_BIOMES, SubstiliumMushroomStr168Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_169 = register("substilium_mushroom_str_169", SubstiliumMushroomStr169Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr169Feature.GENERATE_BIOMES, SubstiliumMushroomStr169Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_340 = register("substilium_mushroom_str_340", SubstiliumMushroomStr340Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr340Feature.GENERATE_BIOMES, SubstiliumMushroomStr340Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_341 = register("substilium_mushroom_str_341", SubstiliumMushroomStr341Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr341Feature.GENERATE_BIOMES, SubstiliumMushroomStr341Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_342 = register("substilium_mushroom_str_342", SubstiliumMushroomStr342Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr342Feature.GENERATE_BIOMES, SubstiliumMushroomStr342Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_343 = register("substilium_mushroom_str_343", SubstiliumMushroomStr343Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr343Feature.GENERATE_BIOMES, SubstiliumMushroomStr343Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_344 = register("substilium_mushroom_str_344", SubstiliumMushroomStr344Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr344Feature.GENERATE_BIOMES, SubstiliumMushroomStr344Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_345 = register("substilium_mushroom_str_345", SubstiliumMushroomStr345Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr345Feature.GENERATE_BIOMES, SubstiliumMushroomStr345Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_236 = register("substilium_mushroom_str_236", SubstiliumMushroomStr236Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr236Feature.GENERATE_BIOMES, SubstiliumMushroomStr236Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_237 = register("substilium_mushroom_str_237", SubstiliumMushroomStr237Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr237Feature.GENERATE_BIOMES, SubstiliumMushroomStr237Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_238 = register("substilium_mushroom_str_238", SubstiliumMushroomStr238Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr238Feature.GENERATE_BIOMES, SubstiliumMushroomStr238Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_239 = register("substilium_mushroom_str_239", SubstiliumMushroomStr239Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr239Feature.GENERATE_BIOMES, SubstiliumMushroomStr239Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_240 = register("substilium_mushroom_str_240", SubstiliumMushroomStr240Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr240Feature.GENERATE_BIOMES, SubstiliumMushroomStr240Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_241 = register("substilium_mushroom_str_241", SubstiliumMushroomStr241Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr241Feature.GENERATE_BIOMES, SubstiliumMushroomStr241Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_242 = register("substilium_mushroom_str_242", SubstiliumMushroomStr242Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr242Feature.GENERATE_BIOMES, SubstiliumMushroomStr242Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_243 = register("substilium_mushroom_str_243", SubstiliumMushroomStr243Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr243Feature.GENERATE_BIOMES, SubstiliumMushroomStr243Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_244 = register("substilium_mushroom_str_244", SubstiliumMushroomStr244Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr244Feature.GENERATE_BIOMES, SubstiliumMushroomStr244Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_MUSHROOM_STR_245 = register("substilium_mushroom_str_245", SubstiliumMushroomStr245Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumMushroomStr245Feature.GENERATE_BIOMES, SubstiliumMushroomStr245Feature::placedFeature));
 	public static final RegistryObject<Feature<?>> HICKORY_TREE_STR_11 = register("hickory_tree_str_11", HickoryTreeStr11Feature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, HickoryTreeStr11Feature.GENERATE_BIOMES, HickoryTreeStr11Feature::placedFeature));
 	public static final RegistryObject<Feature<?>> HICKORY_TREE_STR_12 = register("hickory_tree_str_12", HickoryTreeStr12Feature::feature,
@@ -798,8 +638,6 @@ public class WildasideModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumTreeGrowerStr13Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr13Feature::placedFeature));
 	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_14 = register("substilium_tree_grower_str_14", SubstiliumTreeGrowerStr14Feature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumTreeGrowerStr14Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr14Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> SUBSTILIUM_TREE_GROWER_STR_15 = register("substilium_tree_grower_str_15", SubstiliumTreeGrowerStr15Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, SubstiliumTreeGrowerStr15Feature.GENERATE_BIOMES, SubstiliumTreeGrowerStr15Feature::placedFeature));
 	public static final RegistryObject<Feature<?>> FD_D = register("fd_d", FdDFeature::feature, new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, FdDFeature.GENERATE_BIOMES, FdDFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {

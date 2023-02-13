@@ -36,7 +36,6 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> VIBRION_ROOTS = block(WildasideModBlocks.VIBRION_ROOTS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HANGING_VIBRION_VINES = block(WildasideModBlocks.HANGING_VIBRION_VINES, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> VIBRION_SPOREHOLDER = block(WildasideModBlocks.VIBRION_SPOREHOLDER, WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> VIBRION_GROWTH = block(WildasideModBlocks.VIBRION_GROWTH, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> ENTORIUM = REGISTRY.register("entorium", () -> new EntoriumItem());
 	public static final RegistryObject<Item> ENTORIUM_PILL = REGISTRY.register("entorium_pill", () -> new EntoriumPillItem());
 	public static final RegistryObject<Item> ENTORIUM_SPOREBOMB = REGISTRY.register("entorium_sporebomb", () -> new EntoriumSporebombItem());
@@ -51,6 +50,8 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> ENTORIUM_ORE = block(WildasideModBlocks.ENTORIUM_ORE, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> NATURAL_SPORE_BLASTER = block(WildasideModBlocks.NATURAL_SPORE_BLASTER, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SPORE_BLASTER = block(WildasideModBlocks.SPORE_BLASTER, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> VIBRION_GROWTH_STEM = block(WildasideModBlocks.VIBRION_GROWTH_STEM, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> VIBRION_GROWTH_HEAD = block(WildasideModBlocks.VIBRION_GROWTH_HEAD, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> BIOENGINEER_WORKSPACE = block(WildasideModBlocks.BIOENGINEER_WORKSPACE, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> COMPRESSED_SUBSTILIUM_SOIL = block(WildasideModBlocks.COMPRESSED_SUBSTILIUM_SOIL, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_SOIL = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_SOIL, WildasideModTabs.TAB_WILD_ASIDE_TAB);

@@ -2,16 +2,13 @@
   "group": "entorium_pill",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " IF",
+    " I ",
     "INI",
     " I "
   ],
   "key": {
     "I": {
       "item": "minecraft:iron_nugget"
-    },
-    "F": {
-      "item": "minecraft:fermented_spider_eye"
     },
     "N": {
       "item": "wildaside:entorium"

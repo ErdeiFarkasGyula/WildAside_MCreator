@@ -9,6 +9,6 @@ import net.gyula.wildaside.init.WildasideModParticleTypes;
 public class VibrionParticleSpawnLowProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles((SimpleParticleType) (WildasideModParticleTypes.VIBRION_PARTICLE.get()), (x + 0.5), y, (z + 0.5), 5, (-0.2), 0.4, 0.2, 0.1);
+			_level.sendParticles((SimpleParticleType) (WildasideModParticleTypes.VIBRION_PARTICLE.get()), (x + 0.5), y, (z + 0.5), 3, (-0.2), 0.4, 0.2, 0.1);
 	}
 }

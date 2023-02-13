@@ -7,8 +7,8 @@
   "block.wildaside.vibrion_block": "Vibrion Block",
   "item.wildaside.entorium_gauntlet_leggings": "Entorium Gauntlet Leggings",
   "advancements.organic_building_materials.descr": "Obtain a Compressed Substilium Soil block",
-  "item.wildaside.ranged_vibrion_monster_spawn_egg": "Ranged Vibrion Monster Spawn Egg",
   "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
+  "item.wildaside.ranged_vibrion_monster_spawn_egg": "Ranged Vibrion Monster Spawn Egg",
   "advancements.vibrion_gel_hidden_1_adv.descr": "Vibrion Gel Hidden 1 Adv",
   "block.wildaside.spore_blaster": "Spore Blaster",
   "block.wildaside.fallen_green_glowing_hickory_leaves": "Fallen Green Glowing Hickory Leaves",
@@ -80,7 +80,6 @@
   "effect.wildaside.immune_protection": "Immune-protection",
   "block.wildaside.substilium_trapdoor": "Substilium Trapdoor",
   "block.wildaside.yellow_glowing_hickory_leaves": "Yellow Glowing Hickory Leaves",
-  "block.wildaside.vibrion_growth": "Vibrion Growth",
   "gamerule.muteVibrionGrowths": "Mute vibrion growths",
   "block.wildaside.panxter_flower": "Panxter Flower",
   "block.wildaside.substilium_fence_gate": "Substilium Fence Gate",
@@ -144,6 +143,7 @@
   "block.wildaside.green_glowing_hickory_leaves": "Green Glowing Hickory Leaves",
   "item.minecraft.splash_potion.effect.immune_portection_item": "Splash Potion of Immune Portection",
   "block.wildaside.cracked_substilium_tile_wall": "Cracked Substilium Tiles Wall",
+  "block.wildaside.vibrion_growth_stem": "Vibrion Growth Stem",
   "advancements.temporary_solution.title": "Temporary Solution",
   "block.wildaside.natural_spore_blaster": "Natural Spore Blaster",
   "item.wildaside.rutillion": "Rutillion",
@@ -159,5 +159,6 @@
   "block.wildaside.substilium_block": "Substilium Block",
   "block.wildaside.cracked_substilium_tiles": "Cracked Substilium Tiles",
   "advancements.glimmering_glass.title": "Glimmering Glass",
-  "advancements.extensive_research.descr": "Shear an Overgrown Substilium Soil Block with Revealing"
+  "advancements.extensive_research.descr": "Shear an Overgrown Substilium Soil Block with Revealing",
+  "block.wildaside.vibrion_growth_head": "Vibrion Growth Head"
 }
