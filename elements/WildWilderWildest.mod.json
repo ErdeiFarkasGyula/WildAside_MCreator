@@ -1,9 +1,9 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "achievement",
   "definition": {
     "achievementName": "Wild, Wilder, Wildest",
-    "achievementDescription": "Open a world with WildAside",
+    "achievementDescription": "Open a world with Wild Aside",
     "achievementIcon": {
       "value": "CUSTOM:VibrionBlock"
     },

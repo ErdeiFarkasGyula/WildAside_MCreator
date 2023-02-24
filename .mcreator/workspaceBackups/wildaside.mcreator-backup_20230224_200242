@@ -9051,6 +9051,20 @@
         ]
       },
       "path": "~/loottables"
+    },
+    {
+      "name": "SubstiliumSoilLoot",
+      "type": "loottable",
+      "sortid": 601,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_soil_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/loot_tables/blocks/substilium_soil.json"
+        ]
+      },
+      "path": "~/loottables"
     }
   ],
   "variable_elements": [
@@ -9090,8 +9104,8 @@
       "block.wildaside.vibrion_block": "Vibrion Block",
       "item.wildaside.entorium_gauntlet_leggings": "Entorium Gauntlet Leggings",
       "advancements.organic_building_materials.descr": "Obtain a Compressed Substilium Soil block",
-      "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
       "item.wildaside.ranged_vibrion_monster_spawn_egg": "Ranged Vibrion Monster Spawn Egg",
+      "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
       "advancements.vibrion_gel_hidden_1_adv.descr": "Vibrion Gel Hidden 1 Adv",
       "block.wildaside.spore_blaster": "Spore Blaster",
       "block.wildaside.fallen_green_glowing_hickory_leaves": "Fallen Green Glowing Hickory Leaves",
@@ -9187,7 +9201,7 @@
       "advancements.dangerous_warfare.title": "Dangerous Warfare",
       "block.wildaside.hickory_block": "Hickory Block",
       "block.wildaside.vibrion_roots": "Vibrion Roots",
-      "advancements.wild_wilder_wildest.descr": "Open a world with WildAside",
+      "advancements.wild_wilder_wildest.descr": "Open a world with Wild Aside",
       "block.wildaside.hickory_fence_gate": "Hickory Fence Gate",
       "item.minecraft.lingering_potion.effect.immune_portection_item": "Lingering Potion of Immune Portection",
       "item.wildaside.entorium_gauntlet_boots": "Entorium Gauntlet Boots",

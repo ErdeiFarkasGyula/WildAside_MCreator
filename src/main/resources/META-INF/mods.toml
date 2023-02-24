@@ -9,7 +9,7 @@ displayName="Wild Aside"
 credits="Imagined by Gyula & Lyof. Developed by Gyula. Quality management by Lyof. Textures by Gyula & Dylanvhs. Concept art by Toma400 & Gyula. Special thanks to Toma400 & Aqu."
 displayURL="https://mcreator.net"
 logoFile="logo.png"
-authors="Gyula, Lyof"
+authors="Gyula, Lyof, MCreator"
 
 [[dependencies.wildaside]]
     modId="minecraft"

@@ -9051,6 +9051,20 @@
         ]
       },
       "path": "~/loottables"
+    },
+    {
+      "name": "SubstiliumSoilLoot",
+      "type": "loottable",
+      "sortid": 601,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_soil_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/loot_tables/blocks/substilium_soil.json"
+        ]
+      },
+      "path": "~/loottables"
     }
   ],
   "variable_elements": [
@@ -9187,7 +9201,7 @@
       "advancements.dangerous_warfare.title": "Dangerous Warfare",
       "block.wildaside.hickory_block": "Hickory Block",
       "block.wildaside.vibrion_roots": "Vibrion Roots",
-      "advancements.wild_wilder_wildest.descr": "Open a world with WildAside",
+      "advancements.wild_wilder_wildest.descr": "Open a world with Wild Aside",
       "block.wildaside.hickory_fence_gate": "Hickory Fence Gate",
       "item.minecraft.lingering_potion.effect.immune_portection_item": "Lingering Potion of Immune Portection",
       "item.wildaside.entorium_gauntlet_boots": "Entorium Gauntlet Boots",
