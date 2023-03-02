@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.DYE#9"
+      "value": "Items.DYE#19"
     },
     "name": "spotted_wintergreen_to_dye",
     "namespace": "mod"

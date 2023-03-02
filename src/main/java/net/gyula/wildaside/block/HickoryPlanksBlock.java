@@ -12,6 +12,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 
 import net.gyula.wildaside.procedures.HickoryPlanksPlacedProcedure;
@@ -47,6 +48,12 @@ public class HickoryPlanksBlock extends Block {
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
 	}
+
+	@Override
+	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+		return 15;
+	}
+
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {

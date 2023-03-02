@@ -98,7 +98,7 @@
     },
     "luminance": 7,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": -1,
     "placingCondition": {
       "name": "VibrionGrowthHeadBlockValidPlacementCondition"
     },
@@ -124,7 +124,7 @@
       "name": "VibrionMonsterSpawnParticleAround"
     },
     "onStartToDestroy": {
-      "name": "VibrionParticleSpawnLow"
+      "name": "VibrionMonsterSpawnParticleAround"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

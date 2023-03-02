@@ -14,6 +14,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 
 import net.gyula.wildaside.procedures.HickoryPlanksPlacedProcedure;
@@ -59,6 +60,11 @@ public class HickoryStairsBlock extends StairBlock {
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
 		HickoryPlanksPlacedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+	
+	@Override
+	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+		return 15;
 	}
 
 	@Override

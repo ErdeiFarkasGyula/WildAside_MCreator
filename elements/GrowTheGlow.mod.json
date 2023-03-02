@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Grow The Glow!",
-    "achievementDescription": "Grow at least 1 of all 4 Glowing Hickory Saplings using bonemeal",
+    "achievementDescription": "Grow at least one of all 4 Glowing Hickory Saplings using bonemeal",
     "achievementIcon": {
       "value": "CUSTOM:YellowGlowingHickorySapling"
     },

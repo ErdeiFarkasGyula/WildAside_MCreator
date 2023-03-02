@@ -20,7 +20,6 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.gyula.wildaside.procedures.VibrionParticleSpawnLowProcedure;
 import net.gyula.wildaside.procedures.VibrionMonsterSpawnParticleAroundProcedure;
 import net.gyula.wildaside.procedures.VibrionGrowthHeadBlockValidPlacementConditionProcedure;
 
@@ -65,6 +64,6 @@ public class VibrionGrowthHeadBlock extends Block {
 	@Override
 	public void attack(BlockState blockstate, Level world, BlockPos pos, Player entity) {
 		super.attack(blockstate, world, pos, entity);
-		VibrionParticleSpawnLowProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		VibrionMonsterSpawnParticleAroundProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }
