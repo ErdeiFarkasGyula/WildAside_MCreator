@@ -65,10 +65,8 @@ public class SubstiliumTreeGrowerUpdateProcedure {
 									if (!world.getBlockState(new BlockPos(x + sx, y + sy, z + sz)).canOcclude()) {
 										if (Math.random() >= 0.15) {
 											world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.VIBRION_BLOCK.get().defaultBlockState(), 3);
-										} else if (Math.random() >= 0.5) {
-											world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.VIBRION_GEL.get().defaultBlockState(), 3);
 										} else {
-											world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.LIT_VIBRION_GEL.get().defaultBlockState(), 3);
+											world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.VIBRION_GEL.get().defaultBlockState(), 3);
 										}
 									}
 								}

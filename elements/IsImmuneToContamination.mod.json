@@ -6,14 +6,7 @@
     "items": [],
     "blocks": [],
     "functions": [],
-    "entities": [
-      {
-        "value": "CUSTOM:VibrionMonster"
-      },
-      {
-        "value": "CUSTOM:RangedVibrionMonster"
-      }
-    ],
+    "entities": [],
     "biomes": [],
     "name": "is_immune_to_contamination",
     "namespace": "mod"

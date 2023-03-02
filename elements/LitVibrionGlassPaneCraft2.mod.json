@@ -10,31 +10,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.GLASS_PANE"
+        "value": "CUSTOM:VibrionGlassPane"
       },
       {
-        "value": "Blocks.GLASS_PANE"
+        "value": "CUSTOM:VibrionGlassPane"
       },
       {
-        "value": "Blocks.GLASS_PANE"
+        "value": "CUSTOM:VibrionGlassPane"
       },
       {
-        "value": "Blocks.GLASS_PANE"
+        "value": "CUSTOM:VibrionGlassPane"
       },
       {
-        "value": "CUSTOM:LitVibrionGel"
+        "value": "CUSTOM:VibrionBlock"
       },
       {
-        "value": "Blocks.GLASS_PANE"
+        "value": "CUSTOM:VibrionGlassPane"
       },
       {
-        "value": "Blocks.GLASS_PANE"
+        "value": "CUSTOM:VibrionGlassPane"
       },
       {
-        "value": "Blocks.GLASS_PANE"
+        "value": "CUSTOM:VibrionGlassPane"
       },
       {
-        "value": "Blocks.GLASS_PANE"
+        "value": "CUSTOM:VibrionGlassPane"
       }
     ],
     "recipeReturnStack": {

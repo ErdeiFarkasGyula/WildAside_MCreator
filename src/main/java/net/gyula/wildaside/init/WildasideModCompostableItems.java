@@ -20,7 +20,6 @@ public class WildasideModCompostableItems {
 		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.HANGING_VIBRION_VINES.get().asItem(), 0.15f);
 		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.VIBRION_SPOREHOLDER.get().asItem(), 1f);
 		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.VIBRION_GEL.get().asItem(), 0.85f);
-		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.LIT_VIBRION_GEL.get().asItem(), 0.85f);
 		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.VIBRION_ROOTS.get().asItem(), 0.65f);
 		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.SUBSTILIUM_SPROUTS.get().asItem(), 0.5f);
 		ComposterBlock.COMPOSTABLES.put(WildasideModItems.HICKORY_NUT.get(), 0.1f);

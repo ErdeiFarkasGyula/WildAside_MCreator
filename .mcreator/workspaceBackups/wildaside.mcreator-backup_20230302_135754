@@ -291,23 +291,6 @@
       "path": "~/blocks"
     },
     {
-      "name": "LitVibrionGel",
-      "type": "block",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lit_vibrion_gel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/wildaside/blockstates/lit_vibrion_gel.json",
-          "src/main/java/net/gyula/wildaside/block/LitVibrionGelBlock.java",
-          "src/main/resources/assets/wildaside/models/item/lit_vibrion_gel.json",
-          "src/main/resources/assets/wildaside/models/block/lit_vibrion_gel.json"
-        ]
-      },
-      "path": "~/blocks"
-    },
-    {
       "name": "VibrionRoots",
       "type": "plant",
       "sortid": 9,
@@ -8431,23 +8414,6 @@
       "path": "~/advancements"
     },
     {
-      "name": "VibrionMonster",
-      "type": "animatedentity",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vibrion_monster",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/entity/model/VibrionMonsterModel.java",
-          "src/main/java/net/gyula/wildaside/client/renderer/VibrionMonsterRenderer.java",
-          "src/main/resources/assets/wildaside/models/item/vibrion_monster_spawn_egg.json",
-          "src/main/java/net/gyula/wildaside/entity/VibrionMonsterEntity.java"
-        ]
-      },
-      "path": "~/entities"
-    },
-    {
       "name": "RedGlowingHickorySaplingOnBoneMealSuccess",
       "type": "procedure",
       "sortid": 579,
@@ -8746,23 +8712,6 @@
       "path": "~/procedures/Particles"
     },
     {
-      "name": "RangedVibrionMonster",
-      "type": "animatedentity",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ranged_vibrion_monster",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/entity/model/RangedVibrionMonsterModel.java",
-          "src/main/java/net/gyula/wildaside/entity/RangedVibrionMonsterEntity.java",
-          "src/main/java/net/gyula/wildaside/client/renderer/RangedVibrionMonsterRenderer.java",
-          "src/main/resources/assets/wildaside/models/item/ranged_vibrion_monster_spawn_egg.json"
-        ]
-      },
-      "path": "~/entities"
-    },
-    {
       "name": "RangedVibrionMonsterLoot",
       "type": "loottable",
       "sortid": 590,
@@ -9051,6 +9000,20 @@
         ]
       },
       "path": "~/loottables"
+    },
+    {
+      "name": "SubstiliumSoilLoot",
+      "type": "loottable",
+      "sortid": 601,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_soil_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/loot_tables/blocks/substilium_soil.json"
+        ]
+      },
+      "path": "~/loottables"
     }
   ],
   "variable_elements": [
@@ -9181,13 +9144,12 @@
       "advancements.substilium_log_hidden_1.descr": "SubstiliumPlanksHidden1",
       "advancements.barrier_of_bacteria.title": "Barrier Of Bacteria",
       "gamerule.wildAsideDebugMode": "WildAside debugmode",
-      "block.wildaside.lit_vibrion_gel": "Lit Vibrion Gel",
       "block.wildaside.substilium_tile_stairs": "Substilium Tiles Stairs",
       "item.minecraft.lingering_potion.effect.contamination_item": "Lingering Potion of Contamination",
       "advancements.dangerous_warfare.title": "Dangerous Warfare",
       "block.wildaside.hickory_block": "Hickory Block",
       "block.wildaside.vibrion_roots": "Vibrion Roots",
-      "advancements.wild_wilder_wildest.descr": "Open a world with WildAside",
+      "advancements.wild_wilder_wildest.descr": "Open a world with Wild Aside",
       "block.wildaside.hickory_fence_gate": "Hickory Fence Gate",
       "item.minecraft.lingering_potion.effect.immune_portection_item": "Lingering Potion of Immune Portection",
       "item.wildaside.entorium_gauntlet_boots": "Entorium Gauntlet Boots",
@@ -9471,7 +9433,7 @@
     "modid": "wildaside",
     "modName": "Wild Aside",
     "version": "0.0.4",
-    "author": "Gyula, Lyof",
+    "author": "Gyula, Lyof, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
@@ -9488,5 +9450,5 @@
     "modElementsPackage": "net.gyula.wildaside",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300104717
+  "mcreatorVersion": 202300108712
 }

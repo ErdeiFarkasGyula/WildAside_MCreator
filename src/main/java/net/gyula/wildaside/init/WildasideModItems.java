@@ -28,7 +28,6 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> VIBRION = REGISTRY.register("vibrion", () -> new VibrionItem());
 	public static final RegistryObject<Item> VIBRION_BLOCK = block(WildasideModBlocks.VIBRION_BLOCK, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> VIBRION_GEL = block(WildasideModBlocks.VIBRION_GEL, WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> LIT_VIBRION_GEL = block(WildasideModBlocks.LIT_VIBRION_GEL, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> VIBRION_GLASS = block(WildasideModBlocks.VIBRION_GLASS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> LIT_VIBRION_GLASS = block(WildasideModBlocks.LIT_VIBRION_GLASS, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> VIBRION_GLASS_PANE = block(WildasideModBlocks.VIBRION_GLASS_PANE, WildasideModTabs.TAB_WILD_ASIDE_TAB);

@@ -66,7 +66,6 @@ import net.gyula.wildaside.block.OvergrownEntoriumOreBlock;
 import net.gyula.wildaside.block.NaturalSporeBlasterBlock;
 import net.gyula.wildaside.block.LitVibrionGlassPaneBlock;
 import net.gyula.wildaside.block.LitVibrionGlassBlock;
-import net.gyula.wildaside.block.LitVibrionGelBlock;
 import net.gyula.wildaside.block.HickoryStairsBlock;
 import net.gyula.wildaside.block.HickorySlabBlock;
 import net.gyula.wildaside.block.HickorySaplingBlock;
@@ -107,7 +106,6 @@ public class WildasideModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, WildasideMod.MODID);
 	public static final RegistryObject<Block> VIBRION_BLOCK = REGISTRY.register("vibrion_block", () -> new VibrionBlockBlock());
 	public static final RegistryObject<Block> VIBRION_GEL = REGISTRY.register("vibrion_gel", () -> new VibrionGelBlock());
-	public static final RegistryObject<Block> LIT_VIBRION_GEL = REGISTRY.register("lit_vibrion_gel", () -> new LitVibrionGelBlock());
 	public static final RegistryObject<Block> VIBRION_GLASS = REGISTRY.register("vibrion_glass", () -> new VibrionGlassBlock());
 	public static final RegistryObject<Block> LIT_VIBRION_GLASS = REGISTRY.register("lit_vibrion_glass", () -> new LitVibrionGlassBlock());
 	public static final RegistryObject<Block> VIBRION_GLASS_PANE = REGISTRY.register("vibrion_glass_pane", () -> new VibrionGlassPaneBlock());
@@ -197,7 +195,6 @@ public class WildasideModBlocks {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			VibrionGelBlock.registerRenderLayer();
-			LitVibrionGelBlock.registerRenderLayer();
 			VibrionGlassBlock.registerRenderLayer();
 			LitVibrionGlassBlock.registerRenderLayer();
 			VibrionGlassPaneBlock.registerRenderLayer();

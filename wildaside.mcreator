@@ -291,23 +291,6 @@
       "path": "~/blocks"
     },
     {
-      "name": "LitVibrionGel",
-      "type": "block",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lit_vibrion_gel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/wildaside/blockstates/lit_vibrion_gel.json",
-          "src/main/java/net/gyula/wildaside/block/LitVibrionGelBlock.java",
-          "src/main/resources/assets/wildaside/models/item/lit_vibrion_gel.json",
-          "src/main/resources/assets/wildaside/models/block/lit_vibrion_gel.json"
-        ]
-      },
-      "path": "~/blocks"
-    },
-    {
       "name": "VibrionRoots",
       "type": "plant",
       "sortid": 9,
@@ -921,18 +904,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_gel_ext",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/items/blockExt"
-    },
-    {
-      "name": "LitVibrionGelExt",
-      "type": "itemextension",
-      "sortid": 130,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lit_vibrion_gel_ext",
       "metadata": {
         "files": []
       },
@@ -8431,23 +8402,6 @@
       "path": "~/advancements"
     },
     {
-      "name": "VibrionMonster",
-      "type": "animatedentity",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vibrion_monster",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/entity/model/VibrionMonsterModel.java",
-          "src/main/java/net/gyula/wildaside/client/renderer/VibrionMonsterRenderer.java",
-          "src/main/resources/assets/wildaside/models/item/vibrion_monster_spawn_egg.json",
-          "src/main/java/net/gyula/wildaside/entity/VibrionMonsterEntity.java"
-        ]
-      },
-      "path": "~/entities"
-    },
-    {
       "name": "RedGlowingHickorySaplingOnBoneMealSuccess",
       "type": "procedure",
       "sortid": 579,
@@ -8744,23 +8698,6 @@
         ]
       },
       "path": "~/procedures/Particles"
-    },
-    {
-      "name": "RangedVibrionMonster",
-      "type": "animatedentity",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ranged_vibrion_monster",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/entity/model/RangedVibrionMonsterModel.java",
-          "src/main/java/net/gyula/wildaside/entity/RangedVibrionMonsterEntity.java",
-          "src/main/java/net/gyula/wildaside/client/renderer/RangedVibrionMonsterRenderer.java",
-          "src/main/resources/assets/wildaside/models/item/ranged_vibrion_monster_spawn_egg.json"
-        ]
-      },
-      "path": "~/entities"
     },
     {
       "name": "RangedVibrionMonsterLoot",
@@ -9195,7 +9132,6 @@
       "advancements.substilium_log_hidden_1.descr": "SubstiliumPlanksHidden1",
       "advancements.barrier_of_bacteria.title": "Barrier Of Bacteria",
       "gamerule.wildAsideDebugMode": "WildAside debugmode",
-      "block.wildaside.lit_vibrion_gel": "Lit Vibrion Gel",
       "block.wildaside.substilium_tile_stairs": "Substilium Tiles Stairs",
       "item.minecraft.lingering_potion.effect.contamination_item": "Lingering Potion of Contamination",
       "advancements.dangerous_warfare.title": "Dangerous Warfare",

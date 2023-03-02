@@ -21,11 +21,6 @@ public class HangingVibrionGelGrowerProcProcedure {
 		double baseBuilder = 0;
 		double AdvanceNumber = 0;
 		if (world.getLevelData().getGameRules().getBoolean(WildasideModGameRules.WILDASIDEDEBUGMODE) == false) {
-			if (Math.random() > 0.6) {
-				randomBlock = WildasideModBlocks.VIBRION_GEL.get().defaultBlockState();
-			} else {
-				randomBlock = WildasideModBlocks.LIT_VIBRION_GEL.get().defaultBlockState();
-			}
 			world.setBlock(new BlockPos(x, y, z), Blocks.CAVE_AIR.defaultBlockState(), 3);
 			emptySpace = 1;
 			loopNumber = 0;
@@ -37,7 +32,7 @@ public class HangingVibrionGelGrowerProcProcedure {
 				}
 			}
 			for (int index1 = 0; index1 < (int) (Math.round(emptySpace / (Mth.nextInt(new Random(), 15, 22) / 10))); index1++) {
-				world.setBlock(new BlockPos(x, y - loopNumber, z), randomBlock, 3);
+				world.setBlock(new BlockPos(x, y - loopNumber, z), WildasideModBlocks.VIBRION_GEL.get().defaultBlockState(), 3);
 				loopNumber = loopNumber + 1;
 			}
 		}

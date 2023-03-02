@@ -6,14 +6,7 @@
     "items": [],
     "blocks": [],
     "functions": [],
-    "entities": [
-      {
-        "value": "CUSTOM:RangedVibrionMonster"
-      },
-      {
-        "value": "CUSTOM:VibrionMonster"
-      }
-    ],
+    "entities": [],
     "biomes": [],
     "name": "vibrion_monsters",
     "namespace": "mod"
