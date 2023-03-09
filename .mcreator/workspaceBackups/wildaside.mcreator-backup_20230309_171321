@@ -7,14 +7,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "vibrion_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyulawildaside/block/VibrionBlockBlock.java",
-          "src/main/resources/assets/wildaside/blockstates/vibrion_block.json",
-          "src/main/resources/assets/wildaside/models/block/vibrion_block.json",
-          "src/main/resources/assets/wildaside/models/item/vibrion_block.json"
-        ]
-      },
       "path": "~/blocks"
     }
   ],
@@ -103,5 +95,5 @@
     "modElementsPackage": "net.gyulawildaside",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300109612
+  "mcreatorVersion": 202200344708
 }
