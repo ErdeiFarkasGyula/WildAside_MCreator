@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "red_glowing_essence",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RedGlowingHickoryLeaves"
+      },
+      {
+        "value": "CUSTOM:RedGlowingHickoryLeaves"
+      },
+      {
+        "value": "CUSTOM:RedGlowingHickoryLeaves"
+      },
+      {
+        "value": "CUSTOM:RedGlowingHickoryLeaves"
+      },
+      {
+        "value": "CUSTOM:RedGlowingHickoryLeaves"
+      },
+      {
+        "value": "CUSTOM:RedGlowingHickoryLeaves"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.HONEY_BOTTLE"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RedGlowingEssence"
+    },
+    "name": "red_glowing_essence",
+    "namespace": "mod"
+  }
+}

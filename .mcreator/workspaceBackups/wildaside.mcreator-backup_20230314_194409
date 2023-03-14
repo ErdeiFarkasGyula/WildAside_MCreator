@@ -9412,6 +9412,76 @@
         "files": []
       },
       "path": "~/items"
+    },
+    {
+      "name": "SubstiliumShroomSmelt",
+      "type": "recipe",
+      "sortid": 572,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_shroom_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/recipes/substilium_shroom.json"
+        ]
+      },
+      "path": "~/recipes/vibrion"
+    },
+    {
+      "name": "RedGlowingEssenceCraft",
+      "type": "recipe",
+      "sortid": 573,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_glowing_essence_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/recipes/red_glowing_essence.json"
+        ]
+      },
+      "path": "~/recipes/flowers"
+    },
+    {
+      "name": "YellowGlowingEssenceCraft",
+      "type": "recipe",
+      "sortid": 574,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_glowing_essence_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/recipes/yellow_glowing_essence.json"
+        ]
+      },
+      "path": "~/recipes/flowers"
+    },
+    {
+      "name": "GreenGlowingEssenceCraft",
+      "type": "recipe",
+      "sortid": 575,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_glowing_essence_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/recipes/green_glowing_essence.json"
+        ]
+      },
+      "path": "~/recipes/flowers"
+    },
+    {
+      "name": "BrownGlowingEssenceCraft",
+      "type": "recipe",
+      "sortid": 576,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_glowing_essence_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/recipes/brown_glowing_essence.json"
+        ]
+      },
+      "path": "~/recipes/flowers"
     }
   ],
   "variable_elements": [
@@ -9449,17 +9519,17 @@
       "advancements.grow_the_glow.title": "Grow The Glow!",
       "item.minecraft.tipped_arrow.effect.immune_portection_item": "Arrow of Immune Portection",
       "block.wildaside.vibrion_block": "Vibrion Block",
-      "item.wildaside.brown_glowing_essence": "Brown Glowing Essence",
       "advancements.organic_building_materials.descr": "Obtain a Compressed Substilium Soil block",
+      "item.wildaside.brown_glowing_essence": "Brown Glowing Essence",
       "item.wildaside.yellow_glowing_essence": "Yellow Glowing Essence",
-      "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
       "item.wildaside.ranged_vibrion_monster_spawn_egg": "Ranged Vibrion Monster Spawn Egg",
+      "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
       "advancements.vibrion_gel_hidden_1_adv.descr": "Vibrion Gel Hidden 1 Adv",
       "block.wildaside.spore_blaster": "Spore Blaster",
       "block.wildaside.fallen_green_glowing_hickory_leaves": "Fallen Green Glowing Hickory Leaves",
       "advancements.barrier_of_bacteria.descr": "Place down a Spore Blaster",
-      "block.wildaside.brown_glowing_hickory_leaves": "Brown Glowing Hickory Leaves",
       "block.wildaside.substilium_fence": "Substilium Fence",
+      "block.wildaside.brown_glowing_hickory_leaves": "Brown Glowing Hickory Leaves",
       "block.wildaside.hickory_sapling": "Hickory Sapling",
       "item.wildaside.entorium_sporebomb": "Entorium Sporebomb",
       "block.wildaside.hanging_vibrion_gel_grower": "Hanging Vibrion Gel Grower",
