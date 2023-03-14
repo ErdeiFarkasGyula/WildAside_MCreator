@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="wildaside"
-version="0.0.4"
+version="0.0.5"
 displayName="Wild Aside"
 credits="Imagined by Gyula & Lyof. Developed by Gyula. Quality management by Lyof. Textures by Gyula & Dylanvhs. Concept art by Toma400 & Gyula. Special thanks to Aqu."
 displayURL="https://mcreator.net"
@@ -20,10 +20,4 @@ authors="Gyula, Lyof, MCreator"
 
 
 
-[[dependencies.wildaside]]
-    modId="geckolib"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
