@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "wildaside:blocks/hickory_door_bottom",
+    "top": "wildaside:blocks/hickory_door_top"
+  }
+}

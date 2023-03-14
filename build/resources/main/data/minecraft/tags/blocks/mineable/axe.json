@@ -25,6 +25,8 @@
     "wildaside:hickory_fence",
     "wildaside:hickory_fence_gate",
     "wildaside:hickory_pressure_plate",
-    "wildaside:hickory_button"
+    "wildaside:hickory_button",
+    "wildaside:hickory_door_1",
+    "wildaside:hickory_trapdoor"
   ]
 }
