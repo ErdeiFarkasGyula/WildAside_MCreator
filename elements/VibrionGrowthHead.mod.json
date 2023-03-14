@@ -121,7 +121,10 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onDestroyedByPlayer": {
-      "name": "VibrionMonsterSpawnParticleAround"
+      "name": "VibrionGrowthHeadBlockDestroyedByPlayer"
+    },
+    "onDestroyedByExplosion": {
+      "name": "VibrionGrowthHeadBlockDestroyedByPlayer"
     },
     "onStartToDestroy": {
       "name": "VibrionMonsterSpawnParticleAround"

@@ -14,13 +14,17 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.gyula.wildaside.item.YellowGlowingEssenceItem;
 import net.gyula.wildaside.item.VibrionItem;
 import net.gyula.wildaside.item.RutillionItem;
+import net.gyula.wildaside.item.RedGlowingEssenceItem;
 import net.gyula.wildaside.item.HickoryNutItem;
+import net.gyula.wildaside.item.GreenGlowingEssenceItem;
 import net.gyula.wildaside.item.EntoriumSporebombItem;
 import net.gyula.wildaside.item.EntoriumPillItem;
 import net.gyula.wildaside.item.EntoriumItem;
 import net.gyula.wildaside.item.EntoriumGauntletItem;
+import net.gyula.wildaside.item.BrownGlowingEssenceItem;
 import net.gyula.wildaside.WildasideMod;
 
 public class WildasideModItems {
@@ -38,7 +42,7 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> ENTORIUM = REGISTRY.register("entorium", () -> new EntoriumItem());
 	public static final RegistryObject<Item> ENTORIUM_PILL = REGISTRY.register("entorium_pill", () -> new EntoriumPillItem());
 	public static final RegistryObject<Item> ENTORIUM_SPOREBOMB = REGISTRY.register("entorium_sporebomb", () -> new EntoriumSporebombItem());
-	public static final RegistryObject<Item> ENTORIUM_GAUNTLET_CHESTPLATE = REGISTRY.register("entorium_gauntlet_chestplate", () -> new EntoriumGauntletItem.Chestplate());
+	public static final RegistryObject<Item> ENTORIUM_GAUNTLET = REGISTRY.register("entorium_gauntlet", () -> new EntoriumGauntletItem());
 	public static final RegistryObject<Item> SUBSTILIUM_SHROOM = block(WildasideModBlocks.SUBSTILIUM_SHROOM, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SUBSTILIUM_STEM = block(WildasideModBlocks.SUBSTILIUM_STEM, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SUBSTILIUM_BLOCK = block(WildasideModBlocks.SUBSTILIUM_BLOCK, WildasideModTabs.TAB_WILD_ASIDE_TAB);
@@ -108,15 +112,19 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> BROWN_GLOWING_HICKORY_SAPLING = block(WildasideModBlocks.BROWN_GLOWING_HICKORY_SAPLING, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> YELLOW_GLOWING_HICKORY_SAPLING = block(WildasideModBlocks.YELLOW_GLOWING_HICKORY_SAPLING, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> GREEN_GLOWING_HICKORY_SAPLING = block(WildasideModBlocks.GREEN_GLOWING_HICKORY_SAPLING, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> HICKORY_NUT = REGISTRY.register("hickory_nut", () -> new HickoryNutItem());
 	public static final RegistryObject<Item> PANXTER_FLOWER = block(WildasideModBlocks.PANXTER_FLOWER, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> SPOTTED_WINTERGREEN = block(WildasideModBlocks.SPOTTED_WINTERGREEN, WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> HICKORY_NUT = REGISTRY.register("hickory_nut", () -> new HickoryNutItem());
 	public static final RegistryObject<Item> RUTILLION = REGISTRY.register("rutillion", () -> new RutillionItem());
 	public static final RegistryObject<Item> HANGING_VIBRION_VINES_PLANT = block(WildasideModBlocks.HANGING_VIBRION_VINES_PLANT, null);
 	public static final RegistryObject<Item> HANGING_VIBRION_VINES_GROWER = block(WildasideModBlocks.HANGING_VIBRION_VINES_GROWER, null);
 	public static final RegistryObject<Item> HANGING_VIBRION_GEL_GROWER = block(WildasideModBlocks.HANGING_VIBRION_GEL_GROWER, null);
 	public static final RegistryObject<Item> SUBSTILIUM_TREE_GROWER = block(WildasideModBlocks.SUBSTILIUM_TREE_GROWER, null);
 	public static final RegistryObject<Item> SPORE_AIR = block(WildasideModBlocks.SPORE_AIR, null);
+	public static final RegistryObject<Item> RED_GLOWING_ESSENCE = REGISTRY.register("red_glowing_essence", () -> new RedGlowingEssenceItem());
+	public static final RegistryObject<Item> BROWN_GLOWING_ESSENCE = REGISTRY.register("brown_glowing_essence", () -> new BrownGlowingEssenceItem());
+	public static final RegistryObject<Item> GREEN_GLOWING_ESSENCE = REGISTRY.register("green_glowing_essence", () -> new GreenGlowingEssenceItem());
+	public static final RegistryObject<Item> YELLOW_GLOWING_ESSENCE = REGISTRY.register("yellow_glowing_essence", () -> new YellowGlowingEssenceItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -37,7 +37,7 @@ public class BioengineerWorkspaceGuiMenu extends AbstractContainerMenu implement
 		super(WildasideModMenus.BIOENGINEER_WORKSPACE_GUI, id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
-		this.internal = new ItemStackHandler(6);
+		this.internal = new ItemStackHandler(7);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -91,6 +91,12 @@ public class BioengineerWorkspaceGuiMenu extends AbstractContainerMenu implement
 				return false;
 			}
 		}));
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 133, 20) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
+		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
 				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
@@ -110,18 +116,18 @@ public class BioengineerWorkspaceGuiMenu extends AbstractContainerMenu implement
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 6) {
-				if (!this.moveItemStackTo(itemstack1, 6, this.slots.size(), true)) {
+			if (index < 7) {
+				if (!this.moveItemStackTo(itemstack1, 7, this.slots.size(), true)) {
 					return ItemStack.EMPTY;
 				}
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 6, false)) {
-				if (index < 6 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 6 + 27, this.slots.size(), true)) {
+			} else if (!this.moveItemStackTo(itemstack1, 0, 7, false)) {
+				if (index < 7 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 7 + 27, this.slots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 6, 6 + 27, false)) {
+					if (!this.moveItemStackTo(itemstack1, 7, 7 + 27, false)) {
 						return ItemStack.EMPTY;
 					}
 				}
@@ -224,11 +230,15 @@ public class BioengineerWorkspaceGuiMenu extends AbstractContainerMenu implement
 				for (int j = 0; j < internal.getSlots(); ++j) {
 					if (j == 5)
 						continue;
+					if (j == 6)
+						continue;
 					playerIn.drop(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 				}
 			} else {
 				for (int i = 0; i < internal.getSlots(); ++i) {
 					if (i == 5)
+						continue;
+					if (i == 6)
 						continue;
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}

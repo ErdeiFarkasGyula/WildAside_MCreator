@@ -1,74 +1,105 @@
 
 package net.gyula.wildaside.item;
 
-import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.common.ToolActions;
+import net.minecraftforge.common.ToolAction;
 
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TieredItem;
+import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attribute;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.core.BlockPos;
 
 import net.gyula.wildaside.init.WildasideModTabs;
 import net.gyula.wildaside.init.WildasideModItems;
 
-public abstract class EntoriumGauntletItem extends ArmorItem {
-	public EntoriumGauntletItem(EquipmentSlot slot, Item.Properties properties) {
-		super(new ArmorMaterial() {
-			@Override
-			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
+import com.google.common.collect.Multimap;
+import com.google.common.collect.ImmutableMultimap;
+
+public class EntoriumGauntletItem extends TieredItem {
+	public EntoriumGauntletItem() {
+		super(new Tier() {
+			public int getUses() {
+				return 420;
 			}
 
-			@Override
-			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+			public float getSpeed() {
+				return 100f;
 			}
 
-			@Override
+			public float getAttackDamageBonus() {
+				return 2f;
+			}
+
+			public int getLevel() {
+				return 5;
+			}
+
 			public int getEnchantmentValue() {
-				return 10;
+				return 1;
 			}
 
-			@Override
-			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_chain"));
-			}
-
-			@Override
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(WildasideModItems.ENTORIUM.get()));
 			}
-
-			@Override
-			public String getName() {
-				return "entorium_gauntlet";
-			}
-
-			@Override
-			public float getToughness() {
-				return 0f;
-			}
-
-			@Override
-			public float getKnockbackResistance() {
-				return 0f;
-			}
-		}, slot, properties);
+		}, new Item.Properties().tab(WildasideModTabs.TAB_WILD_ASIDE_TAB));
 	}
 
-	public static class Chestplate extends EntoriumGauntletItem {
-		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(WildasideModTabs.TAB_WILD_ASIDE_TAB));
+	@Override
+	public boolean isCorrectToolForDrops(BlockState blockstate) {
+		int tier = 5;
+		if (tier < 3 && blockstate.is(BlockTags.NEEDS_DIAMOND_TOOL)) {
+			return false;
+		} else if (tier < 2 && blockstate.is(BlockTags.NEEDS_IRON_TOOL)) {
+			return false;
+		} else {
+			return tier < 1 && blockstate.is(BlockTags.NEEDS_STONE_TOOL)
+					? false
+					: (blockstate.is(BlockTags.MINEABLE_WITH_AXE) || blockstate.is(BlockTags.MINEABLE_WITH_HOE) || blockstate.is(BlockTags.MINEABLE_WITH_PICKAXE) || blockstate.is(BlockTags.MINEABLE_WITH_SHOVEL));
 		}
+	}
 
-		@Override
-		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "wildaside:textures/models/armor/entorium_gauntlet__layer_1.png";
+	@Override
+	public boolean canPerformAction(ItemStack stack, ToolAction toolAction) {
+		return ToolActions.DEFAULT_AXE_ACTIONS.contains(toolAction) || ToolActions.DEFAULT_HOE_ACTIONS.contains(toolAction) || ToolActions.DEFAULT_SHOVEL_ACTIONS.contains(toolAction) || ToolActions.DEFAULT_PICKAXE_ACTIONS.contains(toolAction)
+				|| ToolActions.DEFAULT_SWORD_ACTIONS.contains(toolAction);
+	}
+
+	@Override
+	public float getDestroySpeed(ItemStack itemstack, BlockState blockstate) {
+		return 100f;
+	}
+
+	@Override
+	public Multimap<Attribute, AttributeModifier> getDefaultAttributeModifiers(EquipmentSlot equipmentSlot) {
+		if (equipmentSlot == EquipmentSlot.MAINHAND) {
+			ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
+			builder.putAll(super.getDefaultAttributeModifiers(equipmentSlot));
+			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Tool modifier", 2f, AttributeModifier.Operation.ADDITION));
+			builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Tool modifier", -3, AttributeModifier.Operation.ADDITION));
+			return builder.build();
 		}
+		return super.getDefaultAttributeModifiers(equipmentSlot);
+	}
+
+	@Override
+	public boolean mineBlock(ItemStack itemstack, Level world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
+		itemstack.hurtAndBreak(1, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
+		return true;
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		itemstack.hurtAndBreak(2, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
+		return true;
 	}
 }

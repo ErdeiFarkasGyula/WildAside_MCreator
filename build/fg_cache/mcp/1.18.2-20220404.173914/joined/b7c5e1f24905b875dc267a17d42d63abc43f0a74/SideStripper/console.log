@@ -1,4 +1,4 @@
-JVM:         C:\Users\Felhasználó\Downloads\MCreator20231\jdk\bin\java.exe
+JVM:         C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
 JVM Args:    
 Run Args:    "--strip", "--input", "C:\MCreatorWorkspaces\WildAsideNew\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\AccessTransformer\output.jar", "--output", "C:\MCreatorWorkspaces\WildAsideNew\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\SideStripper\output.jar", "--data", "C:\MCreatorWorkspaces\WildAsideNew\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\SideStripper\string_data.sas"
 Classpath:   C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-fatjar.jar

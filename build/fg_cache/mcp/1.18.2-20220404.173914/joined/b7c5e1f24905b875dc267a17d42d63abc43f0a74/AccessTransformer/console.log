@@ -1,6 +1,6 @@
-JVM:         C:\Users\Felhasználó\Downloads\MCreator20231\jdk\bin\java.exe
+JVM:         C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
 JVM Args:    
-Run Args:    "--inJar", "C:\MCreatorWorkspaces\WildAsideNew\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\rename\output.jar", "--outJar", "C:\MCreatorWorkspaces\WildAsideNew\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\AccessTransformer\output.jar", "--atFile", "C:\MCreatorWorkspaces\WildAsideNew\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\FELHAS~1\AppData\Local\Temp\FG_ats_8092680227149668222.cfg"
+Run Args:    "--inJar", "C:\MCreatorWorkspaces\WildAsideNew\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\rename\output.jar", "--outJar", "C:\MCreatorWorkspaces\WildAsideNew\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\AccessTransformer\output.jar", "--atFile", "C:\MCreatorWorkspaces\WildAsideNew\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\FELHAS~1\AppData\Local\Temp\FG_ats_13831315396217606964.cfg"
 Classpath:   C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
 Working Dir: C:\MCreatorWorkspaces\WildAsideNew\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\AccessTransformer
 Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

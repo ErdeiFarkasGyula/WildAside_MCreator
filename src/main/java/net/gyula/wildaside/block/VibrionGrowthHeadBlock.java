@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.Explosion;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
@@ -22,6 +23,7 @@ import net.minecraft.core.BlockPos;
 
 import net.gyula.wildaside.procedures.VibrionMonsterSpawnParticleAroundProcedure;
 import net.gyula.wildaside.procedures.VibrionGrowthHeadBlockValidPlacementConditionProcedure;
+import net.gyula.wildaside.procedures.VibrionGrowthHeadBlockDestroyedByPlayerProcedure;
 
 public class VibrionGrowthHeadBlock extends Block {
 	public VibrionGrowthHeadBlock() {
@@ -57,8 +59,14 @@ public class VibrionGrowthHeadBlock extends Block {
 	@Override
 	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
 		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
-		VibrionMonsterSpawnParticleAroundProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		VibrionGrowthHeadBlockDestroyedByPlayerProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return retval;
+	}
+
+	@Override
+	public void wasExploded(Level world, BlockPos pos, Explosion e) {
+		super.wasExploded(world, pos, e);
+		VibrionGrowthHeadBlockDestroyedByPlayerProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

@@ -40,5 +40,9 @@ public class WildasideModCompostableItems {
 		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.FALLEN_YELLOW_GLOWING_HICKORY_LEAVES.get().asItem(), 0.3f);
 		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.FALLEN_GREEN_GLOWING_HICKORY_LEAVES.get().asItem(), 0.3f);
 		ComposterBlock.COMPOSTABLES.put(WildasideModBlocks.FALLEN_BROWN_GLOWING_HICKORY_LEAVES.get().asItem(), 0.3f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModItems.RED_GLOWING_ESSENCE.get(), 1f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModItems.BROWN_GLOWING_ESSENCE.get(), 1f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModItems.GREEN_GLOWING_ESSENCE.get(), 1f);
+		ComposterBlock.COMPOSTABLES.put(WildasideModItems.YELLOW_GLOWING_ESSENCE.get(), 1f);
 	}
 }

@@ -3,7 +3,7 @@
   "_type": "itemextension",
   "definition": {
     "item": {
-      "value": "CUSTOM:EntoriumGauntlet.body"
+      "value": "CUSTOM:EntoriumGauntlet"
     },
     "enableFuel": false,
     "fuelPower": {

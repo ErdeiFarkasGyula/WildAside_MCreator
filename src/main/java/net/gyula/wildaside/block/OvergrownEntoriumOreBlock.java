@@ -2,6 +2,8 @@
 package net.gyula.wildaside.block;
 
 import net.minecraftforge.common.IPlantable;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
@@ -9,9 +11,16 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.Minecraft;
+
+import net.gyula.wildaside.procedures.OvergrownEntoriumOreClientDisplayRandomTickProcedure;
+
+import java.util.Random;
 
 public class OvergrownEntoriumOreBlock extends Block {
 	public OvergrownEntoriumOreBlock() {
@@ -26,5 +35,16 @@ public class OvergrownEntoriumOreBlock extends Block {
 	@Override
 	public boolean canSustainPlant(BlockState state, BlockGetter world, BlockPos pos, Direction direction, IPlantable plantable) {
 		return true;
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	@Override
+	public void animateTick(BlockState blockstate, Level world, BlockPos pos, Random random) {
+		super.animateTick(blockstate, world, pos, random);
+		Player entity = Minecraft.getInstance().player;
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		OvergrownEntoriumOreClientDisplayRandomTickProcedure.execute(world, x, y, z);
 	}
 }

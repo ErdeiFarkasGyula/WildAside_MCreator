@@ -32,7 +32,7 @@
 	</classpathentry>
 	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/"/>
-	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/forge_gradle/deobf_dependencies/software/bernie/geckolib/geckolib-forge-1.18/3.0.57_mapped_official_1.18.2/geckolib-forge-1.18-3.0.57_mapped_official_1.18.2-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/forge_gradle/deobf_dependencies/software/bernie/geckolib/geckolib-forge-1.18/3.0.57_mapped_official_1.18.2/geckolib-forge-1.18-3.0.57_mapped_official_1.18.2.jar">
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/forge_gradle/deobf_dependencies/software/bernie/geckolib/geckolib-forge-1.18/3.0.52_mapped_official_1.18.2/geckolib-forge-1.18-3.0.52_mapped_official_1.18.2-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/forge_gradle/deobf_dependencies/software/bernie/geckolib/geckolib-forge-1.18/3.0.52_mapped_official_1.18.2/geckolib-forge-1.18-3.0.52_mapped_official_1.18.2.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>

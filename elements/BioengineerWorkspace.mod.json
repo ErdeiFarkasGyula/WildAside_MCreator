@@ -103,7 +103,7 @@
     "hasInventory": true,
     "guiBoundTo": "BioengineerWorkspaceGui",
     "openGUIOnRightClick": true,
-    "inventorySize": 6,
+    "inventorySize": 7,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": false,

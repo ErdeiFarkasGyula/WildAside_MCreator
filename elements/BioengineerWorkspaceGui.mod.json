@@ -147,8 +147,20 @@
           },
           "width": 61,
           "height": 20,
-          "x": 210,
-          "y": 82
+          "x": 227,
+          "y": 83
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 258,
+          "y": 56
         }
       }
     ],
