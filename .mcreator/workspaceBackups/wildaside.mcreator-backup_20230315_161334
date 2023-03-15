@@ -6828,6 +6828,9 @@
       "locked_code": false,
       "registry_name": "yellow_glowing_hickory_sapling_update_tick",
       "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/YellowGlowingHickorySaplingUpdateTickProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -9425,82 +9428,6 @@
       "path": "~/recipes/vibrion"
     },
     {
-      "name": "RedGlowingEssenceCraft",
-      "type": "recipe",
-      "sortid": 575,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "red_glowing_essence_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/recipes/red_glowing_essence.json"
-        ]
-      },
-      "path": "~/recipes/flowers"
-    },
-    {
-      "name": "YellowGlowingEssenceCraft",
-      "type": "recipe",
-      "sortid": 576,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "yellow_glowing_essence_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/recipes/yellow_glowing_essence.json"
-        ]
-      },
-      "path": "~/recipes/flowers"
-    },
-    {
-      "name": "GreenGlowingEssenceCraft",
-      "type": "recipe",
-      "sortid": 577,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "green_glowing_essence_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/recipes/green_glowing_essence.json"
-        ]
-      },
-      "path": "~/recipes/flowers"
-    },
-    {
-      "name": "BrownGlowingEssenceCraft",
-      "type": "recipe",
-      "sortid": 578,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "brown_glowing_essence_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/recipes/brown_glowing_essence.json"
-        ]
-      },
-      "path": "~/recipes/flowers"
-    },
-    {
-      "name": "HickoryDoor1",
-      "type": "block",
-      "sortid": 69,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hickory_door_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/wildaside/models/item/hickory_door_1.json",
-          "src/main/resources/assets/wildaside/blockstates/hickory_door_1.json",
-          "src/main/resources/assets/wildaside/models/block/hickory_door_1_top_hinge.json",
-          "src/main/resources/assets/wildaside/models/block/hickory_door_1_bottom_hinge.json",
-          "src/main/resources/assets/wildaside/models/block/hickory_door_1_top.json",
-          "src/main/resources/assets/wildaside/models/block/hickory_door_1_bottom.json",
-          "src/main/java/net/gyula/wildaside/block/HickoryDoor1Block.java"
-        ]
-      },
-      "path": "~/blocks"
-    },
-    {
       "name": "HickoryTrapdoor",
       "type": "block",
       "sortid": 70,
@@ -9522,7 +9449,7 @@
     {
       "name": "QuattuorEssentiae",
       "type": "achievement",
-      "sortid": 579,
+      "sortid": 575,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quattuor_essentiae",
@@ -9536,7 +9463,7 @@
     {
       "name": "WeNeedToCook",
       "type": "achievement",
-      "sortid": 580,
+      "sortid": 576,
       "compiles": true,
       "locked_code": false,
       "registry_name": "we_need_to_cook",
@@ -9550,7 +9477,7 @@
     {
       "name": "GlowingEssenceGet",
       "type": "procedure",
-      "sortid": 581,
+      "sortid": 577,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_essence_get",
@@ -9582,6 +9509,54 @@
         ]
       },
       "path": "~/procedures/Glowing Essences"
+    },
+    {
+      "name": "HickoryDoorCraft",
+      "type": "recipe",
+      "sortid": 578,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_door_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/recipes/hickory_door.json"
+        ]
+      },
+      "path": "~/recipes/hickory"
+    },
+    {
+      "name": "HickoryTrapdoorCraft",
+      "type": "recipe",
+      "sortid": 579,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_trapdoor_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/recipes/hickory_trapdoor.json"
+        ]
+      },
+      "path": "~/recipes/hickory"
+    },
+    {
+      "name": "HickoryDoor",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildaside/models/item/hickory_door.json",
+          "src/main/resources/assets/wildaside/models/block/hickory_door_top_hinge.json",
+          "src/main/resources/assets/wildaside/blockstates/hickory_door.json",
+          "src/main/resources/assets/wildaside/models/block/hickory_door_bottom.json",
+          "src/main/resources/assets/wildaside/models/block/hickory_door_bottom_hinge.json",
+          "src/main/java/net/gyula/wildaside/block/HickoryDoorBlock.java",
+          "src/main/resources/assets/wildaside/models/block/hickory_door_top.json"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [
@@ -9605,6 +9580,30 @@
     },
     {
       "name": "greenGlowingHickorySapling",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "redGlowingEssence",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "yellowGlowingEssence",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "brownGlowingEssence",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "green",
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
@@ -9688,7 +9687,6 @@
       "biome.wildaside.glowing_hickory_forest": "Glowing Hickory Forest",
       "block.wildaside.smooth_substilium_soil": "Smooth Substilium Soil",
       "block.wildaside.fallen_hickory_leaves": "Fallen Hickory Leaves",
-      "block.wildaside.hickory_door_1": "Hickory Door",
       "block.wildaside.hickory_slab": "Hickory Slab",
       "block.wildaside.cracked_substilium_tile_pressure_plate": "Cracked Substilium Tile Pressure Plate",
       "block.wildaside.substilium_door": "Substilium Door",
@@ -9758,6 +9756,7 @@
       "block.wildaside.substilium_tile_slab": "Substilium Tiles Slab",
       "block.wildaside.hickory_fence": "Hickory Fence",
       "block.wildaside.brown_glowing_hickory_sapling": "Brown Glowing Hickory Sapling",
+      "block.wildaside.hickory_door": "Hickory Door",
       "advancements.through_hundreds_of_mutations.descr": "Obtain a Vibrion",
       "block.wildaside.green_glowing_hickory_leaves": "Green Glowing Hickory Leaves",
       "item.minecraft.splash_potion.effect.immune_portection_item": "Splash Potion of Immune Portection",

@@ -70,6 +70,10 @@ public class WildasideModVariables {
 			clone.yellowGlowingHickorySapling = original.yellowGlowingHickorySapling;
 			clone.brownGlowingHickorySapling = original.brownGlowingHickorySapling;
 			clone.greenGlowingHickorySapling = original.greenGlowingHickorySapling;
+			clone.redGlowingEssence = original.redGlowingEssence;
+			clone.yellowGlowingEssence = original.yellowGlowingEssence;
+			clone.brownGlowingEssence = original.brownGlowingEssence;
+			clone.greenGlowingEssence = original.greenGlowingEssence;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -110,6 +114,10 @@ public class WildasideModVariables {
 		public boolean yellowGlowingHickorySapling = false;
 		public boolean brownGlowingHickorySapling = false;
 		public boolean greenGlowingHickorySapling = false;
+		public boolean redGlowingEssence = false;
+		public boolean yellowGlowingEssence = false;
+		public boolean brownGlowingEssence = false;
+		public boolean greenGlowingEssence = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -122,6 +130,10 @@ public class WildasideModVariables {
 			nbt.putBoolean("yellowGlowingHickorySapling", yellowGlowingHickorySapling);
 			nbt.putBoolean("brownGlowingHickorySapling", brownGlowingHickorySapling);
 			nbt.putBoolean("greenGlowingHickorySapling", greenGlowingHickorySapling);
+			nbt.putBoolean("redGlowingEssence", redGlowingEssence);
+			nbt.putBoolean("yellowGlowingEssence", yellowGlowingEssence);
+			nbt.putBoolean("brownGlowingEssence", brownGlowingEssence);
+			nbt.putBoolean("greenGlowingEssence", greenGlowingEssence);
 			return nbt;
 		}
 
@@ -131,6 +143,10 @@ public class WildasideModVariables {
 			yellowGlowingHickorySapling = nbt.getBoolean("yellowGlowingHickorySapling");
 			brownGlowingHickorySapling = nbt.getBoolean("brownGlowingHickorySapling");
 			greenGlowingHickorySapling = nbt.getBoolean("greenGlowingHickorySapling");
+			redGlowingEssence = nbt.getBoolean("redGlowingEssence");
+			yellowGlowingEssence = nbt.getBoolean("yellowGlowingEssence");
+			brownGlowingEssence = nbt.getBoolean("brownGlowingEssence");
+			greenGlowingEssence = nbt.getBoolean("greenGlowingEssence");
 		}
 	}
 
@@ -159,6 +175,10 @@ public class WildasideModVariables {
 					variables.yellowGlowingHickorySapling = message.data.yellowGlowingHickorySapling;
 					variables.brownGlowingHickorySapling = message.data.brownGlowingHickorySapling;
 					variables.greenGlowingHickorySapling = message.data.greenGlowingHickorySapling;
+					variables.redGlowingEssence = message.data.redGlowingEssence;
+					variables.yellowGlowingEssence = message.data.yellowGlowingEssence;
+					variables.brownGlowingEssence = message.data.brownGlowingEssence;
+					variables.greenGlowingEssence = message.data.greenGlowingEssence;
 				}
 			});
 			context.setPacketHandled(true);
