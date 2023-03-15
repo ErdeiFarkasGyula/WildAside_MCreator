@@ -1,0 +1,18 @@
+{
+  "group": "hickory_door",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "wildaside:hickory_planks"
+    }
+  },
+  "result": {
+    "item": "wildaside:deleted_mod_element",
+    "count": 3
+  }
+}

@@ -76,7 +76,7 @@ import net.gyula.wildaside.block.HickoryLogBlock;
 import net.gyula.wildaside.block.HickoryLeavesBlock;
 import net.gyula.wildaside.block.HickoryFenceGateBlock;
 import net.gyula.wildaside.block.HickoryFenceBlock;
-import net.gyula.wildaside.block.HickoryDoor1Block;
+import net.gyula.wildaside.block.HickoryDoorBlock;
 import net.gyula.wildaside.block.HickoryButtonBlock;
 import net.gyula.wildaside.block.HickoryBlockBlock;
 import net.gyula.wildaside.block.HangingVibrionVinesPlantBlock;
@@ -169,7 +169,7 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> HICKORY_FENCE_GATE = REGISTRY.register("hickory_fence_gate", () -> new HickoryFenceGateBlock());
 	public static final RegistryObject<Block> HICKORY_PRESSURE_PLATE = REGISTRY.register("hickory_pressure_plate", () -> new HickoryPressurePlateBlock());
 	public static final RegistryObject<Block> HICKORY_BUTTON = REGISTRY.register("hickory_button", () -> new HickoryButtonBlock());
-	public static final RegistryObject<Block> HICKORY_DOOR_1 = REGISTRY.register("hickory_door_1", () -> new HickoryDoor1Block());
+	public static final RegistryObject<Block> HICKORY_DOOR = REGISTRY.register("hickory_door", () -> new HickoryDoorBlock());
 	public static final RegistryObject<Block> HICKORY_TRAPDOOR = REGISTRY.register("hickory_trapdoor", () -> new HickoryTrapdoorBlock());
 	public static final RegistryObject<Block> HICKORY_LEAVES = REGISTRY.register("hickory_leaves", () -> new HickoryLeavesBlock());
 	public static final RegistryObject<Block> RED_GLOWING_HICKORY_LEAVES = REGISTRY.register("red_glowing_hickory_leaves", () -> new RedGlowingHickoryLeavesBlock());
@@ -221,7 +221,7 @@ public class WildasideModBlocks {
 			HickoryFenceGateBlock.registerRenderLayer();
 			HickoryPressurePlateBlock.registerRenderLayer();
 			HickoryButtonBlock.registerRenderLayer();
-			HickoryDoor1Block.registerRenderLayer();
+			HickoryDoorBlock.registerRenderLayer();
 			HickoryTrapdoorBlock.registerRenderLayer();
 			FallenHickoryLeavesBlock.registerRenderLayer();
 			FallenRedGlowingHickoryLeavesBlock.registerRenderLayer();

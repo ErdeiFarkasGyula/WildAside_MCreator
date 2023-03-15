@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "hickory_door",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HickoryPlanks"
+      },
+      {
+        "value": "CUSTOM:HickoryPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HickoryPlanks"
+      },
+      {
+        "value": "CUSTOM:HickoryPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HickoryPlanks"
+      },
+      {
+        "value": "CUSTOM:HickoryPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HickoryDoor1"
+    },
+    "name": "hickory_door",
+    "namespace": "mod"
+  }
+}

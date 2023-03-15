@@ -97,7 +97,7 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> HICKORY_FENCE_GATE = block(WildasideModBlocks.HICKORY_FENCE_GATE, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_PRESSURE_PLATE = block(WildasideModBlocks.HICKORY_PRESSURE_PLATE, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_BUTTON = block(WildasideModBlocks.HICKORY_BUTTON, WildasideModTabs.TAB_WILD_ASIDE_TAB);
-	public static final RegistryObject<Item> HICKORY_DOOR_1 = doubleBlock(WildasideModBlocks.HICKORY_DOOR_1, WildasideModTabs.TAB_WILD_ASIDE_TAB);
+	public static final RegistryObject<Item> HICKORY_DOOR = doubleBlock(WildasideModBlocks.HICKORY_DOOR, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_TRAPDOOR = block(WildasideModBlocks.HICKORY_TRAPDOOR, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_LEAVES = block(WildasideModBlocks.HICKORY_LEAVES, WildasideModTabs.TAB_WILD_ASIDE_TAB);
 	public static final RegistryObject<Item> RED_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.RED_GLOWING_HICKORY_LEAVES, WildasideModTabs.TAB_WILD_ASIDE_TAB);
