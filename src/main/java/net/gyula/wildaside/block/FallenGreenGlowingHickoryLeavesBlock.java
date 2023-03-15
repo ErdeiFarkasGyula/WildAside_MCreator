@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.Level;
+import net.minecraft.util.Mth;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
@@ -32,6 +33,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.util.Mth;
 import java.util.Random;
 import java.util.function.ToIntFunction;
 import net.gyula.wildaside.procedures.GlowingHickoryLeavesUpdateTickProcedure;
@@ -81,7 +83,7 @@ public class FallenGreenGlowingHickoryLeavesBlock extends FlowerBlock {
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 200);
+		world.scheduleTick(pos, this, (Mth.nextInt(new Random(), 400, 700)));
 	}
 
 	@Override
@@ -92,7 +94,7 @@ public class FallenGreenGlowingHickoryLeavesBlock extends FlowerBlock {
 		int z = pos.getZ();
 
 		GlowingHickoryLeavesUpdateTickProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 200);
+		world.scheduleTick(pos, this, (Mth.nextInt(new Random(), 400, 700)));
 	}
 
 	@Override

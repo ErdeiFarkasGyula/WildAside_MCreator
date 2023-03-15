@@ -20,6 +20,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.util.Mth;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -81,7 +82,7 @@ public class FallenRedGlowingHickoryLeavesBlock extends FlowerBlock {
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 200);
+		world.scheduleTick(pos, this, (Mth.nextInt(new Random(), 400, 700)));
 	}
 
 	@Override
@@ -92,7 +93,7 @@ public class FallenRedGlowingHickoryLeavesBlock extends FlowerBlock {
 		int z = pos.getZ();
 
 		GlowingHickoryLeavesUpdateTickProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 200);
+		world.scheduleTick(pos, this, (Mth.nextInt(new Random(), 400, 700)));
 	}
 
 	@Override

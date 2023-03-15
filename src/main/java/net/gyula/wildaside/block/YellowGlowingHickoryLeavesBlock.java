@@ -26,6 +26,7 @@ import net.gyula.wildaside.procedures.GlowingHickoryLeavesUpdateTickProcedure;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.block.state.BlockState;
 import java.util.function.ToIntFunction;
+import net.minecraft.util.Mth;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.Block;
@@ -51,7 +52,7 @@ public class YellowGlowingHickoryLeavesBlock extends LeavesBlock {
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 200);
+		world.scheduleTick(pos, this, (Mth.nextInt(new Random(), 300, 500)));
 	}
 
 	@Override
@@ -62,7 +63,7 @@ public class YellowGlowingHickoryLeavesBlock extends LeavesBlock {
 		int z = pos.getZ();
 
 		GlowingHickoryLeavesUpdateTickProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 200);
+		world.scheduleTick(pos, this, (Mth.nextInt(new Random(), 300, 500)));
 	}
 
 	@Override

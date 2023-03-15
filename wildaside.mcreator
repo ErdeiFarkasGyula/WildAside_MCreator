@@ -6828,9 +6828,6 @@
       "locked_code": false,
       "registry_name": "yellow_glowing_hickory_sapling_update_tick",
       "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/procedures/YellowGlowingHickorySaplingUpdateTickProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "x",
@@ -9623,11 +9620,11 @@
       "item.minecraft.tipped_arrow.effect.immune_portection_item": "Arrow of Immune Portection",
       "block.wildaside.vibrion_block": "Vibrion Block",
       "advancements.we_need_to_cook.descr": "Place down a Bioengineer Workspace",
-      "advancements.organic_building_materials.descr": "Obtain a Compressed Substilium Soil block",
       "item.wildaside.brown_glowing_essence": "Brown Glowing Essence",
+      "advancements.organic_building_materials.descr": "Obtain a Compressed Substilium Soil block",
       "item.wildaside.yellow_glowing_essence": "Yellow Glowing Essence",
-      "item.wildaside.ranged_vibrion_monster_spawn_egg": "Ranged Vibrion Monster Spawn Egg",
       "gamerule.wildAsideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
+      "item.wildaside.ranged_vibrion_monster_spawn_egg": "Ranged Vibrion Monster Spawn Egg",
       "advancements.vibrion_gel_hidden_1_adv.descr": "Vibrion Gel Hidden 1 Adv",
       "block.wildaside.spore_blaster": "Spore Blaster",
       "block.wildaside.fallen_green_glowing_hickory_leaves": "Fallen Green Glowing Hickory Leaves",
